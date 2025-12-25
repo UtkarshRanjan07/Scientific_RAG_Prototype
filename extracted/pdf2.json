@@ -1,0 +1,258 @@
+{
+  "source": "pdf2.pdf",
+  "documents": [
+    {
+      "text": "# Antimicrobial resistance crisis: could artificial intelligence be the solution?\n\n## Authors\nGuang-Yu Liu, Dan Yu, Mei-Mei Fan, Xu Zhang, Ze-Yu Jin, Christoph Tang, Xiao-Fen Liu\n\n## Abstract\nAntimicrobial resistance is a global public health threat, and the World Health Organization (WHO) has announced a priority list of the most threatening pathogens against which novel antibiotics need to be developed. The discovery and introduction of novel antibiotics are time-consuming and expensive. According to WHO\u2019s report of antibacterial agents in clinical development, only 18 novel antibiotics have been approved since 2014. Therefore, novel antibiotics are critically needed. Artificial intelligence (AI) has been rapidly applied to drug development since its recent technical breakthrough and has dramatically improved the efficiency of the discovery of novel antibiotics. Here, we first summarized recently marketed novel antibiotics, and antibiotic candidates in clinical development. In additi...",
+      "metadata": {
+        "source": "pdf2.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf2.pdf",
+        "doc_id": "pdf2",
+        "page_label": "1",
+        "page_num": "1",
+        "image_map": "{\"1\": [\"extracted/figures/pdf2_p1_i4.png\", \"extracted/figures/pdf2_p1_i5.png\"], \"3\": [\"extracted/figures/pdf2_p3_i1.png\"], \"7\": [\"extracted/figures/pdf2_p7_i1.png\"], \"10\": [\"extracted/figures/pdf2_p10_i1.png\"], \"12\": [\"extracted/figures/pdf2_p12_i1.png\"], \"14\": [\"extracted/figures/pdf2_p14_i1.png\"], \"18\": [\"extracted/figures/pdf2_p18_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Antimicrobial Resistance and AI in Drug Development\n\n## Abstract\nAntimicrobial resistance (AMR) is a significant global health threat, exacerbated by the misuse of antibiotics. This review discusses the current state of antibacterial drug development, highlighting the challenges faced and the potential of artificial intelligence (AI) in accelerating the discovery of novel antibiotics.\n\n## Introduction\nAntimicrobial resistance (AMR) is a natural phenomenon wherein microorganisms, including bacteria, viruses, fungi, and parasites, develop the ability to survive the drugs designed to kill them. The misuse and overuse of antibiotics in human medicine, animal agriculture, and the environment have accelerated the emergence and spread of AMR. This phenomenon renders once-effective treatments ineffectual, leading to prolonged illnesses, increased mortality rates, and higher healthcare costs. Thus, AMR is a serious and foremost global threat to human health that requires urgent practical act...",
+      "metadata": {
+        "source": "pdf2.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf2.pdf",
+        "doc_id": "pdf2",
+        "page_label": "2",
+        "page_num": "2",
+        "image_map": "{\"1\": [\"extracted/figures/pdf2_p1_i4.png\", \"extracted/figures/pdf2_p1_i5.png\"], \"3\": [\"extracted/figures/pdf2_p3_i1.png\"], \"7\": [\"extracted/figures/pdf2_p7_i1.png\"], \"10\": [\"extracted/figures/pdf2_p10_i1.png\"], \"12\": [\"extracted/figures/pdf2_p12_i1.png\"], \"14\": [\"extracted/figures/pdf2_p14_i1.png\"], \"18\": [\"extracted/figures/pdf2_p18_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Military Medical Research\n\n## Abstract\nThe abstract content is not provided in the current text.\n\n## Introduction\nThe introduction content is not provided in the current text.\n\n## Methods\nThe methods content is not provided in the current text.\n\n## Results\n### Table 1: Approved antibiotics from 2014 to 2021\n\n| Drug                       | Target pathogen                           | Class                                    | Approval year | Approved by                          |\n|----------------------------|------------------------------------------|------------------------------------------|---------------|--------------------------------------|\n| Dalbavancin                | Gram-positive pathogens                  | Glycopeptide                             | 2014          | US FDA; EMA                          |\n| Tedizolid                  | Gram-positive pathogens                  | Oxazolidinone                           | 2014          | US FDA; EMA                          |...",
+      "metadata": {
+        "source": "pdf2.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf2.pdf",
+        "doc_id": "pdf2",
+        "page_label": "3",
+        "page_num": "3",
+        "image_map": "{\"1\": [\"extracted/figures/pdf2_p1_i4.png\", \"extracted/figures/pdf2_p1_i5.png\"], \"3\": [\"extracted/figures/pdf2_p3_i1.png\"], \"7\": [\"extracted/figures/pdf2_p7_i1.png\"], \"10\": [\"extracted/figures/pdf2_p10_i1.png\"], \"12\": [\"extracted/figures/pdf2_p12_i1.png\"], \"14\": [\"extracted/figures/pdf2_p14_i1.png\"], \"18\": [\"extracted/figures/pdf2_p18_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Military Medical Research\n\n## Abstract\n*The abstract content is not provided in the extracted text.*\n\n## Introduction\n*The introduction content is not provided in the extracted text.*\n\n## Methods\n*The methods content is not provided in the extracted text.*\n\n## Results\n### Polymyxin Derivatives in Clinical Development\nPolymyxins, which belong to lipopeptides, are considered as last-line antibiotics and have raised great interest from scientists and pharmaceutical companies to optimize their efficacy and toxicity. Polymyxins are cyclic lipopeptides with 5 positively charged 2,4-diamino butyric acid groups [19]. They are an old class of antibiotics developed in the 1950s and were replaced by other safer antibiotics due to their renal toxicity [20]. However, the emergence of extensively-resistant Gram-negative bacteria, which are resistant to multiple classes of antibiotics and only susceptible to one or two antibiotics, has posed significant challenges to clinics. Polymyxins, with a su...",
+      "metadata": {
+        "source": "pdf2.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf2.pdf",
+        "doc_id": "pdf2",
+        "page_label": "4",
+        "page_num": "4",
+        "image_map": "{\"1\": [\"extracted/figures/pdf2_p1_i4.png\", \"extracted/figures/pdf2_p1_i5.png\"], \"3\": [\"extracted/figures/pdf2_p3_i1.png\"], \"7\": [\"extracted/figures/pdf2_p7_i1.png\"], \"10\": [\"extracted/figures/pdf2_p10_i1.png\"], \"12\": [\"extracted/figures/pdf2_p12_i1.png\"], \"14\": [\"extracted/figures/pdf2_p14_i1.png\"], \"18\": [\"extracted/figures/pdf2_p18_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Military Medical Research\n\n## Abstract\nThe abstract is not provided in the extracted text.\n\n## Introduction\nThe introduction is not provided in the extracted text.\n\n## Methods\nThe methods section is not provided in the extracted text.\n\n## Results\nMRX-8, a novel polymyxin analog, possesses a fatty acyl tail attached to its polymyxin B scaffold via an ester bond. The ester bond can be cleaved to yield tail-less and less toxic metabolites. MRX-8 was designed to treat multidrug-resistant Gram-negative bacteria and alleviate renal toxicity by breaking its ester bond. It was developed by applying a \u201csoft drug design\u201d approach, which aims to design less toxic drugs with a wider therapeutic window.\n\nIn vitro studies identified the MIC50 and MIC values of MRX-8 against Gram-negative isolates collected from 2017\u20132020 in the United States (1314 clinical isolates from the SENTRY Antimicrobial Surveillance Program), which were 0.12 and 0.25 mg/L, respectively, against Enterobacterales; and 0.5 a...",
+      "metadata": {
+        "source": "pdf2.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf2.pdf",
+        "doc_id": "pdf2",
+        "page_label": "5",
+        "page_num": "5",
+        "image_map": "{\"1\": [\"extracted/figures/pdf2_p1_i4.png\", \"extracted/figures/pdf2_p1_i5.png\"], \"3\": [\"extracted/figures/pdf2_p3_i1.png\"], \"7\": [\"extracted/figures/pdf2_p7_i1.png\"], \"10\": [\"extracted/figures/pdf2_p10_i1.png\"], \"12\": [\"extracted/figures/pdf2_p12_i1.png\"], \"14\": [\"extracted/figures/pdf2_p14_i1.png\"], \"18\": [\"extracted/figures/pdf2_p18_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Military Medical Research (2024) 11:7\n\n## Abstract\n*The abstract content is not provided in the extracted text.*\n\n## Introduction\n*The introduction content is not provided in the extracted text.*\n\n## Methods\n*The methods content is not provided in the extracted text.*\n\n## Results\n*The results content is not provided in the extracted text.*\n\n## Discussion\nThe discussion focuses on the development of murepavadin, an antibiotic designed based on the host-defense peptide protegrin I. It has shown specific and potent activity against *Pseudomonas aeruginosa* in vitro and in biofilms. A pharmacokinetics and safety study indicated that murepavadin was well tolerated in individuals with varying renal function, although dose adjustments were necessary for those with renal dysfunction. In a Phase II clinical trial, 83% of patients with *P. aeruginosa* ventilator-associated pneumonia achieved clinical cure, with a significantly lower than expected 28-day all-cause mortality rate of 8%. However...",
+      "metadata": {
+        "source": "pdf2.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf2.pdf",
+        "doc_id": "pdf2",
+        "page_label": "6",
+        "page_num": "6",
+        "image_map": "{\"1\": [\"extracted/figures/pdf2_p1_i4.png\", \"extracted/figures/pdf2_p1_i5.png\"], \"3\": [\"extracted/figures/pdf2_p3_i1.png\"], \"7\": [\"extracted/figures/pdf2_p7_i1.png\"], \"10\": [\"extracted/figures/pdf2_p10_i1.png\"], \"12\": [\"extracted/figures/pdf2_p12_i1.png\"], \"14\": [\"extracted/figures/pdf2_p14_i1.png\"], \"18\": [\"extracted/figures/pdf2_p18_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nThe development of small-molecule antibiotics is increasingly being enhanced by artificial intelligence (AI) methods. These methods facilitate the discovery of novel antibiotics through various approaches, including the mining of secondary metabolites encoded by biosynthetic gene clusters (BGCs), screening existing compound libraries, and repurposing FDA-approved drugs. AI-based predictions of protein structures and functions, such as those provided by AlphaFold2 and RoseTTAFold, significantly expand the protein space available for docking simulations and drug rational design.\n\n# Introduction\nThe introduction discusses the limitations of conventional drug screening methods, particularly in determining the mechanism of action (MOA) of potential drug candidates. It highlights the need for innovative approaches to enhance the discovery of effective antibiotics.\n\n# Methods\n## Identification of BGCs\nThe identification of biosynthetic gene clusters (BGCs) is crucial for discoveri...",
+      "metadata": {
+        "source": "pdf2.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf2.pdf",
+        "doc_id": "pdf2",
+        "page_label": "7",
+        "page_num": "7",
+        "image_map": "{\"1\": [\"extracted/figures/pdf2_p1_i4.png\", \"extracted/figures/pdf2_p1_i5.png\"], \"3\": [\"extracted/figures/pdf2_p3_i1.png\"], \"7\": [\"extracted/figures/pdf2_p7_i1.png\"], \"10\": [\"extracted/figures/pdf2_p10_i1.png\"], \"12\": [\"extracted/figures/pdf2_p12_i1.png\"], \"14\": [\"extracted/figures/pdf2_p14_i1.png\"], \"18\": [\"extracted/figures/pdf2_p18_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Military Medical Research\n\n## Abstract\n*The abstract content is not provided in the current text.*\n\n## Introduction\n*The introduction content is not provided in the current text.*\n\n## Methods\n*The methods content is not provided in the current text.*\n\n## Results\n*The results content is not provided in the current text.*\n\n## Discussion\nIn understanding the three-dimensional structure, and in many cases, protein\u2013protein interactions of the drug target. Although experimental determination remains the gold standard for protein structures, the process is low-throughput, and for many proteins, it remains technically challenging. Fortunately, this was revolutionized by the advent of the neural network AlphaFold2 by DeepMind, which achieved structure prediction for the majority of proteins with near-experimental accuracy [90, 91]. Inspired by the principles of AlphaFold2, Baek et al. [92] created RoseTTAFold, a three-track neural network for structure prediction that achieved accuracy appro...",
+      "metadata": {
+        "source": "pdf2.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf2.pdf",
+        "doc_id": "pdf2",
+        "page_label": "8",
+        "page_num": "8",
+        "image_map": "{\"1\": [\"extracted/figures/pdf2_p1_i4.png\", \"extracted/figures/pdf2_p1_i5.png\"], \"3\": [\"extracted/figures/pdf2_p3_i1.png\"], \"7\": [\"extracted/figures/pdf2_p7_i1.png\"], \"10\": [\"extracted/figures/pdf2_p10_i1.png\"], \"12\": [\"extracted/figures/pdf2_p12_i1.png\"], \"14\": [\"extracted/figures/pdf2_p14_i1.png\"], \"18\": [\"extracted/figures/pdf2_p18_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# AI in Antimicrobial Peptide Discovery\n\n## Abstract\nThe integration of artificial intelligence (AI) in antimicrobial peptide (AMP) discovery has shown significant promise in accelerating the identification of new drug candidates. This paper discusses various AI methodologies employed in drug repurposing and novel AMP development, highlighting their effectiveness in combating antimicrobial resistance (AMR).\n\n## Introduction\nThe emergence of antimicrobial resistance (AMR) poses a significant threat to global health, necessitating innovative approaches to drug discovery. AI technologies have been increasingly utilized to enhance the efficiency of identifying potential antimicrobial agents, including the repurposing of existing drugs and the discovery of novel AMPs.\n\n## Methods\n### AI in Drug Repurposing\nDrug repurposing involves identifying new applications for existing drugs, which has gained traction due to the high costs and lengthy timelines associated with de novo drug development....",
+      "metadata": {
+        "source": "pdf2.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf2.pdf",
+        "doc_id": "pdf2",
+        "page_label": "9",
+        "page_num": "9",
+        "image_map": "{\"1\": [\"extracted/figures/pdf2_p1_i4.png\", \"extracted/figures/pdf2_p1_i5.png\"], \"3\": [\"extracted/figures/pdf2_p3_i1.png\"], \"7\": [\"extracted/figures/pdf2_p7_i1.png\"], \"10\": [\"extracted/figures/pdf2_p10_i1.png\"], \"12\": [\"extracted/figures/pdf2_p12_i1.png\"], \"14\": [\"extracted/figures/pdf2_p14_i1.png\"], \"18\": [\"extracted/figures/pdf2_p18_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nThe study explores the integration of artificial intelligence (AI) in the development of antimicrobial peptides (AMPs). It highlights the use of natural language processing (NLP) and deep generative networks to enhance the design and validation of AMPs, particularly in the context of multidrug-resistant bacteria.\n\n# Introduction\nAntimicrobial peptides (AMPs) are crucial in combating antibiotic resistance. Recent advancements in AI, particularly in natural language processing and deep learning, have opened new avenues for the design and discovery of AMPs. This paper discusses the methodologies employed in leveraging AI for AMP development.\n\n# Methods\nThe study utilized a combination of NLP techniques and deep learning models to analyze existing AMP sequences. A prediction method was developed that integrated three neural network models: Long Short-Term Memory (LSTM), Attention, and Bidirectional Encoder Representations from Transformers (BERT).\n\n# Results\nThe integration of ...",
+      "metadata": {
+        "source": "pdf2.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf2.pdf",
+        "doc_id": "pdf2",
+        "page_label": "10",
+        "page_num": "10",
+        "image_map": "{\"1\": [\"extracted/figures/pdf2_p1_i4.png\", \"extracted/figures/pdf2_p1_i5.png\"], \"3\": [\"extracted/figures/pdf2_p3_i1.png\"], \"7\": [\"extracted/figures/pdf2_p7_i1.png\"], \"10\": [\"extracted/figures/pdf2_p10_i1.png\"], \"12\": [\"extracted/figures/pdf2_p12_i1.png\"], \"14\": [\"extracted/figures/pdf2_p14_i1.png\"], \"18\": [\"extracted/figures/pdf2_p18_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Military Medical Research\n\n## Abstract\n*The abstract content is not provided in the current text.*\n\n## Introduction\n*The introduction content is not provided in the current text.*\n\n## Methods\n### AMP Mining from Extinct and Virtual Sequence Space\nMicrobes are not the sole source for AMP mining. Based on the concept of \u201cmolecular de-extinction\u201d, Maasch et al. [127] developed panCleave, a random forest model capable of predicting proteome-wide cleavage sites to prospect for AMPs encrypted within extinct and extant human proteomes. Lead AMPs identified by panCleave exhibited membrane permeabilization and anti-infective efficacy against *A. baumannii* in both murine skin abscess and thigh infection models, highlighting the potential of paleoproteome as a reservoir for drug candidates [127].\n\nAMP mining from existing proteomes, regardless of the source, is inevitably biased towards the sequence space confined by the proteome. To explore the entire space of peptide sequences, Huang et al....",
+      "metadata": {
+        "source": "pdf2.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf2.pdf",
+        "doc_id": "pdf2",
+        "page_label": "11",
+        "page_num": "11",
+        "image_map": "{\"1\": [\"extracted/figures/pdf2_p1_i4.png\", \"extracted/figures/pdf2_p1_i5.png\"], \"3\": [\"extracted/figures/pdf2_p3_i1.png\"], \"7\": [\"extracted/figures/pdf2_p7_i1.png\"], \"10\": [\"extracted/figures/pdf2_p10_i1.png\"], \"12\": [\"extracted/figures/pdf2_p12_i1.png\"], \"14\": [\"extracted/figures/pdf2_p14_i1.png\"], \"18\": [\"extracted/figures/pdf2_p18_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Military Medical Research\n\n## Abstract\n*The abstract content is not provided in the current text.*\n\n## Introduction\n*The introduction content is not provided in the current text.*\n\n## Methods\n*The methods content is not provided in the current text.*\n\n## Results\n*The results content is not provided in the current text.*\n\n## Discussion\nMicrobiome samples from the environment, humans, and animals are analyzed using metagenomic sequencing and assembly techniques. The process includes phage detection, prediction of phage virion proteins (PVPs), phage identification, and the exploration of phage therapy options, distinguishing between temperate and virulent phages.\n\n### Artificial Intelligence in Phage Therapy\nFigure 4 illustrates the role of artificial intelligence (AI) in the development of phage therapies. AI-based models significantly contribute to the study of phages from their natural sources, including:\n- Identifying phages from metagenomic samples\n- Annotating phage virion protei...",
+      "metadata": {
+        "source": "pdf2.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf2.pdf",
+        "doc_id": "pdf2",
+        "page_label": "12",
+        "page_num": "12",
+        "image_map": "{\"1\": [\"extracted/figures/pdf2_p1_i4.png\", \"extracted/figures/pdf2_p1_i5.png\"], \"3\": [\"extracted/figures/pdf2_p3_i1.png\"], \"7\": [\"extracted/figures/pdf2_p7_i1.png\"], \"10\": [\"extracted/figures/pdf2_p10_i1.png\"], \"12\": [\"extracted/figures/pdf2_p12_i1.png\"], \"14\": [\"extracted/figures/pdf2_p14_i1.png\"], \"18\": [\"extracted/figures/pdf2_p18_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Military Medical Research (2024) 11:7\n\n## Abstract\nTo address the demand for innovative solutions in phage therapy and antibacterial agents, multiple AI-driven initiatives have emerged. These initiatives leverage advanced computational methods to enhance the prediction of phage structural proteins, host organisms, lifestyles, and the bioactivities of essential oils (EOs).\n\n## Introduction\nThe identification of phage structural proteins and their corresponding sequences is crucial for understanding phage biology and improving therapeutic applications. Recent advancements in artificial intelligence (AI) have facilitated the development of tools that enhance the accuracy and efficiency of these predictions.\n\n## Methods\n### Phage Structural Protein Prediction\n- **ANNs**: Seguritan et al. [151] developed artificial neural networks (ANNs) to predict phage structural protein sequences.\n- **PhANNs**: Introduced to categorize phage open reading frames into major structural protein classes, p...",
+      "metadata": {
+        "source": "pdf2.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf2.pdf",
+        "doc_id": "pdf2",
+        "page_label": "13",
+        "page_num": "13",
+        "image_map": "{\"1\": [\"extracted/figures/pdf2_p1_i4.png\", \"extracted/figures/pdf2_p1_i5.png\"], \"3\": [\"extracted/figures/pdf2_p3_i1.png\"], \"7\": [\"extracted/figures/pdf2_p7_i1.png\"], \"10\": [\"extracted/figures/pdf2_p10_i1.png\"], \"12\": [\"extracted/figures/pdf2_p12_i1.png\"], \"14\": [\"extracted/figures/pdf2_p14_i1.png\"], \"18\": [\"extracted/figures/pdf2_p18_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Military Medical Research\n\n## Abstract\n*The abstract content is not provided in the current text.*\n\n## Introduction\n*The introduction content is not provided in the current text.*\n\n## Methods\n*The methods content is not provided in the current text.*\n\n## Results\n### AMR Profiles\nBacterial cytological profiling\n\n| Control | Chemical | MOA and resistance mechanisms | Intensity |\n|---------|----------|-------------------------------|-----------|\n| 20      |          |                               |           |\n\n### Chemical-genetic interactions\n- Mass spectra\n- Genomics &#x26; transcriptomics\n- Proteomics &#x26; metabolomics\n\n## Discussion\nFigure 5: Artificial intelligence (AI) in deciphering the mechanisms of action (MOA) and resistance mechanisms of novel antibacterials. This figure illustrates how comparing cellular responses of bacteria before and after treatment with an antibacterial compound through multidimensional profiling enables AI-based methods to delineate the MOA of comp...",
+      "metadata": {
+        "source": "pdf2.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf2.pdf",
+        "doc_id": "pdf2",
+        "page_label": "14",
+        "page_num": "14",
+        "image_map": "{\"1\": [\"extracted/figures/pdf2_p1_i4.png\", \"extracted/figures/pdf2_p1_i5.png\"], \"3\": [\"extracted/figures/pdf2_p3_i1.png\"], \"7\": [\"extracted/figures/pdf2_p7_i1.png\"], \"10\": [\"extracted/figures/pdf2_p10_i1.png\"], \"12\": [\"extracted/figures/pdf2_p12_i1.png\"], \"14\": [\"extracted/figures/pdf2_p14_i1.png\"], \"18\": [\"extracted/figures/pdf2_p18_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Military Medical Research (2024) 11:7\n\n## Abstract\n*The abstract content is not provided in the current text.*\n\n## Introduction\n*The introduction content is not provided in the current text.*\n\n## Methods\n*The methods content is not provided in the current text.*\n\n## Results\nClassifiers were built to identify carbapenem resistance in *A. baumannii*, methicillin-resistant *S. aureus*, and \u03b2-lactam resistance in *K. pneumoniae*, utilizing whole-genome bacterial data and MICs [173]. Later, Moradi-garavand et al. [169] demonstrated that the gradient boosted decision tree model stood out as the best ML model for predicting the resistance of *E. coli* against eleven compounds across four major antibiotic classes. Moreover, Her et al. [174] took a pan-genome-based approach and found that AMR genes are unevenly distributed in the core and accessory genomes. Dividing the pan-genome into core and accessory parts further improved prediction accuracy in *E. coli*.\n\nLarge and high-quality trainin...",
+      "metadata": {
+        "source": "pdf2.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf2.pdf",
+        "doc_id": "pdf2",
+        "page_label": "15",
+        "page_num": "15",
+        "image_map": "{\"1\": [\"extracted/figures/pdf2_p1_i4.png\", \"extracted/figures/pdf2_p1_i5.png\"], \"3\": [\"extracted/figures/pdf2_p3_i1.png\"], \"7\": [\"extracted/figures/pdf2_p7_i1.png\"], \"10\": [\"extracted/figures/pdf2_p10_i1.png\"], \"12\": [\"extracted/figures/pdf2_p12_i1.png\"], \"14\": [\"extracted/figures/pdf2_p14_i1.png\"], \"18\": [\"extracted/figures/pdf2_p18_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Military Medical Research\n\n## Abstract\nThe study explores the integration of machine learning (ML) techniques in predicting drug synergy for treating M. tuberculosis infections and identifies Rv1353c as a transcription factor regulating multiple drug interactions.\n\n## Introduction\nAntimicrobial resistance (AMR) is a significant global health challenge. The need for rapid and accurate methods to determine antibiotic susceptibility is critical. Traditional methods of antimicrobial susceptibility testing (AST) are time-consuming, often leading to empirical treatment that may contribute to AMR.\n\n## Methods\nWeis et al. [189] combined ML algorithms with MALDI-TOF mass spectrometry to accelerate AMR determination. They created the DRIAMS dataset, which includes extensive resistance data and mass spectrometry data from clinical strains. Three ML algorithms were trained: logistic regression, multilayer perceptron (MLP), and LightGBM, with MLP and LightGBM showing the best performance.\n\n## Re...",
+      "metadata": {
+        "source": "pdf2.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf2.pdf",
+        "doc_id": "pdf2",
+        "page_label": "16",
+        "page_num": "16",
+        "image_map": "{\"1\": [\"extracted/figures/pdf2_p1_i4.png\", \"extracted/figures/pdf2_p1_i5.png\"], \"3\": [\"extracted/figures/pdf2_p3_i1.png\"], \"7\": [\"extracted/figures/pdf2_p7_i1.png\"], \"10\": [\"extracted/figures/pdf2_p10_i1.png\"], \"12\": [\"extracted/figures/pdf2_p12_i1.png\"], \"14\": [\"extracted/figures/pdf2_p14_i1.png\"], \"18\": [\"extracted/figures/pdf2_p18_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Military Medical Research\n\n## Abstract\n*The abstract content is not provided in the extracted text.*\n\n## Introduction\n*The introduction content is not provided in the extracted text.*\n\n## Methods\n*The methods content is not provided in the extracted text.*\n\n## Results\n*The results content is not provided in the extracted text.*\n\n## Discussion\nPost-treatment resistance-gaining bacterial recurrences have been a significant concern in the field of antimicrobial resistance (AMR). Combining whole-genome sequencing and machine learning (ML) analysis of a large-scale longitudinal database of urinary and wound clinical isolates pre- and post-treatment from the same patient, Stracy et al. found that treatment-induced resistance emergence is largely caused by re-infection of a different resistant clone rather than de novo resistance evolution. Moreover, as a recurrence-causing resistant clone most frequently comes from a patient\u2019s microbiota, it is in many cases reflected by the patient\u2019s inf...",
+      "metadata": {
+        "source": "pdf2.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf2.pdf",
+        "doc_id": "pdf2",
+        "page_label": "17",
+        "page_num": "17",
+        "image_map": "{\"1\": [\"extracted/figures/pdf2_p1_i4.png\", \"extracted/figures/pdf2_p1_i5.png\"], \"3\": [\"extracted/figures/pdf2_p3_i1.png\"], \"7\": [\"extracted/figures/pdf2_p7_i1.png\"], \"10\": [\"extracted/figures/pdf2_p10_i1.png\"], \"12\": [\"extracted/figures/pdf2_p12_i1.png\"], \"14\": [\"extracted/figures/pdf2_p14_i1.png\"], \"18\": [\"extracted/figures/pdf2_p18_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Military Medical Research\n\n## Abstract\nThe abstract is not provided in the extracted text.\n\n## Introduction\nThe introduction is not provided in the extracted text.\n\n## Methods\nThe methods section is not provided in the extracted text.\n\n## Results\nThe results section is not provided in the extracted text.\n\n## Discussion\nThe discussion highlights the importance of transparency and accountability in AI-driven drug recommendations, emphasizing the need for explainable AI. It discusses the challenges of data availability for training AI models, particularly in vivo data for biologicals. The text suggests that balancing data accessibility and confidentiality is crucial and mentions promising avenues such as federated learning and active learning. The discussion also stresses the importance of high-quality experimental data in AI-based antimicrobial research and the integration of drug discovery with disease progression and precision medicine. It concludes with a note on the complex challe...",
+      "metadata": {
+        "source": "pdf2.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf2.pdf",
+        "doc_id": "pdf2",
+        "page_label": "18",
+        "page_num": "18",
+        "image_map": "{\"1\": [\"extracted/figures/pdf2_p1_i4.png\", \"extracted/figures/pdf2_p1_i5.png\"], \"3\": [\"extracted/figures/pdf2_p3_i1.png\"], \"7\": [\"extracted/figures/pdf2_p7_i1.png\"], \"10\": [\"extracted/figures/pdf2_p10_i1.png\"], \"12\": [\"extracted/figures/pdf2_p12_i1.png\"], \"14\": [\"extracted/figures/pdf2_p14_i1.png\"], \"18\": [\"extracted/figures/pdf2_p18_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Military Medical Research\n\n## Abstract\nThe abstract provides a brief overview of the study, highlighting the significance of antibiotic resistance, particularly focusing on polymyxins and their role in treating multidrug-resistant Gram-negative infections. The study emphasizes the need for innovative approaches, including the use of artificial intelligence in drug discovery.\n\n## Introduction\nThe introduction discusses the growing concern of antibiotic resistance, particularly in Gram-negative bacteria. It outlines the historical context of polymyxins, their mechanism of action, and the challenges associated with their use, including nephrotoxicity and the emergence of resistance.\n\n## Methods\nThe methods section details the experimental design, including the use of mouse models to study the pharmacokinetics and pharmacodynamics of polymyxins. It describes the dosing regimens, methods for measuring drug concentrations, and statistical analyses employed to interpret the data.\n\n## Resul...",
+      "metadata": {
+        "source": "pdf2.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf2.pdf",
+        "doc_id": "pdf2",
+        "page_label": "19",
+        "page_num": "19",
+        "image_map": "{\"1\": [\"extracted/figures/pdf2_p1_i4.png\", \"extracted/figures/pdf2_p1_i5.png\"], \"3\": [\"extracted/figures/pdf2_p3_i1.png\"], \"7\": [\"extracted/figures/pdf2_p7_i1.png\"], \"10\": [\"extracted/figures/pdf2_p10_i1.png\"], \"12\": [\"extracted/figures/pdf2_p12_i1.png\"], \"14\": [\"extracted/figures/pdf2_p14_i1.png\"], \"18\": [\"extracted/figures/pdf2_p18_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Military Medical Research\n\n## Abstract\n*The abstract content is not provided in the raw text.*\n\n## Introduction\n*The introduction content is not provided in the raw text.*\n\n## Methods\n*The methods content is not provided in the raw text.*\n\n## Results\n*The results content is not provided in the raw text.*\n\n## Discussion\n*The discussion content is not provided in the raw text.*\n\n## Conclusion\n*The conclusion content is not provided in the raw text.*\n\n## References\n1. Liu et al. Military Medical Research (2024) 11:7 Page 20 of 23\n2. Miethke M, Pieroni M, Weber T, Bronstrup M, Hammann P, Halby L, et al. Towards the sustainable discovery and development of new antibiotics. Nat Rev Chem. 2021;5(10):726\u201349.\n3. Ramachandran G, Tulapurkar ME, Harris KM, Arad G, Shirvan A, Shemesh R, et al. A peptide antagonist of CD28 signaling attenuates toxic shock and necrotizing soft-tissue infection induced by Streptococcus pyogenes. J Infect Dis. 2013;207(12):1869\u201377.\n4. Kasai M, Kumano K, Kurasawa K, ...",
+      "metadata": {
+        "source": "pdf2.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf2.pdf",
+        "doc_id": "pdf2",
+        "page_label": "20",
+        "page_num": "20",
+        "image_map": "{\"1\": [\"extracted/figures/pdf2_p1_i4.png\", \"extracted/figures/pdf2_p1_i5.png\"], \"3\": [\"extracted/figures/pdf2_p3_i1.png\"], \"7\": [\"extracted/figures/pdf2_p7_i1.png\"], \"10\": [\"extracted/figures/pdf2_p10_i1.png\"], \"12\": [\"extracted/figures/pdf2_p12_i1.png\"], \"14\": [\"extracted/figures/pdf2_p14_i1.png\"], \"18\": [\"extracted/figures/pdf2_p18_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Military Medical Research\n\n## Abstract\nThe abstract provides a concise summary of the research, highlighting the main findings and significance of the study. It outlines the objectives, methods, results, and conclusions drawn from the research.\n\n## Introduction\nThe introduction sets the stage for the research by discussing the background and context of the study. It reviews existing literature on antimicrobial peptides and their potential applications in medicine, emphasizing the need for innovative approaches in drug discovery.\n\n## Methods\nThe methods section details the experimental design, including the computational techniques and algorithms used for predicting antimicrobial peptides. It describes the datasets utilized, the machine learning models implemented, and the evaluation metrics employed to assess the performance of the models.\n\n## Results\nThe results section presents the findings of the study, including the performance of the predictive models and the identification of ...",
+      "metadata": {
+        "source": "pdf2.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf2.pdf",
+        "doc_id": "pdf2",
+        "page_label": "21",
+        "page_num": "21",
+        "image_map": "{\"1\": [\"extracted/figures/pdf2_p1_i4.png\", \"extracted/figures/pdf2_p1_i5.png\"], \"3\": [\"extracted/figures/pdf2_p3_i1.png\"], \"7\": [\"extracted/figures/pdf2_p7_i1.png\"], \"10\": [\"extracted/figures/pdf2_p10_i1.png\"], \"12\": [\"extracted/figures/pdf2_p12_i1.png\"], \"14\": [\"extracted/figures/pdf2_p14_i1.png\"], \"18\": [\"extracted/figures/pdf2_p18_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Military Medical Research (2024) 11:7\n\n## Abstract\n*The abstract content is not provided in the raw text.*\n\n## Introduction\n*The introduction content is not provided in the raw text.*\n\n## Methods\n*The methods content is not provided in the raw text.*\n\n## Results\n*The results content is not provided in the raw text.*\n\n## Discussion\n*The discussion content is not provided in the raw text.*\n\n## Conclusion\n*The conclusion content is not provided in the raw text.*\n\n## References\n1. Auslander N, Gussow AB, Benler S, Wolf YI, Koonin EV. Seeker: alignment-free identification of bacteriophage genomes by deep learning. Nucleic Acids Res. 2020;48(21):e121.\n2. Kieft K, Zhou Z, Anantharaman K. VIBRANT: automated recovery, annotation and curation of microbial viruses, and evaluation of viral community function from genomic sequences. Microbiome. 2020;8(1):90.\n3. Guo J, Bolduc B, Zayed AA, Varsani A, Dominguez-Huerta G, Delmont T\u039f, et al. VirSorter2: a multi-classifier, expert-guided approach to d...",
+      "metadata": {
+        "source": "pdf2.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf2.pdf",
+        "doc_id": "pdf2",
+        "page_label": "22",
+        "page_num": "22",
+        "image_map": "{\"1\": [\"extracted/figures/pdf2_p1_i4.png\", \"extracted/figures/pdf2_p1_i5.png\"], \"3\": [\"extracted/figures/pdf2_p3_i1.png\"], \"7\": [\"extracted/figures/pdf2_p7_i1.png\"], \"10\": [\"extracted/figures/pdf2_p10_i1.png\"], \"12\": [\"extracted/figures/pdf2_p12_i1.png\"], \"14\": [\"extracted/figures/pdf2_p14_i1.png\"], \"18\": [\"extracted/figures/pdf2_p18_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Military Medical Research\n\n## Abstract\nThe abstract section is not provided in the extracted text.\n\n## Introduction\nThe introduction section is not provided in the extracted text.\n\n## Methods\nThe methods section is not provided in the extracted text.\n\n## Results\nThe results section is not provided in the extracted text.\n\n## Discussion\nThe discussion section is not provided in the extracted text.\n\n## Conclusion\nThe conclusion section is not provided in the extracted text.\n\n## References\n1. Anglada-Girotto M, Handschin G, \u039frtmayr K, Campos AI, Gillet L, Manfredi P, et al. Combining CRISPRi and metabolomics for functional annotation of compound libraries. Nat Chem Biol. 2022;18(5):482\u201391.\n2. Yang JH, Wright SN, Hamblin M, McCloskey D, Alcantar MA, Schrubbers L, et al. A White-box machine learning approach for revealing antibiotic mechanisms of action. Cell. 2019;177(6):1649-61.e9.\n3. Machado D, Andrejev S, Tramontano M, Patil KR. Fast automated reconstruction of genome-scale metabolic ...",
+      "metadata": {
+        "source": "pdf2.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf2.pdf",
+        "doc_id": "pdf2",
+        "page_label": "23",
+        "page_num": "23",
+        "image_map": "{\"1\": [\"extracted/figures/pdf2_p1_i4.png\", \"extracted/figures/pdf2_p1_i5.png\"], \"3\": [\"extracted/figures/pdf2_p3_i1.png\"], \"7\": [\"extracted/figures/pdf2_p7_i1.png\"], \"10\": [\"extracted/figures/pdf2_p10_i1.png\"], \"12\": [\"extracted/figures/pdf2_p12_i1.png\"], \"14\": [\"extracted/figures/pdf2_p14_i1.png\"], \"18\": [\"extracted/figures/pdf2_p18_i1.png\"]}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "source": "pdf22.pdf",
+  "documents": [
+    {
+      "text": "# Artificial Intelligence and the Medical Radiation Profession: How Our Advocacy Must Inform Future Practice\n\n**Andrew Murphy, BMedImagingSc, MMIS, RT(R)\u1d43\u1d47*, and Brian Liszewski, BSc MRT(T)\u1d9c**\na Department of Medical Imaging, St Paul\u2019s Hospital, Vancouver, British Columbia, Canada\nb Department of Medical Imaging, British Columbia Children\u2019s Hospital, Vancouver, British Columbia, Canada\nc Department of Radiation Oncology, University of Toronto, Toronto, Ontario, Canada\n\n## ABSTRACT\nThere is no escaping the fact that academics are devoting unrelenting attention to the impact artificial intelligence will have on health care. Radiological and radiation oncology organizations worldwide are devoting their time and resources to ensure their members are both informed and prepared for the inevitable changes to the respective professions. This commentary provides an overview of how artificial intelligence will affect medical radiation professions of both diagnostic and radiation therapy streams....",
+      "metadata": {
+        "source": "pdf22.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf22.pdf",
+        "doc_id": "pdf22",
+        "page_label": "1",
+        "page_num": "1",
+        "image_map": "{\"1\": [\"extracted/figures/pdf22_p1_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Commentary on AI in Medical Radiation Technologists Practice\n\n## Abstract\nThis commentary article aims to inform the reader about the significant events and developments in the application of artificial intelligence (AI) within the field of medical radiation technology.\n\n## Introduction\nThe integration of AI into medical imaging and radiation therapy is rapidly evolving. This article discusses the current applications of AI in these fields, highlighting both the potential benefits and the challenges that remain.\n\n## Examples of AI in Medical Radiation Technologists Practice\n\n### Medical Imaging\nFrom assessing the diagnostic quality of a radiological image to interpreting its contents, medical imaging professionals utilize heuristic techniques to weigh complex factors related to clinical decisions. One of the more prolific areas of AI research in medical imaging is the investigation into the viability of deep neural networks to interpret and classify radiological images. There is no ...",
+      "metadata": {
+        "source": "pdf22.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf22.pdf",
+        "doc_id": "pdf22",
+        "page_label": "2",
+        "page_num": "2",
+        "image_map": "{\"1\": [\"extracted/figures/pdf22_p1_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# The Role of Medical Radiation Professionals in the Age of AI\n\n## Abstract\nThe integration of artificial intelligence (AI) in medical imaging presents both opportunities and challenges. This commentary explores the responsibilities of medical radiation professionals in ensuring the ethical and effective use of AI technologies in their field.\n\n## Introduction\nThe ethics behind the use of artificial intelligence in medical imaging is complex and beyond the scope of this commentary. For the interested reader, several white papers and position statements explore these issues in detail [22,37,38]. The quality of the data on which these algorithms are trained is essential in ensuring safe use. Supervised learning algorithms require a substantial collection of radiological data, validated by experts, and widely agreed upon by both the medical radiation science and the computer science community [39]. Even so, data that are well validated is still only fit for the population from which it is...",
+      "metadata": {
+        "source": "pdf22.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf22.pdf",
+        "doc_id": "pdf22",
+        "page_label": "3",
+        "page_num": "3",
+        "image_map": "{\"1\": [\"extracted/figures/pdf22_p1_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nThe abstract provides a concise summary of the research, highlighting the key findings and implications of the study. It outlines the significance of artificial intelligence (AI) in medical imaging and its potential to transform the field.\n\n# Introduction\nThe introduction discusses the rapid advancements in AI technology and its applications in medical imaging. It emphasizes the importance of understanding both the opportunities and challenges that AI presents to radiologists and healthcare professionals.\n\n# Methods\nThe methods section details the research design, including the data collection process, the algorithms used for AI analysis, and the statistical methods employed to evaluate the results. It also describes the sample population and the criteria for inclusion in the study.\n\n# Results\nThe results section presents the findings of the study, including statistical analyses and comparisons between AI performance and human radiologists. It may include tables and figures...",
+      "metadata": {
+        "source": "pdf22.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf22.pdf",
+        "doc_id": "pdf22",
+        "page_label": "4",
+        "page_num": "4",
+        "image_map": "{\"1\": [\"extracted/figures/pdf22_p1_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Occupational Burnout Among Radiographers, Sonographers, and Radiologists in Australia and New Zealand\n\n## Abstract\nOccupational burnout is a significant concern in the healthcare sector, particularly among radiographers, sonographers, and radiologists. This study investigates the prevalence and contributing factors of burnout in these professions across Australia and New Zealand.\n\n## Introduction\nBurnout is characterized by emotional exhaustion, depersonalization, and a reduced sense of personal accomplishment. It can lead to decreased job performance and increased turnover rates. This research aims to assess the levels of burnout among radiographers, sonographers, and radiologists, and to identify the factors that contribute to this phenomenon.\n\n## Methods\nA national survey was conducted involving radiographers, sonographers, and radiologists. Participants were asked to complete a standardized burnout inventory, along with demographic and work-related questions. Data were analyzed ...",
+      "metadata": {
+        "source": "pdf22.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf22.pdf",
+        "doc_id": "pdf22",
+        "page_label": "5",
+        "page_num": "5",
+        "image_map": "{\"1\": [\"extracted/figures/pdf22_p1_i1.png\"]}"
+      }
+    }
+  ]
+}

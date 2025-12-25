@@ -1,0 +1,93 @@
+{
+  "source": "pdf26.pdf",
+  "documents": [
+    {
+      "text": "# Healthcare Bias in AI: A Systematic Literature Review\n\n**Andrada-Mihaela-Nicoleta Moldovan\u00b9, Andreea Vescan\u00b9, Crina Grosan\u00b2**\n\u00b9Babes-Bolyai University, Faculty of Mathematics and Computer Science, Computer Science Department, Cluj-Napoca, Romania\n\u00b2Applied Technologies for Clinical Care, Kings College London, London, U.K.\n\n**Keywords:** Systematic Literature Review, Algorithmic Bias, Fairness, Health Disparities.\n\n## Abstract\nThe adoption of Artificial Intelligence (AI) in healthcare is transforming the field by enhancing patient care, advancing diagnostic precision, and optimizing clinical flows. Despite its promise, algorithmic bias remains a pressing challenge, raising critical concerns about fairness, equity, and the reliability of AI systems in diverse healthcare settings. This Systematic Literature Review (SLR) investigates how bias manifests across the AI lifecycle\u2014spanning data collection, model training, and real-world application\u2014and examines its implications for healthcare ...",
+      "metadata": {
+        "source": "pdf26.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf26.pdf",
+        "doc_id": "pdf26",
+        "page_label": "1",
+        "page_num": "1",
+        "image_map": "{\"1\": [\"extracted/figures/pdf26_p1_i1.png\"], \"2\": [\"extracted/figures/pdf26_p2_i1.png\"], \"3\": [\"extracted/figures/pdf26_p3_i1.png\", \"extracted/figures/pdf26_p3_i2.png\"], \"4\": [\"extracted/figures/pdf26_p4_i1.png\", \"extracted/figures/pdf26_p4_i2.png\", \"extracted/figures/pdf26_p4_i3.png\"], \"5\": [\"extracted/figures/pdf26_p5_i1.png\", \"extracted/figures/pdf26_p5_i2.png\", \"extracted/figures/pdf26_p5_i3.png\"], \"6\": [\"extracted/figures/pdf26_p6_i1.png\", \"extracted/figures/pdf26_p6_i2.png\"], \"7\": [\"extracted/figures/pdf26_p7_i1.png\"], \"8\": [\"extracted/figures/pdf26_p8_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# ENASE 2025 - 20th International Conference on Evaluation of Novel Approaches to Software Engineering\n\n## Abstract\nThe paper discusses the issues of bias in Artificial Intelligence (AI) systems used in healthcare. It highlights the lack of accuracy in AI assessments, particularly in kidney function, and the discrimination against specific populations. The authors conducted a Systematic Literature Review (SLR) to synthesize existing knowledge on healthcare bias in AI, focusing on algorithmic fairness. The contributions include a review of 97 articles, answers to five research questions regarding algorithm bias, and discussions on gaps and challenges in the field.\n\n## 1. Introduction\nThe introduction outlines the importance of addressing bias in AI healthcare systems. It references various studies that reveal problems with AI accuracy and the ethical implications of algorithmic bias. The authors emphasize the need for a comprehensive overview of existing knowledge to serve as a resourc...",
+      "metadata": {
+        "source": "pdf26.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf26.pdf",
+        "doc_id": "pdf26",
+        "page_label": "2",
+        "page_num": "2",
+        "image_map": "{\"1\": [\"extracted/figures/pdf26_p1_i1.png\"], \"2\": [\"extracted/figures/pdf26_p2_i1.png\"], \"3\": [\"extracted/figures/pdf26_p3_i1.png\", \"extracted/figures/pdf26_p3_i2.png\"], \"4\": [\"extracted/figures/pdf26_p4_i1.png\", \"extracted/figures/pdf26_p4_i2.png\", \"extracted/figures/pdf26_p4_i3.png\"], \"5\": [\"extracted/figures/pdf26_p5_i1.png\", \"extracted/figures/pdf26_p5_i2.png\", \"extracted/figures/pdf26_p5_i3.png\"], \"6\": [\"extracted/figures/pdf26_p6_i1.png\", \"extracted/figures/pdf26_p6_i2.png\"], \"7\": [\"extracted/figures/pdf26_p7_i1.png\"], \"8\": [\"extracted/figures/pdf26_p8_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Healthcare Bias in AI: A Systematic Literature Review\n\n## Abstract\n*The abstract is not provided in the current text.*\n\n## Introduction\n*The introduction is not provided in the current text.*\n\n## Methods\n\n### 4. Conducting the SLR\nThe SLR related activities are provided next, including the selection process that contains the database search and the specification of the selection criteria, followed by the data extraction.\n\n#### 4.1 Search and Selection Process\nFor our literature review, we followed the PRISMA 2020 statement (Page et al., 2021), which ensures a transparent, unbiased, and reproducible process. Figure 1 shows the filtering stages, resulting in the selection of 97 papers from the databases.\n\n**Identification of new studies via databases and registers**\n\n| Records identified from: | Databases (n = 6): |\n|--------------------------|--------------------|\n| ACM Digital Library (n = 120) | Records removed before screening: |\n| IEEE (n = 73) | Duplicate records (n = 120) |\n| S...",
+      "metadata": {
+        "source": "pdf26.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf26.pdf",
+        "doc_id": "pdf26",
+        "page_label": "3",
+        "page_num": "3",
+        "image_map": "{\"1\": [\"extracted/figures/pdf26_p1_i1.png\"], \"2\": [\"extracted/figures/pdf26_p2_i1.png\"], \"3\": [\"extracted/figures/pdf26_p3_i1.png\", \"extracted/figures/pdf26_p3_i2.png\"], \"4\": [\"extracted/figures/pdf26_p4_i1.png\", \"extracted/figures/pdf26_p4_i2.png\", \"extracted/figures/pdf26_p4_i3.png\"], \"5\": [\"extracted/figures/pdf26_p5_i1.png\", \"extracted/figures/pdf26_p5_i2.png\", \"extracted/figures/pdf26_p5_i3.png\"], \"6\": [\"extracted/figures/pdf26_p6_i1.png\", \"extracted/figures/pdf26_p6_i2.png\"], \"7\": [\"extracted/figures/pdf26_p7_i1.png\"], \"8\": [\"extracted/figures/pdf26_p8_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# ENASE 2025 - 20th International Conference on Evaluation of Novel Approaches to Software Engineering\n\n## Abstract\nThe abstract section is not provided in the text.\n\n## Introduction\nThe introduction section is not provided in the text.\n\n## Methods\nThe methods section is not provided in the text.\n\n## Results\nThe following section presents the findings for the key RQs, addressing the main categories of algorithmic bias in healthcare (RQ1), their sources (RQ2), the risks stemming from unfair algorithms (RQ3), mitigation strategies to reduce disparities (RQ4), and metrics to assess fairness (RQ5). We provide examples from the selected literature for all answers.\n\n### 5.1 RQ1: Main Algorithmic Bias Categories in Healthcare\nSeven distinct types of algorithmic bias were identified in medical settings (S6):\n- **Historical bias**, which mirrors existing societal prejudices against specific groups (S15, S16, S79);\n- **Representation bias**, arising from sampling methods that under-represent ce...",
+      "metadata": {
+        "source": "pdf26.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf26.pdf",
+        "doc_id": "pdf26",
+        "page_label": "4",
+        "page_num": "4",
+        "image_map": "{\"1\": [\"extracted/figures/pdf26_p1_i1.png\"], \"2\": [\"extracted/figures/pdf26_p2_i1.png\"], \"3\": [\"extracted/figures/pdf26_p3_i1.png\", \"extracted/figures/pdf26_p3_i2.png\"], \"4\": [\"extracted/figures/pdf26_p4_i1.png\", \"extracted/figures/pdf26_p4_i2.png\", \"extracted/figures/pdf26_p4_i3.png\"], \"5\": [\"extracted/figures/pdf26_p5_i1.png\", \"extracted/figures/pdf26_p5_i2.png\", \"extracted/figures/pdf26_p5_i3.png\"], \"6\": [\"extracted/figures/pdf26_p6_i1.png\", \"extracted/figures/pdf26_p6_i2.png\"], \"7\": [\"extracted/figures/pdf26_p7_i1.png\"], \"8\": [\"extracted/figures/pdf26_p8_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Healthcare Bias in AI: A Systematic Literature Review\n\n## Abstract\nThe abstract is not provided in the extracted text.\n\n## Introduction\nThe introduction is not provided in the extracted text.\n\n## Methods\nThe methods section is not provided in the extracted text.\n\n## Results\n### RQ3: Generated Risks by the Lack of Algorithmic Fairness in Healthcare\nThe lack of algorithmic fairness generates several risks from inaccurate diagnoses and harmful stereotypes to the erosion of trust in the healthcare systems.\n\n#### Sources of Bias\nThe types and sources of bias are highly related. Sources of bias in Clinical Decision Support Systems (CDSS) were identified as cognitive biases in decision-making, in domain transitions during clinical usage, as health inequities, and during data gathering. According to Mhasawade et al. (S2), label bias in healthcare algorithms occurs when proxy labels, used instead of actual labels, vary in their connection to true health status across subgroups.\n\nAnother appr...",
+      "metadata": {
+        "source": "pdf26.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf26.pdf",
+        "doc_id": "pdf26",
+        "page_label": "5",
+        "page_num": "5",
+        "image_map": "{\"1\": [\"extracted/figures/pdf26_p1_i1.png\"], \"2\": [\"extracted/figures/pdf26_p2_i1.png\"], \"3\": [\"extracted/figures/pdf26_p3_i1.png\", \"extracted/figures/pdf26_p3_i2.png\"], \"4\": [\"extracted/figures/pdf26_p4_i1.png\", \"extracted/figures/pdf26_p4_i2.png\", \"extracted/figures/pdf26_p4_i3.png\"], \"5\": [\"extracted/figures/pdf26_p5_i1.png\", \"extracted/figures/pdf26_p5_i2.png\", \"extracted/figures/pdf26_p5_i3.png\"], \"6\": [\"extracted/figures/pdf26_p6_i1.png\", \"extracted/figures/pdf26_p6_i2.png\"], \"7\": [\"extracted/figures/pdf26_p7_i1.png\"], \"8\": [\"extracted/figures/pdf26_p8_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# ENASE 2025 - 20th International Conference on Evaluation of Novel Approaches to Software Engineering\n\n## Abstract\nWomen receive less care.\n\n## Introduction\nThe most frequently proposed mitigation solutions and recommendations from the selected papers are displayed in Figure 6.\n\n## Methods\n### RQ4: Mitigation Strategies to Reduce Algorithmic Disparities in AI for Healthcare\nData handling. Although it is common practice to generate synthetic datasets (S40, S58, S77, S32) for...\n\n### Ethical Principles\nDistinct approaches to fair AI include borrowing ethical principles from fields where they are successfully applied. Amugongo et al. (S10) suggest incorporating Ubuntu ethics\u2014principles. Belenguer (S83) advocates applying ethics systems from the pharmaceutical industry, while Younas and Zeng (S95) propose using Central Asian ethics. Creating a perfect plan to address all ethical issues is unlikely, and debates continue on balancing algorithm transparency with data protection, as well as ...",
+      "metadata": {
+        "source": "pdf26.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf26.pdf",
+        "doc_id": "pdf26",
+        "page_label": "6",
+        "page_num": "6",
+        "image_map": "{\"1\": [\"extracted/figures/pdf26_p1_i1.png\"], \"2\": [\"extracted/figures/pdf26_p2_i1.png\"], \"3\": [\"extracted/figures/pdf26_p3_i1.png\", \"extracted/figures/pdf26_p3_i2.png\"], \"4\": [\"extracted/figures/pdf26_p4_i1.png\", \"extracted/figures/pdf26_p4_i2.png\", \"extracted/figures/pdf26_p4_i3.png\"], \"5\": [\"extracted/figures/pdf26_p5_i1.png\", \"extracted/figures/pdf26_p5_i2.png\", \"extracted/figures/pdf26_p5_i3.png\"], \"6\": [\"extracted/figures/pdf26_p6_i1.png\", \"extracted/figures/pdf26_p6_i2.png\"], \"7\": [\"extracted/figures/pdf26_p7_i1.png\"], \"8\": [\"extracted/figures/pdf26_p8_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Healthcare Bias in AI: A Systematic Literature Review\n\n## Abstract\n*The abstract is not provided in the text.*\n\n## Introduction\n*The introduction is not provided in the text.*\n\n## Methods\n*The methods section is not provided in the text.*\n\n## Results\n*The results section is not provided in the text.*\n\n## Findings and Discussions\n\n### 6.1 Discussions of Results\nAlthough bias can also arise during data acquisition by competent institutions or results interpretation by clinicians, most frameworks (S14, S4, S26) and approaches (S20, S22, S37, S81, S83) assign the task of working on bias mitigation to researchers and developers. Very few of them are addressed to medical personnel (S48, S5). Some scholars and practitioners posit that governance frameworks may serve as a viable solution (S42, S90, S42). Combinations of legal and audit frameworks are proposed as potential strategies (S84, S83).\n\nMultiple studies consider fairness and even propose approaches for specific tasks or branches of...",
+      "metadata": {
+        "source": "pdf26.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf26.pdf",
+        "doc_id": "pdf26",
+        "page_label": "7",
+        "page_num": "7",
+        "image_map": "{\"1\": [\"extracted/figures/pdf26_p1_i1.png\"], \"2\": [\"extracted/figures/pdf26_p2_i1.png\"], \"3\": [\"extracted/figures/pdf26_p3_i1.png\", \"extracted/figures/pdf26_p3_i2.png\"], \"4\": [\"extracted/figures/pdf26_p4_i1.png\", \"extracted/figures/pdf26_p4_i2.png\", \"extracted/figures/pdf26_p4_i3.png\"], \"5\": [\"extracted/figures/pdf26_p5_i1.png\", \"extracted/figures/pdf26_p5_i2.png\", \"extracted/figures/pdf26_p5_i3.png\"], \"6\": [\"extracted/figures/pdf26_p6_i1.png\", \"extracted/figures/pdf26_p6_i2.png\"], \"7\": [\"extracted/figures/pdf26_p7_i1.png\"], \"8\": [\"extracted/figures/pdf26_p8_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# ENASE 2025 - 20th International Conference on Evaluation of Novel Approaches to Software Engineering\n\n## Acknowledgements\nThe publication of this article was partially supported by the 2024 Development Fund of the Babes-Bolyai University.\n\n## References\n1. Kumar, A., Aelgani, V., Vohra, R., Gupta, S. K., Bhagawati, M., Paul, S., Saba, L., Suri, N., Khanna, N. N., Laird, J. R., et al. (2024). Artificial intelligence bias in medical system designs: A systematic review. *Multimedia Tools and Applications*, 83(6):18005\u201318057.\n2. Lecher, C. (2020). Can a robot decide my medical treatment?\n3. Author(s), A. (accessed January 2025). Healthcare bias in AI: A systematic literature review. = https://figshare.com/s/cc41c628a51a442181fd.\n4. Belenguer, L. (2022). AI bias: exploring discriminatory algorithmic decision-making models and the application of possible machine-centric solutions adapted from the pharmaceutical industry. *AI and Ethics*, 2(4):771\u2013787.\n5. Bouderhem, R. (2024). Shaping the ...",
+      "metadata": {
+        "source": "pdf26.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf26.pdf",
+        "doc_id": "pdf26",
+        "page_label": "8",
+        "page_num": "8",
+        "image_map": "{\"1\": [\"extracted/figures/pdf26_p1_i1.png\"], \"2\": [\"extracted/figures/pdf26_p2_i1.png\"], \"3\": [\"extracted/figures/pdf26_p3_i1.png\", \"extracted/figures/pdf26_p3_i2.png\"], \"4\": [\"extracted/figures/pdf26_p4_i1.png\", \"extracted/figures/pdf26_p4_i2.png\", \"extracted/figures/pdf26_p4_i3.png\"], \"5\": [\"extracted/figures/pdf26_p5_i1.png\", \"extracted/figures/pdf26_p5_i2.png\", \"extracted/figures/pdf26_p5_i3.png\"], \"6\": [\"extracted/figures/pdf26_p6_i1.png\", \"extracted/figures/pdf26_p6_i2.png\"], \"7\": [\"extracted/figures/pdf26_p7_i1.png\"], \"8\": [\"extracted/figures/pdf26_p8_i1.png\"]}"
+      }
+    }
+  ]
+}

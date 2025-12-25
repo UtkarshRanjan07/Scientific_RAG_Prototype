@@ -1,0 +1,93 @@
+{
+  "source": "pdf27.pdf",
+  "documents": [
+    {
+      "text": "# The Role of Artificial Intelligence in Medical Imaging: From Diagnosis to Ethical Frontiers\n\n## Nouf Abuhadi\n\nDiagnostic Radiographic Technology Department, Faculty of Nursing and Health Sciences\nJazan University, Jazan, Saudi Arabia\n\n## Abstract\n\nArtificial intelligence (AI) has made a significant difference in radiology, particularly in machine learning and deep learning approaches, for improving tasks such as image processing and X-ray detection. It relies on optimizing the operations and predictions in analytics, computer diagnostics, and image segmentation. Clinical procedures rely on personalized medication and diagnostic techniques. The challenges AI encounters in radiography include the \u2018black box\u2019 issue, accuracy of data, technological and infrastructural complexity, ethical issues such as patient privacy and data security, overreliance on AI, and bias. This article determines the various aspects involved in the use of AI in medical diagnosis (radiological), summarizes the p...",
+      "metadata": {
+        "source": "pdf27.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf27.pdf",
+        "doc_id": "pdf27",
+        "page_label": "1",
+        "page_num": "1",
+        "image_map": "{\"1\": [\"extracted/figures/pdf27_p1_i1.png\"], \"5\": [\"extracted/figures/pdf27_p5_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nArtificial intelligence (AI) is transforming healthcare by refining diagnostic accuracy, customizing therapies, and streamlining administrative processes. AI applications include medical imaging analysis, predictive analytics, virtual health assistants, and robotic surgery systems. Machine learning algorithms process vast amounts of patient data to aid clinical decision-making and tailor treatment strategies. However, the deployment of AI in healthcare presents challenges, including data privacy, ethical considerations, and legal frameworks.\n\n# Introduction\nArtificial intelligence is revolutionizing disease diagnosis, offering significant potential for improving healthcare outcomes. AI algorithms can analyze medical images, patient data, and symptoms to provide quicker and more accurate diagnoses. Various AI methods, including machine learning and deep learning, are employed to diagnose diseases such as carcinomas and neurological disorders. The integration of AI in healthc...",
+      "metadata": {
+        "source": "pdf27.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf27.pdf",
+        "doc_id": "pdf27",
+        "page_label": "2",
+        "page_num": "2",
+        "image_map": "{\"1\": [\"extracted/figures/pdf27_p1_i1.png\"], \"5\": [\"extracted/figures/pdf27_p5_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# N. Abuhadi / International Journal of Biomedicine 15(1) (2025) 37-44\n\n## Abstract\n*The abstract content is not provided in the current text.*\n\n## Introduction\n*The introduction content is not provided in the current text.*\n\n## Methods\n*The methods content is not provided in the current text.*\n\n## Results\n### Table 1. A brief description of the use of AI in radiology for diagnosing some pathologies and the main conclusions.\n\n| Author (Year)       | AI Techniques                          | Pathology               | Findings                                                                                                                                                                                                 |\n|---------------------|---------------------------------------|------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...",
+      "metadata": {
+        "source": "pdf27.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf27.pdf",
+        "doc_id": "pdf27",
+        "page_label": "3",
+        "page_num": "3",
+        "image_map": "{\"1\": [\"extracted/figures/pdf27_p1_i1.png\"], \"5\": [\"extracted/figures/pdf27_p5_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Bias and Fairness in AI Algorithms\n\nThe aspects of analyzing AI algorithms for bias and fairness and adopting artificial intelligence as a diagnostic tool in health systems must be evaluated. Artificial intelligence algorithms in various industries, such as technology, social media, e-commerce, health systems, finance, hiring, social welfare, and digital law enforcement, are under strict scrutiny for many types of bias. Scientific literature and courts have thoroughly documented these biases. They have highlighted the absence of robust regulations safeguarding marginalized communities from the negative impacts of these technologies, primarily because of the lack of consensus on the definition of bias in the decisions made by data-driven algorithms. The evidence and notions of bias and fairness form the foundation of many AI algorithms that handle complex data. The primary challenge lies in the sophisticated nature of these algorithms, which various complex social, political, and fle...",
+      "metadata": {
+        "source": "pdf27.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf27.pdf",
+        "doc_id": "pdf27",
+        "page_label": "4",
+        "page_num": "4",
+        "image_map": "{\"1\": [\"extracted/figures/pdf27_p1_i1.png\"], \"5\": [\"extracted/figures/pdf27_p5_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Artificial Intelligence in Radiology: Challenges and Prospects\n\n## Abstract\nArtificial intelligence (AI) is transforming the field of radiology by enhancing diagnostic accuracy and streamlining workflows. This paper discusses the challenges and prospects of AI implementation in radiology, focusing on ethical, legal, and technical issues, as well as the future of AI in medical imaging.\n\n## Introduction\nThe integration of artificial intelligence in radiology has the potential to revolutionize the field by improving diagnostic accuracy and efficiency. However, several challenges must be addressed to fully realize the benefits of AI in this domain.\n\n## Methods\nThis study reviews existing literature on the application of AI in radiology, focusing on the challenges faced during implementation and the prospects for future development.\n\n## Results\n### Challenges of AI Implementation in Radiology\n- **Human &#x26; Social Challenges**: Trust in AI, acceptance of adoption, and education &#x26; ...",
+      "metadata": {
+        "source": "pdf27.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf27.pdf",
+        "doc_id": "pdf27",
+        "page_label": "5",
+        "page_num": "5",
+        "image_map": "{\"1\": [\"extracted/figures/pdf27_p1_i1.png\"], \"5\": [\"extracted/figures/pdf27_p5_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nThe integration of artificial intelligence (AI) in healthcare has been transformative, particularly in the field of medical imaging. This paper reviews the current applications, benefits, and challenges of AI in radiology, emphasizing its role in enhancing diagnostic accuracy and workflow efficiency.\n\n# Introduction\nArtificial intelligence has emerged as a pivotal technology in healthcare, particularly in radiology. The ability of AI to analyze vast amounts of data quickly and accurately has led to significant advancements in diagnostic imaging. This section discusses the evolution of AI in medical imaging and its implications for clinical practice.\n\n# Methods\nThis review synthesizes findings from recent literature on AI applications in radiology. A comprehensive search was conducted across multiple databases to identify relevant studies, focusing on AI's impact on diagnostic accuracy, workflow efficiency, and patient outcomes.\n\n# Results\nThe findings indicate that AI techn...",
+      "metadata": {
+        "source": "pdf27.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf27.pdf",
+        "doc_id": "pdf27",
+        "page_label": "6",
+        "page_num": "6",
+        "image_map": "{\"1\": [\"extracted/figures/pdf27_p1_i1.png\"], \"5\": [\"extracted/figures/pdf27_p5_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# N. Abuhadi / International Journal of Biomedicine 15(1) (2025) 37-44\n\n## Abstract\nThe abstract section is not provided in the text.\n\n## Introduction\nThe introduction section is not provided in the text.\n\n## Methods\nThe methods section is not provided in the text.\n\n## Results\nThe results section is not provided in the text.\n\n## Discussion\nThe discussion section is not provided in the text.\n\n## Conclusion\nThe conclusion section is not provided in the text.\n\n## References\n1. Liu Y, Zhang F, Chen C, Wang S, Wang Y, Yu Y. Act Like a Radiologist: Towards Reliable Multi-View Correspondence Reasoning for Mammogram Mass Detection. IEEE Trans Pattern Anal Mach Intell. 2022 Oct;44(10):5947-5961. doi: 10.1109/TPAMI.2021.3085783. Epub 2022 Sep 14. PMID: 34061740.\n2. Medhi K, Jamil Md, Hussain I. Automatic Detection of COVID-19 Infection from Chest X-ray using Deep Learning. Internet Health Informatics; 2020.\n3. Alqudah AM, Qazan S, Alqudah A. Automated Systems for Detection of COVID-19 Using Che...",
+      "metadata": {
+        "source": "pdf27.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf27.pdf",
+        "doc_id": "pdf27",
+        "page_label": "7",
+        "page_num": "7",
+        "image_map": "{\"1\": [\"extracted/figures/pdf27_p1_i1.png\"], \"5\": [\"extracted/figures/pdf27_p5_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# A New Covid-19 Diagnosis Strategy Using a Modified KNN Classifier\n\n## Abstract\nThe abstract content is not provided in the current text.\n\n## Introduction\nThe introduction content is not provided in the current text.\n\n## Methods\nThe methods content is not provided in the current text.\n\n## Results\nThe results content is not provided in the current text.\n\n## Discussion\nThe discussion content is not provided in the current text.\n\n## Conclusion\nThe conclusion content is not provided in the current text.\n\n## References\n1. Fitzgerald RC, Antoniou AC, Fruk L, Rosenfeld N. The future of early cancer detection. Nat Med. 2022 Apr;28(4):666-677. doi: 10.1038/s41591-022-01746-x.\n2. Tejani AS, Ng YS, Xi Y, Rayan JC. Understanding and Mitigating Bias in Imaging Artificial Intelligence. Radiographics. 2024 May;44(5):e230067. doi: 10.1148/rg.230067.\n3. Gonz\u00e1lez-Sendino R, Serrano E, Bajo J, et al. A review of bias and fairness in artificial intelligence. Int J Interact Multimed Artif Intell. 2023.\n4...",
+      "metadata": {
+        "source": "pdf27.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf27.pdf",
+        "doc_id": "pdf27",
+        "page_label": "8",
+        "page_num": "8",
+        "image_map": "{\"1\": [\"extracted/figures/pdf27_p1_i1.png\"], \"5\": [\"extracted/figures/pdf27_p5_i1.png\"]}"
+      }
+    }
+  ]
+}

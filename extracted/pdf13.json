@@ -1,0 +1,49 @@
+{
+  "source": "pdf13.pdf",
+  "documents": [
+    {
+      "text": "# Artificial Intelligence Curricula in U.S. and Canadian Medical Schools\n\n**June 2025**\n\n## Abstract\nArtificial intelligence (AI) holds great promise for transforming health care, and there is an urgent call to action to responsibly integrate AI into health care education and training. Doing so will enable the future workforce to leverage AI in practice and adapt to emerging technologies in the service of providing high-quality patient care. While AI\u2019s potential continues to evolve and offer dynamic opportunities in health care, there are signals from the field on how AI should be integrated into medical education. However, the field is outpacing the development of competencies and consensus practice standards, with medical educators seeking clarity on introducing and infusing AI into the curriculum in a way that appropriately prepares the future workforce. Measuring progress and curricular approaches is critical to understanding the current landscape and opportunities. To better under...",
+      "metadata": {
+        "source": "pdf13.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf13.pdf",
+        "doc_id": "pdf13",
+        "page_label": "1",
+        "page_num": "1",
+        "image_map": "{\"1\": [\"extracted/figures/pdf13_p1_i1.png\"], \"2\": [\"extracted/figures/pdf13_p2_i1.png\"], \"3\": [\"extracted/figures/pdf13_p3_i1.png\"], \"4\": [\"extracted/figures/pdf13_p4_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Artificial Intelligence Curricula in U.S. and Canadian Medical Schools\n\n## Abstract\nThe response rate for the 2024 Curriculum SCOPE Survey was 88% (182 of 208) among MD- and DO-granting schools in the U.S. and Canada. Of 157 eligible U.S. MD-granting schools, 149 (95%) participated in the survey, and of 38 eligible U.S. DO-granting schools, 30 (79%) participated. Additionally, three (23%) of 13 eligible Canadian medical schools participated in the 2024 administration of the Curriculum SCOPE Survey.\n\nThe response rate for the 2023 Curriculum SCOPE Survey was 87% (166 of 192) among the U.S. MD- and DO-granting schools. Of the 155 eligible U.S. MD-granting schools, 139 (90%) participated in the survey, and of the 37 eligible U.S. DO-granting schools, 27 (73%) participated.\n\n## Key Findings\n\n### Key Finding 1: Most MD- and DO-granting schools have integrated AI into the curriculum \u2014 with impressive growth over one year.\nIn both the 2023 survey and 2024 survey, we asked schools whether A...",
+      "metadata": {
+        "source": "pdf13.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf13.pdf",
+        "doc_id": "pdf13",
+        "page_label": "2",
+        "page_num": "2",
+        "image_map": "{\"1\": [\"extracted/figures/pdf13_p1_i1.png\"], \"2\": [\"extracted/figures/pdf13_p2_i1.png\"], \"3\": [\"extracted/figures/pdf13_p3_i1.png\"], \"4\": [\"extracted/figures/pdf13_p4_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Artificial Intelligence Curricula in U.S. and Canadian Medical Schools\n\n## Abstract\nThe integration of Artificial Intelligence (AI) into medical education is rapidly evolving. This report examines the current state of AI curricula in U.S. and Canadian medical schools, highlighting key findings and implications for future educational practices.\n\n## Introduction\nThe necessity for medical professionals to understand and utilize AI in healthcare is becoming increasingly evident. This study aims to assess the extent to which AI topics are incorporated into the required curricula of medical schools across the U.S. and Canada.\n\n## Methods\nA survey was conducted among medical schools to gather data on the inclusion of AI topics in their curricula. The responses were analyzed to determine the percentage of schools that have integrated various AI topics.\n\n## Results\n### AI Topics in Required Curriculum\nThe following table summarizes the percentage of medical schools that include specific AI t...",
+      "metadata": {
+        "source": "pdf13.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf13.pdf",
+        "doc_id": "pdf13",
+        "page_label": "3",
+        "page_num": "3",
+        "image_map": "{\"1\": [\"extracted/figures/pdf13_p1_i1.png\"], \"2\": [\"extracted/figures/pdf13_p2_i1.png\"], \"3\": [\"extracted/figures/pdf13_p3_i1.png\"], \"4\": [\"extracted/figures/pdf13_p4_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Artificial Intelligence Curricula in U.S. and Canadian Medical Schools\n\n## Abstract\nThe integration of artificial intelligence (AI) into medical education is becoming increasingly important. This report discusses the current state of AI curricula in U.S. and Canadian medical schools, highlighting the need for equal access to AI tools and resources for all learners. The AAMC emphasizes the importance of collaboration within the community to bridge the technology gap and improve patient care and health outcomes.\n\n## Introduction\nAI in medical education is a dynamic disruption, and the AAMC will continue to monitor trends and opportunities related to AI in the curricula of AAMC- and AACOM-member medical schools through future survey work.\n\n## Methods\nThe data presented in this report is derived from the AAMC and AACOM Curriculum SCOPE Survey for the academic years 2022-23 and 2023-24. Participation in the survey was voluntary, and all questions were optional, which may affect the compr...",
+      "metadata": {
+        "source": "pdf13.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf13.pdf",
+        "doc_id": "pdf13",
+        "page_label": "4",
+        "page_num": "4",
+        "image_map": "{\"1\": [\"extracted/figures/pdf13_p1_i1.png\"], \"2\": [\"extracted/figures/pdf13_p2_i1.png\"], \"3\": [\"extracted/figures/pdf13_p3_i1.png\"], \"4\": [\"extracted/figures/pdf13_p4_i1.png\"]}"
+      }
+    }
+  ]
+}

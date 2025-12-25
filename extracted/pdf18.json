@@ -1,0 +1,148 @@
+{
+  "source": "pdf18.pdf",
+  "documents": [
+    {
+      "text": "# Artificial Intelligence in Healthcare: Past, Present and Future\n\n**Fei Jiang,\u00b9 Yong Jiang,\u00b2 Hui Zhi,\u00b3 Yi Dong,\u2074 Hao Li,\u2075 Sufeng Ma,\u2076 Yilong Wang,\u2077 Qiang Dong,\u2074 Haipeng Shen,\u2078 Yongjun Wang\u2079**\n\nTo cite: Jiang F, Jiang Y, Zhi H, et al. Artificial intelligence in healthcare: past, present and future. Stroke and Vascular Neurology 2017;0: e000101. doi:10.1136/svn-2017-000101\n\n**Received 12 June 2017**\n**Accepted 14 June 2017**\n\n## Abstract\n\nArtificial intelligence (AI) aims to mimic human cognitive functions. It is bringing a paradigm shift to healthcare, powered by increasing availability of healthcare data and rapid progress of analytics techniques. We survey the current status of AI applications in healthcare and discuss its future. AI can be applied to various types of healthcare data (structured and unstructured). Popular AI techniques include machine learning methods for structured data, such as the classical support vector machine and neural network, and the modern deep learning, a...",
+      "metadata": {
+        "source": "pdf18.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf18.pdf",
+        "doc_id": "pdf18",
+        "page_label": "1",
+        "page_num": "1",
+        "image_map": "{\"1\": [\"extracted/figures/pdf18_p1_i1.jpeg\", \"extracted/figures/pdf18_p1_i2.png\", \"extracted/figures/pdf18_p1_i18.jpeg\"], \"2\": [\"extracted/figures/pdf18_p2_i1.png\"], \"3\": [\"extracted/figures/pdf18_p3_i1.png\"], \"4\": [\"extracted/figures/pdf18_p4_i1.jpeg\"], \"5\": [\"extracted/figures/pdf18_p5_i1.png\", \"extracted/figures/pdf18_p5_i2.png\"], \"6\": [\"extracted/figures/pdf18_p6_i1.png\"], \"7\": [\"extracted/figures/pdf18_p7_i1.png\", \"extracted/figures/pdf18_p7_i2.png\"], \"8\": [\"extracted/figures/pdf18_p8_i1.png\", \"extracted/figures/pdf18_p8_i2.png\"], \"9\": [\"extracted/figures/pdf18_p9_i1.png\", \"extracted/figures/pdf18_p9_i2.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Open Access\n\n## Abstract\nThe study explores the application of artificial intelligence (AI) in healthcare, particularly focusing on the use of long non-coding RNAs for diagnosing gastric cancer. It highlights the development of an electrodiagnosis support system for localizing neural injury and discusses the significance of various data sources, including physical examination notes and clinical laboratory results.\n\n## Introduction\nThe introduction outlines the importance of AI in healthcare, emphasizing the need for converting unstructured clinical data into machine-readable formats. It mentions the work of Karak\u00fclah et al., who utilized AI technologies to enhance the diagnostic accuracy of congenital anomalies.\n\n## Methods\nThe methods section describes the process of transforming unstructured text into structured data suitable for machine learning (ML) analysis. It emphasizes the role of natural language processing (NLP) in this transformation.\n\n## Results\n### Disease Focus\nThe res...",
+      "metadata": {
+        "source": "pdf18.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf18.pdf",
+        "doc_id": "pdf18",
+        "page_label": "2",
+        "page_num": "2",
+        "image_map": "{\"1\": [\"extracted/figures/pdf18_p1_i1.jpeg\", \"extracted/figures/pdf18_p1_i2.png\", \"extracted/figures/pdf18_p1_i18.jpeg\"], \"2\": [\"extracted/figures/pdf18_p2_i1.png\"], \"3\": [\"extracted/figures/pdf18_p3_i1.png\"], \"4\": [\"extracted/figures/pdf18_p4_i1.jpeg\"], \"5\": [\"extracted/figures/pdf18_p5_i1.png\", \"extracted/figures/pdf18_p5_i2.png\"], \"6\": [\"extracted/figures/pdf18_p6_i1.png\"], \"7\": [\"extracted/figures/pdf18_p7_i1.png\", \"extracted/figures/pdf18_p7_i2.png\"], \"8\": [\"extracted/figures/pdf18_p8_i1.png\", \"extracted/figures/pdf18_p8_i2.png\"], \"9\": [\"extracted/figures/pdf18_p9_i1.png\", \"extracted/figures/pdf18_p9_i2.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Neoplasms\n\n## Abstract\nThe abstract section is not provided in the extracted text.\n\n## Introduction\nThe introduction section is not provided in the extracted text.\n\n## Methods\n### The AI Devices: ML and NLP\nIn this section, we review the AI devices (or techniques) that have been found useful in medical applications. We categorize them into three groups: the classical machine learning techniques, the more recent deep learning techniques, and the NLP methods.\n\n#### Classical ML\nMachine Learning (ML) constructs data analytical algorithms to extract features from data. Inputs to ML algorithms include patient traits and sometimes medical outcomes of interest. A patient\u2019s traits commonly include baseline data, such as age, gender, disease history, and so on, and disease-specific data, such as diagnostic imaging, gene expressions, electrophysiological (EP) test results, physical examination results, clinical symptoms, medication, and so on. Besides the traits, patients\u2019 medical outcomes ar...",
+      "metadata": {
+        "source": "pdf18.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf18.pdf",
+        "doc_id": "pdf18",
+        "page_label": "3",
+        "page_num": "3",
+        "image_map": "{\"1\": [\"extracted/figures/pdf18_p1_i1.jpeg\", \"extracted/figures/pdf18_p1_i2.png\", \"extracted/figures/pdf18_p1_i18.jpeg\"], \"2\": [\"extracted/figures/pdf18_p2_i1.png\"], \"3\": [\"extracted/figures/pdf18_p3_i1.png\"], \"4\": [\"extracted/figures/pdf18_p4_i1.jpeg\"], \"5\": [\"extracted/figures/pdf18_p5_i1.png\", \"extracted/figures/pdf18_p5_i2.png\"], \"6\": [\"extracted/figures/pdf18_p6_i1.png\"], \"7\": [\"extracted/figures/pdf18_p7_i1.png\", \"extracted/figures/pdf18_p7_i2.png\"], \"8\": [\"extracted/figures/pdf18_p8_i1.png\", \"extracted/figures/pdf18_p8_i2.png\"], \"9\": [\"extracted/figures/pdf18_p9_i1.png\", \"extracted/figures/pdf18_p9_i2.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Artificial Intelligence in Healthcare\n\n## Abstract\nThe integration of artificial intelligence (AI) in healthcare has the potential to revolutionize clinical practices. This paper discusses the various applications of AI, particularly in the analysis of electronic medical records (EMR) and the generation of natural language processing (NLP) outputs from clinical data.\n\n## Introduction\nArtificial intelligence is increasingly being utilized in healthcare settings to enhance clinical decision-making processes. By leveraging machine learning techniques, healthcare providers can analyze vast amounts of data to improve patient outcomes.\n\n## Methods\nThe study employs various machine learning techniques, including supervised and unsupervised learning. Supervised learning is particularly useful when outcomes are known, while unsupervised learning methods, such as clustering and principal component analysis (PCA), are used to identify patterns in data without predefined outcomes.\n\n### Clusteri...",
+      "metadata": {
+        "source": "pdf18.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf18.pdf",
+        "doc_id": "pdf18",
+        "page_label": "4",
+        "page_num": "4",
+        "image_map": "{\"1\": [\"extracted/figures/pdf18_p1_i1.jpeg\", \"extracted/figures/pdf18_p1_i2.png\", \"extracted/figures/pdf18_p1_i18.jpeg\"], \"2\": [\"extracted/figures/pdf18_p2_i1.png\"], \"3\": [\"extracted/figures/pdf18_p3_i1.png\"], \"4\": [\"extracted/figures/pdf18_p4_i1.jpeg\"], \"5\": [\"extracted/figures/pdf18_p5_i1.png\", \"extracted/figures/pdf18_p5_i2.png\"], \"6\": [\"extracted/figures/pdf18_p6_i1.png\"], \"7\": [\"extracted/figures/pdf18_p7_i1.png\", \"extracted/figures/pdf18_p7_i2.png\"], \"8\": [\"extracted/figures/pdf18_p8_i1.png\", \"extracted/figures/pdf18_p8_i2.png\"], \"9\": [\"extracted/figures/pdf18_p9_i1.png\", \"extracted/figures/pdf18_p9_i2.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Unsupervised Learning, Supervised Learning, and Semi-supervised Learning\n\n## Abstract\n*The abstract section is not provided in the current text.*\n\n## Introduction\n*The introduction section is not provided in the current text.*\n\n## Methods\n*The methods section is not provided in the current text.*\n\n## Results\nThe results indicate that various machine learning techniques are utilized in medical applications. Relevant techniques include linear regression, logistic regression, na\u00efve Bayes, decision tree, nearest neighbour, random forest, discriminant analysis, support vector machine (SVM), and neural network.\n\n### Figure 4\n**Caption:** Graphical illustration of unsupervised learning, supervised learning, and semi-supervised learning.\n**Description:** This figure visually represents the differences and relationships between unsupervised learning, supervised learning, and semi-supervised learning.\n\n### Figure 5\n**Caption:** The machine learning algorithms used in the medical literature.\n*...",
+      "metadata": {
+        "source": "pdf18.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf18.pdf",
+        "doc_id": "pdf18",
+        "page_label": "5",
+        "page_num": "5",
+        "image_map": "{\"1\": [\"extracted/figures/pdf18_p1_i1.jpeg\", \"extracted/figures/pdf18_p1_i2.png\", \"extracted/figures/pdf18_p1_i18.jpeg\"], \"2\": [\"extracted/figures/pdf18_p2_i1.png\"], \"3\": [\"extracted/figures/pdf18_p3_i1.png\"], \"4\": [\"extracted/figures/pdf18_p4_i1.jpeg\"], \"5\": [\"extracted/figures/pdf18_p5_i1.png\", \"extracted/figures/pdf18_p5_i2.png\"], \"6\": [\"extracted/figures/pdf18_p6_i1.png\"], \"7\": [\"extracted/figures/pdf18_p7_i1.png\", \"extracted/figures/pdf18_p7_i2.png\"], \"8\": [\"extracted/figures/pdf18_p8_i1.png\", \"extracted/figures/pdf18_p8_i2.png\"], \"9\": [\"extracted/figures/pdf18_p9_i1.png\", \"extracted/figures/pdf18_p9_i2.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Nearest Neighbor, 3%\nNa\u00efve Bayes, 3%\nLine3%, 3%\nRandom Forest, 1%\nSupport Vector Machine, 42%\nDiscriminant Analysis, 8%\nNeural Network, 31%\nLogistic Regression, 2%\n\n## Figure 6\nThe machine learning algorithms used for imaging (upper), genetic (middle), and electrophysiological (bottom) data. The data are generated through searching the machine learning algorithms for each data type on PubMed.\n\n## Support Vector Machine\nAn important property of SVM is that the determination of the model parameters is a convex optimisation problem so the solution is always global optimum. Furthermore, many existing convex optimisation tools are readily applicable for the SVM implementation. As such, SVM has been extensively used in medical research. For instance, Orr\u00f9 et al applied SVM to identify imaging biomarkers of neurological and psychiatric disease. Sweilam et al reviewed the use of SVM in the diagnosis of cancer. Khedher et al used the combination of SVM and other statistical tools to achieve ...",
+      "metadata": {
+        "source": "pdf18.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf18.pdf",
+        "doc_id": "pdf18",
+        "page_label": "6",
+        "page_num": "6",
+        "image_map": "{\"1\": [\"extracted/figures/pdf18_p1_i1.jpeg\", \"extracted/figures/pdf18_p1_i2.png\", \"extracted/figures/pdf18_p1_i18.jpeg\"], \"2\": [\"extracted/figures/pdf18_p2_i1.png\"], \"3\": [\"extracted/figures/pdf18_p3_i1.png\"], \"4\": [\"extracted/figures/pdf18_p4_i1.jpeg\"], \"5\": [\"extracted/figures/pdf18_p5_i1.png\", \"extracted/figures/pdf18_p5_i2.png\"], \"6\": [\"extracted/figures/pdf18_p6_i1.png\"], \"7\": [\"extracted/figures/pdf18_p7_i1.png\", \"extracted/figures/pdf18_p7_i2.png\"], \"8\": [\"extracted/figures/pdf18_p8_i1.png\", \"extracted/figures/pdf18_p8_i2.png\"], \"9\": [\"extracted/figures/pdf18_p9_i1.png\", \"extracted/figures/pdf18_p9_i2.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Deep Learning: A New Era of Machine Learning\n\n## Abstract\nThe abstract is not provided in the text.\n\n## Introduction\nThe introduction is not provided in the text.\n\n## Methods\nThe parameter of interest is the probability of stroke, \\( a_i \\), which carries the form of:\n\n$$\na_i = h \\left( \\sum_{k=1}^{D} w_{2l} f_k \\left( \\sum_{l=1}^{p} w_{1l} X_{il} + w_{10} \\right) + w_{20} \\right).\n$$\n\nIn the above equation, the \\( w_{10} \\) and \\( w_{20} \\neq 0 \\) guarantee the above form to be valid even when all \\( X_{ij}, f_k \\) are 0; the \\( w_{1l} \\) and \\( w_s \\) are the weights to characterize the relative importance of the corresponding multiplicands on affecting the outcome; the \\( f_k \\)s and \\( h \\) are prespecified functionals to manifest how the weighted combinations influence the disease risk as a whole.\n\nThe training goal is to find the weights \\( w \\), which minimize the prediction error:\n\n$$\n\\sum_{i=1}^{n} \\lceil Y - a_{ij} \\rceil^2.\n$$\n\nThe minimization can be performed through st...",
+      "metadata": {
+        "source": "pdf18.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf18.pdf",
+        "doc_id": "pdf18",
+        "page_label": "7",
+        "page_num": "7",
+        "image_map": "{\"1\": [\"extracted/figures/pdf18_p1_i1.jpeg\", \"extracted/figures/pdf18_p1_i2.png\", \"extracted/figures/pdf18_p1_i18.jpeg\"], \"2\": [\"extracted/figures/pdf18_p2_i1.png\"], \"3\": [\"extracted/figures/pdf18_p3_i1.png\"], \"4\": [\"extracted/figures/pdf18_p4_i1.jpeg\"], \"5\": [\"extracted/figures/pdf18_p5_i1.png\", \"extracted/figures/pdf18_p5_i2.png\"], \"6\": [\"extracted/figures/pdf18_p6_i1.png\"], \"7\": [\"extracted/figures/pdf18_p7_i1.png\", \"extracted/figures/pdf18_p7_i2.png\"], \"8\": [\"extracted/figures/pdf18_p8_i1.png\", \"extracted/figures/pdf18_p8_i2.png\"], \"9\": [\"extracted/figures/pdf18_p9_i1.png\", \"extracted/figures/pdf18_p9_i2.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Different from the classical neural network, deep learning uses more hidden layers so that the algorithms can handle complex data with various structures.\n\nIn the medical applications, the commonly used deep learning algorithms include convolution neural network (CNN), recurrent neural network, deep belief network, and deep neural network.\n\n## Figure 12\n**Caption:** Trends and relative popularities of deep learning algorithms from 2013 to 2016.\n**Description:** The figure shows that CNN is the most popular deep learning algorithm in 2016.\n\nThe CNN is developed in view of the incompetence of the classical ML algorithms when handling high-dimensional data, that is, data with a large number of traits. Traditionally, the ML algorithms are designed to analyze data when the number of traits is small. However, the image data are naturally high-dimensional because each image normally contains thousands of pixels as traits.\n\nOne solution is to perform dimension reduction: first preselect a s...",
+      "metadata": {
+        "source": "pdf18.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf18.pdf",
+        "doc_id": "pdf18",
+        "page_label": "8",
+        "page_num": "8",
+        "image_map": "{\"1\": [\"extracted/figures/pdf18_p1_i1.jpeg\", \"extracted/figures/pdf18_p1_i2.png\", \"extracted/figures/pdf18_p1_i18.jpeg\"], \"2\": [\"extracted/figures/pdf18_p2_i1.png\"], \"3\": [\"extracted/figures/pdf18_p3_i1.png\"], \"4\": [\"extracted/figures/pdf18_p4_i1.jpeg\"], \"5\": [\"extracted/figures/pdf18_p5_i1.png\", \"extracted/figures/pdf18_p5_i2.png\"], \"6\": [\"extracted/figures/pdf18_p6_i1.png\"], \"7\": [\"extracted/figures/pdf18_p7_i1.png\", \"extracted/figures/pdf18_p7_i2.png\"], \"8\": [\"extracted/figures/pdf18_p8_i1.png\", \"extracted/figures/pdf18_p8_i2.png\"], \"9\": [\"extracted/figures/pdf18_p9_i1.png\", \"extracted/figures/pdf18_p9_i2.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Diagnostic Imaging\n\n## Abstract\n*The abstract content is not provided in the current text.*\n\n## Introduction\n*The introduction content is not provided in the current text.*\n\n## Methods\n*The methods content is not provided in the current text.*\n\n## Results\n### Figure 11\n**Caption:** The data sources for deep learning. The data are generated through searching deep learning in combination with the diagnosis techniques on PubMed.\n\n| Year     | Deep Belief Network | Deep Neural Network | Convolutional Neural Network | Recurrent Neural Network |\n|----------|---------------------|---------------------|------------------------------|--------------------------|\n| 2014     | 0.5                 | 0.45                | 0.4                          | 0.35                     |\n| 2015     | 0.3                 | 0.25                | 0.2                          | 0.15                     |\n| 2016     | 0.1                 | 0.05                | 0                            | 0                 ...",
+      "metadata": {
+        "source": "pdf18.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf18.pdf",
+        "doc_id": "pdf18",
+        "page_label": "9",
+        "page_num": "9",
+        "image_map": "{\"1\": [\"extracted/figures/pdf18_p1_i1.jpeg\", \"extracted/figures/pdf18_p1_i2.png\", \"extracted/figures/pdf18_p1_i18.jpeg\"], \"2\": [\"extracted/figures/pdf18_p2_i1.png\"], \"3\": [\"extracted/figures/pdf18_p3_i1.png\"], \"4\": [\"extracted/figures/pdf18_p4_i1.jpeg\"], \"5\": [\"extracted/figures/pdf18_p5_i1.png\", \"extracted/figures/pdf18_p5_i2.png\"], \"6\": [\"extracted/figures/pdf18_p6_i1.png\"], \"7\": [\"extracted/figures/pdf18_p7_i1.png\", \"extracted/figures/pdf18_p7_i2.png\"], \"8\": [\"extracted/figures/pdf18_p8_i1.png\", \"extracted/figures/pdf18_p8_i2.png\"], \"9\": [\"extracted/figures/pdf18_p9_i1.png\", \"extracted/figures/pdf18_p9_i2.png\"]}"
+      }
+    },
+    {
+      "text": "\n# AI Applications in Stroke\n\n## Abstract\nThe final output is a recursive function of the weighted input values. The weights are trained to minimize the average error between the outcomes and the predictions. The implementation of CNN has been included in popular software packages such as Caffe from Berkeley AI Research, CNTK from Microsoft, and TensorFlow from Google. Recently, the CNN has been successfully implemented in the medical area to assist disease diagnosis.\n\n## Introduction\nLong et al used CNN to diagnose congenital cataract disease through learning the ocular images. The CNN yields over 90% accuracy on diagnosis and treatment suggestion. Esteva et al performed CNN to identify skin cancer from clinical images. The proportions of correctly predicted malignant lesions (i.e., sensitivity) and benign lesions (i.e., specificity) are both over 90%, indicating the superior performance of the CNN. Gulshan et al applied CNN to detect referable diabetic retinopathy through retinal fun...",
+      "metadata": {
+        "source": "pdf18.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf18.pdf",
+        "doc_id": "pdf18",
+        "page_label": "10",
+        "page_num": "10",
+        "image_map": "{\"1\": [\"extracted/figures/pdf18_p1_i1.jpeg\", \"extracted/figures/pdf18_p1_i2.png\", \"extracted/figures/pdf18_p1_i18.jpeg\"], \"2\": [\"extracted/figures/pdf18_p2_i1.png\"], \"3\": [\"extracted/figures/pdf18_p3_i1.png\"], \"4\": [\"extracted/figures/pdf18_p4_i1.jpeg\"], \"5\": [\"extracted/figures/pdf18_p5_i1.png\", \"extracted/figures/pdf18_p5_i2.png\"], \"6\": [\"extracted/figures/pdf18_p6_i1.png\"], \"7\": [\"extracted/figures/pdf18_p7_i1.png\", \"extracted/figures/pdf18_p7_i2.png\"], \"8\": [\"extracted/figures/pdf18_p8_i1.png\", \"extracted/figures/pdf18_p8_i2.png\"], \"9\": [\"extracted/figures/pdf18_p9_i1.png\", \"extracted/figures/pdf18_p9_i2.png\"]}"
+      }
+    },
+    {
+      "text": "\n# AI Applications in Stroke Care\n\n## Abstract\nThis paper reviews the application of artificial intelligence (AI) in healthcare, particularly focusing on stroke care. It discusses various healthcare data analyzed by AI, major disease types where AI has been deployed, and the two primary categories of AI devices: machine learning (ML) and natural language processing (NLP). The paper highlights the importance of ML techniques, including support vector machines (SVM) and neural networks, as well as modern deep learning methods in stroke treatment and outcome prediction.\n\n## Introduction\nThe motivation for using AI in healthcare is driven by the need for improved diagnostic and treatment processes. AI has been applied to various healthcare data types, including imaging, electronic patient (EP) data, and genetic information. This paper surveys the major disease types that AI has been deployed in, with a specific focus on stroke care.\n\n## Methods\n### Machine Learning Techniques\nMachine learn...",
+      "metadata": {
+        "source": "pdf18.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf18.pdf",
+        "doc_id": "pdf18",
+        "page_label": "11",
+        "page_num": "11",
+        "image_map": "{\"1\": [\"extracted/figures/pdf18_p1_i1.jpeg\", \"extracted/figures/pdf18_p1_i2.png\", \"extracted/figures/pdf18_p1_i18.jpeg\"], \"2\": [\"extracted/figures/pdf18_p2_i1.png\"], \"3\": [\"extracted/figures/pdf18_p3_i1.png\"], \"4\": [\"extracted/figures/pdf18_p4_i1.jpeg\"], \"5\": [\"extracted/figures/pdf18_p5_i1.png\", \"extracted/figures/pdf18_p5_i2.png\"], \"6\": [\"extracted/figures/pdf18_p6_i1.png\"], \"7\": [\"extracted/figures/pdf18_p7_i1.png\", \"extracted/figures/pdf18_p7_i2.png\"], \"8\": [\"extracted/figures/pdf18_p8_i1.png\", \"extracted/figures/pdf18_p8_i2.png\"], \"9\": [\"extracted/figures/pdf18_p9_i1.png\", \"extracted/figures/pdf18_p9_i2.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Stroke and Vascular Neurology\n\n## Abstract\nStroke is a chronic disease with acute events. Stroke management is a rather complicated process with a series of clinical decision points. Traditionally, clinical research solely focused on a single or very limited clinical questions, while ignoring the continuous nature of stroke management. Taking advantage of large amounts of data with rich information, AI is expected to help with studying much more complicated yet much closer to real-life clinical questions, which then leads to better decision making in stroke management. Recently, researchers have started endeavors along this direction and obtained promising initial results. Although AI technologies are attracting substantial attention in medical research, real-life implementation still faces obstacles. The first hurdle comes from regulations. Current regulations lack standards to assess the safety and efficacy of AI systems. To overcome this difficulty, the USFDA made the first attem...",
+      "metadata": {
+        "source": "pdf18.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf18.pdf",
+        "doc_id": "pdf18",
+        "page_label": "12",
+        "page_num": "12",
+        "image_map": "{\"1\": [\"extracted/figures/pdf18_p1_i1.jpeg\", \"extracted/figures/pdf18_p1_i2.png\", \"extracted/figures/pdf18_p1_i18.jpeg\"], \"2\": [\"extracted/figures/pdf18_p2_i1.png\"], \"3\": [\"extracted/figures/pdf18_p3_i1.png\"], \"4\": [\"extracted/figures/pdf18_p4_i1.jpeg\"], \"5\": [\"extracted/figures/pdf18_p5_i1.png\", \"extracted/figures/pdf18_p5_i2.png\"], \"6\": [\"extracted/figures/pdf18_p6_i1.png\"], \"7\": [\"extracted/figures/pdf18_p7_i1.png\", \"extracted/figures/pdf18_p7_i2.png\"], \"8\": [\"extracted/figures/pdf18_p8_i1.png\", \"extracted/figures/pdf18_p8_i2.png\"], \"9\": [\"extracted/figures/pdf18_p9_i1.png\", \"extracted/figures/pdf18_p9_i2.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Stroke and Vascular Neurology\n\n## Abstract\nThe abstract provides a brief overview of the study, highlighting the significance of stroke diagnosis and the role of artificial intelligence (AI) in improving diagnostic accuracy and patient outcomes. It emphasizes the need for advanced data analytics and machine learning techniques in the healthcare sector, particularly in stroke management.\n\n## Introduction\nThe introduction discusses the increasing prevalence of stroke and its impact on public health. It outlines the challenges faced in stroke diagnosis and treatment, including the need for timely intervention and accurate assessment of patient conditions. The section also introduces the potential of AI and machine learning in enhancing diagnostic processes and improving patient care.\n\n## Methods\nThis section details the methodologies employed in the study, including the use of machine learning algorithms, data collection from various sources, and the analytical techniques applied to as...",
+      "metadata": {
+        "source": "pdf18.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf18.pdf",
+        "doc_id": "pdf18",
+        "page_label": "13",
+        "page_num": "13",
+        "image_map": "{\"1\": [\"extracted/figures/pdf18_p1_i1.jpeg\", \"extracted/figures/pdf18_p1_i2.png\", \"extracted/figures/pdf18_p1_i18.jpeg\"], \"2\": [\"extracted/figures/pdf18_p2_i1.png\"], \"3\": [\"extracted/figures/pdf18_p3_i1.png\"], \"4\": [\"extracted/figures/pdf18_p4_i1.jpeg\"], \"5\": [\"extracted/figures/pdf18_p5_i1.png\", \"extracted/figures/pdf18_p5_i2.png\"], \"6\": [\"extracted/figures/pdf18_p6_i1.png\"], \"7\": [\"extracted/figures/pdf18_p7_i1.png\", \"extracted/figures/pdf18_p7_i2.png\"], \"8\": [\"extracted/figures/pdf18_p8_i1.png\", \"extracted/figures/pdf18_p8_i2.png\"], \"9\": [\"extracted/figures/pdf18_p9_i1.png\", \"extracted/figures/pdf18_p9_i2.png\"]}"
+      }
+    }
+  ]
+}

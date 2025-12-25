@@ -1,0 +1,412 @@
+{
+  "source": "pdf19.pdf",
+  "documents": [
+    {
+      "text": "# ICMRA Informal Innovation Network\n\n## Horizon Scanning Assessment Report \u2013 Artificial Intelligence\n\n**Date:** 6 August 2021\n\n----\n\n## EXECUTIVE SUMMARY\n\n*Content of the executive summary goes here.*\n\n----\n\n## 1. INTRODUCTION\n\n### 1.1 Network Background\n\n*Content of the network background goes here.*\n\n### 1.2 Topic choice rationale\n\n*Content of the topic choice rationale goes here.*\n\n### 1.3 Artificial Intelligence\n\n*Content of the section on Artificial Intelligence goes here.*\n\n#### 1.3.1 AI in medicines development and use\n\n*Content of AI in medicines development and use goes here.*\n\n### 1.4 Member agency activities for AI\n\n#### 1.4.1 Health Canada\n\n*Content of Health Canada activities goes here.*\n\n#### 1.4.2 Japan MHLW/PMDA\n\n*Content of Japan MHLW/PMDA activities goes here.*\n\n#### 1.4.3 EU\n\n*Content of EU activities goes here.*\n\n#### 1.4.4 Swissmedic\n\n*Content of Swissmedic activities goes here.*\n\n#### 1.4.5 Therapeutic Goods Administration (TGA), Australia\n\n*Content of TGA activit...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "1",
+        "page_num": "1",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Case Study: AI and Pharmacovigilance\n\n## 3.2 Product Classification\nThis section discusses the classification of products in the context of AI and pharmacovigilance.\n\n## 3.2.1 Early Advice and Scientific Advice\nThis subsection covers the importance of early and scientific advice in the development and regulation of AI technologies in pharmacovigilance.\n\n## 3.2.2 Assessment for Marketing\nHere, the assessment processes required for marketing AI products in pharmacovigilance are outlined.\n\n## 3.2.3 Post-Approval\nThis subsection addresses the post-approval monitoring and evaluation of AI technologies in pharmacovigilance.\n\n## 3.3 Expertise Gaps and Stakeholder Engagement\nThis section highlights the gaps in expertise and the need for stakeholder engagement in the implementation of AI in pharmacovigilance.\n\n### 3.3.1 Central Nervous System App Using AI\nThis subsection discusses a specific case study involving an AI application for the central nervous system.\n\n### 3.3.2 AI in Pharmacovigil...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "2",
+        "page_num": "2",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# EXECUTIVE SUMMARY\n\n## Background\nNew technologies are increasingly challenging regulatory frameworks. In response to this, the International Coalition of Medicines Regulatory Authorities (ICMRA) has set up an Informal Network for Innovation. This network seeks to adapt regulatory frameworks to facilitate safe and timely access to innovative medicines. As part of this, horizon scanning is being used to identify challenging topics and develop hypothetical case studies to stress-test existing regulatory frameworks and develop recommendations to adapt them. To date, ICMRA members have identified three such topics: 3D printing, gene editing, and artificial intelligence.\n\nThis report details the results of the horizon scanning exercise in Artificial Intelligence (AI), with relevance for regulators and stakeholders across the medicines development landscape. The Informal Network for Innovation working group members in this report were the Italian Medicines Agency (AIFA), the Danish Medicin...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "3",
+        "page_num": "3",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Clinical Validation of AI in Pharmacovigilance\n\n## Abstract\nClinical validation of the app, as part of its conformity assessment, would be needed for its uses, as described, which impact the benefit/risk of a medicinal product. This validation would require some level of understandability or explainability and may require access to the underlying algorithm and datasets by regulators. However, it may not be possible to fully validate the App with conventional approaches; more sophisticated approaches may be needed such as investigating machine behaviour (Rahwan et al. 2019).\n\n## Introduction\nUpdates to the AI software or hardware would need re-testing or bridging studies to ensure reproducibility/validation. Any changes which affect the benefit/risk of the medicinal product may then require regulatory resubmission e.g. for a variation to the marketing authorisation. Testing is the responsibility of the developer to carry out. Ideally, the developer should have strengthened governance...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "4",
+        "page_num": "4",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Governance and Oversight of AI in Medicinal Products\n\n## Abstract\nThis report discusses the need for strengthened governance structures for the oversight of algorithms and AI deployments in the context of medicinal products. It emphasizes the importance of multi-disciplinary oversight committees and the involvement of health professionals in the development and monitoring of AI systems.\n\n## Introduction\nThe integration of AI and algorithms in the pharmaceutical industry presents both opportunities and challenges. As these technologies become more prevalent, it is crucial to establish robust governance frameworks to ensure their safe and effective use.\n\n## Methods\nThe report outlines several recommendations for stakeholders, including sponsors, developers, and regulatory authorities, to enhance the oversight of AI in medicinal products.\n\n## Results\n- **Governance Structures**: Sponsors, developers, and pharmaceutical companies should establish strengthened governance structures to ov...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "5",
+        "page_num": "5",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# INTRODUCTION\n\n## 1.1 Network Background\nNew technologies are increasingly challenging regulatory frameworks. In response to this, the International Coalition of Medicines Regulatory Authorities (ICMRA) has set up an Informal Network for Innovation. This network seeks to adapt regulatory frameworks to facilitate safe and timely access to innovative medicines. As part of this, horizon scanning is being used to identify challenging topics and develop hypothetical case studies to stress-test existing regulatory frameworks and develop recommendations to adapt them. To date, ICMRA members have identified three such topics: 3D printing,\u00b9 gene editing, and artificial intelligence (AI).\n\n## 1.2 Topic choice rationale\nThe development and post-authorisation safety monitoring of medicines is subject to oversight by medicines regulators. The growing use of AI in medicines development and use, therefore, requires regulatory understanding at a minimum, and regulatory oversight where it is used in ...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "6",
+        "page_num": "6",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Natural Language Processing and Robotic Process Automation in Healthcare\n\n## Abstract\nNatural language processing (NLP) and robotic process automation (RPA) are two significant technological advancements that have applications in analyzing, representing, and generating human language, as well as automating specific procedures in healthcare. This paper discusses the role of artificial intelligence (AI) in medicine development and its implications for the healthcare sector.\n\n## Introduction\nNatural language processing involves computational techniques that include rule-based or symbolic approaches, such as exact string search, and statistical methods, including machine learning models. Robotic Process Automation refers to software tools that automate specific procedures to reduce human intervention in rule-based processes, such as issuing receipts and archiving them. RPAs can be categorized into assisted and unassisted systems, with the latter utilizing AI to extend beyond predefined ...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "7",
+        "page_num": "7",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Member Agency Activities for AI\n\nIn this section, some of the ICMRA member agencies in the working group outlined their plans and activities that concern AI.\n\n## Health Canada\n\nOngoing regulatory science initiatives for AI include:\n- Established a Digital Health Division in 2018 to add additional technical capacity in the safety assessments of software as a medical device including AI/ML medical devices.\n- Extensive engagement campaigns across Canada with various academic and industry stakeholders.\n- Active member of the WHO/ITU AI4HEALTH Focus Group.\n- Collaboration with other federal partners within the Government of Canada.\n- Active members on the IMDRF AI Medical Device Working Group.\n- Convened a Scientific Advisory Committee in Digital Health.\n\nHealth Canada is also developing its first guidance to industry on \u2018locked\u2019 AI/ML-enabled medical devices. In addition, given their unique regulatory challenges, AI/ML enabled medical devices are being considered as a candidate for Cana...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "8",
+        "page_num": "8",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# EU\n\nOver the last five years, European Union institutions have become increasingly active on AI and Big Data. The European Parliament is in the process of advancing legislative initiatives on ethical aspects of artificial intelligence.\n\nThe EMA\u2019s Regulatory Science Strategy to 2025 and Big Data Task Force have a number of relevant recommendations, including the following.\n\n## Regulatory Science Strategy to 2025:\n- Establish a digital innovation lab to explore, pilot and develop solutions and processes, across the drug regulation spectrum, that leverage novel digital technology and artificial intelligence to support an increase in efficiency and regulatory decision-making;\n- Develop capacity and expertise across the regulatory network through curriculum development and knowledge-sharing initiatives on data science, digital technologies and artificial intelligence-related solutions, products and endpoints, and their applications in the regulatory system;\n- Create and maintain a Health...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "9",
+        "page_num": "9",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Regulation on Artificial Intelligence\n\n## Abstract\nAt the European level, the Commission has recently introduced a legislative proposal for a Regulation on Artificial Intelligence (Artificial Intelligence Act) with harmonised rules for the development, placement on the market and use of AI systems in the Union following a proportionate risk-based approach.\u00b9\u2074\n\n## Introduction\nA High-level expert group (HLEG) on AI has been established by the European Commission to provide advice including on ethical aspects (High-level expert group on artificial intelligence set up by the European Commission 2019). Their ethics guideline aims at trustworthy AI, with human oversight as a constituent element (European Commission 2020b). However, human oversight may not always be realistic for a variety of reasons: knowledge in AI is lacking, AI would become inefficient or \"slowed down\" by humans, or AI systems could outpace human experience. Additionally, human oversight may not always address the root...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "10",
+        "page_num": "10",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nThe study evaluates the effectiveness of machine learning techniques in detecting safety signals in investigational medicinal products. A comparison was made between machine-generated results and manual searches conducted by a human reviewer. The findings indicate that machine learning can significantly reduce the time required for literature searches while maintaining high relevance in the results.\n\n# Introduction\nThe introduction outlines the growing need for efficient literature search methods in pharmacovigilance. Traditional manual searches are time-consuming and may miss relevant information. The study aims to assess the suitability of a machine learning-based literature search application developed by Swissmedic 4.0.\n\n# Methods\nThe methodology involved comparing the results of a machine search with those of a manual search. The machine identified 24 relevant hits, while the human reviewer identified only seven through active search and one through passive monitoring....",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "11",
+        "page_num": "11",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Therapeutic Goods Administration (TGA), Australia\n\n## Abstract\nThe Therapeutic Goods Administration\u2019s initiatives for AI include active participation in various international and national committees focused on the regulation and assessment of AI in medical devices.\n\n## Introduction\nThe TGA has taken significant steps to enhance its capacity in the regulation of software-based medical devices, particularly those that incorporate artificial intelligence (AI).\n\n## Methods\nThe TGA's approach includes:\n- Active membership in the IMDRF AI Medical Device Working Group.\n- Representation on the Standards Australia AI Committee (IT-043).\n- Establishment of a specialized unit within the TGA to improve the assessment and monitoring of software-based medical devices.\n\n## Results\nThe TGA has implemented reforms to the regulation of software-based medical devices, aligning its practices with the International Medical Device Regulators Forum (IMDRF) and other international regulatory bodies.\n\n## Di...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "12",
+        "page_num": "12",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# METHODS\n\nThe ICMRA AI working group members were asked to design hypothetical case studies for AI, which would challenge their regulatory system. The working group members were the Italian Medicines Agency (AIFA), the Danish Medicines Agency (DKMA), the European Medicines Agency as working group lead (EMA), the USA\u2019s Food and Drug Administration (FDA) as an observer, Health Canada (HC), the Irish Health Products Regulatory Authority (HPRA), Swissmedic, and the World Health Organisation (WHO). These case studies were then reviewed and amended by the group, and two were chosen for this report: a \u2018Central Nervous System App\u2019 and \u2018Pharmacovigilance Signal Management\u2019 which both utilise AI (see below).\n\nFour regulators conducted one of the hypothetical case studies that are covered in this report (AIFA, EMA, HPRA, and Swissmedic). These regulators held internal discussions to explore challenges and elucidate the regulatory considerations that each case study posed. These case studies wer...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "13",
+        "page_num": "13",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Use of Artificial Intelligence in Pharmacovigilance\n\n## Abstract\nThis paper discusses the potential of artificial intelligence (AI) in fulfilling pharmacovigilance obligations, particularly in the context of a hypothetical pharmaceutical company's request to utilize an AI system for screening literature and signals. The implications of using AI for drug safety monitoring are explored, including the challenges and benefits associated with its implementation.\n\n## Introduction\nPharmacovigilance is critical for ensuring drug safety post-approval. The integration of AI technologies, particularly machine learning and natural language processing, offers a promising avenue for enhancing the efficiency and effectiveness of pharmacovigilance activities. This paper examines a case where a pharmaceutical company has expressed the need to employ an AI system to meet its pharmacovigilance requirements.\n\n## Methods\nThe AI system in question is trained by pharmacovigilance specialists using a compr...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "14",
+        "page_num": "14",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# RESULTS\n\nThe results of elucidating the regulatory challenges and use classifications with the hypothetical case studies are separated into sections according to the region or regulator which they apply to or derive from.\n\n## Case study: AI in clinical medicine development and use - \u2018Central Nervous System App\u2019\n\n### Product classification\n\n**Health Canada**\nClassification would likely be determined by the Guidance Document: \u2018Software as a Medical Device (SaMD): Definition and Classification\u2019 [15] and may be as high as class III or IV in Canada, depending on whether it provides closed-loop dosing information.\n\n**Japan MHLW/PMDA**\nClassification would be based on Global Harmonization Task Force classification rules [16] and would currently be class II or III in Japan. In addition, the Japanese Medical Device Nomenclature (JMDN) will be applied for the purpose of classification of the device [17].\n\n**EU**\nIn the EU based on its intended use, this App would be classified as a medical de...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "15",
+        "page_num": "15",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Title of the Paper\n\n## Abstract\nThe abstract content is not provided in the current text.\n\n## Introduction\nSelf-learning involves processing a continual stream of unique input data leading to iterative and incremental changes to the AI. In certain situations, this phenomenon is described with reference to the \u2018butterfly effect\u2019, where minuscule inputs can have a huge impact. Research to improve the understandability of AI is developing toward investigating and documenting behaviours of such systems (Rahwan et al. 2019).\n\nFor these reasons, the classification of software needs to be further evolved. The EC Classification and Borderline Expert and New &#x26; Emerging Technologies Group gives support in this classification process, and guidance on qualification and classification of software is available from the Medical Device Coordination Group (MDCG); however, this does not yet cover AI. Further guidance has been published by the MDCG on cybersecurity and clinical evaluation, coveri...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "16",
+        "page_num": "16",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nDue to the complexity and novelty of this case study, medicinal product regulators strongly encourage such products to come for early advice. This advice would encompass the legal, regulatory and scientific aspects of the App and could involve collaboration with medical device regulators and academia. Regulators may also encourage early interactions by proactively reaching out to such developers when they are made aware of them through horizon scanning or pipeline activities.\n\n# Introduction\nAt EMA, early dialogue and procedural advice is mainly provided by the Innovation Task Force (ITF) and the SME office. In this case study, these would likely provide an initial orientation and then advocate for further Scientific Advice by the Scientific Advice Working Party (SAWP), and to validate the App for use as a diagnostic and endpoint through Qualification Advice by SAWP. Due to the data-heavy development, EMA may suggest that the developer seeks a collaborative development with...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "17",
+        "page_num": "17",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Regulatory Considerations for AI in Clinical Trials\n\n## Abstract\nThis section is not provided in the extracted text.\n\n## Introduction\nThis section is not provided in the extracted text.\n\n## Methods\nThis section is not provided in the extracted text.\n\n## Results\nThis section is not provided in the extracted text.\n\n## Discussion\n### Co-development of Medicinal Products and Medical Devices\nWhen there is a co-development of a medicinal product and a medical device, experts responsible for both can be involved in the advice process. If the App is not CE marked at the time of the medicine\u2019s clinical trial application, device authorities would also be involved in the clinical trial application review and would typically request supporting evidence. Regulatory authorities approving the clinical trials would need to see validation data for the App, and regulatory scientific or qualification advice would be advised to clarify minimum requirements. This should ideally be coordinated with medic...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "18",
+        "page_num": "18",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Extracted Text Content\n\n## Abstract\n*The abstract section is not provided in the current text.*\n\n## Introduction\n*The introduction section is not provided in the current text.*\n\n## Methods\nDuring Scientific advice (SA) from regulators, applicants may also invite notified bodies to accompany them through this procedure. Currently, there is no EMA scientific guideline that covers specific AI issues such as those flagged in this case study and this is not on any work plan of any EMA scientific committee. Scientific publications by regulators address relevant topics such as on data models and quality (Cave, Kurz, and Arlett 2019) and general methodological approaches (Eichler et al. 2019).\n\n## Results\nIn general, novel endpoints are encouraged to come for SA qualification and new diagnostics can be CE marked and/or qualified by EMA. During this qualification, EMA would likely request the algorithm for scrutiny and EMA would apply a risk-based approach to the level of understandability r...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "19",
+        "page_num": "19",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# GDPR and Regulatory Considerations for CNS App\n\n## Abstract\nThis document discusses the regulatory considerations surrounding the CNS App, particularly in relation to GDPR compliance, data provenance, and the inter-operation with national health care systems. It emphasizes the importance of parallel consultations between the European Medicines Agency (EMA) and Health Technology Assessment (HTA) bodies to ensure that the app meets the evidence needs of HTA bodies.\n\n## Introduction\nThe introduction outlines the necessity for scientific advice to ensure clear data provenance, emphasizing the authentication of data sources that contribute or receive data and associated metadata. It highlights the need for quality assurance in managing missing data and error detection, focusing on the integrity of data acquisition processes.\n\n## Methods\n### 3.1.5 Assessment for Marketing Authorisation\n#### EU\nIn the EU, the regulatory oversight of the hardware, firmware, and software of the medical devic...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "20",
+        "page_num": "20",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Regulatory Framework for AI in Healthcare\n\n## Abstract\nThis paper discusses the regulatory framework necessary for the development and deployment of Artificial Intelligence (AI) in healthcare, focusing on the roles of various regulatory bodies such as the European Medicines Agency (EMA) and the Italian Medicines Agency (AIFA). It emphasizes the importance of data accessibility, governance, data security, and management of both new and old data in ensuring the safe and effective use of AI technologies in clinical settings.\n\n## Introduction\nThe integration of AI into healthcare presents unique challenges and opportunities. Regulatory bodies must ensure that AI systems are developed and used in a manner that prioritizes patient safety and data integrity. This paper outlines the key considerations for regulatory frameworks governing AI in healthcare.\n\n## Methods\nThe analysis is based on a review of existing guidelines and frameworks proposed by regulatory agencies, including the EMA and...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "21",
+        "page_num": "21",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Post-approval\n\n## Change Management Plan\n\n### EMA\nIn the EU, as above, any input from EMA depends on the context of use of the App in relation to medicinal products. In this case, as the device is included in the label of the medicinal product as a diagnostic and used to adjust posology, the below post-marketing requirements would be considered.\n\nReproducibility will need to be established for each App version through re-testing. Equally, new data linkages, e.g. the integration of new Electronic Health Records, would require reproducibility tests. This is the responsibility for the company to carry out. Verifying the algorithm performance and reliability when it is applied in a real-world setting may also be required in the post-marketing phase. Ideally, the App should be unchanging between the initial MAA and HTA assessment.\n\n## Hardware and Firmware\n\n### EMA\nAs it is a medical device, the usual post-marketing surveillance requirements apply. Bridging studies may also be required i...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "22",
+        "page_num": "22",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Considerations for Rolling Out Updates\n\n## Abstract\nConsiderations of when and how to roll out an update are the same for whether they apply for personalised or global updates. Communication and transparency on major updates would require label change (electronic) via a variation procedure; transparency is especially important for patients and healthcare professionals (HCPs). Any changes to the Summary of Product Characteristics (SmPC) would require oversight as usual.\n\n## Introduction\nThe quality management system of medical device manufacturers would be relevant to any updates and is generally aligned with the requirements of ISO 13485. Additional Quality systems and Good Machine Learning Practices (GMLP) for AI should also apply.\n\n## Methods\nPost marketing risk surveillance and vigilance is crucial for ensuring the safety and effectiveness of medicinal products on the market.\n\n## Results\nThe European Medicines Agency (EMA) would expect reporting for any changes to the effectivene...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "23",
+        "page_num": "23",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Case Study: AI and Pharmacovigilance\n\n## 3.2.1 Product Classification\nWith its intended use, this software could potentially be classified as a medical device.\n\n**EMA**: If the software meets the definition of a medical device and is CE-marked for the specific intended use, oversight of the software is within the remit of Notified Bodies and medical device authorities, and EMA\u2019s remit would be limited.\n\n## 3.2.2 Early Advice and Scientific Advice\nEarly advice would be encouraged, and the following points would likely be included in this advice:\n\n- Validity of the system and testing it on a wide number of molecules\n- Data sources\n- Data preparation\n- Technology used\n- Training of the system\n- Further development of the system, including adaptation based on new data\n\nScientific advice may include collaboration with academia, other EU regulators, and experts on AI.\n\n**EMA**: Early advice would be provided (e.g., in the context of an ITF Briefing meeting for orientation on legal, regula...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "24",
+        "page_num": "24",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Extracted Text Content\n\n## Abstract\nThe wording in Good Pharmacovigilance Practices (GVP) is broad and describes the minimum requirements for pharmacovigilance, for example searching of the global literature at least weekly, as well as the recommended databases e.g. Medline or Embase, and considerations for precision and recall. This provides a considerable level of regulatory flexibility; however, it may also contribute to difficulties in ensuring compliance and citing findings where required.\n\n## Introduction\nCurrent guidelines do not outline requirements of such software in detail, however, per I.B.8 of GVP module I, IT systems used in pharmacovigilance should be fit for purpose, and \u201csubject to appropriate checks, qualification and/or validation activities to prove their suitability\u201d.\n\n## Governance\nSpecialist expertise would be required by the company in this case: including in AI, data quality and pharmacovigilance signal detection. The need for external specialist expertise m...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "25",
+        "page_num": "25",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# EU Regulators and AI in Pharmacovigilance\n\n## Abstract\nEU Regulators may lack the necessary in-depth expertise in AI, Bayesian adaptive statistics, medical devices, (bio)mathematics, cybersecurity, GDPR, and ethics in the field of AI, as well as hardware and software expertise. This may hamper their ability to provide advice and timely regulation in the case of fast-moving AI development and adaptive clinical trials.\n\n## 3.3.2 AI in Pharmacovigilance\nA multidisciplinary approach is needed in regulating such a case study, including internal and external experts.\n\n### EMA\nThere is a need for EMA to identify external experts in AI (e.g., data scientists, data quality, data engineering), and also EU pharmacovigilance inspectors will need to be trained on the AI tools.\n\n## Conclusion\nThe integration of AI in pharmacovigilance requires a comprehensive understanding of various disciplines and the collaboration of experts to ensure effective regulation and oversight.\n\n## References\n- [Refer...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "26",
+        "page_num": "26",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Recommendations\n\nBelow are recommendations for implementation by ICMRA and its member authorities.\n\n## General Recommendations for AI\n- Consider a permanent ICMRA working group, or a standing ICMRA agenda item on AI to share experiences of regulating AI use by medicine developers, and best practices for its use within the Agencies themselves.\n- Consider the need for international guidance on AI from the International Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human Use (ICH). This could include AI development and use in the context of developing and using medicinal products for treatment and/or diagnosis. This could start with regulatory concerns that cut across areas of medicines regulation and the medicine life cycle.\n- Regulators may need to elaborate a risk-based approach to assessing and regulating AI, and this could be informed through exchange and collaboration in ICMRA. The scientific or clinical validation of AI use would require a sufficien...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "27",
+        "page_num": "27",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Software as Medical Device Guidelines and AI in Medicine\n\n## Abstract\nSoftware as Medical Device guidelines could be further developed to include AI aspects related to algorithm transparency and understandability, validity (construct, content, external etc.), and reliability.\n\n## Introduction\nConsider whether such Apps should be adherent to the principles of necessity (only collect the data needed for the questions at hand), proportionality (only collect as much data as needed), and subsidiarity (use least sensitive data where possible) (Adamo et al. 2020). Guidelines are necessary for developing a system to monitor real-world performance of AI-based software. Regulators should support the international development and standardisation of good machine learning practices in the biomedical domain.\n\n## Recommendations for the EU\n- EMA would welcome a clear legal definition of AI use in medicines development vs a simple software, as well as a risk-categorisation for its use.\n- There is a...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "28",
+        "page_num": "28",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Recommendations for the EU\n\n- Other industries that have been using algorithms in critical services for a long time could be useful e.g. aviation/nuclear;\n- Tech companies, or other government agencies using AI.\n\n## Recommendations for the EU\n\n- Consider legislation for AI which impacts a medicinal product\u2019s use and/or benefit/risk. The new EU regulations on In vitro diagnostics (IVD) medical devices (Reg. (EU) 746/2017) give more stringent requirements for companion diagnostics to be used with medicinal products. A similar approach could be discussed for digital technologies, when their use impacts the medicinal product\u2019s use and/or its benefit/risk; for example when the technology is used for the selection of patients eligible to the treatment, as was also the case in the CNS case study, or when it is used as add-on, substitution, co-administration therapy). Similarly, consensus should be reached on the remit of NCAs to assess Clinical Decision Support Software which may impact th...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "29",
+        "page_num": "29",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Abbreviations\n\n- **ADR**: Adverse Drug Reaction\n- **AI**: Artificial Intelligence\n- **AIFA**: Italian Medicines Agency\n- **API**: Application Programming Interface\n- **CE**: Certification for products sold in the EEA that have been assessed to meet high safety, health, and environmental protection requirements\n- **CNS**: Central Nervous System\n- **CT**: Clinical Trial\n- **CTFG**: Clinical Trials Facilitation and Coordination Group\n- **DKMA**: Danish Medicines Agency\n- **EC**: European Commission\n- **EMA**: European Medicines Agency\n- **EMRN**: European Medicines Regulatory Network\n- **FDA**: Food and Drug Administration (USA)\n- **GCP**: Good Clinical Practice\n- **GDPR**: EU General Data Protection Regulation\n- **GVP**: Good Pharmacovigilance Practices\n- **HCP**: Healthcare Professionals\n- **HLEG**: High-Level Expert Group\n- **HMA**: Heads of Medicine Agencies\n- **HPRA**: Health Products Regulatory Authority\n- **HTA**: Health Technology Assessment\n- **ICH**: International Conference ...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "30",
+        "page_num": "30",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# References\n\nAdamo, Joan E., Robert V. Bienvenu II, Felipe Dolz, Michael Liebman, Wendy Nilsen, and Scott J. Steele. 2020. \u2018Translation of Digital Health Technologies to Advance Precision Medicine: Informing Regulatory Science\u2019. Digital Biomarkers 4 (1): 1\u201312. https://doi.org/10.1159/000505289.\n\nAgniel, Denis, Isaac S. Kohane, and Griffin M. Weber. 2018. \u2018Biases in Electronic Health Record Data Due to Processes within the Healthcare System: Retrospective Observational Study\u2019. BMJ 361 (April): k1479. https://doi.org/10.1136/bmj.k1479.\n\nBroadband Commission Working Group on Digital and AI in Health Reimagining Global Health through Artificial Intelligence. 2020. \u2018Reimagining Global Health through Artificial Intelligence: The Roadmap to AI Maturity\u2019, September, 140.\n\nCave, Alison, Xavier Kurz, and Peter Arlett. 2019. \u2018Real-World Data for Regulatory Decision Making: Challenges and Possible Solutions for Europe\u2019. Clinical Pharmacology &#x26; Therapeutics 106 (1): 36\u201339. https://doi.org/10...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "31",
+        "page_num": "31",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# References\n\nRahwan, Iyad, Manuel Cebrian, Nick Obradovich, Josh Bongard, Jean-Fran\u00e7ois Bonnefon, Cynthia Breazeal, Jacob W. Crandall, et al. 2019. \u2018Machine Behaviour\u2019. Nature 568 (7753): 477. https://doi.org/10.1038/s41586-019-1138-y.\n\nSchmider, Juergen, Krishan Kumar, Chantal LaForest, Brian Swankoski, Karen Naim, and Patrick M. Caubel. 2019. \u2018Innovation in Pharmacovigilance: Use of Artificial Intelligence in Adverse Event Case Processing\u2019. Clinical Pharmacology and Therapeutics 105 (4): 954\u201361. https://doi.org/10.1002/cpt.1255.\n\nVamathevan, Jessica, Dominic Clark, Paul Czodrowski, Ian Dunham, Edgardo Ferran, George Lee, Bin Li, et al. 2019. \u2018Applications of Machine Learning in Drug Discovery and Development\u2019. Nature Reviews Drug Discovery 18 (6): 463\u201377. https://doi.org/10.1038/s41573-019-0024-5.\n\nZech, John. 2018. \u2018What Are Radiological Deep Learning Models Actually Learning?\u2019 Medium. 12 July 2018. https://medium.com/@jrzech/what-are-radiological-deep-learning-models-actually-lea...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "32",
+        "page_num": "32",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Annex A \u2013 Case Study Discussion Guide\n\n## Case Study \u2013 Input/Discussion Guide\n\nPlease navigate this product/technology through your currently available regulatory system/pathways. Based on the given product information, identify the regulatory gaps and suggest possible regulatory methods to fill these gaps.\n\n### Life Cycle\n\n| Activity of Regulators | Existing Tools and Challenges | Desired Tools/Promising Solutions |\n|------------------------|------------------------------|-----------------------------------|\n| 1. Pre-clinical Development | Early Advice | What are the known best practices, regulations, policy, standards, and regulatory methods that you would need to regulate this product? |\n| 2. Clinical Trials (CT) | CT Assessment (including acceptable CT design), Scientific advice | Are there any gaps/lack of flexibilities associated with your legal authorities and requirements for safety, efficacy and quality? |\n| 3. Market Authorization / Assessment | Classification (Drug, medic...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "33",
+        "page_num": "33",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Life Cycle of Regulators\n\n## Activity of Regulators\n- What are the novel pathways, regulations, policy, guidance, standards you currently have to regulate this product?\n- Are there any gaps/lack of flexibilities associated with your legal authorities and requirements for safety, efficacy, and quality?\n\n## Existing Tools and Challenges\n- What are the known best practices, regulations, policy, standards, and regulatory methods that you would need to regulate this product?\n\n## Desired Tools/Promising Solutions\n- What are the other promising tailored measures that would help you regulate this product, e.g., new legal authorities, regulatory sandbox, work sharing, etc.?\n\n## Change Management Plan\n- Hardware\n- Firmware\n- Software, e.g.\n- Retraining objectives\n- Methods (change in ML architecture)\n- Criteria to initiate performance evaluation\n- Governance\n- Data management of new and old data\n- Training\n- Security\n- Auditing of data sets\n- Performance Evaluation\n- Assessment metrics\n- Anal...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "34",
+        "page_num": "34",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Annex B - Applicable Laws, Guidelines, and Standards to CNS App Using AI\n\nThis list is non-exhaustive.\n\n## Focus Groups and Expert Groups\n- A Focus Group on artificial intelligence for health (FG-AI4H) has been established at The World Health Organisation and the ITU (the United Nations specialized agency for information and communication technologies). This includes subgroups on specific topics: Documentation &#x26; Transparency, Risk Management &#x26; Lifecycle Approach, Data Quality, Intended Use &#x26; Analytical and Clinical Validation, Data Protection &#x26; Information Privacy, Engagement &#x26; Collaboration.\n- The European Commission\u2019s Medical Device Coordination Group (MDCG) has an Expert Group on New &#x26; Emerging Technologies, dealing with AI.\n\n## Pre-clinical Standards\n- ISO/UNI/IEC/EN (e.g. IEC 62304:2006: \u2018Medical device software - Software life cycle processes\u2019; and relevant updates; EC 80002-1:2009 Medical Device Software - Part 1: guidance on the application of I...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "35",
+        "page_num": "35",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Clinical Evaluation and Software Requirements for Medical Devices\n\n## Abstract\nThis document outlines the regulatory framework and standards applicable to the clinical evaluation and software requirements for medical devices under the European Union's Medical Device Regulation (MDR). It highlights the importance of data security and privacy in the design and development of medical device software.\n\n## Introduction\nThe regulation of medical devices in the EU is governed by several directives and regulations, including the MDR and the In Vitro Diagnostic Regulation (IVDR). The clinical evaluation of medical devices is essential to ensure their safety and efficacy. This paper discusses the relevant guidelines and standards that manufacturers and notified bodies must adhere to.\n\n## Methods\nThe methods section details the approach taken to analyze the current regulations and standards, including a review of the MEDDEV guidelines and the harmonized standards for medical device software.\n\n...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "36",
+        "page_num": "36",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Annex C - Applicable Regulations, Guidelines and Standards: AI Pharmacovigilance Signal Management\n\nThis list is non-exhaustive.\n\n## EU\n\n### Overarching Legislation\n- Regulation (EC) No 726/2004 as amended\n- Directive 2001/83/EC as amended\n- Implementing Regulation (EU) No 520/2012\n\n### Guidance Specific to Literature Searching\n- In the case of medicinal products containing the active substances referred to in the list of publications monitored by the Agency pursuant to Article 27 of Regulation (EC) No. 726/2004, the holder of the relevant authorisation or registration shall not be required to report to the Eudravigilance database the suspected adverse reactions recorded in the listed medical literature for that medicinal product, but he or she shall monitor all other medical literature and report any suspected adverse reactions.\n- For the identification of individual case study reports, refer to VI.B.1.1.2, VI.App.2 of GVP Module VI.\n- VIII.B.5.11 of GVP Module VII.\n- For signal de...",
+      "metadata": {
+        "source": "pdf19.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf19.pdf",
+        "doc_id": "pdf19",
+        "page_label": "37",
+        "page_num": "37",
+        "image_map": "{\"1\": [\"extracted/figures/pdf19_p1_i1.jpeg\"]}"
+      }
+    }
+  ]
+}

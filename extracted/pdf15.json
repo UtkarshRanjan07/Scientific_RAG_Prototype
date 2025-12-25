@@ -1,0 +1,126 @@
+{
+  "source": "pdf15.pdf",
+  "documents": [
+    {
+      "text": "# Emerging Role of Artificial Intelligence in Nuclear Medicine\n\n## Abstract\nThe integration of artificial intelligence (AI) in nuclear medicine is rapidly evolving, offering new opportunities for enhancing diagnostic accuracy and treatment planning. This paper reviews the current applications of AI in nuclear medicine, including image analysis, radiomics, and predictive modeling. We discuss the potential benefits and challenges associated with the implementation of AI technologies in clinical practice.\n\n## Introduction\nArtificial intelligence has emerged as a transformative force in various fields of medicine, including nuclear medicine. The ability of AI to analyze large datasets and identify patterns has the potential to improve patient outcomes significantly. This section outlines the historical context of AI in healthcare and its specific applications in nuclear medicine.\n\n## Methods\nA systematic review of the literature was conducted to identify studies that explored the use of AI...",
+      "metadata": {
+        "source": "pdf15.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf15.pdf",
+        "doc_id": "pdf15",
+        "page_label": "1",
+        "page_num": "1",
+        "image_map": "{\"1\": [\"extracted/figures/pdf15_p1_i1.jpeg\"], \"2\": [\"extracted/figures/pdf15_p2_i1.png\"], \"3\": [\"extracted/figures/pdf15_p3_i1.jpeg\"], \"6\": [\"extracted/figures/pdf15_p6_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Emerging Role of Artificial Intelligence in Nuclear Medicine\n\n## Abstract\nThe role of artificial intelligence is increasing in all branches of medicine. The emerging role of artificial intelligence applications in nuclear medicine is going to improve the nuclear medicine clinical workflow in the coming years. Initial research outcomes are suggestive of increasing role of artificial intelligence in nuclear medicine workflow, particularly where selective automation tasks are of concern. Artificial intelligence-assisted planning, dosimetry, and procedure execution appear to be areas for rapid and significant development. The role of artificial intelligence in more directly imaging-related tasks, such as dose optimization, image corrections, and image reconstruction, have been particularly strong points of artificial intelligence research in nuclear medicine. Natural Language Processing (NLP)-based text processing task is another area of interest of artificial intelligence implementatio...",
+      "metadata": {
+        "source": "pdf15.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf15.pdf",
+        "doc_id": "pdf15",
+        "page_label": "2",
+        "page_num": "2",
+        "image_map": "{\"1\": [\"extracted/figures/pdf15_p1_i1.jpeg\"], \"2\": [\"extracted/figures/pdf15_p2_i1.png\"], \"3\": [\"extracted/figures/pdf15_p3_i1.jpeg\"], \"6\": [\"extracted/figures/pdf15_p6_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Emerging Role of Artificial Intelligence in Nuclear Medicine\n\n## Abstract\nWith particular attention to the big imaging data that is found in nuclear medicine, a subfield of machine learning, known as deep learning, has become an extremely powerful artificial intelligence tool for image processing and image analysis. Deep learning algorithms learn composition of data that is represented in a hierarchy of structures of simpler features as a representation of the complex data. Deep learning neural networks exploit a vast number of extremely simple computational units, called artificial neurons, which are organized in deep stacks of interconnecting layers. Specific deep learning architectures known as convolutional neural networks (CNNs) have been shown to be extremely adaptable to general image-based tasks such as segmentation, object detection, and object classification.\n\n## Introduction\nRadiomics refers to the automated extraction and analysis of quantitative features of an image, su...",
+      "metadata": {
+        "source": "pdf15.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf15.pdf",
+        "doc_id": "pdf15",
+        "page_label": "3",
+        "page_num": "3",
+        "image_map": "{\"1\": [\"extracted/figures/pdf15_p1_i1.jpeg\"], \"2\": [\"extracted/figures/pdf15_p2_i1.png\"], \"3\": [\"extracted/figures/pdf15_p3_i1.jpeg\"], \"6\": [\"extracted/figures/pdf15_p6_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nThe abstract section is not provided in the text.\n\n# Introduction\nThe introduction discusses the importance of protecting confidentiality in the context of artificial intelligence (AI) in nuclear medicine. It highlights the use of privacy-by-design paradigms such as distributed learning and federated machine learning, which allow for the training of AI algorithms without exposing identifiable information. The section also addresses issues related to data quality and provenance, including missing data and deviations from clinical protocols, which can lead to biases and potential patient harm. Furthermore, it mentions interoperability issues that arise from different formatting standards and language barriers, limiting the utilization of data. The adherence to Findable-Accessible-Interoperable-Reusable (FAIR) data stewardship standards is noted as a growing solution to these problems.\n\n# Methods\nThe methods section is not provided in the text.\n\n# Results\nThe results section i...",
+      "metadata": {
+        "source": "pdf15.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf15.pdf",
+        "doc_id": "pdf15",
+        "page_label": "4",
+        "page_num": "4",
+        "image_map": "{\"1\": [\"extracted/figures/pdf15_p1_i1.jpeg\"], \"2\": [\"extracted/figures/pdf15_p2_i1.png\"], \"3\": [\"extracted/figures/pdf15_p3_i1.jpeg\"], \"6\": [\"extracted/figures/pdf15_p6_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Emerging Role of Artificial Intelligence in Nuclear Medicine\n\n## Abstract\n*The abstract content is not provided in the current text.*\n\n## Introduction\n*The introduction content is not provided in the current text.*\n\n## Methods\n*The methods content is not provided in the current text.*\n\n## Results\n*The results content is not provided in the current text.*\n\n## Discussion\nDiagnostic and therapeutic dosimetry planning requires imaging at multiple time points, image processing, and mathematical calculations, all of which are technically demanding and widely seen as a challenging clinical task for nuclear medicine professionals [33]. Artificial intelligence algorithms can play a significant role in optimizing patient scheduling, procedure selection, patient prescan preparation, and pre-imaging/treatment dosimetry planning.\n\nAnsart et al. [34] showed that artificial intelligence-based screening of patients led to an increased number of recruitments as well as reducing the number of expensi...",
+      "metadata": {
+        "source": "pdf15.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf15.pdf",
+        "doc_id": "pdf15",
+        "page_label": "5",
+        "page_num": "5",
+        "image_map": "{\"1\": [\"extracted/figures/pdf15_p1_i1.jpeg\"], \"2\": [\"extracted/figures/pdf15_p2_i1.png\"], \"3\": [\"extracted/figures/pdf15_p3_i1.jpeg\"], \"6\": [\"extracted/figures/pdf15_p6_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Nuclear Medicine Communications 2021, Vol 42 No 6\n\n## Abstract\nThe abstract is not provided in the extracted text.\n\n## Introduction\nThe introduction is not provided in the extracted text.\n\n## Methods\nThe methods section is not provided in the extracted text.\n\n## Results\nThe results section is not provided in the extracted text.\n\n## Discussion\n### Optimization of Nuclear Medicine Procedure\nModern generation scanners have started implementing various artificial intelligence approaches [38] that assist with optimization of image quality, scan time, and radiation exposure during diagnostic nuclear medicine procedures. During therapeutic procedures, artificial intelligence-based automation can assist with pre-therapeutic and post-therapeutic dosimetry by using artificial intelligence-assisted organ and tumor segmentation, and prediction of either organ and/or tumor dose using single-point imaging, etc. [39,40]. Utilization of artificial intelligence in individualized dose assessment can ...",
+      "metadata": {
+        "source": "pdf15.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf15.pdf",
+        "doc_id": "pdf15",
+        "page_label": "6",
+        "page_num": "6",
+        "image_map": "{\"1\": [\"extracted/figures/pdf15_p1_i1.jpeg\"], \"2\": [\"extracted/figures/pdf15_p2_i1.png\"], \"3\": [\"extracted/figures/pdf15_p3_i1.jpeg\"], \"6\": [\"extracted/figures/pdf15_p6_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Emerging Role of Artificial Intelligence in Nuclear Medicine\n\n## Abstract\nThe abstract is not provided in the extracted text.\n\n## Introduction\nNuclear medicine imaging has faced challenges such as low count density in images, low signal-to-noise ratio, high partial volume effect, and low spatial resolution since its inception [43]. Advancements in instrumentation technology and reconstruction technology have addressed these concerns to some degree, particularly in multidetector helical CT and high field-strength MRI [44]. However, image reconstruction in nuclear medicine imaging still lags behind its radiological counterparts. The process involves various computationally intensive steps, including attenuation correction, scatter correction, noise correction, and partial volume correction. Current reconstruction algorithms range from filtered back projection to newer techniques such as 3D Ordered Subset Expectation Maximization and row-action maximum likelihood algorithm, often combi...",
+      "metadata": {
+        "source": "pdf15.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf15.pdf",
+        "doc_id": "pdf15",
+        "page_label": "7",
+        "page_num": "7",
+        "image_map": "{\"1\": [\"extracted/figures/pdf15_p1_i1.jpeg\"], \"2\": [\"extracted/figures/pdf15_p2_i1.png\"], \"3\": [\"extracted/figures/pdf15_p3_i1.jpeg\"], \"6\": [\"extracted/figures/pdf15_p6_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Clinical Decision Support System\n\n## Abstract\nNuclear medicine imaging plays an important role in personalized medicine. A theranostics concept is being used in radionuclide therapy to predict the efficacy of radionuclide therapy. Various parameters like standardized uptake value (SUV), total lesion glycolysis (TLG), and PET Response Criteria in Solid Tumors (PERCIST) have been utilized for disease outcome prognostication. The potential role of artificial intelligence is being explored by several researchers working on the development of various kinds of prediction models for outcome predictions in oncology.\n\n## Introduction\nRadiomic features derived from nuclear medicine images have been proposed as a potential digital imaging phenotype for disease-specific personalized predictions of individual outcomes. Initial research suggests an increasing role of artificial intelligence in nuclear medicine imaging, particularly where selective automation of tasks are concerned.\n\n## Methods\nMa...",
+      "metadata": {
+        "source": "pdf15.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf15.pdf",
+        "doc_id": "pdf15",
+        "page_label": "8",
+        "page_num": "8",
+        "image_map": "{\"1\": [\"extracted/figures/pdf15_p1_i1.jpeg\"], \"2\": [\"extracted/figures/pdf15_p2_i1.png\"], \"3\": [\"extracted/figures/pdf15_p3_i1.jpeg\"], \"6\": [\"extracted/figures/pdf15_p6_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Emerging Role of Artificial Intelligence in Nuclear Medicine\n\n## Abstract\nThe role of artificial intelligence (AI) in nuclear medicine is rapidly evolving, with significant implications for clinical workflows and decision-making processes. This paper discusses the current state of AI applications in nuclear medicine, the challenges faced in their implementation, and the potential future directions for research and practice.\n\n## Introduction\nArtificial intelligence is increasingly recognized as a transformative force in healthcare, including nuclear medicine. The integration of AI technologies can enhance diagnostic accuracy, improve patient outcomes, and streamline clinical workflows. However, the adoption of AI in nuclear medicine is not without challenges, including data management, clinical acceptability, and the need for robust validation processes.\n\n## Methods\nThe study involved a comprehensive review of the literature on AI applications in nuclear medicine, focusing on the cur...",
+      "metadata": {
+        "source": "pdf15.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf15.pdf",
+        "doc_id": "pdf15",
+        "page_label": "9",
+        "page_num": "9",
+        "image_map": "{\"1\": [\"extracted/figures/pdf15_p1_i1.jpeg\"], \"2\": [\"extracted/figures/pdf15_p2_i1.png\"], \"3\": [\"extracted/figures/pdf15_p3_i1.jpeg\"], \"6\": [\"extracted/figures/pdf15_p6_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n    600 Nuclear Medicine Communications 2021, Vol 42 No 6\n\n    in a vertically partitioned scenario. Stud Health Technol Inform 2019;\n    264:373\u2013377.\n20  Kazmierska J, Hope A, Spezi E, Beddar S, Nailon WH, Osong B, et al. From\n    multisource data to clinical decision aids in radiation oncology: the need for\n    a clinical data science community. Radiother Oncol 2020; 153:43\u201354.\n21  Beyan O, Choudhury A, van Soest J, Kohlbacher O, Zimmermann L,\n    Stenzhorn H, et al. Distributed analytics on sensitive medical data: the\n    personal health train. Data Intell 2019; 2:96\u2013107.\n22  Tegbaru D, Braverman L, Zietman AL, Yom SS, Lee WR, Miller RC, et al.\n    ASTRO journals\u2019 data sharing policy and recommended best practices. Adv\n    Radiat Oncol 2019; 4:551\u2013558.\n23  Deist TM, Dankers FJWM, Ojha P, Scott Marshall M, Janssen T, Faivre-\n    Finn C, et al. Distributed learning on 20 000+ lung cancer patients \u2013 the\n    personal health train. Radiother Oncol 2020; 144:189\u2013200.\n24  van Soest J, Sun...",
+      "metadata": {
+        "source": "pdf15.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf15.pdf",
+        "doc_id": "pdf15",
+        "page_label": "10",
+        "page_num": "10",
+        "image_map": "{\"1\": [\"extracted/figures/pdf15_p1_i1.jpeg\"], \"2\": [\"extracted/figures/pdf15_p2_i1.png\"], \"3\": [\"extracted/figures/pdf15_p3_i1.jpeg\"], \"6\": [\"extracted/figures/pdf15_p6_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Emerging Role of Artificial Intelligence in Nuclear Medicine\n\n## Abstract\nThe abstract content is not provided in the current text.\n\n## Introduction\nThe introduction content is not provided in the current text.\n\n## Methods\nThe methods content is not provided in the current text.\n\n## Results\nThe results content is not provided in the current text.\n\n## Discussion\nThe discussion content is not provided in the current text.\n\n## Conclusion\nThe conclusion content is not provided in the current text.\n\n## References\n1. Betancur J, Hu LH, Commandeur F, Sharir T, Einstein AJ, Fish MB, et al. Deep learning analysis of upright-supine high-efficiency SPECT myocardial perfusion imaging for prediction of obstructive coronary artery disease: a multicenter study. J Nucl Med 2019; 60:664\u2013670.\n2. Betancur J, Otaki Y, Motwani M, Fish MB, Lemley M, Dey D, et al. Prognostic value of combined clinical and myocardial perfusion imaging data using machine learning. JACC Cardiovasc Imaging 2018; 11:1000\u20131009....",
+      "metadata": {
+        "source": "pdf15.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf15.pdf",
+        "doc_id": "pdf15",
+        "page_label": "11",
+        "page_num": "11",
+        "image_map": "{\"1\": [\"extracted/figures/pdf15_p1_i1.jpeg\"], \"2\": [\"extracted/figures/pdf15_p2_i1.png\"], \"3\": [\"extracted/figures/pdf15_p3_i1.jpeg\"], \"6\": [\"extracted/figures/pdf15_p6_i1.png\"]}"
+      }
+    }
+  ]
+}

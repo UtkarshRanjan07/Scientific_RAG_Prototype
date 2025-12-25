@@ -1,0 +1,60 @@
+{
+  "source": "pdf24.pdf",
+  "documents": [
+    {
+      "text": "# Artificial Intelligence in Veterinary Sciences: A Paradigm Shift\n\n**International Journal of Veterinary Sciences and Animal Husbandry 2025; SP-10(7): 04-08**\n**ISSN: 2456-2912**\n**NAAS Rating: 4.61**\n**Received: 12-05-2025**\n**Accepted: 13-06-2025**\n\n**Asif Hilal Khan**\nDepartment of Veterinary Parasitology, SKUAST-K, Jammu &#x26; Kashmir, India\n\n**Jan Mohd Muneeb**\nDepartment of Veterinary Biotechnology, IVRI, Izzatnagar, Bareilly, Uttar Pradesh, India\n\n## Abstract\nArtificial Intelligence (AI) is rapidly transforming veterinary science by offering innovative, data-driven solutions that enhance diagnosis, disease tracking, reproductive management, and research. By using machine learning (ML) and deep learning (DL), AI improves diagnostic accuracy, speeds up vaccine development, and advances research in antimicrobial resistance (AMR) and oncology. These technologies also aid personalized medicine and data-driven animal care. This shows AI's ability to change veterinary practice and pu...",
+      "metadata": {
+        "source": "pdf24.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf24.pdf",
+        "doc_id": "pdf24",
+        "page_label": "1",
+        "page_num": "1",
+        "image_map": "{\"1\": [\"extracted/figures/pdf24_p1_i1.jpeg\"], \"3\": [\"extracted/figures/pdf24_p3_i1.jpeg\", \"extracted/figures/pdf24_p3_i2.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Artificial Intelligence in Veterinary Medicine\n\n## Abstract\nThe dramatic increase in computer processing power since the turn of the millennium, along with the mass acquisition and digitization of data, has led to significant advancements in artificial intelligence (AI) applications, particularly in the medical field. This paper explores the various techniques of AI, focusing on machine learning (ML) and its applications in veterinary medicine.\n\n## Introduction\nAI has taken off in the medical field, utilizing data from diagnostic imaging, microscopic images, and medical records to enhance diagnoses and improve therapy and patient outcomes. The interpretation and utilization of this information can vary based on the objectives of AI.\n\n## Techniques of Artificial Intelligence\nAI encompasses numerous subfields and techniques, with machine learning (ML) being a prominent one. Recent advancements in ML and image processing have significantly impacted medical image analysis, leading to im...",
+      "metadata": {
+        "source": "pdf24.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf24.pdf",
+        "doc_id": "pdf24",
+        "page_label": "2",
+        "page_num": "2",
+        "image_map": "{\"1\": [\"extracted/figures/pdf24_p1_i1.jpeg\"], \"3\": [\"extracted/figures/pdf24_p3_i1.jpeg\", \"extracted/figures/pdf24_p3_i2.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# AI in Veterinary Clinical Practice\n\nAI is revolutionizing veterinary clinical care by improving diagnostics, therapeutic planning, and outcome predictions. A subfield of precision medicine known as radiomics applies mathematical analysis to medical images, revealing disease-specific processes beyond human visual perception as shown in Figure 1. Radiomics involves extracting quantitative features from imaging modalities like MRI, CT, PET, and ultrasound. These data, analyzed using statistical software, contribute to personalized precision medicine. Machine learning (ML), a core AI component, builds predictive models from historical data. In veterinary contexts, AI helps decipher host-pathogen interactions, develop precision therapies, and improve predictive epidemiology. AI enhances diagnostic accuracy, proposes treatment plans, identifies risk factors, and fosters the development of targeted therapies (Bibault et al., 2020, Ezanno et al., 2021) [5, 14].\n\n## 5.1 Disease Diagnosis\n\nEa...",
+      "metadata": {
+        "source": "pdf24.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf24.pdf",
+        "doc_id": "pdf24",
+        "page_label": "3",
+        "page_num": "3",
+        "image_map": "{\"1\": [\"extracted/figures/pdf24_p1_i1.jpeg\"], \"3\": [\"extracted/figures/pdf24_p3_i1.jpeg\", \"extracted/figures/pdf24_p3_i2.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# AI in Veterinary Science\n\n## Abstract\nArtificial Intelligence (AI) is rapidly emerging as a critical component of contemporary veterinary science. From enhancing disease diagnosis to outbreak prediction and speeding up drug and vaccine development, AI technologies have tools that can significantly improve the health of animals. However, careful implementation is imperative, involving investment in data infrastructure, upskilling professionals, and establishing ethical guidelines that regulate AI use in veterinary facilities.\n\n## 1. Introduction\nAI enhances reproductive efficiency through data analysis and image recognition. Predictive models identify optimal breeding windows, assess fertility, and guide insemination timing. CASA and flow cytometry enable precise semen analysis, improving sire selection (Zuidema et al., 2021) [33]. AI tools monitor oestrus signs, behavior, and reproductive health from video and image data, enabling precision breeding and boosting conception rates.\n\n#...",
+      "metadata": {
+        "source": "pdf24.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf24.pdf",
+        "doc_id": "pdf24",
+        "page_label": "4",
+        "page_num": "4",
+        "image_map": "{\"1\": [\"extracted/figures/pdf24_p1_i1.jpeg\"], \"3\": [\"extracted/figures/pdf24_p3_i1.jpeg\", \"extracted/figures/pdf24_p3_i2.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Artificial Intelligence in Veterinary Sciences: A Paradigm Shift\n\n## Abstract\nThe integration of artificial intelligence (AI) in veterinary sciences represents a significant advancement in the field. This paper discusses the various applications of AI in veterinary diagnostics, treatment planning, and disease management. The potential benefits and challenges of implementing AI technologies in veterinary practices are also explored.\n\n## Introduction\nArtificial intelligence has transformed numerous sectors, including healthcare and veterinary medicine. The ability of AI to analyze vast amounts of data and provide insights has led to improved diagnostic accuracy and treatment outcomes. This paper aims to highlight the role of AI in veterinary sciences and its implications for future practices.\n\n## Methods\nA comprehensive review of the literature was conducted to identify the applications of AI in veterinary diagnostics and treatment. Various studies were analyzed to assess the effectiv...",
+      "metadata": {
+        "source": "pdf24.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf24.pdf",
+        "doc_id": "pdf24",
+        "page_label": "5",
+        "page_num": "5",
+        "image_map": "{\"1\": [\"extracted/figures/pdf24_p1_i1.jpeg\"], \"3\": [\"extracted/figures/pdf24_p3_i1.jpeg\", \"extracted/figures/pdf24_p3_i2.jpeg\"]}"
+      }
+    }
+  ]
+}

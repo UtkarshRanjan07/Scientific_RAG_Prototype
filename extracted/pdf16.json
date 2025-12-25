@@ -1,0 +1,49 @@
+{
+  "source": "pdf16.pdf",
+  "documents": [
+    {
+      "text": "# Impact of Artificial Intelligence on Medical Literature\n\n**Dipayan Datta\u00b9* and Adrika De\u00b2**\n1 Associate Professor, Department of Public Health Dentistry, Triveni Institute of Dental Sciences, Hospital and Research Centre, Bilaspur, Chhattisgarh, India\n2 Assistant Professor, Department of Oral Medicine and Radiology, Triveni Institute of Dental Sciences, Hospital and Research Centre, Bilaspur, Chhattisgarh, India\n\n*Corresponding Author: Dipayan Datta, Associate Professor, Department of Public Health Dentistry, Triveni Institute of Dental Sciences, Hospital and Research Centre, Bilaspur, Chhattisgarh, India.*\n\n**Received:** May 05, 2023\n**Published:** July 11, 2023\n\u00a9 All rights are reserved by Dipayan Datta and Adrika De.\n\n## Abstract\nArtificial Intelligence (AI) based systems are being developed to automate the diagnosis of medical issues, particularly in areas like radiology, pathology, and histology, because they are crucial in detecting and treating diseases like cancer. Additional...",
+      "metadata": {
+        "source": "pdf16.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf16.pdf",
+        "doc_id": "pdf16",
+        "page_label": "1",
+        "page_num": "1",
+        "image_map": "{}"
+      }
+    },
+    {
+      "text": "\n# Impact of Artificial Intelligence on Medical Literature\n\n## Abstract\nThe emergence of Artificial Intelligence (AI) in medical literature has had a profound impact on the field, revolutionizing the way medical researchers approach their work. AI-powered tools such as automated literature reviews and machine learning algorithms are being utilized to analyze vast amounts of medical data, identifying patterns and connections that may not be evident to human researchers. However, challenges remain before AI can fully realize its potential in this domain.\n\n## Introduction\nAI has taken the healthcare industry by storm, and the field of medical literature is no exception. One of the ways AI is being used in medical literature is by assisting in the identification and organization of existing literature. With terabytes of data being produced every day, AI makes it possible to filter through this data and extract only what is relevant. Through natural language processing (NLP) and machine lea...",
+      "metadata": {
+        "source": "pdf16.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf16.pdf",
+        "doc_id": "pdf16",
+        "page_label": "2",
+        "page_num": "2",
+        "image_map": "{}"
+      }
+    },
+    {
+      "text": "\n# Impact of Artificial Intelligence on Medical Literature\n\n## Abstract\nThe impact of AI on medical literature has been significant in improving accuracy and efficiency, reducing research costs and time, and enabling AI-powered medical writing and publishing. While there are several challenges, AI is still expected to play a significant role in the future of medical literature, and its full potential is yet to be realized [7].\n\n## Introduction\nArtificial Intelligence has revolutionized the field of Medical Literature, but it has also brought forward ethical concerns. Data privacy and security remain critical issues, as AI requires large amounts of patient data. Medical literature using AI must be transparent about the sources of data used to derive insights and maintain strict patient confidentiality. Additionally, there is a growing dependence on AI, which raises concerns about the possibility of machines making decisions about medical literature. These issues need to be carefully add...",
+      "metadata": {
+        "source": "pdf16.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf16.pdf",
+        "doc_id": "pdf16",
+        "page_label": "3",
+        "page_num": "3",
+        "image_map": "{}"
+      }
+    },
+    {
+      "text": "\n# Impact of Artificial Intelligence on Medical Literature\n\n## Abstract\nThe integration of artificial intelligence (AI) into medical literature has transformed the way healthcare professionals access, interpret, and utilize information. This paper explores the implications of AI on medical literature, including its impact on research efficiency, data analysis, and clinical decision-making.\n\n## Introduction\nArtificial intelligence has emerged as a pivotal force in various sectors, including healthcare. The ability of AI to process vast amounts of data and provide insights has led to significant advancements in medical research and practice. This section discusses the historical context of AI in medicine and its growing relevance in the field.\n\n## Methods\nThis study employs a systematic review methodology to analyze the current state of AI applications in medical literature. Various databases were searched for relevant articles, and data were extracted to assess the impact of AI on resea...",
+      "metadata": {
+        "source": "pdf16.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf16.pdf",
+        "doc_id": "pdf16",
+        "page_label": "4",
+        "page_num": "4",
+        "image_map": "{}"
+      }
+    }
+  ]
+}

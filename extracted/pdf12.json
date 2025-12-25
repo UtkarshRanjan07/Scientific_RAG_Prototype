@@ -1,0 +1,1281 @@
+{
+  "source": "pdf12.pdf",
+  "documents": [
+    {
+      "text": "# Combining Human Expertise with Artificial Intelligence: Experimental Evidence from Radiology\n\nNikhil Agarwal, Alex Moehring, Pranav Rajpurkar, Tobias Salz\n\nJune 30, 2023\n\n## Abstract\n\nWhile Artificial Intelligence (AI) algorithms have achieved performance levels comparable to human experts on various predictive tasks, human experts can still access valuable contextual information not yet incorporated into AI predictions. Humans assisted by AI predictions could outperform both human-alone or AI-alone. We conduct an experiment with professional radiologists that varies the availability of AI assistance and contextual information to study the effectiveness of human-AI collaboration and to investigate how to optimize it. Our findings reveal that (i) providing AI predictions does not uniformly increase diagnostic quality, and (ii) providing contextual information does increase quality. Radiologists do not fully capitalize on the potential gains from AI assistance because of large deviatio...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "1",
+        "page_num": "1",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Introduction\n\nArtificial intelligence (AI) is a general-purpose technology with transformative potential similar to that of the steam engine and electricity (Brynjolfsson and Mitchell, 2017; Brynjolfsson et al., 2017; Agrawal et al., 2018; Acemoglu and Johnson, 2023; Goldfarb et al., 2023; Frank et al., 2019). But, in contrast to the transformation during the industrial revolutions, AI can potentially displace humans from tasks that require complex reasoning (Webb, 2019; Felten et al., 2019; Brynjolfsson and Mitchell, 2017). Advances in AI have therefore caused concern about the role of human work, even in highly skilled occupations (Ford, 2015). Indeed, a growing literature shows that AI tools based on machine learning can outperform humans on a host of predictive tasks, including those typically performed by experts (Liu et al. 2019; Lai et al. 2021; Mullainathan and Obermeyer 2019; Kleinberg et al. 2017).\n\nHowever, Hinton\u2019s prediction about radiology \u2014 an iconic example in machin...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "2",
+        "page_num": "2",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nAssistance unambiguously improves prediction and decision quality. Unless the costs in terms of human effort outweigh these benefits, it is optimal to provide AI assistance to humans. However, substantial literature in economics suggests that humans may err when making probabilistic judgments by deviating from the benchmark model of Bayesian updating with correct beliefs (see Benjamin et al., 2019, for a review). The optimal approach for combining human and AI information in the presence of these mistakes is non-trivial.\n\n# Introduction\nThe experiment employs professional radiologists whom we recruit through teleradiology companies to diagnose retrospective patient cases. We experimentally manipulate the information set radiologists have access to when making decisions in a two-by-two factorial design. In the minimal information environment, we provide only the chest X-ray image to which we add either AI predictions or contextual information, or both. The AI information tre...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "3",
+        "page_num": "3",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Title of the Research Paper\n\n## Abstract\n[Insert abstract text here]\n\n## Introduction\nRadiology is a highly-paid medical specialty, which means that the potential benefits from productivity enhancements through AI are large. Radiology is also ideal from a research perspective. Unlike other physicians, radiologists do not have direct contact with patients, allowing us to run a decision experiment that resembles their normal workflow through a remote interface that we developed. To aid quantitative analysis, instead of obtaining a free-text report, we collect radiologist\u2019s assessed probability that a given chest pathology is present and a binary clinical recommendation of whether to treat or follow up for that pathology. For our experiment, we hired 180 radiologists through teleradiology companies that serve US hospitals and offer the services of both US-based and non-US-based radiologists.\n\n## Methods\nAnalyzing the quality of our participants\u2019 assessments requires establishing, for e...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "4",
+        "page_num": "4",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Effects of AI Assistance on Diagnostic Quality\n\n## Abstract\nMost of our treatment effect analysis pools data from the different designs whereas our model estimates of belief updating only uses data where a radiologist reads the same case both with and without AI assistance. We find that AI assistance does not improve humans\u2019 diagnostic quality on average even though the AI predictions are more accurate than almost two-thirds of the participants in our experiment. Moreover, the zero average effect cannot be explained by the participants ignoring these predictions \u2013 we observe that radiologists\u2019 reported probabilities move significantly towards the AI\u2019s predictions with AI assistance. Instead, the zero effect of AI assistance is driven by heterogeneous treatment effects \u2013 diagnostic quality increases when the AI is confident (e.g. the predicted probability is close to zero or one) but decreases when the AI is uncertain. In parallel, AI assistance improves diagnostic quality for patien...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "5",
+        "page_num": "5",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nOur theoretical analysis shows that if agents exhibit only automation neglect, then AI assistance unambiguously increases diagnostic quality. All other forms of biases we consider result in AI assistance reducing diagnostic quality for certain realizations of AI and own information. We then use the data from our experiment to estimate empirical analogs of the deviations described above and select the model that best describes the treatment effects we document. This exercise requires us to solve several challenges unique to a naturalistic setting where the experimenter does not control the information structure. We find that in the model that best describes our data, agents exhibit automation neglect and act as if their own information and AI predictions are independent (conditional on the truth), even though this is not the case. Interestingly, we do not find evidence of substantial own-information bias or neglect. Finally, we take our data to estimate the trade-off between...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "6",
+        "page_num": "6",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Title of the Paper\n\n## Abstract\n[Insert abstract text here]\n\n## Introduction\nSkilled experts from teleradiology companies under contracts that allow us to incentivize our participants. A key differentiating factor of our research is that, unlike previous studies which mainly concentrated on performance, our work emphasizes behavioral biases and their impact on human-AI interaction. An emerging literature in economics also compares human and AI performance. Within economics, these studies tend to rely on observational approaches, with examples addressing issues in medicine (Ribers and Ullrich, 2022; Mullainathan and Obermeyer, 2019) and bail decisions (Kleinberg et al., 2015; Angelova et al., 2022). However, analyses based on observational data face critical identification challenges, such as the selective labels problem (see Kleinberg et al., 2017; Mullainathan and Obermeyer, 2019; Rambachan, 2021). A limited set of studies use quasi-experimental approaches (e.g., Stevenson and Dole...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "7",
+        "page_num": "7",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Analysis of Optimal Human-AI Collaboration\n\n## Abstract\nOur analysis of optimal human-AI collaboration is related to papers that build delegation algorithms to predict the types of cases for which human performance exceeds machine performance (e.g. Mozannar and Sontag, 2020; Raghu et al., 2019; Bansal et al., 2021). Relative to this work, our analysis uses a decision-theoretic model and specific human biases to trace their consequences for optimal AI deployment. Finally, our work also adds to the literature on decision-making in the health care context (e.g. Abaluck et al., 2016; Currie and MacLeod, 2017; Gruber et al., 2021; Chan et al., 2022; Chandra and Staiger, 2020). This work aims to understand predictions and payoffs from observational data on medical decisions, objectives that are achievable under less stringent functional form restrictions in our experimental approach. An important distinguishing feature is that none of these papers consider the effects of AI predictions on...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "8",
+        "page_num": "8",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Title of the Paper\n\n## Abstract\n[Insert abstract text here]\n\n## Introduction\n[Insert introduction text here]\n\n## Methods\nAssume that the human\u2019s objective is to match the action to the state. Thus, the human faces a classification problem. It is without loss of generality to normalize the payoff from taking the action that matches the state to zero. Let \\( c_{F P,r} \\) be the disutility of human \\( r \\) if she takes the action \\( a = 1 \\) when the state is \\( \\omega = 0 \\) (false positive) and \\( c_{F N,r} \\) be the disutility if she takes the action \\( a = 0 \\) when the state is \\( \\omega = 1 \\) (false negative). The payoff of the human is therefore\n\n$$\nu_r (a, \\omega) = -1 \\cdot \\{a = 1, \\omega = 0\\} \\cdot c_{F P,r} - 1 \\cdot \\{a = 0, \\omega = 1\\} \\cdot c_{F N,r} . \\tag{1}\n$$\n\nWe allow the human\u2019s posterior belief given the observed signals to deviate from those implied by the true probability law \\( \\pi_r ( \\cdot | \\omega) \\). Specifically, let \\( s_{ir} \\subset \\{s^A, s^E \\} \\) ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "9",
+        "page_num": "9",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Title of the Research Paper\n\n## Abstract\n[Insert abstract text here]\n\n## Introduction\n[Insert introduction text here]\n\n## Methods\n\n### 3 Setting and Experiment\nOur experiment elicits the probability of a pathology\u2019s presence \\( p_r(\\omega = 1 | s) \\) and a recommended treatment/follow-up decision \\( a \\) under varying information treatments. There are four information treatments in the experiment, with only the chest X-ray in the minimal information case, to which we add AI assistance, contextual information, or both. Next, we describe the experimental context and interface before presenting the design of our experiments.\n\n### 3.1 Experimental Context\n\n#### 3.1.1 Radiology\nRadiologists diagnose the presence of a given pathology at the request of a treating physician. The information available to a radiologist consists of diagnostic images (e.g., chest X-rays), any relevant medical history (e.g., laboratory results), and clinical indication notes of the treating physician.\u2078 The treat...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "10",
+        "page_num": "10",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# AI Assistance in Radiology\n\n## Abstract\nThe abstract is not provided in the extracted text.\n\n## Introduction\nIrrespective of the pathology suspected by the treating physicians, radiologists are expected to report all pathological findings. Because image-based classification is a core task performed by radiologists, a high-paying profession, it is not surprising that AI tools have made significant inroads in the field in the last decade. Recent advances in deep learning methods for image recognition have yielded algorithms that can match or surpass the performance of human radiologists (Obermeyer and Emanuel, 2016; Langlotz, 2019). As of 2020, 55 companies offered a total of 119 algorithmic products of which 46 have FDA approval (Tadavarthi et al., 2020). Most products related to clinical decision-making are marketed as support tools as opposed to autonomous tools, partly due to regulatory and liability issues (Harvey and Gowda, 2020).\n\n## Methods\n\n### 3.1.2 CheXpert\nWe provide AI as...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "11",
+        "page_num": "11",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Experimental Designs\n\n## 3.2 Experimental Designs\n\nOur experiment varies the information available to diagnose patient cases\u2014participants may or may not receive AI assistance and access to the clinical history. The X-ray is shown under all information conditions. We expose our participants to all four possible information conditions: X-ray only, henceforth XO; clinical history without AI, henceforth CH; AI without clinical history, henceforth AI; and both clinical history and AI, henceforth AI+CH.\n\nThere are two objectives of our experiment. The first is to compute the treatment effects of AI and CH on diagnostic quality and radiologist time. The second is to analyze systematic deviations from the Bayesian benchmark. Both these objectives are complicated by the likely heterogeneity in radiologist skills. For estimating treatment effects, radiologist heterogeneity implies that a design that randomizes treatments only across radiologists will require a large participant pool except fo...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "12",
+        "page_num": "12",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Section 3: Experimental Designs\n\n## 3.2 Design 2 (Figure B.2)\n\nRadiologists diagnose each patient case in each of the four information environments in the second design. For the moment, set aside concerns arising from the feature that the same radiologist encounters the same case multiple times. This design will allow us to estimate an empirical analog to equation (5). It also has the added benefit of controlling for both case-radiologist heterogeneity because, unlike in the previous design, we can conduct within-case-radiologist comparisons across treatments.\n\nBecause radiologists repeatedly encounter cases, we need to address the potential for order effects due to memory. For example, radiologists might anchor on their previous assessment using AI predictions or contextual information and might remember this information the next time the same case is encountered. We, therefore, limit radiologists\u2019 ability to remember either their diagnosis or previously provided information by usi...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "13",
+        "page_num": "13",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Participant Recruitment\n\nParticipants for the first and third designs, which constitute the majority, were recruited through teleradiology companies. The teleradiology companies allow us to recruit several experts in a relatively liquid spot market, a practice that is now common for decision experiments with non-expert subjects (Hunt and Scheetz, 2019). Most healthcare providers in the US rely on these companies\u2019 services, although many large hospitals have on-call radiologists (Rosenkrantz et al., 2019). We work with teleradiology companies that serve US hospitals and offer the services of both US-based and non-US-based radiologists. Our contracts with teleradiology companies specify a piece-rate, and the companies, in turn, compensate the participants with a piece-rate.\u00b9\u00b3 In addition, we provided monetary incentives for accuracy to a subset of radiologists, as described in the next section.\n\nThe second design required us to work with a partner who could guarantee subjects\u2019 partici...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "14",
+        "page_num": "14",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Implementation and Data Collection\n\n## Patient Cases and Ground Truth\n\nThe experiment uses 324 historical patient cases with potential thoracic pathologies from Stanford University\u2019s healthcare system. For each case, we have access to the chest X-ray and the clinical history in the form of the primary provider\u2019s written notes, the patient vitals, and demographics. The use of retrospective cases allows us to avoid ethical and other issues that would arise when experimenting in high-stakes settings.\n\nOur analysis requires constructing \\( \\omega_i \\) for each patient case. There are important challenges in using an observational dataset of patient health records to construct this field. One approach would be to use the results from further medical tests. Unfortunately, definitive gold-standard tests do not exist for most thoracic pathologies. Even when follow-up tests are conducted, they are selected on the likely presence of a pathology, an issue referred to as the selective labels pr...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "15",
+        "page_num": "15",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Title of the Research Paper\n\n## Abstract\n[Insert abstract text here]\n\n## Introduction\n[Insert introduction text here]\n\n## Methods\n\n### 3.3.1 Expert Assessments\nWe asked five board certified radiologists from Mount Sinai to read each of the 324 cases using the interface described above with the available X-ray and clinical history. For each case \\(i\\) and expert radiologist \\(r\\), we, therefore, obtain\n\n$$\n\\pi_{r}(\\omega = 1 | s^E)\n$$\n\nfor each pathology, which we aggregate to generate\n\n$$\n\\omega_i = 1 \\text{ if } \\frac{\\pi_{r}(\\omega = 1 | s^E)}{5} > 0.5.\n$$\n\nThis approach immediately addresses the selective labels problem because the availability of assessments is not selected on the likelihood of a pathology being present. Results in Wallsten and Diederich (2001) suggest that, under weak conditions that allow for measurement error in the reports and correlations across reports, the aggregate opinion of several experts is highly diagnostic as long as the experts are median unbiased...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "16",
+        "page_num": "16",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Title of the Research Paper\n\n## Abstract\nThe abstract content goes here.\n\n## Introduction\nThe introduction content goes here.\n\n## Methods\nThe methods section describes the categorization of thoracic pathologies into groups by type to ease data entry. For instance, allowing the user to simultaneously set the assessed probability of each disease in a specific category to zero. In addition, we elicited an overall bottom-line assessment of whether the radiologists consider the case normal or not. We also ask for a binary \u201ctreatment/follow-up\u201d recommendation for each pathology that is not definitively ruled out. We will interpret this input as \\( a^*(s) \\). In a real clinical setting, a recommendation to follow-up could trigger the treating physician to prescribe additional medical tests or interventions with potential costs and benefits. Thus, an optimal recommendation trades off the cost of false positives and false negatives when recommending an action as in section 2. The probabilist...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "17",
+        "page_num": "17",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Participant Training\n\nWe train the participants using a combination of written instructions and a video. The materials provide an overview of the experimental tasks, the interface, and information about the AI assistance tool. The firms and the participants know that the research study involves retrospective patient cases. To train participants on the AI tool, we provide them with materials that explain the development of the algorithm, present metrics of its performance on various diseases, and summarize the algorithm\u2019s performance relative to radiologists based on prior research. The participants are informed that the algorithm only uses the chest X-ray to form predictions, and this knowledge is later tested in a comprehension question. In addition, we show the participants fifty example cases that show the X-ray and clinical history next to the AI output. After the instructions, they answer eight comprehension questions, which the participants must answer correctly before proceed...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "18",
+        "page_num": "18",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nIn a comparison study with three radiologists, Irvin et al. (2019) show that the CheXpert model yields a better classifier than two out of three radiologists on five pathologies and all three on a subset of three pathologies. Our results may differ from that because we use a different pool of radiologists, a different sample of cases, and reads with contextual information (clinical history) to construct the ground truth. The latter two differences raise the bar for the AI because they reflect differences in the data-generating process.\n\n# Introduction\nTo benchmark the quality of AI predictions in our sample and the radiologists in our experiment, we compare our participant pool with the AI input using two performance measures. The first measure is derived from the receiver operating characteristic (ROC) curve, which measures the trade-off between the false positive and the true positive rate of a classifier as the cutoff for classifying a case as positive or negative is var...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "19",
+        "page_num": "19",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Density\n\n## Abstract\nThe study investigates the performance of radiologists in diagnosing top-level pathologies compared to an AI system. The results indicate significant heterogeneity in performance among radiologists, with AI showing potential to enhance diagnostic accuracy.\n\n## Introduction\nThe introduction outlines the importance of understanding the diagnostic capabilities of radiologists and the potential role of AI in improving these capabilities. It sets the stage for the analysis of performance metrics such as RMSE and AUROC.\n\n## Methods\nThe methods section describes the data pooling for top-level pathologies, the evaluation metrics used (RMSE and AUROC), and the comparison between radiologists and AI predictions. The study employs empirical Bayes to adjust the distributions of accuracy measures.\n\n## Results\nThe results highlight the performance comparison between radiologists and AI. Figure 1 illustrates the significant differences in performance, with AI outperforming app...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "20",
+        "page_num": "20",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Effects of AI and Contextual Information on Radiologists\n\n## Abstract\nThe study investigates how radiologists respond to artificial intelligence (AI) and contextual information in diagnostic settings. We hypothesize that the integration of AI and clinical history will influence diagnostic accuracy and decision-making processes among radiologists.\n\n## Introduction\nThe introduction outlines the growing role of AI in radiology and the importance of understanding how contextual information affects radiologist performance. Previous studies have shown mixed results regarding the impact of AI on diagnostic accuracy, necessitating further investigation into the interplay between AI and clinical history.\n\n## Methods\nWe employed a pooled analysis to estimate the effects of information treatments on radiologists. The following specification was used:\n\n$$\nY_{irt} = \\gamma_{h_i} + \\gamma_{CH} \\cdot d_{CH}(t) + \\gamma_{AI} \\cdot d_{AI}(t) + \\gamma_{AI \\times CH} \\cdot d_{CH}(t) \\cdot d_{AI}(t) + ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "21",
+        "page_num": "21",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Average Treatment Effects\n\n## Abstract\nThis study investigates the average treatment effects (ATE) of different information environments on radiologists' performance in diagnosing pathologies. We analyze the deviations from AI and ground truth probabilities, as well as the effort measures in terms of active time and clicks.\n\n## Introduction\nThe introduction outlines the significance of understanding how different information environments affect radiologists' diagnostic accuracy and effort. It sets the stage for the analysis of treatment effects in the context of AI-assisted diagnosis.\n\n## Methods\nThe methods section describes the experimental design, including the different information environments tested and the metrics used to measure performance and effort. It also details the statistical techniques employed to analyze the data.\n\n## Results\nThe results section presents the findings from the analysis of treatment effects, summarized in the table below.\n\n### Table 2: Average Treatm...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "22",
+        "page_num": "22",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Effects of AI Predictions on Radiologists' Diagnostic Performance\n\n## Abstract\nThe analysis focuses on the effects on the marginal distributions of the outcome variables \\( Y_{irt} \\) for each pathology. The specification abstracts away from interactions between pathologies in the effects on information provision, for example due to potential dependence between the predictions and decisions. In section 5, we will present evidence showing that the best fitting model has radiologists updating their beliefs as if they do not account for dependence between pathologies. The treatment effect analysis in the main text pools the three experimental designs and does not condition on the sequence in which subjects encounter information treatments. Appendix C.4.5 shows that our results are robust to including controls for order effects. The estimates from all three designs are similar to each other. They are also statistically indistinguishable from those that use only an across participant com...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "23",
+        "page_num": "23",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nThe study investigates the impact of contextual information and AI assistance on radiologists' diagnostic performance. Our findings reveal that while access to clinical history significantly improves performance, AI assistance does not yield statistically significant benefits. This paradox is explored through conditional treatment effects based on radiologists' confidence levels.\n\n# Introduction\nThe introduction outlines the importance of understanding how contextual information and AI can influence diagnostic accuracy in radiology. It sets the stage for the subsequent analysis of treatment effects and the implications of these findings for clinical practice.\n\n# Methods\nThe methods section describes the experimental design, including the within-participant designs used to estimate conditional treatment effects. It details how cases were partitioned based on the expert\u2019s signal and the statistical analyses performed.\n\n# Results\n## Average Treatment Effects\nThe results indica...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "24",
+        "page_num": "24",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Conditional Treatment Effects of AI Predictions on Radiologist Performance\n\n## Abstract\nWhile AI assistance can help uncertain experts, we find that providing uncertain AI predictions reduces performance. As with the analysis of conditional treatment effects given expert predictions, we estimate conditional treatment effects given AI predictions by partitioning cases into five bins based on $$\\pi(\\omega_i = 1 | s^A)$$.\n\n## Introduction\n[Content not provided in the current text.]\n\n## Methods\n[Content not provided in the current text.]\n\n## Results\nFigure 2 presents the conditional treatment effect given radiologist prediction.\n\n### Figure 2: Conditional treatment effect given radiologist prediction\n| Radiologist Probability Bins without AI | Deviation from Ground Truth | Incorrect Decision |\n|------------------------------------------|-----------------------------|--------------------|\n| [0,0.2)                                 | 0.05                        | 0.1                |\n| [0....",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "25",
+        "page_num": "25",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Conditional Treatment Effects of AI Predictions\n\n## Abstract\n[Abstract content not provided in the current text.]\n\n## Introduction\n[Introduction content not provided in the current text.]\n\n## Methods\n[Methods content not provided in the current text.]\n\n## Results\n\n### 4.2.3 Treatment Effects on Time Per Case and Proxies of Effort\nFinally, we turn our attention to the effects of AI assistance on time taken and the number of unique interactions (clicks) as a proxy for effort. One hypothesis is that AI assistance could economize on costly human effort without sacrificing overall performance by enabling quicker assessments. At the polar opposite, it is possible that humans take more time because they are provided with more information to process. Which of these effects dominate determines the effect on labor costs when humans use AI assistance, and therefore the optimality of delegating cases versus a collaborative setup.\n\nOur results indicate that radiologists are slower when provided ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "26",
+        "page_num": "26",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Discussion\n\nWe find that AI assistance does not improve the performance of our participants on average, even though the AI predictions are more accurate than the majority of radiologists, and that radiologists respond to this assistance. However, the average treatment effects mask important heterogeneity \u2013 AI assistance improves performance for a large set of cases, but also decreases performance in many instances. These results point to biases in the use of AI predictions which we will further investigate in section 5.\n\nWe also find that humans have access to valuable contextual information, suggesting that full automation has its drawbacks. But, the biases above \u2013 especially in conjunction with our finding that radiologists take longer when given AI assistance \u2013 undercut this potential information advantage in a setup that involves AI assistance. Thus, the problem of how best to deploy AI assistance may be non-trivial and the optimal solution may involve selective automation and/o...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "27",
+        "page_num": "27",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# A Model of Deviations from Bayesian Updating\n\nThe framework in section 2 shows that a key question is whether the odds-ratios\n\n$$\n\\frac{p_r(\\omega_i = 1 \\mid s^A, s^E)}{p_r(\\omega_i = 0 \\mid s^A, s^E)} \\quad \\text{and} \\quad \\frac{\\pi_r(\\omega_i = 1 \\mid s^A, s^E)}{\\pi_r(\\omega_i = 0 \\mid s^A, s^E)}\n$$\n\ndiffer from each other. Recall that Bayes\u2019 rule implies that\n\n$$\n\\ln \\frac{\\pi_r(\\omega_i = 1 \\mid s^A, s^E)}{\\pi_r(\\omega_i = 0 \\mid s^A, s^E)} = \\ln \\frac{\\pi_r(s^A \\mid \\omega_i = 1, s^E)}{\\pi_r(s^A \\mid \\omega_i = 0, s^E)} + \\ln \\frac{\\pi_r(\\omega_i = 1 \\mid s^E)}{\\pi_r(\\omega_i = 0 \\mid s^E)}. \\tag{4}\n$$\n\nWe now consider a set of models of belief updating to describe systematic deviations from this benchmark. In our model, the human correctly interprets their own signal when AI assistance is not available but errs when both $s^A$ and $s^E$ are observed. As we will show below, AI assistance nonetheless unambiguously improves performance for a subset of parameters within this fami...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "28",
+        "page_num": "28",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\n*The abstract section is not provided in the current text.*\n\n# Introduction\n*The introduction section is not provided in the current text.*\n\n# Methods\n*The methods section is not provided in the current text.*\n\n# Results\n*The results section is not provided in the current text.*\n\n# Discussion\nThe discussion focuses on the concept of signal dependence neglect, which refers to the failure to account for the dependence between signals \\( s^A \\) and \\( s^E \\). The authors present a mathematical formulation for the posterior beliefs of humans acting as if these signals are independent given \\( \\omega_i \\):\n\n$$\n\\frac{p_r(\\omega_i = 1 | s^A, s^E)}{p_r(\\omega_i = 0 | s^A, s^E)} = b_r \\log \\frac{\\pi_r(s^A | \\omega_i = 1)}{\\pi_r(s^A | \\omega_i = 0)} + d_r \\log \\frac{\\pi_r(\\omega_i = 1 | s^E)}{\\pi_r(\\omega_i = 0 | s^E)},\n$$\n\nwhere \\( b_r \\) and \\( d_r \\) can differ from 1. The authors note that if the signals are jointly multivariate normal and \\( b_r = d_r = 1 \\), this leads to corre...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "29",
+        "page_num": "29",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\n*The abstract section is not provided in the current text.*\n\n# Introduction\n*The introduction section is not provided in the current text.*\n\n# Methods\n*The methods section is not provided in the current text.*\n\n# Results\n## 5.2 Implications for Human-AI Collaboration\nWe now show that the types of deviations described above have implications for when AI assistance unambiguously improves human performance. The results will also illustrate the utility of the simple functional forms in equations (5) and (6). This subsection drops the i and r indices for simplicity of notation.\n\nIt is useful to start by considering the decisions with and without AI assistance for a Bayesian decision maker. Figure 4 illustrates the realizations of \\( s^A \\) for which the optimal decision with AI assistance differs from the decision without AI assistance for a fixed \\( c_{rel} \\). The horizontal and vertical axes respectively represent \\( \\log \\pi(\\omega=1|s^E) \\) and \\( \\log \\pi(s^A|\\omega=1,s^E)...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "30",
+        "page_num": "30",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Title of the Paper\n\n## Abstract\nThe abstract content goes here.\n\n## Introduction\nThe introduction content goes here.\n\n## Methods\nThe methods content goes here.\n\n## Results\nThe results content goes here.\n\n### Proposition 1\nSuppose that the human\u2019s posterior is described by equation (5).\n1. If the human only exhibits automation neglect (b &#x3C; 1, d = 1), then for all pairs of signal realizations (s\u1d2c, s\u1d31), and any \\( c_{rel} \\), the human attains weakly higher expected payoff \\( V(s) \\) with AI assistance.\n2. In all other cases (b > 1 or d = 1), for any \\( c_{rel} \\), there exist log-likelihood ratios \\( \\log \\pi(s_A | \\omega=1, s_E) \\) and \\( \\log \\pi(\\omega=1 | s_E) \\) such that the human attains lower expected payoff \\( V(s) \\) with AI assistance.\n\nSee appendix A for the proof.\n\n### Figure 5a\nFigure 5a illustrates the case without own-information bias or neglect by setting \\( d = 1 \\) but allows for either automation bias or neglect by setting \\( b = 1 \\). The two dashed lines rep...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "31",
+        "page_num": "31",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\n[Abstract content not provided in the raw text.]\n\n# Introduction\n[Introduction content not provided in the raw text.]\n\n# Methods\n[Methods content not provided in the raw text.]\n\n# Results\n## Figure 5: Comparison with Bayesian decisions\nThis figure shows the decisions of an expert as a function of the signals that disagree with the Bayesian in cases with and without AI assistance.\n\n- **Panel (a)** illustrates automation bias and neglect (absent own-information bias and neglect).\n- **Panel (b)** depicts a decision maker who exhibits both automation neglect and own-information bias.\n\n### Mathematical Equations\nThe following equations are presented in the text:\n\n1. $$ \\log \\pi(s^A | \\omega=1, s^E) $$\n2. $$ \\pi(s^A | \\omega=0, s^E) $$\n3. $$ \\log(crel) $$\n4. $$ \\log \\pi(\\omega=1 | s^E) $$\n5. $$ \\pi(\\omega=0 | s^E) $$\n\n### Proposition 2\nSuppose that the human exhibits signal dependence neglect so that the posterior belief is described by the equation:\n\n$$ \\text{(6)} $$\n\nFor any va...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "32",
+        "page_num": "32",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Title of the Paper\n\n## Abstract\nThe abstract content goes here.\n\n## Introduction\nThe introduction content goes here.\n\n## Methods\nThe methods content goes here.\n\n### 5.3 Estimating Deviations from Bayesian Updating\nWe now turn to an empirical implementation of the model above. The analysis in this section will be based on designs 2 and 3 because they allow us to observe the same participant make decisions under all information-conditions on a given case. Start by considering an empirical analog to equation (5):\n\n$$\n\\log \\frac{p_r(\\omega_i = 1 | s_A, s_E)}{p_r(\\omega_i = 0 | s_A, s_E)} = a + b \\cdot \\log \\frac{\\pi_r(s_A | \\omega_i = 1, s_E)}{\\pi_r(\\omega_i = 1 | s_E)} + d \\cdot \\log \\frac{\\pi_r(s_A | \\omega_i = 0, s_E)}{\\pi_r(\\omega_i = 0 | s_E)} + \\epsilon_{ir} \\tag{7}\n$$\n\nwhere we have omitted heterogeneity across radiologists in \\(b_r\\) and \\(d_r\\). Appendix C.5.6 discusses radiologist heterogeneity in our estimates. Two of the terms in this equation are directly elicited in the ex...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "33",
+        "page_num": "33",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Title of the Paper\n\n## Abstract\nThe abstract content is not provided in the current text.\n\n## Introduction\nThe introduction content is not provided in the current text.\n\n## Methods\nThe methods section discusses the estimation of probabilities and the challenges associated with constructing variables. The following mathematical equation is presented:\n\n$$\n\\pi_r (s^A | \\omega_i = 1, s^E) \\quad \\pi_r (\\omega_i = 1 | s^A, s^E) \\quad \\pi_r (\\omega_i = 1 | s^E)\n$$\n$$\n\\log \\frac{\\pi_r (s^A | \\omega_i = 1, s^E)}{\\pi_r (s^A | \\omega_i = 0, s^E)} = \\log \\frac{\\pi_r (\\omega_i = 1 | s^A, s^E)}{\\pi_r (\\omega_i = 0 | s^A, s^E)} - \\log \\frac{\\pi_r (\\omega_i = 1 | s^E)}{\\pi_r (\\omega_i = 0 | s^E)}\n$$\n\nIf \\( s^E \\) can be constructed or controlled for, then we can estimate the first term on the right-hand side using data on \\( \\omega_i \\) and \\( s^A \\) via a binary response model. This estimation is possible because the signal from the AI that the humans receive is isomorphic to the vector of predict...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "34",
+        "page_num": "34",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Extracted Text Content\n\n## Abstract\n[Abstract content not provided in the raw text.]\n\n## Introduction\n[Introduction content not provided in the raw text.]\n\n## Methods\nAs prefaced earlier, although the humans\u2019 and AI\u2019s signals are not conditionally independent given the ground truth, humans may act as-if they are. We will therefore estimate and select between models that vary the set of signals conditioned on in the update term. For example, in the case when radiologists behave as if \\( s^A \\) and \\( s^E \\) are independent conditional on \\( \\omega_i \\), the update term drops the conditioning on \\( s^E \\). We can vary the pathologies across the set of models considered when constructing \\( I(c_i) \\). Including these models in our selection approach will also tell us whether radiologists\u2019 assessments are separable across different pathologies.\n\nThe correct model of behavior satisfies the conditional moment restriction \\( E[\\epsilon_{irt} | s_{i,-r}, s_i] = 0 \\), where \\( s^E \\) collect...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "35",
+        "page_num": "35",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Title of the Research Paper\n\n## Abstract\n[Insert abstract text here]\n\n## Introduction\n[Insert introduction text here]\n\n## Methods\nThe methods section describes the approach taken in the study, including the models used and the data analyzed. The analysis focuses on the interaction between radiologists' signals and AI predictions.\n\n### Model Description\nThe model includes three components:\n1. The first component includes the focal pathology and is conditionally independent of the other signals given the focal pathology.\n2. The second component allows for dependence between the focal pathology and clinical history.\n3. The third component utilizes a correct update term constructed using all available AI predictions and the vector of probabilities for all pathologies.\n\nSetting parameters \\( b = d = 1 \\) and the constant to 0 corresponds to Bayesian updating with correct beliefs.\n\n## Results\nThe results indicate two types of errors in radiologists\u2019 use of AI signals:\n1. **Signal Dependen...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "36",
+        "page_num": "36",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Model Selection: Top Level with AI \u2013 IVGMM\n\n## Table 3: Model Selection Results\n\n| Variable                | (1)    | (2)    | (3)    | (4)    | (5)    | (6)    |\n|-------------------------|--------|--------|--------|--------|--------|--------|\n| Automation Bias (b)    | 0.29   | 0.34   | 0.35   | 0.19   | 0.27   | 0.35   |\n|                         | (0.02) | (0.03) | (0.03) | (0.02) | (0.02) | (0.03) |\n| Own Info Bias (d)      | 1.10   | 1.08   | 1.05   | 1.07   | 1.06   | 1.05   |\n|                         | (0.01) | (0.01) | (0.01) | (0.01) | (0.01) | (0.01) |\n| Constant                | 0.40   | 0.40   | 0.37   | 0.31   | 0.33   | 0.36   |\n|                         | (0.03) | (0.04) | (0.04) | (0.03) | (0.03) | (0.04) |\n| Focal sA               | \u2713      | \u2713      | \u2713      | \u2713      | \u2713      | \u2713      |\n| Other sA               |        | \u2713      |        |        | \u2713      |        |\n| Focal sE               |        | \u2713      | \u2713      |        | \u2713      | \u2713      |\n| Other sE         ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "37",
+        "page_num": "37",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Model Treatment Effects\n\n## Abstract\n*The abstract section is not provided in the current text.*\n\n## Introduction\n*The introduction section is not provided in the current text.*\n\n## Methods\n*The methods section is not provided in the current text.*\n\n## Results\nFigure 6: Model Treatment Effects\n\n| AI Prediction Bin | Human + AI (Data) | Bayes | Estimated Model (True Joint Distribution) | Estimated Model (Conditionally Independent) |\n|-------------------|-------------------|-------|------------------------------------------|---------------------------------------------|\n| (0.0, 0.2]       | 0.3               |       |                                          |                                             |\n| (0.2, 0.4]       | 0.2               |       |                                          |                                             |\n| (0.4, 0.6]       | 0.1               |       |                                          |                                             |\n| (0.6, ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "38",
+        "page_num": "38",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Designing Human-AI Collaboration\n\nWe now consider the design of collaborative systems between AI and radiologists. The designs we consider restrict attention to systems that use the AI signal to delegate a case to one of three modalities \u2013 radiologists alone, the AI alone, or the radiologist with access to the AI.\n\nAs a warm-up for this exercise, it is useful to examine the predictive performance of the different modalities, conditional on \\( s^A \\) (see Figure 7). Recall from the conditional treatment effect analysis, radiologists\u2019 assessments improve with AI in the lowest and the two highest bins of AI signals. Figure 7 also shows that in two out of three ranges in which the AI improves radiologists\u2019 decision-making, its own performance is even better than the performance of the radiologists with AI.\n\nHowever, this figure misses the differences in the human time costs across modalities. Our analysis of the estimated treatment effects shows that radiologists take more time when pro...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "39",
+        "page_num": "39",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Model Deviation from Ground Truth\n\n## Abstract\nThe study investigates the performance of different modalities in an optimal collaborative system involving radiologists and artificial intelligence (AI). We analyze the deviation of model predictions from the ground truth across various AI prediction bins.\n\n## Introduction\nThe integration of AI in radiology has the potential to enhance diagnostic accuracy. This research aims to evaluate the effectiveness of AI in conjunction with human radiologists compared to human-only assessments.\n\n## Methods\nWe conducted a treatment effect analysis to compare the performance of radiologists working independently versus those utilizing AI assistance. The data was categorized into different AI prediction bins to assess the model's deviation from the ground truth.\n\n## Results\nThe results indicate varying levels of performance based on the modality used. The following table summarizes the performance metrics for each modality.\n\n### Table 1: Performance...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "40",
+        "page_num": "40",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Computing the Trade-off Between Decision Loss and Costs of Human Effort\n\nConsider a policy \\( \\tau (\u00b7) \\) that chooses between full automation (AI), radiologist with access to AI (E + AI), or radiologist without access to AI (E), as a function of the AI signal \\( s^A \\). The optimal policy which minimizes the sum of the expected decision-loss (costs of false positives and false negatives) and the monetized time cost of using human radiologists solves:\n\n$$\n\\tau^*(s^A) = \\arg \\min_{\\tau \\in \\{E, E+AI, AI\\}} \\left( -m \\cdot V_{i\\tau}(s^A) + w \\cdot C_{i\\tau}(s^A) \\right). \\tag{8}\n$$\n\nThe first term contains the expected decision-loss from a modality given by \\( V_{i\\tau}(s^A) \\), which is the expected diagnostic quality averaging over radiologists and cases given the modality, preferences for false positives and false negatives, and the AI signal. Preferences for false positives and false negatives are allowed to vary by pathology but are the same across modalities. We estimate these p...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "41",
+        "page_num": "41",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Relative Mean Decision Loss\n\n## Abstract\n[Abstract content not provided in the current text.]\n\n## Introduction\n[Introduction content not provided in the current text.]\n\n## Methods\n[Methods content not provided in the current text.]\n\n## Results\n\nFigure 8 shows a possibilities frontier for the trade-off between diagnostic quality against decision time for the two top-level pathologies with AI, calculated by varying \\( m \\). It also shows the corner solutions where all cases are assigned to each of the modalities. The results suggest that there are potential gains from the optimal delegation of cases. An unassisted radiologist takes 2.7 minutes per case, or about $11, and incurs a relative decision loss of approximately seven for both of the top-level pathologies with AI assistance. By moving to a solution on the frontier with a human expert \u2013 one whose assessments are as in our experiment \u2013 the designer can reduce both decision loss and the time taken per case by delegating many cases...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "42",
+        "page_num": "42",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Title of the Paper\n\n## Abstract\n[Insert abstract text here.]\n\n## Introduction\n[Insert introduction text here.]\n\n## Methods\n[Insert methods text here.]\n\n## Results\nBoth for the case where radiologists are Bayesian and the observed behavior in our experiment, we find that the AI decides almost all cases if the cost of a false negative \u2013 a missed diagnosis \u2013 is less than $100 per case. If radiologists acted as Bayesians with correct beliefs, the share of cases that involve human-AI collaboration rises markedly above a cost of $100, but even for costs as high as $10,000, this share does not exceed 50% for airspace opacity and does not exceed 40% for cardiomediastinal abnormality. Moreover, under Bayesian decision-making, the share of cases where only the radiologist decides is negligible for both pathologies and the only reason for using an unassisted radiologist is to save on time costs. When we conduct the same exercise and use the observed behavior of radiologists, we find that human...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "43",
+        "page_num": "43",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nAI is predicted to profoundly reshape the nature of work (see Felten et al., 2023). Humans are likely to use AI as decision aids for many tasks not only in the long run but also in the medium run for tasks that will ultimately be fully automated. A central question is therefore how humans use AI tools and how tasks should be assigned. To understand the benefits and pitfalls of human-machine collaboration, we conduct an experiment in which radiologists are provided with AI assistance.\n\n# Introduction\n[Content not provided in the current text.]\n\n# Methods\n[Content not provided in the current text.]\n\n# Results\n## Figure 10: Cardiomediastinal Abnormality Modality Shares\n| Social Cost of False Negative (Dollars) | Share of Cases (AI) | Share of Cases (Human) | Share of Cases (Human + AI) |\n|-----------------------------------------|---------------------|------------------------|-----------------------------|\n| 0.0101                                  | 0.2                 | 0.2  ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "44",
+        "page_num": "44",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nRadiology is a highly-skilled profession that is being transformed by AI, representing a large class of professionals whose main job is a high-stakes classification task. This study simulates radiologists\u2019 normal workflow to conduct an experiment on AI assistance. While the potential benefits of deploying AI assistance are significant, biases in human use of AI eliminate these potential gains. Although the AI tool in our experiment performs better than two-thirds of radiologists, optimally combining their predictions could substantially improve performance. However, we find that giving radiologists access to AI predictions does not, on average, lead to higher performance. This average treatment effect masks systematic heterogeneity: providing AI does improve radiologists\u2019 predictions and decisions for cases where the AI is certain, but not when uncertain. This result rejects Bayesian updating with correct beliefs. We also describe systematic errors in belief updating, namel...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "45",
+        "page_num": "45",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Title of the Paper\n\n## Abstract\n[Insert abstract text here]\n\n## Introduction\n[Insert introduction text here]\n\n## Methods\n[Insert methods text here]\n\n## Results\n[Insert results text here]\n\n## Discussion\nAI continues to evolve rapidly. This development is increasingly driven by large corporate labs (Heston and Zwetsloot, 2020), which have resources that are unaffordable to academic institutions. For these and other reasons, economists are unlikely to have a major role in the technical development of AI tools. Our comparative advantage lies in studying how humans interact with these tools and thereby help shape the institutions that guide their use to ensure that this development is beneficial to society. Empirical analysis is a particularly useful tool in this endeavor, especially if the algorithms themselves are a black-box and cannot be understood from first principles.\n\n## Conclusion\n[Insert conclusion text here]\n\n## References\n- Heston, A., &#x26; Zwetsloot, R. (2020). [Insert ful...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "46",
+        "page_num": "46",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# References\n\nJason Abaluck, Leila Agha, Chris Kabrhel, Ali Raja, and Arjun Venkatesh. The determinants of productivity in medical testing: Intensity and allocation of care. *Am. Econ. Rev.*, 106 (12):3730\u20133764, December 2016.\n\nDaron Acemoglu and Simon Johnson. Power and progress: Our Thousand-Year struggle over technology and prosperity. Public Affairs, New York, 2023.\n\nAjay Agrawal, Joshua Gans, and Avi Goldfarb. Prediction Machines: The Simple Economics of Artificial Intelligence. Harvard Business Press, April 2018.\n\nAjay Agrawal, Joshua S Gans, and Avi Goldfarb. Artificial intelligence: The ambiguous labor market impact of automating prediction. *J. Econ. Perspect.*, 33(2):31\u201350, May 2019.\n\nJong Seok Ahn, Shadi Ebrahimian, Shaunagh McDermott, Sanghyup Lee, Laura Naccarato, John F Di Capua, Markus Y Wu, Eric W Zhang, Victorine Muse, Benjamin Miller, Farid Sabzalipour, Bernardo C Bizzo, Keith J Dreyer, Parisa Kaviani, Subba R Digumarthy, and Mannudeep K Kalra. Association of artific...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "47",
+        "page_num": "47",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# References\n\nDirk Bergemann and Stephen Morris. Information design: A unified perspective. J. Econ. Lit., 57(1):44\u201395, March 2019.\n\nDavid Blackwell. Equivalent comparisons of experiments. Ann. Math. Stat., 24(2):265\u2013272, 1953.\n\nErik Brynjolfsson and Tom Mitchell. What can machine learning do? workforce implications. 358(6370):1530\u2013, 2017.\n\nErik Brynjolfsson, Daniel Rock, and Chad Syverson. Artificial intelligence and the modern productivity paradox: A clash of expectations and statistics. November 2017.\n\nKate Bundorf, Maria Polyakova, and Ming Tai-Seale. How do humans interact with algorithms? experimental evidence from health insurance. June 2020.\n\nDavid C Chan, Matthew Gentzkow, and Chuan Yu. Selection with variation in diagnostic skill: Evidence from radiologists. Q. J. Econ., 137(2):729\u2013783, May 2022.\n\nAmitabh Chandra and Douglas O Staiger. Identifying sources of inefficiency in healthcare. Q. J. Econ., 135(2):785\u2013843, May 2020.\n\nGary Charness, Uri Gneezy, and Vlastimil Rasocha. ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "48",
+        "page_num": "48",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Correlation Neglect in Belief Formation\n\n## Abstract\nThe abstract provides a brief overview of the study's objectives, methodology, and key findings regarding correlation neglect in belief formation.\n\n## Introduction\nThe introduction discusses the background of belief formation and the significance of understanding correlation neglect in decision-making processes. It outlines the research questions and hypotheses that guide the study.\n\n## Methods\nThe methods section details the experimental design, including participant selection, data collection techniques, and analytical approaches used to assess correlation neglect.\n\n## Results\nThe results section presents the findings of the study, highlighting key statistics and trends observed in the data.\n\n### Table 1: Summary of Experimental Results\n| Condition          | Mean Belief | Standard Deviation |\n|--------------------|-------------|--------------------|\n| Control Group      | 0.65        | 0.10               |\n| Experimental Group ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "49",
+        "page_num": "49",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# References\n\n1. Jonathan Gruber, Benjamin R Handel, Samuel H Kina, and Jonathan T Kolstad. Managing intelligence: Skilled experts and decision support in markets for complex products. 2021.\n\n2. H Benjamin Harvey and Vrushab Gowda. How the FDA regulates AI. Acad. Radiol., 27(1): 58\u201361, January 2020.\n\n3. Roxanne Heston and Remco Zwetsloot. Mapping U.S. multinationals\u2019 global AI R&#x26;D activity, 2020.\n\n4. Ahmed Hosny, Chintan Parmar, John Quackenbush, Lawrence H Schwartz, and Hugo J W L Aerts. Artificial intelligence in radiology. Nat. Rev. Cancer, 18(8):500\u2013510, August 2018.\n\n5. Tanjim Hossain and Ryo Okui. The binarized scoring rule. Rev. Econ. Stud., 80(3):984\u20131001, February 2013.\n\n6. Nicholas C Hunt and Andrea M Scheetz. Using MTurk to distribute a survey or experiment: Methodological considerations. Journal of Information Systems, 33(1):43\u201365, March 2019.\n\n7. Kosuke Imai, Zhichao Jiang, James Greiner, Ryan Halen, and Sooahn Shin. Experimental evaluation of Algorithm-Assisted huma...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "50",
+        "page_num": "50",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Human Decisions and Machine Predictions\n\n## Abstract\nThis paper explores the intersection of human decision-making and machine predictions, particularly in the context of healthcare. We analyze how machine learning models can assist in clinical decision-making and the implications of these technologies on patient outcomes.\n\n## Introduction\nThe integration of machine learning into healthcare has the potential to transform clinical practices. However, understanding the dynamics between human decisions and machine predictions is crucial for effective implementation. This section reviews existing literature on the subject and outlines the objectives of our study.\n\n## Methods\nWe conducted a systematic review of empirical studies that examine the impact of machine learning on human decision-making in healthcare. Our methodology involved analyzing various datasets and machine learning models to assess their performance compared to human experts.\n\n## Results\nOur findings indicate that machi...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "51",
+        "page_num": "51",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Deep Learning-Assisted Diagnosis of Cerebral Aneurysms Using the HeadXNet Model\n\n## Abstract\nThe abstract provides a brief overview of the study, highlighting the use of the HeadXNet model for diagnosing cerebral aneurysms through deep learning techniques. The study aims to evaluate the model's performance compared to traditional diagnostic methods.\n\n## Introduction\nThe introduction discusses the significance of cerebral aneurysms and the challenges associated with their diagnosis. It emphasizes the potential of deep learning technologies in improving diagnostic accuracy and efficiency in medical imaging.\n\n## Methods\nThe methods section outlines the study design, including the dataset used for training and testing the HeadXNet model. It describes the preprocessing steps, model architecture, and evaluation metrics employed to assess the model's performance.\n\n## Results\nThe results section presents the findings of the study, including the model's accuracy, sensitivity, and specificity...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "52",
+        "page_num": "52",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# References\n\n1. Ashesh Rambachan. Identifying prediction mistakes in observational data, 2021.\n\n2. Carlo Reverberi, Tommaso Rigon, Aldo Solari, Cesare Hassan, Paolo Cherubini, and Andrea Cherubini. Experimental evidence of effective human\u2013AI collaboration in medical decision-making. Sci. Rep., 12(1):1\u201310, September 2022.\n\n3. Michael Allan Ribers and Hannes Ullrich. Machine predictions and human decisions with variation in payoff and skills: the case of antibiotic prescribing, 2022.\n\n4. Andrew B Rosenkrantz, Tarek N Hanna, Scott D Steenburg, Mary Jo Tarrant, Robert S Pyatt, and Eric B Friedberg. The current state of teleradiology across the United States: A national survey of radiologists\u2019 habits, attitudes, and perceptions on teleradiology practice. J. Am. Coll. Radiol., 16(12):1677\u20131687, December 2019.\n\n5. Jarrel C Y Seah, Cyril H M Tang, Quinlan D Buchlak, Xavier G Holt, Jeffrey B Wardman, Anuar Aimoldin, Nazanin Esmaili, Hassan Ahmad, Hung Pham, John F Lambert, Ben Hachey, Stephen...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "53",
+        "page_num": "53",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Human\u2013Computer Collaboration for Skin Cancer Recognition\n\n## Abstract\nThe study explores the integration of human expertise and computer algorithms in the recognition of skin cancer. It emphasizes the potential of collaborative approaches to enhance diagnostic accuracy and efficiency.\n\n## Introduction\nSkin cancer is a prevalent form of cancer, and early detection is crucial for effective treatment. Traditional methods of diagnosis rely heavily on dermatologists' expertise. However, the advent of artificial intelligence (AI) offers new opportunities for improving diagnostic processes. This paper discusses the role of human-computer collaboration in skin cancer recognition, highlighting the strengths and limitations of both human and machine capabilities.\n\n## Methods\nThe study employed a mixed-methods approach, combining quantitative analysis of diagnostic accuracy with qualitative assessments of user experience. Participants included dermatologists and AI systems trained on large dat...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "54",
+        "page_num": "54",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Appendix\n\n## A Appendix of Proofs\n\n### A.1 Proof of Proposition 1\n\n**Case \\( b &#x3C; 1 \\) and \\( d = 1 \\):** Suppose \\( a^*(s^E; p) = 0 \\) and \\( a^*(s^A, s^E; p) = 1 \\). Equivalently,\n\n$$\n\\log c_{rel} > \\log \\pi(\\omega=1|s^E) \\quad \\text{and} \\quad \\log c_{rel} \\leq b \\log \\pi(s^A|\\omega=1,s^E) + \\log \\pi(\\omega=1|s^E).\n$$\n\nSince \\( b \\in (0, 1) \\), it must be that\n\n$$\n\\log \\pi(s^A|\\omega=0,s^E) > 0 \\quad \\text{and} \\quad \\log c_{rel} &#x3C; \\log \\pi(s^A|\\omega=1,s^E) + \\log \\pi(\\omega=1|s^E)\n$$\n\nso that \\( a^*(s^A, s^E; p) = 1 \\). Hence, if \\( 0 = a^*(s^E; p) = a^*(s^A, s^E; p) \\) then \\( a^*(s^A, s^E; p) = a^*(s^A, s^E; \\pi) \\) and\n\n$$\nV(s^E; p) \\leq V(s^A, s^E; \\pi) = V(s^A, s^E; p),\n$$\n\nwith strict inequality if the measure on \\( (s^A, s^E) \\) under \\( \\pi(\\cdot) \\) such that \\( 0 = a^*(s^E; p) = a^*(s^A, s^E; \\pi) \\) is strictly positive. The proof of the case when \\( a^*(s^E; p) = 1 \\) and \\( a^*(s^A, s^E; p) = 0 \\) is analogous. If \\( a^*(s^E; p) = a^*(s^A, s^E; p) \\) then\n...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "55",
+        "page_num": "55",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Proof of Proposition 2\n\nConsider the condition \\( \\log c_{rel} > \\log \\pi(\\omega=1|s^E) \\) and \\( \\log c_{rel} &#x3C; b \\log \\pi(s^A|\\omega=1) + d \\log \\pi(\\omega=1|s^E) \\) so that\n\n$$\n0 = \\left( \\frac{\\pi(\\omega=0|s^E)}{\\pi(s^A|\\omega=0)} \\cdot \\frac{\\pi(\\omega=0|s^E)}{\\pi(s^A|\\omega=0)} \\right) = 1.\n$$\n\nFor small enough \\( \\log \\pi(s^A|\\omega=1,s^E) \\), we have\n\n$$\n\\log c_{rel} &#x3C; \\log \\pi(s^A|\\omega=1) + \\log \\pi(\\omega=1|s^E)\n$$\n\nso that \\( a^*(s^A, s^E; \\pi) = 0 \\). The case in which \\( \\log c_{rel} &#x3C; \\log \\pi(\\omega=0|s^E) \\) is analogous.\n",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "56",
+        "page_num": "56",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Appendix of Experimental Interface and Instructions\n\n## B.1 Design\n\n**Figure B.1: Design 1**\nThis figure illustrates the design of the experimental interface used in the study. It shows a within-subject comparison where each radiologist is assigned to a randomized sequence of four information environments, resulting in twenty-four possible tracks. Under each information environment, radiologists read fifteen cases, ensuring that each patient case is encountered at most once. At the beginning of the experiment, every radiologist reads eight practice cases. Additionally, a random half of the participating radiologists receive incentives for accuracy.\n\n| Track   | Set 1 | Set 2 | Set 3 | Set 4 |\n|---------|-------|-------|-------|-------|\n| Track 1 | XO    | CH    | AI    | AI + CH |\n| Track 2 | CH    | ...   | ...   | ...   |\n| Track 3 | AI    | ...   | ...   | ...   |\n| Track 24| AI + CH | ... | ...   | ...   |\n\n**Note:** In this design, radiologists are assigned to a randomized sequ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "57",
+        "page_num": "57",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Design 2\n\n## Abstract\n*This section is not provided in the current text.*\n\n## Introduction\n*This section is not provided in the current text.*\n\n## Methods\nIn this design, radiologists diagnose sixty patient cases each under the four information environments. Radiologists read every case under every information environment across four sessions, separated by a washout period. Each case is only encountered once per session and to ensure that radiologists do not recall their AI predictions from previous reads of the same cases, we ensure a minimum two-week washout period between two subsequent sessions. Within every experimental session, they therefore read fifteen under each information environment. The randomization occurs at the track-level where every track has a different sequence of the information environments.\n\n### Experimental Design\nThe following table summarizes the session structure:\n\n| Session | Information Environment | Duration  |\n|---------|------------------------|-----...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "58",
+        "page_num": "58",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\n*The abstract content is not provided in the current text.*\n\n# Introduction\n*The introduction content is not provided in the current text.*\n\n# Methods\n## B.1 Design\nFigure B.3: Design 3\n\n| Initial randomization into tracks | Same sets |\n|-----------------------------------|-----------|\n| XO                                | CH      AI    AI + CH |\n| Set 1                             | Set 2   |\n| CH                                | XO      |\n| Set 1                             | Set 2   |\n|                                   | Same sets |\n\n*Note: In this design, radiologists diagnose fifty cases, first without and then with AI assistance. Clinical history is randomly provided in either the first or second half of images forming the basis of the randomization. The cases diagnosed with and without clinical history are different.*\n\n## B.2 Instructions\nBelow you will find the instructions received by the subjects when receiving the interface-based treatment. Comments on the instr...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "59",
+        "page_num": "59",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Clinical Study on AI Support for Radiology\n\n## Abstract\nThis study investigates the use of an AI tool that predicts the probability of various thoracic pathologies based on X-ray images. The tool employs advanced machine learning algorithms developed by researchers at Stanford University. The aim is to assess the diagnostic accuracy and clinical decision-making support provided by this AI system.\n\n## Introduction\nThe integration of artificial intelligence in radiology has the potential to enhance diagnostic accuracy and improve patient outcomes. This study focuses on evaluating an AI tool that analyzes X-ray images to predict the likelihood of specific thoracic conditions. The tool is designed to assist radiologists in making informed assessments and treatment decisions.\n\n## Methods\nThe study involves a cohort of patients whose X-ray images are analyzed by the AI tool. Radiologists are asked to provide their assessment of the probability of various conditions based on the AI's predi...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "60",
+        "page_num": "60",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nThe AI support tool that is provided uses only the X-ray image to predict the probability of each potential pathology of interest. The tool is based on state-of-the-art machine learning algorithms developed by a leading team of researchers at Stanford University. The tool is trained only on X-ray images, meaning it does not incorporate the clinical history of the patients.\n\n# Introduction\nThe performance of the AI Support tool is described in Irvin et al. [2019], which showed the AI tool performed at or near expert levels across the pathologies studied. Below we plot two measures of performance of the AI tool. We plot in blue the accuracy of the tool, defined as the share of cases correctly diagnosed when treating false positives and false negatives equally. In red, we plot the Area Under the ROC curve (AUC), which is another measure of AI classification performance.\n\n# Methods\nThe probability for the sub-pathologies is required only if the parent pathology prevalence is gr...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "61",
+        "page_num": "61",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Performance of AI Tool\n\n## Abstract\nThe AUC is a number between 0 and 100%, with numbers close to 100% representing better algorithm performance. The AUC is equal to the probability that a randomly chosen positive case is ranked higher than a randomly chosen negative case.\n\n## Results\n\n### Figure B.5: Performance of AI Tool\n**Description**: This figure illustrates the performance of the AI tool across various conditions, including normal, fracture, cardiomegaly, cardiomediastinal abnormality, pleural effusion, pneumothorax, consolidation, edema, and airspace opacity. The x-axis represents accuracy percentages ranging from 0% to 100%, while the y-axis indicates the AUC.\n\n| Condition                       | AUC (%) |\n|---------------------------------|---------|\n| Normal                          |         |\n| Fracture                        |         |\n| Cardiomegaly                    |         |\n| Cardiomediastinal Abnormality   |         |\n| Pleural Effusion                |       ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "62",
+        "page_num": "62",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Example 1\n\n## Figure B.6: Example Images\nThis figure presents the AI predictions for various pathologies observed in chest X-rays. The predictions are categorized by different types of abnormalities along with their respective probabilities.\n\n| Pathology                                          | AI Prediction |\n|---------------------------------------------------|---------------|\n| Airspace Opacity                                   | 16%           |\n| Edema                                             | 7%            |\n| Consolidation                                     | 3%            |\n| Bacterial Pneumonia/Lobar Pneumonia              | 3%            |\n| Atelectasis                                       | 9%            |\n| Lesion                                            | 4%            |\n| Pleural Abnormality                               |               |\n| Pneumothorax                                      | 7%            |\n| Pleural Effusion                                  |...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "63",
+        "page_num": "63",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Consent Form for Research Study\n\n## Study Overview\nThe information below provides a summary of the research. Your participation in this research is voluntary and you can withdraw at any time.\n\n### 1. Study Procedure\nWe will ask you to examine a number of chest x-rays. We will vary both the amount of information provided about the patient and the availability of an AI support tool.\n\n### 2. Potential Risks &#x26; Benefits\nThere are no foreseeable risks associated with this study and you will receive no direct benefit from participating.\n\nYour participation in this study is completely voluntary and you are free to choose whether to be in it or not. If you choose to be in this study, you may subsequently withdraw from it at any time without penalty or consequences of any kind. The investigator may withdraw you from this research if circumstances arise.\n\n## Privacy &#x26; Confidentiality\nThe only people who will know that you are a research subject are members of the research team which ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "64",
+        "page_num": "64",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Research Paper Title\n\n## Abstract\n[Abstract content not provided in the current text.]\n\n## Introduction\n[Introduction content not provided in the current text.]\n\n## Methods\n### Interface Questions\nBefore beginning the experiment, we would like to confirm a few facts through the following comprehension questions. Please answer True or False to the following questions:\n1. The algorithm\u2019s prediction is based on information from both the X-ray scan as well as the clinical history.\n2. When the algorithm does not show a prediction, it is because the algorithm thinks the pathology is not present.\n3. The follow-up decision refers to any treatment or additional diagnostic procedures that one would conduct based on the findings of the report.\n4. Two patients with the same probability score for a condition ought to always receive the same \u201cfollow-up\u201d recommendation.\n5. When a condition at a higher level of the hierarchy receives a less than ten percent chance of being present then all the lowe...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "65",
+        "page_num": "65",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Clinical History Information\n\n## Abstract\nThe clinical history information varies significantly across patients, which can impact diagnosis and treatment. This paper presents several examples of varying clinical histories to illustrate the diversity of patient presentations.\n\n## Introduction\nUnderstanding the variability in clinical history is crucial for accurate diagnosis and effective treatment. This paper aims to highlight the differences in clinical presentations among patients, which can lead to different clinical pathways.\n\n## Methods\nThe data was collected from patient records, focusing on age, gender, and presenting symptoms. The information was categorized to analyze the variability in clinical history.\n\n## Results\nThe following examples illustrate the variability in clinical history information:\n\n1. **68 years of age, Female, chest pain**\n2. **Unknown age, Unknown, Trauma**\n3. **55 years of age, Male, Order History: Relevant PMH gastroparesis. Presents with vomiting, retc...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "66",
+        "page_num": "66",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Clinical History Information\n\n## Indication\n30 years of age, Female, history of hypertension, abnormal EKG, abdominal pain, evaluate for cardiomegaly or mediastinal widening.\n\n## Vitals\n\n| Variable | Value          |\n|----------|----------------|\n| Weight   | 170 lbs        |\n| BP       | 243/166 mmHg   |\n| Temp     | 99.1\u00b0F         |\n| Pulse    | 99.0 bpm       |\n| Age      | 30             |\n\n## Abnormal Labs\n\n| Variable                     | Value | Unit | Flag |\n|------------------------------|-------|------|------|\n| ALT (SGPT), Ser/Plas         | 38.0  | U/L  | High |\n| AST (SGOT), Ser/Plas         | 39.0  | U/L  | High |\n| Eosinophil, Absolute         | 0.01  | K/uL | Low  |\n\n**Note:** The clinical history information environment in the experiment had information on patient indications, vitals, and abnormal labs.\n",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "67",
+        "page_num": "67",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Airspace Opacity Prediction Study\n\n## Abstract\nThe study investigates the prediction of airspace opacity in patients using a slider interface. Participants were asked to indicate the probability of a pathology being present based on the treatment offered. The results show varying levels of confidence in the predictions, with a notable percentage indicating a low likelihood of airspace opacity.\n\n## Introduction\nAirspace opacity is a significant indicator in various medical diagnoses. This study aims to evaluate how effectively medical professionals can predict the presence of airspace opacity using a slider interface that quantifies their confidence in the diagnosis.\n\n## Methods\nParticipants were presented with a slider interface to indicate the probability of airspace opacity for a given patient. They were required to assess the likelihood of the pathology based on the treatment options available. For cases where the prevalence of airspace opacity was greater than 10%, participants ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "68",
+        "page_num": "68",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Additional Details on the AI Algorithm\n\nThe training data is a set of tuples of images and labels. These training datasets typically rely on human input to assign the labels, which indicate whether or not a specific pattern or object is present in the image. Training is conducted through stochastic gradient descent. These algorithms build on the nested structure of the neural net to compute gradients computationally efficiently via chain rule. Each training step is performed on a small batch of data so that the algorithm does not have to consider the entire dataset for each optimization step. After each round of optimization on the training set, the model performance is assessed through predictions on a hold-out validation sample. Most humans are able to recognize cars, pedestrians, and traffic lights, which means that training datasets for common classification tasks are easy to come by. The same is not true for medical imaging. Classifying disease based on X-rays, CT scans, and re...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "69",
+        "page_num": "69",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Distribution of Patient Treatment Probabilities in Design 1\n\n## Abstract\n*This section is not provided in the current text.*\n\n## Introduction\n*This section is not provided in the current text.*\n\n## Methods\n*This section is not provided in the current text.*\n\n## Results\n*This section is not provided in the current text.*\n\n## Discussion\n*This section is not provided in the current text.*\n\n## Conclusion\n*This section is not provided in the current text.*\n\n## References\n*This section is not provided in the current text.*\n\n## Figures\n\n### Figure C.9: Distribution of Patient Treatment Probabilities in Design 1\nThe figure shows the cumulative distribution functions of patient treatment probabilities by treatment for design 1. The x-axis represents the share of cases with treatment, ranging from 0.0 to 0.6, while the y-axis represents the proportion of cases, ranging from 0.0 to 1.0. The distributions for treatment and placebo are depicted, with the placebo distribution calculated based on ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "70",
+        "page_num": "70",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Covariate Balance in Design 1\n\n## Table C.1: Covariate Balance in Design 1\n\n| Covariate                        | Control | CH     | AI     | AI x CH | p-value |\n|----------------------------------|---------|--------|--------|---------|---------|\n| sA                               | 0.308   | 0.299  | 0.308  | 0.307   | 0.410   |\n| Airspace Opacity                 | 0.161   | 0.142  | 0.164  | 0.163   | 0.222   |\n| Cardiomediastinal Abnormality    | 0.130   | 0.135  | 0.132  | 0.131   | 0.985   |\n| Support Device Hardware          | 0.173   | 0.161  | 0.188  | 0.195   | 0.053   |\n| Abnormal                         | 0.183   | 0.179  | 0.192  | 0.191   | 0.744   |\n| Weight                           | 185.10  | 186.67 | 185.46 | 184.79  | 0.656   |\n| Temp                             | 99.01   | 99.04  | 99.05  | 99.07   | 0.057   |\n| Pulse                            | 92.11   | 92.68  | 92.28  | 93.02   | 0.012   |\n| Age                              | 56.50   | 56.15  | 56.31  | 56.70 ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "71",
+        "page_num": "71",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Covariate Balance in Design 2\n\n## Table C.2: Covariate Balance in Design 2\n\n| Covariate                        | Session 1 | Session 2 | Session 3 | Session 4 |\n|----------------------------------|-----------|-----------|-----------|-----------|\n| sA                               | 0.381     | 0.625     | 0.381     | 0.447     |\n| Airspace Opacity                 | 0.243     | 0.368     | 0.141     | 0.483     |\n| Cardiomediastinal Abnormality    | 0.164     | 0.834     | 0.088     | 0.716     |\n| Support Device Hardware           | 0.760     | 0.770     | 0.714     | 0.794     |\n| Abnormal                         | 0.265     | 0.624     | 0.722     | 0.330     |\n| Weight                           | 0.461     | 0.597     | 0.878     | 0.735     |\n| Temp                             | 0.107     | 0.245     | 0.437     | 0.654     |\n| Pulse                            | 0.242     | 0.578     | 0.764     | 0.772     |\n| Age                              | 0.559     | 0.220     | 0.082    ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "72",
+        "page_num": "72",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Quality of Ground Truth Reads\n\nHere, we summarize evidence that the ground truth measure we construct is high quality and robust to various decisions an analyst could make. Recall that the preferred ground truth used throughout the paper is defined using the reads of five board-certified radiologists from Mount Sinai, who each read all 324 patient cases in the study. For each pathology, we aggregate these reports into the ground truth for a patient case \\( i \\) as:\n\n$$\n\\omega_i = \\frac{1}{5} \\sum_{r=1}^{5} r_{i,r} > 2\n$$\n\nwhere we suppress the pathology index for simplicity and \\( r \\) indexes the radiologist. This method of aggregating reports is robust to certain types of measurement error and dependence across reports as discussed in Wallsten and Diederich (2001).\n\n## Summary Statistics\n\nTable C.3 contains summary statistics for the ground truth created using the Mount Sinai radiologists and a leave-one-out internal ground truth calculated using the reads collected during the exp...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "73",
+        "page_num": "73",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Ground Truth Quality and Effort\n\n## Table C.3: Ground Truth Quality\n\n| Prevalence | Share Rejecting 0.5 | Average Number of Rads | | | | |\n|------------|----------------------|------------------------|---|---|---|---|\n|            | Sinai Experiment      | Sinai Experiment       | Sinai | Experiment | | |\n| Top-Level with AI | 0.147 | 0.125 | 0.696 | 0.775 | 5.00 | 14.04 |\n| Pooled with AI    | 0.043 | 0.031 | 0.892 | 0.932 | 5.00 | 14.04 |\n| Abnormal          | 0.194 | 0.525 | 0.583 | 0.568 | 5.00 | 14.04 |\n| All Pathologies   | 0.013 | 0.010 | 0.953 | 0.977 | 5.00 | 14.04 |\n\n*Note: For each of the pre-registered pathology groups, this table shows the average prevalence, the share of cases where we can reject that \\( r=1 \\) at the 5% level, and the average number of reads per case for both the Mount Sinai ground truth labels and the experiment leave-one-out ground truth.*\n\n## Table C.4: Ground Truth Effort\n\n| Active Time (Mean) | Active Time (SD) | Clicks (Mean) | Clicks (SD) | Agr...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "74",
+        "page_num": "74",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Distributions of Accuracy Measures for Radiologists and AI\n\nThis section presents distributions for two different accuracy measures for radiologists and the AI across different pathology groups. These figures allow for a comparison between the accuracy of the AI relative to the mean radiologist.\n\n## Figure C.10: AUROC\n\n### Table 1: AI Performance Across Different Pathologies\n\n| AI (Pct. 68) | AI (Pct. 58) | AI (Pct. 69) | AI (Pct. 36) |\n|--------------|--------------|--------------|--------------|\n| 5            | 5            | 4            | 25           |\n| 4            | 4            | 3            | 20           |\n| 3            | 3            | 2            | 15           |\n| 2            | 2            | 10           | |\n| 1            | 1            | 1            | 5            |\n| 0            | 0            | 0            | 0            |\n\n| AI (Pct. 50) | AI (Pct. 54) | AI (Pct. 47) | AI (Pct. 42) |\n|--------------|--------------|--------------|--------------|\n| 5       ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "75",
+        "page_num": "75",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\n*The abstract content is not provided in the current text.*\n\n# Introduction\n*The introduction content is not provided in the current text.*\n\n# Methods\n*The methods content is not provided in the current text.*\n\n# Results\n## Figure C.11: RMSE\nThe figure summarizes the distribution of radiologist RMSE across different pathologies, as well as the RMSE of the AI algorithm for the corresponding pathology. Only the cases where contextual history information is available for the radiologist but not the AI prediction were considered.\n\n### Table 1: RMSE Distribution for Various Pathologies\n| Pathology                          | AI (Pct. 94) | AI (Pct. 57) | AI (Pct. 44) | AI (Pct. 49) |\n|------------------------------------|---------------|---------------|---------------|---------------|\n| Abnormal Airspace opacity          | 4             | 6             | 8             | 15            |\n| Atelectasis                        | 3             | 4             | 6             | 10      ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "76",
+        "page_num": "76",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Comparison of Radiologists to Original Reads\n\nThe reports from the radiologists who originally read the patient cases included in our sample were classified as positive/negative/uncertain for each pathology using AI predictions generated by the CheXbert algorithm described in Smit et al. (2020). We compare the accuracy of the original reads relative to the ground truth with the radiologists in our sample under the treatment arm with clinical history and no AI assistance. We do this for each pathology by converting the probability reports elicited during the experiment to positive/negative assessments, where positive is defined as having a probability greater than 50%. We convert the CheXbert labels to positive/negative assessments by including the uncertain cases as positive. We then calculate the accuracy of the experiment reads and the CheXbert labels for groups of pathologies focused on in this study and test the null hypothesis that the accuracy of the radiologists is the same. ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "77",
+        "page_num": "77",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Comparing Experiment to Original Reads: Uncertain as Not Present\n\n## Table C.6: Comparing Experiment to Original Reads: Uncertain as Not Present\n\n| Top-Level with AI | Pooled with AI | Abnormal | |\n|-------------------|----------------|----------|---|\n| Experiment        | -0.004         | 0.020    | -0.086  |\n|                   | (0.016)        | (0.005)  | (0.025)  |\n| Constant          | 0.194          | 0.065    | 0.466   |\n|                   | (0.016)        | (0.005)  | (0.028)  |\n| Observations      | 9718           | 53449    | 4859    |\n| R-Squared         | 0.000          | 0.000    | 0.002   |\n\n**Note:** Regression of indicator equal to one if binarized assessment is equal to ground truth from both the original reads and experiment reads onto a constant and an indicator equal to one if the radiologist was in the experiment. Standard errors are clustered at the patient-case level.\n",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "78",
+        "page_num": "78",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Density\n\n## C.4 Robustness\n\nIn this section, we show the robustness of the results from Section 4.2.\n\n### C.4.1 By Design\n\n#### Design 1\n\nThis section presents summaries of radiologist accuracy and treatment effect estimates using data from design 1. We do not present treatment effects conditional on radiologist prediction as the same cases are not read in the design.\n\n#### Figure C.12: Comparing AI performance to Radiologists\n\n- **(a) RMSE Radiologists and AI**: This figure compares the Root Mean Square Error (RMSE) between radiologists and AI performance.\n- **(b) AUROC Radiologists and AI**: This figure compares the Area Under the Receiver Operating Characteristic (AUROC) curve between radiologists and AI performance.\n\nThe figures show the following data:\n\n- **AI (Pct. 32)** and **AI (Pct. 68)** performance metrics are plotted against RMSE and AUROC values, respectively.\n\n| Metric | Radiologists | AI (Pct. 32) | AI (Pct. 68) |\n|--------|--------------|--------------|--------------...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "79",
+        "page_num": "79",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# ATE on Deviation from Ground Truth\n\n## Figure C.13: Conditional Treatment Effect Given AI Prediction\n\n### (a) Deviation from Ground Truth\n- The figure shows the relationship between the Average Treatment Effect (ATE) and AI prediction bins. The x-axis represents different bins of AI predictions, while the y-axis indicates the deviation from the ground truth. The data points suggest a trend in how the ATE varies with the AI predictions.\n\n### (b) Incorrect Decision\n- This part of the figure illustrates the relationship between the ATE and the occurrence of incorrect decisions based on AI predictions. Similar to part (a), the x-axis represents AI prediction bins, and the y-axis shows the frequency of incorrect decisions. The data points indicate how often incorrect decisions are made across different prediction bins.\n\n**Note:** Main specifications are similar to figure 3, with the exception that observations are from design 1 only.\n",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "80",
+        "page_num": "80",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Density\n\n## Design 2\n\nThis section presents summaries of key variables, radiologist accuracy, and treatment effect estimates using data from design 2.\n\n### Table C.7: Summary Statistics\n\n| Variable                          | Mean  | SD    |\n|-----------------------------------|-------|-------|\n| Reported Probability               | 0.245 | 0.278 |\n| Decision                           | 0.400 | 0.490 |\n| Deviation from Ground Truth       | 0.232 | 0.265 |\n| Deviation from AI                 | 0.172 | 0.159 |\n| Correct Decision                  | 0.620 | 0.485 |\n| Active time                       | 2.76  | 1.93  |\n| Observations                      | 15,840|       |\n| Radiologists                      | 33    |       |\n\nNote: This table presents summary statistics of design 2 similar to table 1.\n\n### Figure C.14: Comparing AI performance to Radiologists\n\n- **(a) RMSE Radiologists and AI**: This figure compares the Root Mean Square Error (RMSE) between radiologists and AI, showing th...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "81",
+        "page_num": "81",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nThe abstract content is not provided in the current text.\n\n# Introduction\nThe introduction content is not provided in the current text.\n\n# Methods\nThe methods content is not provided in the current text.\n\n# Results\n## Figure C.15: Conditional treatment effect given radiologist prediction\n### (a) Deviation from Ground Truth\n```\n| Radiologist Probability Bins | Deviation from Ground Truth |\n|-------------------------------|-----------------------------|\n| [0,0.2)                       | 0.2                         |\n| [0.2,0.4)                     | 0.05                        |\n| [0.4,0.6)                     | 0                           |\n| [0.6,0.8)                     | -0.05                       |\n| [0.8,1]                       | -0.1                        |\n```\n### (b) Incorrect Decision\n```\n| Radiologist Probability Bins | Incorrect Decision |\n|-------------------------------|-------------------|\n| [0,0.2)                       | 0.1               |\n| [0.2,0.4)    ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "82",
+        "page_num": "82",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Average Treatment Effects\n\n## Abstract\nThe abstract section is not provided in the current text.\n\n## Introduction\nThe introduction section is not provided in the current text.\n\n## Methods\nThe methods section is not provided in the current text.\n\n## Results\n### Table C.8: Average Treatment Effects\n\n| Treatment       | Deviation from AI (1) | Deviation from Ground Truth (2) | Active Time (3) | Clicks (4) |\n|-----------------|-----------------------|---------------------------------|-----------------|------------|\n| AI \u00d7 CH         | -0.001                | 0.003                           | -1.63           | 0.13       |\n|                 | (0.003)               | (0.004)                         | (3.45)          | (0.64)     |\n| AI              | -0.034                | 0.004                           | 7.16            | 1.17       |\n|                 | (0.004)               | (0.004)                         | (2.24)          | (0.53)     |\n| CH              | 0.001                 | ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "83",
+        "page_num": "83",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Density\n\n## Design 3\n\nThis section presents summaries of key variables, radiologist accuracy, and treatment effect estimates using data from design 3.\n\n### Table C.9: Summary Statistics\n\n| Variable                          | Mean | SD   |\n|-----------------------------------|------|------|\n| Reported Probability               | 0.240| 0.322|\n| Decision                           | 0.231| 0.421|\n| Deviation from Ground Truth       | 0.212| 0.297|\n| Deviation from AI                 | 0.216| 0.182|\n| Correct Decision                  | 0.785| 0.411|\n| Active time                       | 2.58 | 2.80 |\n| Observations                      | 7,000|      |\n| Radiologists                      | 35   |      |\n\nNote: This table presents summary statistics of design 3 similar to table 1.\n\n### Figure C.17: Comparing AI performance to Radiologists\n\n- **(a) RMSE Radiologists and AI**: This figure shows the Root Mean Square Error (RMSE) for both radiologists and AI across different probability thre...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "84",
+        "page_num": "84",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nThe abstract section is not provided in the current text.\n\n# Introduction\nThe introduction section is not provided in the current text.\n\n# Methods\nThe methods section is not provided in the current text.\n\n# Results\nThe results section is not provided in the current text.\n\n## Figures\n\n### Figure C.18: Conditional treatment effect given radiologist prediction\n- **Description**: This figure presents two subplots. The first subplot (a) shows the deviation from ground truth across different radiologist probability bins without AI. The second subplot (b) illustrates the incorrect decision rates on AI ATE across the same probability bins.\n\n### Figure C.19: Conditional treatment effect given AI prediction\n- **Description**: This figure also consists of two subplots. The first subplot (a) depicts the deviation from ground truth across AI prediction bins. The second subplot (b) shows the incorrect decision rates on AI ATE across these AI prediction bins.\n\n# Discussion\nThe discussion ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "85",
+        "page_num": "85",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Average Treatment Effects\n\n## Table C.10: Average Treatment Effects\n\n| Treatment       | Deviation from AI (1) | Deviation from Ground Truth (2) |\n|-----------------|-----------------------|---------------------------------|\n| AI \u00d7 CH         | 0.009                 | 0.010                           |\n|                 | (0.008)               | (0.012)                         |\n| AI              | -0.050                | -0.003                          |\n|                 | (0.010)               | (0.008)                         |\n| CH              | -0.003                | -0.010                          |\n|                 | (0.009)               | (0.013)                         |\n| Control Mean    | 0.241                 | 0.216                           |\n|                 | (0.011)               | (0.015)                         |\n| Pathology FE    | Yes                   | Yes                             |\n| Observations    | 7000                  | 7000                      ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "86",
+        "page_num": "86",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# ATE of AI on Deviation from Ground Truth\n\n## Abstract\nThis section computes the main results using a ground truth constructed using a leave-one-out average of assessments by radiologists participating in the experiment in the treatment arm with clinical history but no AI assistance. Specifically, for each radiologist \\( r \\) and patient case \\( i \\), we construct\n\n$$\n\\omega = 1 \\left[ \\sum_{r' \\neq r} \\frac{\\pi(\\omega_i = 1 | s_E)}{N_{i-1}} > 0.5 \\right].\n$$\n\n## Results\n\n### Figure C.20: Comparing AI Performance to Radiologists\n\n#### (a) RMSE Radiologists and AI\n- AI (Pct. 33)\n\n| RMSE | Density |\n|------|---------|\n| 8    |         |\n| 6    |         |\n| 4    |         |\n| 2    |         |\n| 0    |         |\n|      | .2 .3 .4 .5 .6 |\n\n#### (b) AUROC Radiologists and AI\n- AI (Pct. 32)\n\n| AUROC | Density |\n|-------|---------|\n| 6     |         |\n| 4     |         |\n| 2     |         |\n| 0     |         |\n|       | .5 .6 .7 .8 .9 1 |\n\n*Note: Main specifications similar to figure 1 with...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "87",
+        "page_num": "87",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# ATE on Deviation from Ground Truth\n\n## Figure C.22: Conditional Treatment Effect Given AI Prediction\n\n### (a) Deviation from Ground Truth\n- The figure shows the deviation from the ground truth across different AI prediction bins. The y-axis represents the deviation, while the x-axis represents the AI prediction bins ranging from [0,0.2) to [0.8,1]. The values indicate how the treatment effect varies with the AI predictions.\n\n### (b) Incorrect Decision\n- This part of the figure illustrates the proportion of incorrect decisions made based on AI predictions across the same bins. The y-axis indicates the proportion of incorrect decisions, while the x-axis again represents the AI prediction bins.\n\n**Note:** Main specifications are similar to figure 3, with the exception that the ground truth is constructed using the experiment leave-one-out average.\n\n## Table C.11: Average Treatment Effects\n\n| Treatment        | (1)     |\n|------------------|---------|\n| AI \u00d7 CH          | 0.009   |\n|   ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "88",
+        "page_num": "88",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Continuous Ground Truth\n\nThis section computes the main results using a continuous ground truth constructed using a simple average of the ground truth labelers\u2019 probability assessment.\n\n## Figures\n\n### Figure C.23: RMSE Radiologists and AI\n\n| Density | RMSE |\n|---------|------|\n| 0       | 0.2  |\n| 2       | 0.3  |\n| 4       | 0.4  |\n| 6       | 0.5  |\n| 8       | 0.6  |\n\n**Description**: This figure shows the Root Mean Square Error (RMSE) for radiologists and AI predictions. The density of predictions is plotted against RMSE values, indicating the performance of AI compared to radiologists.\n\n### Figure C.24: Conditional treatment effect given radiologist prediction\n\n| Radiologist Probability Bins | ATE   |\n|------------------------------|-------|\n| [0,0.2)                      | -0.15 |\n| [0.2,0.4)                    | -0.1  |\n| [0.4,0.6)                    | -0.05 |\n| [0.6,0.8)                    | 0     |\n| [0.8,1)                      | 0.05  |\n\n**Description**: This figure illu...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "89",
+        "page_num": "89",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Conditional Treatment Effect Given AI Prediction\n\n## Abstract\n*This section is not provided in the current text.*\n\n## Introduction\n*This section is not provided in the current text.*\n\n## Methods\n*This section is not provided in the current text.*\n\n## Results\n### Figure C.25: Conditional Treatment Effect Given AI Prediction\nThis figure illustrates the conditional treatment effect based on AI predictions. The x-axis represents AI prediction bins divided into intervals [0,0.2), [0.2,0.4), [0.4,0.6), [0.6,0.8), and [0.8,1]. The y-axis shows the average treatment effect (ATE) with values ranging from -0.05 to 0.1. The ground truth is constructed using continuous values, and the figure indicates how the treatment effect varies across different prediction bins.\n\n### Table C.12: Average Treatment Effects\n| Treatment        | (1)     |\n|------------------|---------|\n| AI \u00d7 CH          | 0.004   |\n|                  | (0.004) |\n| AI               | \u22120.006  |\n|                  | (0.003) |\n| C...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "90",
+        "page_num": "90",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\n*The abstract section is not provided in the current text.*\n\n# Introduction\n*The introduction section is not provided in the current text.*\n\n# Methods\n*The methods section is not provided in the current text.*\n\n# Results\n## C.4.3 Testing for Order Effects\nFirst Treatment (only Design 1 and Design 2)\n\nThe following graphs contain only those cases from the treatment group that the subjects encountered first. This includes the first 15 reads from design 1 and the first 5 reads from design 2. This exercise is to check if the treatment effects for all the reads is different than for the first reads.\n\n### Figure C.26: Comparing AI performance to Radiologists\n\n| RMSE Radiologists and AI | AUROC Radiologists and AI |\n|--------------------------|---------------------------|\n| AI (Pct. 21)            | AI (Pct. 64)             |\n| 40                       | 20                        |\n| 30                       | 15                        |\n| 20                       | Density       ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "91",
+        "page_num": "91",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Average Treatment Effects\n\n## Table C.13: Average Treatment Effects\n\n| Treatment        | Deviation from AI (1) | Deviation from Ground Truth (2) | Active Time (3) | Clicks (4) |\n|------------------|-----------------------|----------------------------------|-----------------|------------|\n| AI \u00d7 CH          | -0.027                | -0.035                           | 11.15           | -0.49      |\n|                  | (0.022)               | (0.029)                          | (28.70)         | (6.58)     |\n| AI               | -0.028                | 0.029                            | -14.56          | 1.45       |\n|                  | (0.017)               | (0.022)                          | (17.94)         | (4.42)     |\n| CH               | -0.009                | -0.010                           | 14.46           | 0.79       |\n|                  | (0.016)               | (0.019)                          | (21.96)         | (4.78)     |\n| Control Mean     | 0.228               ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "92",
+        "page_num": "92",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Incentives\n\nThis section tests if incentives for assessment accuracy promote radiologists to make more accurate assessments. We find that the incentives do not play a significant role in getting a correct response. The effect of incentives are estimated using the following regression specification and the results are shown in Table C.14.\n\n$$\nY_{irt} = \\gamma_{h_i} + \\gamma_{IN C} \\cdot d_{IN C}(r) + \\gamma_{CH} \\cdot d_{CH}(t) + \\gamma_{CH \\times IN C} \\cdot d_{CH}(t) \\cdot d_{IN C}(r) + \\gamma_{AI} \\cdot d_{AI}(t) + \\gamma_{AI \\times IN C} \\cdot d_{AI}(t) \\cdot d_{IN C}(r) + \\gamma_{AI \\times CH} \\cdot d_{CH}(t) \\cdot d_{AI}(t) + \\gamma_{AI \\times CH \\times IN C} \\cdot d_{CH}(t) \\cdot d_{AI}(t) \\cdot d_{IN C}(r) + \\epsilon_{irt}\n$$\n\nwhere \\( Y_{irt} \\) is an outcome variable of interest for radiologist \\( r \\) diagnosing patient case-pathology \\( i \\) and treatment \\( t \\), and \\( \\gamma_{h_i} \\) are pathology fixed effects. Here CH refers to cases with access to clinical history i...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "93",
+        "page_num": "93",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Effect of Incentives\n\n## Table C.14: Effect of Incentives\n\n| Treatment                     | Deviation from AI (Top-Level) | Deviation from AI (Pooled) | Deviation from GT (Top-Level) | Deviation from GT (Pooled) | Active Time | Clicks |\n|-------------------------------|-------------------------------|---------------------------|-------------------------------|---------------------------|-------------|--------|\n| AI \u00d7 CH                       | -0.002                        | -0.003                    | 0.002                         | 0.001                     | -8.71       | -1.18  |\n|                               | (0.007)                       | (0.003)                   | (0.013)                       | (0.004)                   | (8.30)      | (2.28) |\n| AI                            | -0.032                        | -0.013                    | 0.005                         | 0.001                     | 15.46       | 3.57   |\n|                               | (0.007)          ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "94",
+        "page_num": "94",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# ATE on Deviation from Ground Truth\n\n## Abstract\n*The abstract section is not provided in the current text.*\n\n## Introduction\n*The introduction section is not provided in the current text.*\n\n## Methods\nFigure C.29 uses the following specification that controls for the sequence number in which the participants saw a particular case within one experiment session and the session dummies for the different designs and experiment sessions to estimate the heterogeneous treatment effects. There are four sessions in Design 2, whereas Design 1 and 3 have only one session.\n\nThe model is specified as follows:\n\n$$\nY_{irt} = \\gamma_h + \\gamma_{AI} \\cdot d_{AI}(t) + \\sum [\\gamma_g \\cdot d_g(s^A) + \\gamma_{AI \\times g} \\cdot d_{AI}(t) \\cdot d_g(s^A)] + \\gamma_w + \\gamma_m + \\epsilon_{irt}\n$$\n\nwhere \\(Y_{irt}\\) is an outcome variable of interest for radiologist \\(r\\) diagnosing patient case-pathology \\(i\\) and treatment \\(t\\), \\(\\gamma_{hi}\\) are pathology fixed effects, \\(\\gamma_{wirt}\\) are sequenc...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "95",
+        "page_num": "95",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Average Treatment Effects\n\n## Table C.15: Average Treatment Effects\n\n| Sessions                     | Deviation from AI (1) | Deviation from GT (2) | Active Time (3) | Clicks (4) |\n|------------------------------|-----------------------|-----------------------|------------------|------------|\n| Design 2: Session 1         | \u22120.016                | 0.029                 | 41.18            | 14.72      |\n|                            | (0.011)               | (0.014)               | (11.17)          | (2.68)     |\n| Design 2: Session 2         | \u22120.033                | 0.014                 | \u22123.68            | 6.64       |\n|                            | (0.010)               | (0.011)               | (9.91)           | (2.48)     |\n| Design 2: Session 3         | \u22120.032                | 0.004                 | \u221225.13           | 3.68       |\n|                            | (0.011)               | (0.012)               | (9.77)           | (2.58)     |\n| Design 2: Session 4         | \u22120...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "96",
+        "page_num": "96",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Density\n\n## C.4.6 Calibrated Radiologist Probability\n\n### Figure C.30: Comparing AI Performance to Radiologists\n\n| RMSE Radiologists and AI | AUROC Radiologists and AI | |\n|--------------------------|---------------------------|---|\n| AI (Pct. 73)             | AI (Pct. 33)              | |\n| 15                       | 15                        | |\n| 10                       | 10                        | |\n| 5                        | 5                         | |\n| 0                        | 0                         | |\n| .15  .2  .25  .3  .35  .4  .6  .7  .8  .9  1 | RMSE | AUROC |\n\n**Note:** Main specifications similar to figure 1 with the exception that reported probability of the radiologists is calibrated to the ground truth.\n\n### Figure C.31: Deviation from Ground Truth\n\n| Conditional on Radiologist Signal | Conditional on AI Signal |\n|------------------------------------|--------------------------|\n| truth .02                          | truth .1                 |\n| 0       ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "97",
+        "page_num": "97",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Density\n\n## Table C.16: Average Treatment Effects\n\n| Treatment   | Deviation from GT (1) |\n|-------------|-----------------------|\n| AI \u00d7 CH     | 0.000                 |\n|             | (0.004)               |\n| AI          | -0.001                |\n|             | (0.003)               |\n| CH          | -0.002                |\n|             | (0.003)               |\n| Control Mean| 0.184                 |\n|             | (0.010)               |\n| Pathology FE| Yes                   |\n| Observations| 36279                 |\n\n*Note: Main specifications similar to table 2 with the exception that reported probability of the radiologists is calibrated to the ground truth and hence only the ATE on deviation from ground truth is reported.*\n\n## C.4.7 All Pathologies and Abnormal with AI\n\n### Figure C.32: Comparing AI performance to Radiologists\n\n- **(a)** RMSE Radiologists and AI\n- **(b)** AUROC Radiologists and AI\n\nThe figure compares the performance of AI and radiologists in terms of RM...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "98",
+        "page_num": "98",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# ATE on Deviation from Ground Truth\n\n## Figures\n\n### Figure C.33: Conditional Treatment Effect Given Radiologist Prediction\n- **(a)** Deviation from Ground Truth\n- **(b)** Incorrect Decision\n\n| Radiologist Probability Bins Without AI | Deviation from Ground Truth |\n|-----------------------------------------|-----------------------------|\n| [0,0.2)                                | 0                           |\n| [0.2,0.4)                              | 0                           |\n| [0.4,0.6)                              | -0.05                       |\n| [0.6,0.8)                              | -0.1                        |\n| [0.8,1]                                | -0.15                       |\n\n| Radiologist Probability Bins Without AI | Incorrect Decision          |\n|-----------------------------------------|-----------------------------|\n| [0,0.2)                                | 0                           |\n| [0.2,0.4)                              | -0.1                        ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "99",
+        "page_num": "99",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# ATE of AI on Deviation from Ground Truth\n\n## Abstract\n*The abstract content is not provided in the current text.*\n\n## Introduction\n*The introduction content is not provided in the current text.*\n\n## Methods\n*The methods content is not provided in the current text.*\n\n## Results\n### Figure C.35: Comparing AI Performance to Radiologists\n| RMSE Radiologists and AI | AUROC Radiologists and AI |\n|--------------------------|---------------------------|\n| AI (Pct. 90)             | AI (Pct. 75)              |\n| 4                        | 8                         |\n| 3                        | 6                         |\n| 2                        | 4                         |\n| 1                        | 2                         |\n| 0                        | 0                         |\n| .2    .4    .6           | .6    .7    .8    .9    1 |\n| RMSE                     | AUROC                     |\n\n*Note: Main specifications similar to figure 1 with the exception that only the abnormal p...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "100",
+        "page_num": "100",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# ATE on Deviation from Ground Truth\n\n## Figure C.37: Conditional Treatment Effect Given AI Prediction\n\n### (a) Deviation from Ground Truth\n- The figure shows the average treatment effect (ATE) on deviation from the ground truth across different AI prediction bins. The y-axis represents the ATE, while the x-axis represents the AI prediction bins categorized into ranges: [0.2,0.4), [0.4,0.6), [0.6,0.8), and [0.8,1]. The ATE values range from -0.1 to 0.05.\n\n### (b) Incorrect Decision\n- This part of the figure illustrates the relationship between the ATE and the occurrence of incorrect decisions based on AI predictions. Similar to part (a), the y-axis shows the ATE, and the x-axis represents the same AI prediction bins. The ATE values also range from -0.1 to 0.05.\n\n**Note:** Main specifications are similar to figure 3, with the exception that only the abnormal pathology is considered.\n",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "101",
+        "page_num": "101",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Average Treatment Effects\n\n## Table C.17: Average Treatment Effects\n\n| Treatment         | Deviation from AI (1) | Deviation from AI (2) | Deviation from Ground Truth (3) | Deviation from Ground Truth (4) | Deviation from Ground Truth (5) |\n|-------------------|-----------------------|-----------------------|----------------------------------|----------------------------------|----------------------------------|\n| AI \u00d7 CH           | 0.000                 | 0.001                 | 0.001                            | 0.001                            | 0.009                            |\n|                   | (0.001)               | (0.005)               | (0.001)                          | (0.002)                          | (0.008)                          |\n| AI                | -0.016                | -0.054                | -0.001                           | 0.001                            | 0.009                            |\n|                   | (0.001)               | (0.005)   ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "102",
+        "page_num": "102",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Automation Bias Appendix\n\n## Conditional Independence\n\nTable C.18 presents evidence that human and AI signals are not conditionally independent. To test the hypothesis of conditional independence, we regress the human report in the treatment arm without AI assistance on the ground truth, the AI score, and the interaction between ground truth and the AI score. If the signals were conditionally independent, we would observe the AI score to offer no predictive power on the human report after conditioning on the ground truth. As shown in Table C.18, we can reject this null hypothesis.\n\n### Table C.18: Test of Conditionally Independent Signals\n\n|                       | Top Level with AI | Pooled with AI | Abnormal |\n|-----------------------|-------------------|----------------|----------|\n| Ground Truth          | 0.318             | 0.265          | -0.049   |\n|                       | (0.042)           | (0.033)        | (0.078)  |\n| AI Score              | 0.536             | 0.620  ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "103",
+        "page_num": "103",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Estimating Bayesian Update Terms\n\nHere, we describe the method we use to estimate the Bayesian benchmark $$\\pi(\\omega_i = 1 | s^E, s^A)$$. This procedure is done separately for each pathology. We train a random forest classifier that predicts the ground truth based on features including the vector of a radiologist\u2019s reported probabilities in the non-AI treatment and the vector of AI predictions. Additional features include radiologist identifiers to allow for heterogeneity in radiologists\u2019 assessments, an indicator equal to one if the case was read with clinical history, and summaries of the patient clinical history.\n\nWe estimate this quantity for various parameterizations of $$s^E$$ and $$s^A$$ described in Section 5. These are used in the model testing exercise to understand if radiologists account for the joint distribution of signals when forming their posterior beliefs. The hyperparameters of the model are tuned using grouped cross-validation where observations were grouped by ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "104",
+        "page_num": "104",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Summary of Bayesian Models\n\n## Table C.19: Summary of Bayesian Models\n\n| Airspace Opacity           | (1) | (2) | (3) | (4) | (5) | (6) | (7) | (8) | (9) | (10) | (11) | (12) |\n|----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|------|------|\n| Accuracy                   | 0.88| 0.91| 0.88| 0.89| 0.90| 0.90| 0.89| 0.90| 0.89| 0.89 | 0.91 | 0.90 |\n| AUC                        | 0.89| 0.96| 0.91| 0.92| 0.96| 0.96| 0.94| 0.96| 0.93| 0.93 | 0.96 | 0.96 |\n| Cardiomediastinal Abnorm. |     |     |     |     |     |     |     |     |     |      |      |      |\n| Accuracy                   | 0.90| 0.92| 0.90| 0.91| 0.93| 0.92| 0.92| 0.92| 0.91| 0.91 | 0.93 | 0.93 |\n| AUC                        | 0.90| 0.96| 0.91| 0.93| 0.96| 0.96| 0.94| 0.96| 0.94| 0.94 | 0.96 | 0.96 |\n| Abnormal                   |     |     |     |     |     |     |     |     |     |      |      |      |\n| Accuracy                   | 0.88| 0.91| 0.88| 0.89| 0.91| 0.91| 0.90| 0.91| ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "105",
+        "page_num": "105",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Model Selection on Additional Pathology Groups\n\nHere, we present the model selection results for the remaining pre-registered pathology groups.\n",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "106",
+        "page_num": "106",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Model Selection: Top Level with AI\n\n## Table C.20: Model Selection Results\n\n| Variable               | (1)   | (2)   | (3)   | (4)   | (5)   | (6)   | (7)   | (8)   | (9)   | (10)  | (11)  | (12)  |\n|------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|\n| Automation Bias (b)    | 0.29  | 0.35  | 0.34  | 0.31  | 0.35  | 0.35  | 0.19  | 0.34  | 0.27  | 0.25  | 0.34  | 0.35  |\n|                        | (0.02)| (0.03)| (0.03)| (0.03)| (0.03)| (0.03)| (0.02)| (0.03)| (0.02)| (0.03)| (0.03)| (0.03)|\n| Own Info Bias (d)      | 1.10  | 1.06  | 1.08  | 1.08  | 1.06  | 1.05  | 1.07  | 1.06  | 1.06  | 1.07  | 1.06  | 1.05  |\n|                        | (0.01)| (0.01)| (0.01)| (0.01)| (0.01)| (0.01)| (0.01)| (0.01)| (0.01)| (0.01)| (0.01)| (0.01)|\n| Constant               | 0.40  | 0.37  | 0.40  | 0.38  | 0.37  | 0.37  | 0.31  | 0.38  | 0.33  | 0.34  | 0.37  | 0.36  |\n|                        | (0.03)| (0.04)| (0.04)| (0.04)| (...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "107",
+        "page_num": "107",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Model Selection: Pooled with AI\n\n## Table C.21: Model Selection Results\n\n| Variable                | (1)   | (2)   | (3)   | (4)   | (5)   | (6)   | (7)   | (8)   | (9)   | (10)  | (11)  | (12)  |\n|-------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|\n| Automation Bias (b)    | 0.16  | 0.09  | 0.17  | 0.14  | 0.10  | 0.10  | 0.12  | 0.10  | 0.13  | 0.14  | 0.10  | 0.10  |\n|                         | (0.01)| (0.01)| (0.02)| (0.02)| (0.01)| (0.01)| (0.01)| (0.01)| (0.02)| (0.02)| (0.01)| (0.01)|\n| Own Info Bias (d)      | 1.12  | 1.10  | 1.12  | 1.12  | 1.10  | 1.10  | 1.11  | 1.10  | 1.11  | 1.12  | 1.10  | 1.10  |\n|                         | (0.01)| (0.01)| (0.01)| (0.01)| (0.01)| (0.01)| (0.01)| (0.01)| (0.01)| (0.01)| (0.01)| (0.01)|\n| Constant                | 0.37  | 0.31  | 0.36  | 0.37  | 0.31  | 0.31  | 0.34  | 0.31  | 0.34  | 0.36  | 0.31  | 0.31  |\n|                         | (0.04)| (0.04)| (0.04)| (0.04)...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "108",
+        "page_num": "108",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Model Selection: Abnormal\n\n## Table C.22: Model Selection Results\n\n| Variable                | (1)   | (2)   | (3)   | (4)   | (5)   | (6)   | (7)   | (8)   | (9)   | (10)  | (11)  | (12)  |\n|-------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|\n| Automation Bias (b)    | 0.11  | 0.06  | 0.10  | 0.11  | 0.06  | 0.06  | 0.08  | 0.06  | 0.08  | 0.08  | 0.06  | 0.06  |\n|                         | (0.03)| (0.02)| (0.03)| (0.03)| (0.02)| (0.02)| (0.02)| (0.02)| (0.03)| (0.03)| (0.02)| (0.02)|\n| Own Info Bias (d)      | 1.06  | 1.07  | 1.06  | 1.07  | 1.07  | 1.07  | 1.06  | 1.07  | 1.06  | 1.07  | 1.07  | 1.07  |\n|                         | (0.02)| (0.02)| (0.02)| (0.02)| (0.02)| (0.02)| (0.02)| (0.02)| (0.02)| (0.02)| (0.02)| (0.02)|\n| Constant                | 0.38  | 0.29  | 0.36  | 0.39  | 0.30  | 0.29  | 0.34  | 0.29  | 0.34  | 0.34  | 0.29  | 0.29  |\n|                         | (0.07)| (0.06)| (0.07)| (0.07)| (0.0...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "109",
+        "page_num": "109",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Model Selection Without Adjusting for Measurement Error\n\nThis section presents the results of the model selection exercise not accounting for measurement error in the human signal. In these analyses, the instruments are constructed using the radiologist\u2019s report on the case in the treatment arm without AI assistance. Note that some time elapses between the reads, so the radiologist likely observes a different draw of \\( s_E \\) introducing measurement error into the right-hand side variables of equation (7). This is why the preferred method uses instruments constructed using a leave-one-out average of reports for the case.\n\n## Results\n\n### Table C.23: Results for Top-Level Pathologies with AI\n| Pathology Type | AI Performance Metric 1 | AI Performance Metric 2 |\n|----------------|--------------------------|--------------------------|\n| Pathology A    | Value A1                 | Value A2                 |\n| Pathology B    | Value B1                 | Value B2                 |\n| Path...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "110",
+        "page_num": "110",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Model Selection: Top Level with AI without Accounting for Measurement Error\n\n## Table C.23: Model Selection Results\n\n| Variable               | (1)   | (2)   | (3)   | (4)   | (5)   | (6)   | (7)   | (8)   | (9)   | (10)  | (11)  | (12)  |\n|------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|\n| Automation Bias (b)    | 0.49  | 0.37  | 0.56  | 0.53  | 0.37  | 0.38  | 0.42  | 0.37  | 0.48  | 0.52  | 0.36  | 0.38  |\n|                        | (0.02)| (0.02)| (0.03)| (0.03)| (0.02)| (0.02)| (0.02)| (0.02)| (0.03)| (0.02)| (0.02)| (0.02)|\n| Own Info Bias (d)      | 1.00  | 0.89  | 0.95  | 0.95  | 0.90  | 0.90  | 0.93  | 0.90  | 0.91  | 0.94  | 0.90  | 0.89  |\n|                        | (0.02)| (0.02)| (0.02)| (0.02)| (0.02)| (0.02)| (0.02)| (0.02)| (0.02)| (0.02)| (0.02)| (0.02)|\n| Constant               | 0.32  | 0.13  | 0.29  | 0.31  | 0.12  | 0.13  | 0.21  | 0.14  | 0.20  | 0.27  | 0.14  | 0.12  |\n|                  ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "111",
+        "page_num": "111",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Model Selection: Pooled with AI without Accounting for Measurement Error\n\n## Table C.24: Model Selection Results\n\n| Variable                | (1)   | (2)   | (3)   | (4)   | (5)   | (6)   | (7)   | (8)   | (9)   | (10)  | (11)  | (12)  |\n|-------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|\n| Automation Bias (b)    | 0.45  | 0.35  | 0.45  | 0.46  | 0.36  | 0.35  | 0.39  | 0.35  | 0.41  | 0.45  | 0.36  | 0.35  |\n|                         | (0.02)| (0.01)| (0.02)| (0.02)| (0.01)| (0.01)| (0.02)| (0.01)| (0.02)| (0.02)| (0.01)| (0.01)|\n| Own Info Bias (d)      | 1.01  | 0.93  | 0.97  | 0.98  | 0.93  | 0.94  | 0.96  | 0.93  | 0.95  | 0.97  | 0.94  | 0.93  |\n|                         | (0.01)| (0.01)| (0.01)| (0.01)| (0.01)| (0.01)| (0.01)| (0.01)| (0.01)| (0.01)| (0.01)| (0.01)|\n| Constant                | 0.21  | 0.00  | 0.10  | 0.14  | -0.01 | 0.01  | 0.07  | 0.00  | 0.04  | 0.12  | 0.01  | -0.01 |\n|                ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "112",
+        "page_num": "112",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Model Selection: Abnormal without Accounting for Measurement Error\n\n## Table C.25: Model Selection Results\n\n| Variable                | (1)   | (2)   | (3)   | (4)   | (5)   | (6)   | (7)   | (8)   | (9)   | (10)  | (11)  | (12)  |\n|-------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|\n| Automation Bias (b)    | 0.47  | 0.35  | 0.44  | 0.42  | 0.37  | 0.37  | 0.36  | 0.36  | 0.36  | 0.41  | 0.37  | 0.36  |\n|                         | (0.02)| (0.02)| (0.03)| (0.02)| (0.02)| (0.02)| (0.02)| (0.02)| (0.02)| (0.02)| (0.02)| (0.02)|\n| Own Info Bias (d)      | 0.92  | 0.89  | 0.86  | 0.90  | 0.88  | 0.88  | 0.85  | 0.88  | 0.82  | 0.87  | 0.87  | 0.88  |\n|                         | (0.02)| (0.02)| (0.02)| (0.02)| (0.02)| (0.02)| (0.02)| (0.02)| (0.02)| (0.02)| (0.02)| (0.02)|\n| Constant                | 1.23  | 0.98  | 1.16  | 1.12  | 1.02  | 1.05  | 0.99  | 1.04  | 1.01  | 1.11  | 1.05  | 1.00  |\n|                      ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "113",
+        "page_num": "113",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Linearity of the Update Model\n\nTo assess the appropriateness of the linear relationship in the model of radiologist updating with AI, we estimate non-parametric versions of the model and plot the empirical analog of Figure 5 along with the joint distribution of signals. To do so, we estimate a boosted tree that estimates the radiologist\u2019s reported \\( pr(\\omega_i=1 | s_A, s_E) \\) as a non-parametric function of a constant, the update term, and the reported \\( pr(\\omega_i=0 | s_A, s_E) \\). We impose monotonicity constraints on the update term and the reported probability without AI. We then plot the frontier in which radiologists are indifferent between following up on the case-pathology and not following up. We compare this frontier to the cutoff frontier of a Bayesian decision maker, the radiologist without AI assistance, and the radiologist with AI assistance under the linear model.\n\n## Figure C.38: Empirical analog of figure 5\n\n### (a) Airspace Opacity\n\n| Estimated Linear | Estima...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "114",
+        "page_num": "114",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Density\n\n## Abstract\n*This section is not provided in the current text.*\n\n## Introduction\n*This section is not provided in the current text.*\n\n## Methods\nWe employ a Bayesian hierarchical model, where we model the individual parameter vector \\( \\theta_r \\) as follows:\n\n$$\n\\theta_r \\sim N(\\mu, \\Sigma)\n$$\n\n$$\n\\mu \\sim N(0, 100I)\n$$\n\n$$\n\\Sigma = \\text{diag}(\\tau) \\Omega \\text{diag}(\\tau)\n$$\n\n$$\n\\tau_k \\sim \\text{Cauchy}(0, 2.5)\n$$\n\n$$\n\\Omega \\sim \\text{LKJCorr}(10)\n$$\n\nWe sample from the posterior of this model and plot the marginal distribution of the posterior means of \\( \\theta_r \\) below.\n\n## Results\n### Figure C.39: Individual Heterogeneity in b and d\n\n- **(a) Top Level with AI**\n- **(b) Pooled with AI**\n\n| Density | Own Information Bias (d) | Automation Bias (b) |\n|---------|--------------------------|---------------------|\n| 3.5     |                          |                     |\n| 3.0     |                          |                     |\n| 2.5     |                         ...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "115",
+        "page_num": "115",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\n*The abstract content is not provided in the current text.*\n\n# Introduction\n*The introduction content is not provided in the current text.*\n\n# Methods\nWe impose a low-dimensional structure on \\( c^{rel}_{rp} \\) to improve statistical precision and estimate the following logistic regression:\n\n$$\n\\log \\left( \\frac{P(a^{rit}_{p} = 1)}{1 - P(a^{rit}_{p} = 1)} \\right) = \\beta_0 + \\beta \\log(p_{ritp}) + \\alpha_p + \\gamma_r \\tag{9}\n$$\n\nwhere \\( \\alpha_p \\) are pathology fixed effects and \\( \\gamma_r \\) are radiologist fixed effects. The relative costs of false positives to false negatives for radiologist \\( r \\) and pathology \\( p \\) can then be found as:\n\n$$\nc^{rel}_{rp} = \\exp[-\\beta^0 + \\gamma_r + \\alpha_p]\n$$\n\nFor each pathology, we winsorize radiologists\u2019 relative costs at the 5th and 95th percentile.\n\n# Results\nThe results of this exercise are presented in Table C.26.\n\n## Table C.26: Preference Estimates\n\n| Group               | Mean   | Std    | Min    | 25%    | 50%    | 7...",
+      "metadata": {
+        "source": "pdf12.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf12.pdf",
+        "doc_id": "pdf12",
+        "page_label": "116",
+        "page_num": "116",
+        "image_map": "{\"61\": [\"extracted/figures/pdf12_p61_i1.jpeg\"], \"62\": [\"extracted/figures/pdf12_p62_i1.png\"], \"63\": [\"extracted/figures/pdf12_p63_i1.png\"], \"67\": [\"extracted/figures/pdf12_p67_i1.png\"], \"68\": [\"extracted/figures/pdf12_p68_i1.png\"], \"114\": [\"extracted/figures/pdf12_p114_i1.png\"]}"
+      }
+    }
+  ]
+}

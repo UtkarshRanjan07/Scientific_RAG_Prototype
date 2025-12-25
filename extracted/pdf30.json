@@ -1,0 +1,38 @@
+{
+  "source": "pdf30.pdf",
+  "documents": [
+    {
+      "text": "# Artificial Intelligence in Tuberculosis Diagnosis: Revolutionizing Detection and Treatment\n\n## Authors\nSankalp Yadav\u00b9*, Naveen Jeyaraman\u00b2, Madhan Jeyaraman\u00b2,\u00b3, Gautam Rawal\u2074\n\u00b9Dept. of Medicine &#x26; Tuberculosis, Shri Madan Lal Khurana Chest Clinic, Municipal Corporation of Delhi, New Delhi, India\n\u00b2Dept. of Orthopaedics, ACS Medical College and Hospital, Dr MGR Educational and Research Institute, Chennai, Tamil Nadu, India\n\u00b3Clinical Research, Virginia Tech India, Dr MGR Educational and Research Institute, Chennai, Tamil Nadu, India\n\u2074Dept. of Respiratory Medical Critical Care, Max Super Speciality Hospital, Saket, New Delhi, India\n\n*Corresponding author. E-mail address: drsankalpyadav@gmail.com (S. Yadav).\n\n## Abstract\nArtificial intelligence (AI) is rapidly transforming tuberculosis (TB) diagnosis. It is addressing the longstanding challenges in accuracy, efficiency, and accessibility. Traditional diagnostic methods, while effective, often suffer from limitations such as variability...",
+      "metadata": {
+        "source": "pdf30.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf30.pdf",
+        "doc_id": "pdf30",
+        "page_label": "1",
+        "page_num": "1",
+        "image_map": "{\"1\": [\"extracted/figures/pdf30_p1_i1.png\", \"extracted/figures/pdf30_p1_i2.png\", \"extracted/figures/pdf30_p1_i3.png\"], \"3\": [\"extracted/figures/pdf30_p3_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Yadav et al. / IP Indian Journal of Immunology and Respiratory Medicine 2024;9(2):85\u201387\n\n## Abstract\nThe integration of artificial intelligence (AI) into tuberculosis (TB) diagnosis presents a transformative opportunity to enhance diagnostic accuracy and efficiency. This paper discusses the benefits and challenges of AI applications in TB diagnosis, including automated detection of TB lesions, genomic analysis, and clinical decision support systems.\n\n## Introduction\nTuberculosis remains a significant global health challenge, with traditional diagnostic methods often being time-consuming and resource-intensive. The need for innovative approaches to improve diagnostic efficiency is urgent.\n\n## Methods\nAI technologies, including machine learning (ML) and deep learning algorithms, have shown promise in transforming TB diagnosis in several key ways:\n\n### 1. Chest X-ray Analysis\n#### (a) Automated Detection of TB Lesions\nAI algorithms can analyze chest X-rays to detect abnormalities indic...",
+      "metadata": {
+        "source": "pdf30.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf30.pdf",
+        "doc_id": "pdf30",
+        "page_label": "2",
+        "page_num": "2",
+        "image_map": "{\"1\": [\"extracted/figures/pdf30_p1_i1.png\", \"extracted/figures/pdf30_p1_i2.png\", \"extracted/figures/pdf30_p1_i3.png\"], \"3\": [\"extracted/figures/pdf30_p3_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Arti\ufb01cial Intelligence in Tuberculosis Diagnosis: Revolutionizing Detection and Treatment\n\n## Abstract\nIn recent years, artificial intelligence (AI) has emerged as a transformative force in various fields, including healthcare. This paper explores the potential of AI in revolutionizing tuberculosis (TB) diagnosis, addressing traditional diagnostic challenges, and improving patient outcomes. By leveraging AI's capabilities in data analysis, pattern recognition, and decision support, we can envision a future where TB diagnosis is more accurate, timely, equitable, and accessible to all populations.\n\n## Introduction\nTuberculosis remains one of the oldest known infectious diseases, posing significant public health challenges globally. Traditional diagnostic methods often fall short in terms of speed, accuracy, and accessibility. The integration of AI into TB diagnostics presents an opportunity to overcome these challenges and enhance the overall effectiveness of TB management.\n\n## Method...",
+      "metadata": {
+        "source": "pdf30.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf30.pdf",
+        "doc_id": "pdf30",
+        "page_label": "3",
+        "page_num": "3",
+        "image_map": "{\"1\": [\"extracted/figures/pdf30_p1_i1.png\", \"extracted/figures/pdf30_p1_i2.png\", \"extracted/figures/pdf30_p1_i3.png\"], \"3\": [\"extracted/figures/pdf30_p3_i1.png\"]}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "source": "pdf25.pdf",
+  "documents": [
+    {
+      "text": "# Research ethics and artificial intelligence for global health: perspectives from the global forum on bioethics in research\n\n**James Shaw**, Joseph Ali, Caesar A. Atuire, Phaik Yeong Cheah, Armando Guio Espa\u00f1ol, Judy Wawira Gichoya, Adrienne Hunt, Daudi Jjingo, Katherine Littler, Daniela Paolotti, Effy Vayena\n\n## Abstract\n**Background** The ethical governance of Artificial Intelligence (AI) in health care and public health continues to be an urgent issue for attention in policy, research, and practice. In this paper, we report on central themes related to challenges and strategies for promoting ethics in research involving AI in global health, arising from the Global Forum on Bioethics in Research (GFBR), held in Cape Town, South Africa in November 2022.\n\n**Methods** The GFBR is an annual meeting organized by the World Health Organization and supported by the Wellcome Trust, the US National Institutes of Health, the UK Medical Research Council (MRC), and the South African MRC. The for...",
+      "metadata": {
+        "source": "pdf25.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf25.pdf",
+        "doc_id": "pdf25",
+        "page_label": "1",
+        "page_num": "1",
+        "image_map": "{\"1\": [\"extracted/figures/pdf25_p1_i1.png\"], \"9\": [\"extracted/figures/pdf25_p9_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Ethical Governance of AI in Global Health\n\n## Abstract\nThe ethical governance of Artificial Intelligence (AI) in health care and public health continues to be an urgent issue for attention in policy, research, and practice. This paper reports on central themes related to challenges and strategies for promoting ethics in research involving AI in global health research, arising from the Global Forum on Bioethics in Research (GFBR), held in Cape Town, South Africa in November 2022. We highlight categories of ethical issues emphasized at the forum and outline strategies proposed for research, innovation, and governance to support more ethical AI for global health.\n\n## Introduction\nThe ethical governance of Artificial Intelligence (AI) in health care and public health continues to be an urgent issue for attention in policy, research, and practice [1\u20133]. Beyond the growing number of AI applications being implemented in health care, capabilities of AI models such as Large Language Models (...",
+      "metadata": {
+        "source": "pdf25.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf25.pdf",
+        "doc_id": "pdf25",
+        "page_label": "2",
+        "page_num": "2",
+        "image_map": "{\"1\": [\"extracted/figures/pdf25_p1_i1.png\"], \"9\": [\"extracted/figures/pdf25_p9_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Ethical Governance of AI in Global Health Research\n\n## Abstract\nOne important point emphasized in the WHO report that reinforces the broader literature on global governance of AI is the distribution of responsibility across a wide range of actors in the AI ecosystem. This is especially important to highlight when focused on research for global health, which is specifically about work that transcends national borders. Alami et al. (2020) discussed the unique risks raised by AI research in global health, ranging from the unavailability of data in many LMICs required to train locally relevant AI models to the capacity of health systems to absorb new AI technologies that demand the use of resources from elsewhere in the system. These observations illustrate the need to identify the unique issues posed by AI research for global health specifically, and the strategies that can be employed by all those implicated in AI governance to promote ethically responsible use of AI in global health ...",
+      "metadata": {
+        "source": "pdf25.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf25.pdf",
+        "doc_id": "pdf25",
+        "page_label": "3",
+        "page_num": "3",
+        "image_map": "{\"1\": [\"extracted/figures/pdf25_p1_i1.png\"], \"9\": [\"extracted/figures/pdf25_p9_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Ethical Governance of AI in Global Health Research\n\n## Abstract\nThis paper synthesizes the challenges and opportunities raised at the Global Forum on Bioethics in Research (GFBR) meeting, focusing on the ethical implications of AI in global health research. We aim to highlight central issues, proposed solutions, and the challenges facing the research ethics community, particularly in low-resource settings.\n\n## Introduction\nThe GFBR meeting serves as a platform for policymakers, Research Ethics Committee (REC) members, and other stakeholders to engage with the challenges and opportunities related to research ethics. Each year, the forum includes case studies and keynote presentations, followed by small-group discussions aimed at advancing thinking on related issues. The topics of past forums have included ethical issues in research with individuals living with mental health conditions, genome editing, and biobanking/data sharing. The forum emphasizes practical challenges in research ...",
+      "metadata": {
+        "source": "pdf25.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf25.pdf",
+        "doc_id": "pdf25",
+        "page_label": "4",
+        "page_num": "4",
+        "image_map": "{\"1\": [\"extracted/figures/pdf25_p1_i1.png\"], \"9\": [\"extracted/figures/pdf25_p9_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Ethical Governance of AI in Global Health Research\n\n## Abstract\nThe paper discusses the ethical governance of artificial intelligence (AI) in global health research, highlighting the complexities and challenges faced by researchers and institutions. It emphasizes the need for a nuanced understanding of consent, accountability, and the transferability of AI systems across different health contexts.\n\n## Introduction\nThe introduction outlines the increasing integration of AI technologies in global health research and the ethical dilemmas that arise from their use. It sets the stage for a discussion on the role of Research Ethics Committees (RECs) and the importance of ethical governance in ensuring responsible AI deployment.\n\n## Methods\nThe methods section describes the forum's structure, where participants engaged in discussions about the ethical implications of AI in health research. Various case studies were presented to illustrate the challenges and considerations in different nati...",
+      "metadata": {
+        "source": "pdf25.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf25.pdf",
+        "doc_id": "pdf25",
+        "page_label": "5",
+        "page_num": "5",
+        "image_map": "{\"1\": [\"extracted/figures/pdf25_p1_i1.png\"], \"9\": [\"extracted/figures/pdf25_p9_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Suggestions for Governance Leaders Related to AI for Global Health Research\n\n## Table 2: Suggestions for Governance Leaders Related to AI for Global Health Research\n\n| Strategies to Promote Ethical AI for Global Health | Brief Description |\n|---------------------------------------------------|-------------------|\n| Remain up to date on recent advances in the regulation of AI for health | Regulation of AI for health advances rapidly and takes on different forms in jurisdictions around the world. Governance leaders should commit to efforts to remain up to date about the relevant approaches to regulating AI for health care and public health in jurisdictions internationally. In this way, governance can more adequately remain up to date with advances in regulation. |\n| Focus on ethical governance of health data | Health data are considered the foundation of AI development, being used to train AI algorithms for various uses. By focusing on ethical governance of health data generation, sha...",
+      "metadata": {
+        "source": "pdf25.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf25.pdf",
+        "doc_id": "pdf25",
+        "page_label": "6",
+        "page_num": "6",
+        "image_map": "{\"1\": [\"extracted/figures/pdf25_p1_i1.png\"], \"9\": [\"extracted/figures/pdf25_p9_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Ethical Governance of AI in Global Health Research\n\n## Abstract\nThe paper discusses the ethical governance challenges posed by the development and implementation of AI technologies in global health research. It summarizes insights from the 2022 Global Forum on Bioethics in Research (GFBR), focusing on thematic challenges and suggestions for improving governance in this area.\n\n## Introduction\nResearch involving AI technologies in global health is rapidly increasing, raising significant ethical governance challenges. This paper aims to summarize insights from the GFBR, particularly regarding research ethics related to AI in global health.\n\n## Methods\nThe insights presented in this paper were derived from discussions and presentations at the 2022 GFBR, where participants shared their perspectives on the ethical governance of AI in global health research.\n\n## Results\n### Thematic Challenges\n1. **Power Imbalances**: The existing global health context is characterized by power imbalances,...",
+      "metadata": {
+        "source": "pdf25.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf25.pdf",
+        "doc_id": "pdf25",
+        "page_label": "7",
+        "page_num": "7",
+        "image_map": "{\"1\": [\"extracted/figures/pdf25_p1_i1.png\"], \"9\": [\"extracted/figures/pdf25_p9_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Ethical Governance of AI in Global Health Research\n\n## Abstract\nThis paper discusses the challenges and strategies for the ethical governance of artificial intelligence (AI) in global health research. It highlights the rapid evolution of AI technologies and the need for governance leaders to adapt their approaches accordingly. The paper emphasizes the importance of international collaboration within the research ethics community to enhance governance capabilities.\n\n## Introduction\nThe introduction outlines the significance of AI in global health research and the ethical implications that arise from its use. It sets the stage for discussing the governance challenges and the need for effective strategies to address them.\n\n## Methods\nThe methods section describes the approach taken to analyze the current state of AI governance in global health research. It includes a review of existing literature, case studies, and governance reports submitted to the Global Forum on Bioethics in Resear...",
+      "metadata": {
+        "source": "pdf25.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf25.pdf",
+        "doc_id": "pdf25",
+        "page_label": "8",
+        "page_num": "8",
+        "image_map": "{\"1\": [\"extracted/figures/pdf25_p1_i1.png\"], \"9\": [\"extracted/figures/pdf25_p9_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Data Availability\n\nAll data and materials analyzed to produce this paper are available on the GFBR website: GFBR Website.\n\n# Declarations\n\n## Ethics Approval and Consent to Participate\nNot applicable.\n\n## Consent for Publication\nNot applicable.\n\n## Competing Interests\nThe authors declare no competing interests.\n\n# Author Details\n1. Department of Physical Therapy, Temerty Faculty of Medicine, University of Toronto, Toronto, Canada\n2. Berman Institute of Bioethics, Johns Hopkins University, Baltimore, MD, USA\n3. Bloomberg School of Public Health, Johns Hopkins University, Baltimore, MD, USA\n4. Department of Philosophy and Classics, University of Ghana, Legon-Accra, Ghana\n5. Centre for Tropical Medicine and Global Health, Nuffield Department of Medicine, University of Oxford, Oxford, UK\n6. Mahidol Oxford Tropical Medicine Research Unit, Faculty of Tropical Medicine, Mahidol University, Bangkok, Thailand\n7. Berkman Klein Center, Harvard University, Bogot\u00e1, Colombia\n8. Department of Radi...",
+      "metadata": {
+        "source": "pdf25.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf25.pdf",
+        "doc_id": "pdf25",
+        "page_label": "9",
+        "page_num": "9",
+        "image_map": "{\"1\": [\"extracted/figures/pdf25_p1_i1.png\"], \"9\": [\"extracted/figures/pdf25_p9_i1.png\"]}"
+      }
+    }
+  ]
+}

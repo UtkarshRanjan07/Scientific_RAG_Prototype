@@ -1,0 +1,49 @@
+{
+  "source": "pdf4.pdf",
+  "documents": [
+    {
+      "text": "# Artificial Intelligence in Acute Medicine: A Call to Action\n\n## Authors\nMaurizio Cecconi\u00b9\u00b2*, Massimiliano Greco\u00b9\u00b2, Benjamin Shickel\u00b3, Jean-Louis Vincent\u2074, Azra Bihorac\u00b3\n\n## Abstract\nOn November 30, 2022, OpenAI released ChatGPT, the first chatbot and virtual assistant powered by large language models (LLMs). In just five days, ChatGPT attracted over 1 million users and reached 200 million monthly active users worldwide within fifteen months. This sudden surge of interest in artificial intelligence (AI) has expanded its potential from a niche concept to a mainstream obsession. AI and machine learning were already making strides in medicine and healthcare, but with the advent of prescriptive and generative AI, new opportunities emerged to redefine how healthcare professionals diagnose, treat, and monitor patients [1]. AI has the potential to enhance diagnostic precision and provide personalized care by bridging the gap between digitalized medical data, clinical decisions, and optimized...",
+      "metadata": {
+        "source": "pdf4.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf4.pdf",
+        "doc_id": "pdf4",
+        "page_label": "1",
+        "page_num": "1",
+        "image_map": "{\"1\": [\"extracted/figures/pdf4_p1_i1.png\"], \"3\": [\"extracted/figures/pdf4_p3_i1.jpeg\", \"extracted/figures/pdf4_p3_i2.png\"]}"
+      }
+    },
+    {
+      "text": "\n# AI in Acute Care: Challenges and Framework for Implementation\n\n## Abstract\nAI systems could streamline note-taking, documentation, and correspondence between healthcare providers and patients. Additionally, AI could help in research. Current research in acute settings has several limitations. Populations of acutely ill patients are highly heterogeneous, and diseases are exceptionally dynamic. Unsurprisingly, randomized controlled trials have often failed to show positive results. AI could significantly improve trial design and execution by offering new ways to address these challenges. AI could identify precise patient phenotypes for accurate inclusion criteria, ensuring that trials enroll the most suitable participants. It can also assist in real-time monitoring of trial participants, providing early signals of efficacy or adverse effects. Additionally, predictive models can help adapt trial designs dynamically, allowing investigators to adjust interventions based on emerging data....",
+      "metadata": {
+        "source": "pdf4.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf4.pdf",
+        "doc_id": "pdf4",
+        "page_label": "2",
+        "page_num": "2",
+        "image_map": "{\"1\": [\"extracted/figures/pdf4_p1_i1.png\"], \"3\": [\"extracted/figures/pdf4_p3_i1.jpeg\", \"extracted/figures/pdf4_p3_i2.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nIntegrating AI in medicine can transform healthcare delivery, but achieving this vision requires a concerted effort. Stakeholders must embrace a unified approach to AI integration, advocating for robust data infrastructures, ethical frameworks, and collaborative networks that can harness the full potential of AI. By focusing on data standardization, real-time ICU networks, education, and working on a new \u201csocial contract for AI between all stakeholders,\u201d we can move toward a future where AI-enabled care brings acute medicine where and when it is needed, ultimately improving patient outcomes and enhancing the clinician-patient relationship.\n\n# Introduction\nThe integration of artificial intelligence (AI) in healthcare has the potential to revolutionize patient care. However, this transformation necessitates a collaborative effort among various stakeholders, including healthcare providers, technology developers, and policymakers.\n\n# Methods\n## Collaborative Research and Develo...",
+      "metadata": {
+        "source": "pdf4.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf4.pdf",
+        "doc_id": "pdf4",
+        "page_label": "3",
+        "page_num": "3",
+        "image_map": "{\"1\": [\"extracted/figures/pdf4_p1_i1.png\"], \"3\": [\"extracted/figures/pdf4_p3_i1.jpeg\", \"extracted/figures/pdf4_p3_i2.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Critical Care Research Paper\n\n## Abstract\n*The abstract content is not provided in the current text.*\n\n## Introduction\n*The introduction content is not provided in the current text.*\n\n## Methods\n*The methods content is not provided in the current text.*\n\n## Results\n*The results content is not provided in the current text.*\n\n## Discussion\n*The discussion content is not provided in the current text.*\n\n## Conclusion\n*The conclusion content is not provided in the current text.*\n\n## References\n1. Pinsky MR, Bedoya A, Bihorac A, Celi L, Churpek M, Economou-Zavlanos NJ, Elbers P, Saria S, Liu V, Lyons PG, et al. Use of artificial intelligence in critical care: opportunities and obstacles. Crit Care. 2024;28(1):113.\n2. Komorowski M, Celi LA, Badawi O, Gordon AC, Faisal AA. The Artificial Intelligence Clinician learns optimal treatment strategies for sepsis in intensive care. Nat Med. 2018;24(11):1716\u201320.\n3. Komorowski M, del Pilar Arias L\u00f3pez M, Chang AC. How could ChatGPT impact my practic...",
+      "metadata": {
+        "source": "pdf4.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf4.pdf",
+        "doc_id": "pdf4",
+        "page_label": "4",
+        "page_num": "4",
+        "image_map": "{\"1\": [\"extracted/figures/pdf4_p1_i1.png\"], \"3\": [\"extracted/figures/pdf4_p3_i1.jpeg\", \"extracted/figures/pdf4_p3_i2.png\"]}"
+      }
+    }
+  ]
+}

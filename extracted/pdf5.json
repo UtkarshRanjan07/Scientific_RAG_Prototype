@@ -1,0 +1,93 @@
+{
+  "source": "pdf5.pdf",
+  "documents": [
+    {
+      "text": "# Assessing the accuracy and reproducibility of artificial intelligence-generated medical responses by ChatGPT on Scheuermann\u2019s kyphosis\n\n**Esra Giray\u00b9, \u00d6zge G\u00fcls\u00fcm Illeez\u00b9, Merve Damla Korkmaz\u00b2, Nalan Capan\u00b3, Evrim Karadag Saygi\u2074, Resa Ayd\u0131n\u00b3**\n\n1. Department of Physical Medicine and Rehabilitation, University of Health Sciences, Fatih Sultan Mehmet Training and Research Hospital, \u0130stanbul, T\u00fcrkiye\n2. Department of Physical Medicine and Rehabilitation, Biruni University Faculty of Medicine, \u0130stanbul, T\u00fcrkiye\n3. Department of Physical Medicine and Rehabilitation, \u0130stanbul University, \u0130stanbul Faculty of Medicine, \u0130stanbul, T\u00fcrkiye\n4. Department of Physical Medicine and Rehabilitation, Marmara University School of Medicine, \u0130stanbul, T\u00fcrkiye\n\n## Abstract\n**Objectives:** The study aimed to measure the performance and reproducibility of artificial intelligence in answering frequently asked questions about Scheuermann\u2019s kyphosis and to compare the artificial intelligence with the SOSORT (I...",
+      "metadata": {
+        "source": "pdf5.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf5.pdf",
+        "doc_id": "pdf5",
+        "page_label": "1",
+        "page_num": "1",
+        "image_map": "{}"
+      }
+    },
+    {
+      "text": "\n# Title: Evaluation of ChatGPT's Responses to Patient Queries Regarding Scheuermann\u2019s Kyphosis\n\n## Abstract\nThe digital age has made medical information more accessible, leading to increased reliance on online search engines and chatbots like ChatGPT for medical advice. This study evaluates the accuracy and reproducibility of ChatGPT\u2019s responses to frequently asked questions about Scheuermann\u2019s kyphosis, comparing them to the established consensus of the International Society on Scoliosis Orthopaedic and Rehabilitation Treatment (SOSORT). The findings aim to assess ChatGPT\u2019s potential role in clinical decision-making.\n\n## Introduction\nNeurological deficits, cardiopulmonary compromise, or poor cosmetic outcomes are common concerns in patients with Scheuermann\u2019s kyphosis. The rise of powerful search engines has made medical information more accessible, leading patients and their relatives to consult online resources for understanding symptoms and medical management. ChatGPT, a large lan...",
+      "metadata": {
+        "source": "pdf5.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf5.pdf",
+        "doc_id": "pdf5",
+        "page_label": "2",
+        "page_num": "2",
+        "image_map": "{}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nThis study evaluates the performance of ChatGPT in answering questions related to Scheuermann\u2019s kyphosis. A total of 85 questions were gathered, with 10 duplicates removed, resulting in 75 questions evaluated for inclusion. The questions were categorized into general information, diagnosis, treatment &#x26; follow-up, quality of life, and case examples. Responses were generated using ChatGPT and evaluated by two physiatrists and two experts in pediatric rehabilitation medicine for accuracy.\n\n# Introduction\nScheuermann\u2019s kyphosis is a condition characterized by an abnormal curvature of the spine. Patients often have questions regarding their condition, treatment options, and quality of life. This study aims to assess how well ChatGPT can provide accurate and comprehensive answers to these questions, reflecting real-world interactions.\n\n# Methods\nQuestions were gathered from various sources and categorized as follows:\n1. General information (n=24)\n2. Diagnosis (n=8)\n3. Treatm...",
+      "metadata": {
+        "source": "pdf5.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf5.pdf",
+        "doc_id": "pdf5",
+        "page_label": "3",
+        "page_num": "3",
+        "image_map": "{}"
+      }
+    },
+    {
+      "text": "\n# Results\n\nThe workflow of this study is depicted in Figure 1. Out of 75 questions, the responses were as follows: 43 (57.33%) questions received correct and comprehensive answers (score 1), 29 (38.67%) questions received correct but not comprehensive answers (score 2), three (4%) questions received partially incorrect answers (score 3), and 0 questions received completely incorrect answers (score 4). The distribution of scores across question categories is illustrated in Figure 2. ChatGPT demonstrated its best performance in the quality of life category, with responses to 16 out of 19 questions graded as correct and comprehensive answers. The second-best performance was in the general knowledge category, with 15 (62.3%) out of 24 questions scored as correct and comprehensive answers (score 1). The worst performance was in the diagnosis category, where three (37.5%) out of eight responses were rated as correct and comprehensive. Similarly, in the treatment and follow-up category, only...",
+      "metadata": {
+        "source": "pdf5.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf5.pdf",
+        "doc_id": "pdf5",
+        "page_label": "4",
+        "page_num": "4",
+        "image_map": "{}"
+      }
+    },
+    {
+      "text": "\n# Agreement between Two Reviewers\n\n## Abstract\nIn this study, we evaluated the accuracy and reproducibility of ChatGPT in addressing frequently asked patient inquiries concerning Scheuermann\u2019s kyphosis. We assessed the accuracy of its responses to case-based questions. Overall, ChatGPT\u2019s responses were accurate, with the majority rated as comprehensive and demonstrating high reproducibility. However, it provided approximately 40% of the answers correctly, with notable weaknesses in diagnosis, treatment, and follow-up.\n\n## Introduction\nChatGPT has been increasingly utilized in medical specialties to provide information and answer patient inquiries. Previous studies have shown varying levels of accuracy in its responses, highlighting the need for oversight by healthcare professionals. This study aims to evaluate ChatGPT's performance specifically in the context of Scheuermann\u2019s kyphosis.\n\n## Methods\nWe conducted a review of ChatGPT's responses to a series of questions related to Scheuer...",
+      "metadata": {
+        "source": "pdf5.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf5.pdf",
+        "doc_id": "pdf5",
+        "page_label": "5",
+        "page_num": "5",
+        "image_map": "{}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nThe present study examines the utility of ChatGPT in responding to queries related to Scheuermann\u2019s kyphosis. It highlights the limitations of AI in providing personalized medical advice and emphasizes the importance of consulting healthcare professionals for accurate diagnosis and treatment.\n\n# Introduction\nAs spinal deformities become more visible, aesthetic concerns lead adolescents and their families to seek treatment. Many individuals now seek online information before consulting healthcare professionals, with one-third of inquiries coming from those under the age of 18. Artificial intelligence platforms are increasingly favored over search engines for providing more comprehensive and understandable information.\n\n# Methods\nThe study involved evaluating ChatGPT's performance in diagnosis and treatment categories related to Scheuermann\u2019s kyphosis. Patient questions were constructed from comprehensive and real case examples frequently asked in daily practice, enriched wit...",
+      "metadata": {
+        "source": "pdf5.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf5.pdf",
+        "doc_id": "pdf5",
+        "page_label": "6",
+        "page_num": "6",
+        "image_map": "{}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nArtificial intelligence (AI) can assist healthcare professionals by providing information and suggestions based on existing data and guidelines. However, making accurate diagnoses and treatment decisions often requires clinical expertise, a comprehensive understanding of individual patient contexts, and the ability to consider nuanced factors that AI may not fully grasp. Consequently, while AI can enhance the decision-making process, it cannot replace the critical role of healthcare professionals in effectively diagnosing and treating patients. It is important to note that ChatGPT was not specifically trained on Scheuermann\u2019s kyphosis or other specialized medical conditions. Its general training aims to simulate typical real-world interactions, which may limit its effectiveness for highly specialized queries. Specialized training with domain-specific datasets could greatly improve the AI\u2019s accuracy and ability to provide detailed, evidence-based information on Scheuermann\u2019s...",
+      "metadata": {
+        "source": "pdf5.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf5.pdf",
+        "doc_id": "pdf5",
+        "page_label": "7",
+        "page_num": "7",
+        "image_map": "{}"
+      }
+    },
+    {
+      "text": "\n# Spinal Deformity: Kyphosis. A Handbook for Patients\n\n## Abstract\nThis handbook provides an overview of kyphosis, a spinal deformity characterized by an excessive curvature of the thoracic spine. It aims to educate patients about the condition, its causes, symptoms, and treatment options.\n\n## Introduction\nKyphosis can occur in various forms, including postural kyphosis, Scheuermann's kyphosis, and congenital kyphosis. Understanding the underlying causes and the impact of kyphosis on daily life is crucial for effective management.\n\n## Methods\nThe information presented in this handbook is based on a review of current literature and guidelines regarding the diagnosis and treatment of kyphosis.\n\n## Results\nThe handbook outlines the different types of kyphosis, their clinical presentations, and the recommended treatment approaches, which may include physical therapy, bracing, and surgical interventions.\n\n## Discussion\nThe discussion emphasizes the importance of early diagnosis and interve...",
+      "metadata": {
+        "source": "pdf5.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf5.pdf",
+        "doc_id": "pdf5",
+        "page_label": "8",
+        "page_num": "8",
+        "image_map": "{}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "source": "pdf14.pdf",
+  "documents": [
+    {
+      "text": "# Artificial Intelligence in Medicine and Dentistry\n\n## Abstract\n**Introduction:** Artificial intelligence has been applied in various fields throughout history, but its integration into daily life is more recent. The first applications of AI were primarily in academia and government research institutions, but as technology has advanced, AI has also been applied in industry, commerce, medicine, and dentistry.\n\n**Objective:** Considering that the possibilities of applying artificial intelligence are developing rapidly and that this field is one of the areas with the greatest increase in the number of newly published articles, the aim of this paper was to provide an overview of the literature and to give an insight into the possibilities of applying artificial intelligence in medicine and dentistry. In addition, the aim was to discuss its advantages and disadvantages.\n\n**Conclusion:** The possibilities of applying artificial intelligence to medicine and dentistry are just being discovere...",
+      "metadata": {
+        "source": "pdf14.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf14.pdf",
+        "doc_id": "pdf14",
+        "page_label": "1",
+        "page_num": "1",
+        "image_map": "{\"2\": [\"extracted/figures/pdf14_p2_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Umjetna inteligencija\n\n## Abstract\nThe concept of artificial intelligence (AI) dates back to 1956, when a group of researchers at the Dartmouth Summer Research Project proposed the goal of creating \"thinking machines\" that could mimic human intelligence and behavior. This event is widely regarded as the beginning of AI as a formal field of study. To better understand AI, it is essential to clarify the differences between artificial intelligence, deep learning, machine learning, and data science.\n\n## Introduction\nArtificial intelligence, deep learning, machine learning, and data science are related but distinct fields. Artificial intelligence is the broadest field, encompassing a range of techniques and methods aimed at creating intelligent machines that can perform tasks that normally require human intelligence, such as visual perception, speech recognition, decision making, and natural language processing. AI can be divided into several branches, including expert systems, robotics,...",
+      "metadata": {
+        "source": "pdf14.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf14.pdf",
+        "doc_id": "pdf14",
+        "page_label": "2",
+        "page_num": "2",
+        "image_map": "{\"2\": [\"extracted/figures/pdf14_p2_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Artificial Intelligence in Medicine and Dentistry\n\n## Abstract\nThe aim of this paper was to provide an overview of the literature and to give insight into the possibilities of applying artificial intelligence in medicine and dentistry. The paper discusses the advantages and disadvantages of AI applications in these fields.\n\n## Introduction\nArtificial intelligence (AI) has been applied in various fields throughout history, but its integration into daily life is more recent. The first applications of AI were primarily in academia and government research institutions, but as technology has advanced, AI has also been applied in industry and commerce (5). One of the earliest examples of AI in everyday life was the use of expert systems in the 1980s and 1990s. These were computer programs that could mimic the decision-making abilities of a human expert in a particular field, such as medicine or finance. In the 21st century, AI has been increasingly integrated into a variety of consumer pr...",
+      "metadata": {
+        "source": "pdf14.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf14.pdf",
+        "doc_id": "pdf14",
+        "page_label": "3",
+        "page_num": "3",
+        "image_map": "{\"2\": [\"extracted/figures/pdf14_p2_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Umjetna inteligencija\n\n## Abstract\nUmjetna inteligencija (UI) se sve vi\u0161e primjenjuje u razli\u010ditim industrijama, uklju\u010duju\u0107i medicinu i dentalnu medicinu. Ovaj rad istra\u017euje prednosti i nedostatke kori\u0161tenja umjetne inteligencije u svakodnevnom \u017eivotu, koriste\u0107i znanstvene baze podataka kao \u0161to su Pubmed i Web of Science.\n\n## Introduction\nUmjetna inteligencija, duboko u\u010denje i strojno u\u010denje postaju sve va\u017eniji u modernom dru\u0161tvu. Ovaj rad analizira kako se UI koristi u svakodnevnom \u017eivotu i koje su njene prednosti i nedostaci.\n\n## Methods\nZa istra\u017eivanje su kori\u0161tene znanstvene baze podataka Pubmed i Web of Science. Klju\u010dne rije\u010di uklju\u010duju umjetna inteligencija, medicina, zdravstvo, dentalna medicina, duboko u\u010denje i strojno u\u010denje.\n\n## Results\n### Advantages of Artificial Intelligence\nAI je o\u010dekuje da postane sve prisutnija u svakodnevnom \u017eivotu. Prednosti uklju\u010duju:\n- **Pobolj\u0161anje radne u\u010dinkovitosti i produktivnosti**: Automatizacija ponavljaju\u0107ih zadataka.\n- **Personalizacija...",
+      "metadata": {
+        "source": "pdf14.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf14.pdf",
+        "doc_id": "pdf14",
+        "page_label": "4",
+        "page_num": "4",
+        "image_map": "{\"2\": [\"extracted/figures/pdf14_p2_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Artificial Intelligence in Medicine and Healthcare\n\n## Abstract\nThe decades-long use of computers in medicine and healthcare around the world has generated huge databases with an enormous amount of different data on patients, diagnoses, medical records, and linked laboratory results.\n\n## Introduction\nArtificial Intelligence (AI) has the potential to revolutionize various sectors, including healthcare. However, its integration raises several ethical concerns and challenges that need to be addressed.\n\n## Ethical Concerns\n- **Autonomous Weapons and Decision Making**: AI may raise ethical concerns, such as autonomous weapons and decision-making.\n- **Job Displacement**: The potential for job displacement due to AI implementation.\n- **Privacy Issues**: Concerns regarding privacy in the use of AI technologies.\n\n## Limitations of AI\n- **Lack of Human Contact**: AI systems lack the human touch and emotion that can be important for certain tasks, such as healthcare, customer service, and educ...",
+      "metadata": {
+        "source": "pdf14.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf14.pdf",
+        "doc_id": "pdf14",
+        "page_label": "5",
+        "page_num": "5",
+        "image_map": "{\"2\": [\"extracted/figures/pdf14_p2_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Umjetna inteligencija u medicini\n\n## Abstract\nThe existence of large databases containing logical images, clinical images, therapeutic procedures, treatment results, and more has created one of the main prerequisites for machine learning and the development of artificial intelligence (AI) in all areas of medicine. The number of areas in modern medicine where AI is finding practical application is growing inexorably. This paper will present only some of them.\n\n## Introduction\nOnly 15 or 20 years ago, the application of AI in medicine was mostly experimental and geographically limited to developed and rich countries (11\u201318). Today, AI can be used in a variety of ways to improve healthcare and medicine.\n\n## Methods\nThe methods of AI application in medicine include:\n\n- **Medical imaging**: AI can help radiologists and other medical professionals analyze medical images, such as CT scans and X-rays, to detect and diagnose diseases (19\u201322).\n- **Diagnosis and treatment**: AI can analyze lar...",
+      "metadata": {
+        "source": "pdf14.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf14.pdf",
+        "doc_id": "pdf14",
+        "page_label": "6",
+        "page_num": "6",
+        "image_map": "{\"2\": [\"extracted/figures/pdf14_p2_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Artificial Intelligence in Medicine\n\n## Abstract\nThe use of artificial intelligence (AI) in medicine has been a topic of significant interest, particularly in its ability to analyze large volumes of medical data, identify patterns, and gain insights that can lead to improved patient outcomes. This paper discusses the advantages and disadvantages of AI in healthcare, including its applications in predictive analytics, personalized medicine, and clinical decision support.\n\n## Introduction\nArtificial intelligence has emerged as a powerful tool in various fields, including medicine. Its ability to process and analyze vast amounts of data can enhance the understanding of diseases and improve treatment outcomes. This paper explores the role of AI in predicting health outcomes, particularly in the context of COVID-19 and gastrointestinal cancers.\n\n## Methods\nThe methods section is not explicitly provided in the text. However, it can be inferred that the analysis involves reviewing existing...",
+      "metadata": {
+        "source": "pdf14.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf14.pdf",
+        "doc_id": "pdf14",
+        "page_label": "7",
+        "page_num": "7",
+        "image_map": "{\"2\": [\"extracted/figures/pdf14_p2_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Umjetna inteligencija u medicini\n\n## Sa\u017eetak\nUmjetna inteligencija (UI) u medicini donosi brojne prednosti, ali i potencijalne nedostatke. Ovaj rad istra\u017euje utjecaj UI na dijagnostiku i lije\u010denje, kao i eti\u010dke i prakti\u010dne izazove koji se javljaju s njenom primjenom.\n\n## Uvod\nUmjetna inteligencija postaje sve prisutnija u medicinskoj praksi, a njezina primjena mo\u017ee pobolj\u0161ati to\u010dnost dijagnoza i u\u010dinkovitost lije\u010denja. Me\u0111utim, postoje i zna\u010dajni rizici povezani s njenom upotrebom.\n\n## Metode\nAnalizirali smo postoje\u0107u literaturu o primjeni umjetne inteligencije u medicini, s posebnim naglaskom na eti\u010dke, pravne i prakti\u010dne aspekte.\n\n## Rezultati\n### Potencijalni nedostaci primjene umjetne inteligencije u medicini\n- **Pristranost i diskriminacija**: UI mo\u017ee ponavljati i umno\u017eiti pogre\u0161ke pristranosti i diskriminacije ako su se one nalazile u podatcima na kojima su sustavi trenirani (71, 72).\n- **Nedostatak transparentnosti i pouzdanosti**: Razumijevanje na\u010dina na koji UI funkcionira ...",
+      "metadata": {
+        "source": "pdf14.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf14.pdf",
+        "doc_id": "pdf14",
+        "page_label": "8",
+        "page_num": "8",
+        "image_map": "{\"2\": [\"extracted/figures/pdf14_p2_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Artificial Intelligence in Dentistry\n\n## Abstract\nThe integration of artificial intelligence (AI) in dentistry has shown promising potential across various applications. This paper explores the diverse roles AI can play in enhancing dental practices, from diagnostics to treatment planning and patient management.\n\n## Introduction\nArtificial intelligence has emerged as a transformative force in many fields, including healthcare. In dentistry, AI applications range from diagnostic imaging to treatment planning, offering significant improvements in efficiency and accuracy. This paper reviews the current state of AI in dentistry, highlighting its applications and potential future developments.\n\n## Methods\nThe methods employed in this study include a comprehensive literature review of existing research on AI applications in dentistry. Various databases were searched for relevant studies, and the findings were synthesized to provide a clear overview of the current landscape.\n\n## Results\nAI...",
+      "metadata": {
+        "source": "pdf14.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf14.pdf",
+        "doc_id": "pdf14",
+        "page_label": "9",
+        "page_num": "9",
+        "image_map": "{\"2\": [\"extracted/figures/pdf14_p2_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Advantages and Disadvantages of Artificial Intelligence in Dentistry\n\n## Abstract\nTechnological advances in medicine and dentistry bring numerous advantages that have a positive impact on maintaining or achieving oral health, but also certain problems and doubts. The use of AI in dentistry has several advantages, including:\n\n- **Improved accuracy and efficiency**: AI can help dentists and other dental professionals analyze large volumes of dental data, such as imaging and patient records, to detect and diagnose conditions more quickly and accurately.\n- **Personalized treatment plans**: AI can be used to analyze dental images and patient data to help dentists create personalized treatment plans tailored to the specific needs of individual patients.\n- **Predictive analytics**: AI can help predict the likelihood of certain dental problems and diseases based on a patient's data, helping to prevent and treat them.\n- **Lower costs**: Using AI to automate certain tasks, such as analysis of...",
+      "metadata": {
+        "source": "pdf14.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf14.pdf",
+        "doc_id": "pdf14",
+        "page_label": "10",
+        "page_num": "10",
+        "image_map": "{\"2\": [\"extracted/figures/pdf14_p2_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Artificial Intelligence in Medicine and Dentistry\n\n## Abstract\nU ovom radu se istra\u017euje primjena umjetne inteligencije (UI) u medicini i stomatologiji. Iako se UI ranije koristila u razli\u010ditim podru\u010djima, njezina integracija u svakodnevni \u017eivot je novija pojava. Cilj rada je dati pregled literature i uvid u mogu\u0107nosti primjene UI, s naglaskom na prednosti i nedostatke.\n\n## Introduction\nUmjetna inteligencija (UI) primjenjivala se u pro\u0161losti u razli\u010ditim podru\u010djima, no njezina integracija u svakodnevni \u017eivot novija je pojava. Najprije se koristila uglavnom u akademskim i vladinim istra\u017eiva\u010dkim ustanovama, no kako je tehnologija napredovala, po\u010dela se primjenjivati u industriji, trgovini, medicini i stomatologiji.\n\n## Methods\nN/A\n\n## Results\nN/A\n\n## Discussion\nMogu\u0107nosti primjene umjetne inteligencije u medicini i stomatologiji tek se otkrivaju. Umjetna inteligencija va\u017ean je dio budu\u0107eg razvoja medicine i stomatologije jer je to oru\u0111e koje osigurava razvoj i napredak, osobito kad je ...",
+      "metadata": {
+        "source": "pdf14.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf14.pdf",
+        "doc_id": "pdf14",
+        "page_label": "11",
+        "page_num": "11",
+        "image_map": "{\"2\": [\"extracted/figures/pdf14_p2_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n           Vodanovi\u0107 i sur.                                                                                                        Umjetna inteligencija\n\nReferences\n1.     Aspray WF.   The Scientific   Conceptualization          of Information: A\n       Survey. Ann Hist Comput. 1985 Apr;7(2):117\u201340.\n2.     Teng X. Discussion About Artificial Intelligence\u2019s Advantages and\n       Disadvantages Compete with Natural Intelligence. J Phys Conf\n       Ser. 2019 Apr;1187(3):032083.\n3.     Kaplan A, Haenlein M. Siri, Siri, in my hand: Who\u2019s the fairest in\n       the land? On the interpretations, illustrations, and implications of\n       artificial intelligence. Bus Horiz. 2019 Jan 1;62(1):15\u201325.\n4.     Choi RY, Coyner AS, Kalpathy-Cramer J, Chiang MF, Campbell JP.\n       Introduction                to Machine Learning, Neural Networks, and Deep\n       Learning. Transl Vis Sci Technol. 9(2):14.\n5.     Haenlein M, Kaplan A. A Brief History of Artificial Intelligence: On\n       the Past, Present,...",
+      "metadata": {
+        "source": "pdf14.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf14.pdf",
+        "doc_id": "pdf14",
+        "page_label": "12",
+        "page_num": "12",
+        "image_map": "{\"2\": [\"extracted/figures/pdf14_p2_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Artificial Intelligence in Healthcare\n\n## Abstract\nThe integration of artificial intelligence (AI) in healthcare has shown promising potential in enhancing diagnostic accuracy, treatment personalization, and overall patient management. This paper reviews various applications of AI in medical fields, focusing on its role in chronic disease management, diagnostic imaging, and patient monitoring.\n\n## Introduction\nArtificial intelligence has emerged as a transformative force in healthcare, offering innovative solutions to longstanding challenges. The ability of AI to analyze vast amounts of data quickly and accurately positions it as a valuable tool for clinicians and researchers alike. This paper aims to explore the current landscape of AI applications in healthcare, highlighting key studies and findings.\n\n## Methods\nA comprehensive literature review was conducted, focusing on peer-reviewed articles published in the last five years. The search included terms related to AI, healthcare, ...",
+      "metadata": {
+        "source": "pdf14.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf14.pdf",
+        "doc_id": "pdf14",
+        "page_label": "13",
+        "page_num": "13",
+        "image_map": "{\"2\": [\"extracted/figures/pdf14_p2_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n      Vodanovi\u0107 i sur.                                                                                                               Umjetna inteligencija\n\n97.  Ahmed N, Abbasi MS, Zuberi F, Qamar W, Halim MSB, Maqsood\n         A, et al. Artificial Intelligence Techniques: Analysis, Application,\n                and Outcome in Dentistry\u2014A Systematic Review. BioMed Res Int.\n 2021 Jun 22;2021:9751564.\n    98.  Schwendicke F, Samek W, Krois J. Artificial Intelligence in Dentist-\n ry: Chances and Challenges. J Dent Res. 2020 Jul;99(7):769\u201374.\n      99.  Nguyen TT, Larriv\u00e9e N, Lee A, Bilaniuk O, Durand R. Use of Artifi-\n cial Intelligence in Dentistry: Current Clinical Trends and Research\n Advances. J Can Dent Assoc. 2021 May;87:l7.\n    100. Rodrigues JA, Krois J, Schwendicke F. Demystifying artificial intel-\n  ligence and deep learning in dentistry. Braz Oral Res [Internet].\n  2021 Aug 13 [cited 2023 Jan 30];35. Available from: http://www.\n  scielo.br/j/bor/a/HY5N3PdKRmjbg5ZQgfTPRYB/?lang=...",
+      "metadata": {
+        "source": "pdf14.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf14.pdf",
+        "doc_id": "pdf14",
+        "page_label": "14",
+        "page_num": "14",
+        "image_map": "{\"2\": [\"extracted/figures/pdf14_p2_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Artificial Intelligence in Dentistry\n\n## Abstract\nThe integration of artificial intelligence (AI) in dentistry has shown promising potential in enhancing diagnostic accuracy, treatment planning, and patient management. This paper reviews the current applications of AI in various dental fields, including oral cancer diagnosis, dental caries prediction, and patient perspectives on AI technologies.\n\n## Introduction\nArtificial intelligence has emerged as a transformative technology in healthcare, including dentistry. The ability of AI to analyze large datasets and identify patterns can significantly improve clinical outcomes. This section discusses the background and significance of AI in dental practices.\n\n## Methods\nA systematic review of the literature was conducted to identify studies that explored the applications of AI in dentistry. Databases were searched for relevant articles, and inclusion criteria were established to ensure the quality and relevance of the studies reviewed.\n\n#...",
+      "metadata": {
+        "source": "pdf14.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf14.pdf",
+        "doc_id": "pdf14",
+        "page_label": "15",
+        "page_num": "15",
+        "image_map": "{\"2\": [\"extracted/figures/pdf14_p2_i1.jpeg\"]}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+# Core LlamaIndex
+llama-index>=0.10.0
+llama-parse>=0.4.0
+llama-index-embeddings-openai>=0.1.0
+llama-index-embeddings-huggingface>=0.2.0
+llama-index-llms-openai>=0.1.0
+llama-index-vector-stores-chroma>=0.1.0
+llama-index-postprocessor-cohere-rerank>=0.1.0
+
+# Embeddings & LLM
+openai>=1.0.0
+
+# Vector Store
+chromadb>=0.4.0
+
+# PDF Processing (fallback)
+pymupdf>=1.23.0
+pdfplumber>=0.10.0
+
+# UI
+streamlit>=1.30.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+Pillow>=10.0.0

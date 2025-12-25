@@ -1,0 +1,71 @@
+{
+  "source": "pdf6.pdf",
+  "documents": [
+    {
+      "text": "# ARTIFICIAL INTELLIGENCE IN MEDICAL PRACTICE: REGULATIVE ISSUES AND PERSPECTIVES\n\n**DOI:** 10.36740/WLek202012204\n\n**Authors:** Vitalii M. Pashkov\u00b9, Andrii O. Harkusha\u00b2, Yevheniia O. Harkusha\u00b2\n\u00b9Poltava Law Institute of Yaroslav Mudryi National Law University, Poltava, Ukraine\n\u00b2Laboratory for the Study of National Security Problems in the Field of Public Health of Academician Stashis Scientific Research Institute for the Study of Crime Problems, Kharkiv, Ukraine\n\n## ABSTRACT\nThe aim of the research is to identify the specifics of AI in healthcare, its nature, and specifics, and to establish complexities of AI implementation in healthcare and to propose ways to eliminate them.\n**Materials and methods:** This study was conducted during June-October of 2020. Through a broad literature review, analysis of EU, USA regulation acts, scientific researches, and opinions of progressive-minded people in this sphere, this paper provides a guide to understanding the essence of AI in healthcare and ...",
+      "metadata": {
+        "source": "pdf6.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf6.pdf",
+        "doc_id": "pdf6",
+        "page_label": "1",
+        "page_num": "1",
+        "image_map": "{}"
+      }
+    },
+    {
+      "text": "\n# ARTIFICIAL INTELLIGENCE IN MEDICAL PRACTICE: REGULATIVE ISSUES AND PERSPECTIVES\n\n## Abstract\nThe research aims to identify specifics of AI in healthcare, its nature, and peculiarities, to establish complexities of AI implementation in healthcare and to propose ways to eliminate them. AI systems are designed by humans to act in the physical or digital dimension by perceiving their environment through data acquisition, interpreting the collected structured or unstructured data, reasoning on the knowledge, or processing the information derived from this data, and deciding the best action(s) to take to achieve the given goal. AI systems can either use symbolic rules or learn a numeric model, and they can also adapt their behavior by analyzing how the environment is affected by their previous actions. However, the USA's approach is operating under the definition of \u201caugmented intelligence,\u201d emphasizing the enhanced capabilities of human clinical decision-making when coupled with these co...",
+      "metadata": {
+        "source": "pdf6.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf6.pdf",
+        "doc_id": "pdf6",
+        "page_label": "2",
+        "page_num": "2",
+        "image_map": "{}"
+      }
+    },
+    {
+      "text": "\n# AI in Healthcare: Current Trends and Future Directions\n\n## Abstract\nHealth care is faced with two modern problems that could be addressed by using AI: the rise of \u201cbig data\u201d and the necessity to generalize and find consistent patterns to enhance healthcare and treatment of patients. Despite being open to technologies, the healthcare system has one of the lowest automation rates. This paper discusses how AI can assist in healthcare through three main scientific-statistical approaches: flowchart method, database method, and decision-making method.\n\n## Introduction\nThe healthcare sector is inundated with vast amounts of data from various sources, including electronic health records, clinical trials, and patient-generated data. However, the automation rate in healthcare is low, with only 15% of working hours expected to be automated by 2030. This paper explores how AI can address these challenges and improve healthcare delivery.\n\n## Methods\n### Flowchart Method\nThe flowchart method invo...",
+      "metadata": {
+        "source": "pdf6.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf6.pdf",
+        "doc_id": "pdf6",
+        "page_label": "3",
+        "page_num": "3",
+        "image_map": "{}"
+      }
+    },
+    {
+      "text": "\n# ARTIFICIAL INTELLIGENCE IN MEDICAL PRACTICE: REGULATIVE ISSUES AND PERSPECTIVES\n\n## Abstract\nSupport for artificial intelligence (AI) is embedded in every stage of the healthcare system, from training and learning through clinical trials and treatment to health enhancement and general evaluation of healthcare. However, we are still far from the broad implementation of AI in healthcare, raising questions about the issues it will create and our readiness to address them. This paper analyzes the nature of AI technology, law regulation approaches, liability concerns, and privacy issues in the context of healthcare.\n\n## Introduction\nThe implementation of AI in healthcare presents revolutionary modifications that intersect public health issues, the conflict between public and private interests, law and ethics, technology, and humanity. This paper aims to analyze these issues without delving deeply into every single aspect, which will be the focus of future research.\n\n## The Technology Nat...",
+      "metadata": {
+        "source": "pdf6.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf6.pdf",
+        "doc_id": "pdf6",
+        "page_label": "4",
+        "page_num": "4",
+        "image_map": "{}"
+      }
+    },
+    {
+      "text": "\n# Abstract\n\nData is included in the category of highly sensitive data and is covered by special restrictive provisions of General Data Protection Regulation [26], Health Insurance Portability and Accountability Act's (HIPAA's) [27], and other acts. The restriction of such information use needs further clarification in terms of covered subjects, anonymization, and other aspects because machine learning and AI in general do not fully comply with current provisions on privacy. How could the situation with the right of a person to erase his/her data be addressed if such data is already used, reorganized, and \u201cintegrated\u201d in a wide range of databases and influenced AI's algorithm and \u201cdecision-making\u201d? There are many other concerns of different nature, from intellectual property rights and commercialization of technology to ethical issues, unemployment concerns, and conflict between public and private interests. We will try to address them in ongoing and further research in this field.\n\n# ...",
+      "metadata": {
+        "source": "pdf6.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf6.pdf",
+        "doc_id": "pdf6",
+        "page_label": "5",
+        "page_num": "5",
+        "image_map": "{}"
+      }
+    },
+    {
+      "text": "\n# ARTIFICIAL INTELLIGENCE IN MEDICAL PRACTICE: REGULATIVE ISSUES AND PERSPECTIVES\n\n## Abstract\n[Abstract content not provided in the text.]\n\n## Introduction\n[Introduction content not provided in the text.]\n\n## Methods\n[Methods content not provided in the text.]\n\n## Results\n[Results content not provided in the text.]\n\n## Discussion\n[Discussion content not provided in the text.]\n\n## Conclusion\n[Conclusion content not provided in the text.]\n\n## References\n1. General Data Protection Regulation. Available from: https://gdpr-info.eu/ [reviewed 2020.08.21].\n2. Health Insurance Portability and Accountability Act's. Available from: https://www.cdc.gov/phlp/publications/topic/hipaa.html [reviewed 2020.08.21].\n\n## ORCID and Contributions\n- Vitalii M. Pashkov: 0000-0001-9489-7768 A,B,D,E,F\n- Andrii O. Harkusha: 0000-0001-5266-3007 A,B,D,E,F\n- Yevheniia O. Harkusha: 0000-0002-9932-8756 A,B,D,E,F\n\n## Corresponding Author\nVitalii M. Pashkov\nPoltava Law Institute of Yaroslav Mudriy National Law Unive...",
+      "metadata": {
+        "source": "pdf6.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf6.pdf",
+        "doc_id": "pdf6",
+        "page_label": "6",
+        "page_num": "6",
+        "image_map": "{}"
+      }
+    }
+  ]
+}

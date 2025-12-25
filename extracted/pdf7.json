@@ -1,0 +1,126 @@
+{
+  "source": "pdf7.pdf",
+  "documents": [
+    {
+      "text": "# Applications of Artificial Intelligence in Medical Education: A Systematic Review\n\n**Authors:** Eric Hallquist, Ishank Gupta, Michael Montalbano, Marios Loukas\n**Published:** March 01, 2025\n**Corresponding Author:** Marios Loukas, mloukas@sgu.edu\n**DOI:** 10.7759/cureus.79878\n\n## Abstract\n\nArtificial intelligence (AI) models, like Chat Generative Pre-Trained Transformer (OpenAI, San Francisco, CA), have recently gained significant popularity due to their ability to make autonomous decisions and engage in complex interactions. To fully harness the potential of these learning machines, users must understand their strengths and limitations. As AI tools become increasingly prevalent in our daily lives, it is essential to explore how this technology has been used so far in healthcare and medical education, as well as the areas of medicine where it can be applied. This paper systematically reviews the published literature on the PubMed database from its inception up to June 6, 2024, focusi...",
+      "metadata": {
+        "source": "pdf7.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf7.pdf",
+        "doc_id": "pdf7",
+        "page_label": "1",
+        "page_num": "1",
+        "image_map": "{\"1\": [\"extracted/figures/pdf7_p1_i1.jpeg\"], \"2\": [\"extracted/figures/pdf7_p2_i1.jpeg\"], \"3\": [\"extracted/figures/pdf7_p3_i1.jpeg\", \"extracted/figures/pdf7_p3_i2.jpeg\"], \"4\": [\"extracted/figures/pdf7_p4_i1.jpeg\"], \"5\": [\"extracted/figures/pdf7_p5_i1.jpeg\"], \"6\": [\"extracted/figures/pdf7_p6_i1.jpeg\"], \"7\": [\"extracted/figures/pdf7_p7_i1.jpeg\"], \"8\": [\"extracted/figures/pdf7_p8_i1.jpeg\"], \"9\": [\"extracted/figures/pdf7_p9_i1.jpeg\"], \"10\": [\"extracted/figures/pdf7_p10_i1.jpeg\"], \"11\": [\"extracted/figures/pdf7_p11_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Title of the Paper\n\n## Abstract\n[Insert abstract text here]\n\n## Introduction\n[Insert introduction text here]\n\n## Methods\n### Search Strategy\nPart of SPRINGERNATURE\n\nBackward citation was also used to locate additional articles. This was done by reviewing the references or citations within an article from the search synthesis to find studies relevant to our research topic. Only PubMed was used because it is a repository for clinical medicine and medical education; other databases or search tools, such as Scopus, Web of Science, or Google Scholar, were not used, as their literature is not limited to biomedical, clinical, or medical sciences, which was our main focus. The search strategy registration was not required by our institution, as our study did not involve human subjects.\n\n### Selection Criteria\nArticles were selected based on the following inclusion criteria:\n1. Article discussion of medical education at the level of medical school, postgraduate training, or CME.\n2. Discussio...",
+      "metadata": {
+        "source": "pdf7.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf7.pdf",
+        "doc_id": "pdf7",
+        "page_label": "2",
+        "page_num": "2",
+        "image_map": "{\"1\": [\"extracted/figures/pdf7_p1_i1.jpeg\"], \"2\": [\"extracted/figures/pdf7_p2_i1.jpeg\"], \"3\": [\"extracted/figures/pdf7_p3_i1.jpeg\", \"extracted/figures/pdf7_p3_i2.jpeg\"], \"4\": [\"extracted/figures/pdf7_p4_i1.jpeg\"], \"5\": [\"extracted/figures/pdf7_p5_i1.jpeg\"], \"6\": [\"extracted/figures/pdf7_p6_i1.jpeg\"], \"7\": [\"extracted/figures/pdf7_p7_i1.jpeg\"], \"8\": [\"extracted/figures/pdf7_p8_i1.jpeg\"], \"9\": [\"extracted/figures/pdf7_p9_i1.jpeg\"], \"10\": [\"extracted/figures/pdf7_p10_i1.jpeg\"], \"11\": [\"extracted/figures/pdf7_p11_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Assessing AI\u2019s Clinical Knowledge and Decision-Making Through Standardized Assessments\n\n## Abstract\nFourteen studies employed the LLM ChatGPT as their AI tool of choice [12-25]. Among these, six studies directly compared the performance of GPT-3.5 and GPT-4.0 [12,18,20,22-24], with GPT-4 consistently demonstrating superior performance over GPT-3.5. The model was evaluated across various disciplines of medicine: surgery [12], parasitology [13], microbiology [14], neurology [18], and bioethics [21]. Three studies compared ChatGPT's performance with human test-takers [13,16,24]. Eight studies assessed ChatGPT's performance on national medical board exams [15,17,19,20,22-25], including the German medical licensing examination [24], the European Exam in Core Cardiology [15], the Family Medicine Board Exam in Taiwan [17], and the United States Medical Licensing Examination (USMLE) Step 3 study question bank [23]. Some studies did not specify the ChatGPT version used [17], and in four stud...",
+      "metadata": {
+        "source": "pdf7.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf7.pdf",
+        "doc_id": "pdf7",
+        "page_label": "3",
+        "page_num": "3",
+        "image_map": "{\"1\": [\"extracted/figures/pdf7_p1_i1.jpeg\"], \"2\": [\"extracted/figures/pdf7_p2_i1.jpeg\"], \"3\": [\"extracted/figures/pdf7_p3_i1.jpeg\", \"extracted/figures/pdf7_p3_i2.jpeg\"], \"4\": [\"extracted/figures/pdf7_p4_i1.jpeg\"], \"5\": [\"extracted/figures/pdf7_p5_i1.jpeg\"], \"6\": [\"extracted/figures/pdf7_p6_i1.jpeg\"], \"7\": [\"extracted/figures/pdf7_p7_i1.jpeg\"], \"8\": [\"extracted/figures/pdf7_p8_i1.jpeg\"], \"9\": [\"extracted/figures/pdf7_p9_i1.jpeg\"], \"10\": [\"extracted/figures/pdf7_p10_i1.jpeg\"], \"11\": [\"extracted/figures/pdf7_p11_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# AI as a Learning Aid in Medical School, Residency Training, and CME\n\n## Abstract\nThirty publications examined the role of AI in enhancing medical education, encompassing a range of applications. Fifteen studies focused on using AI as a teaching tool for medical students [30-44]. Nine explored AI's applications in residency training [35,36,45-51], and six investigated AI's potential role in CME [31,35,36,52-54]. Price et al. proposed an ML model to enhance outcomes in medical specialty board recertification among physicians [54]. Six studies suggested that AI can improve training in diagnosis, communication, and radiograph interpretation for medical professionals [38,43-45,48,52]. These studies are listed in Table 2.\n\n## Table 1: Overview and description of studies where AI tools were used to generate multiple choice medical examination questions and illness scripts\n\n| Study        | Study purpose                                   | AI tool  | Number of questions/illness scripts | St...",
+      "metadata": {
+        "source": "pdf7.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf7.pdf",
+        "doc_id": "pdf7",
+        "page_label": "4",
+        "page_num": "4",
+        "image_map": "{\"1\": [\"extracted/figures/pdf7_p1_i1.jpeg\"], \"2\": [\"extracted/figures/pdf7_p2_i1.jpeg\"], \"3\": [\"extracted/figures/pdf7_p3_i1.jpeg\", \"extracted/figures/pdf7_p3_i2.jpeg\"], \"4\": [\"extracted/figures/pdf7_p4_i1.jpeg\"], \"5\": [\"extracted/figures/pdf7_p5_i1.jpeg\"], \"6\": [\"extracted/figures/pdf7_p6_i1.jpeg\"], \"7\": [\"extracted/figures/pdf7_p7_i1.jpeg\"], \"8\": [\"extracted/figures/pdf7_p8_i1.jpeg\"], \"9\": [\"extracted/figures/pdf7_p9_i1.jpeg\"], \"10\": [\"extracted/figures/pdf7_p10_i1.jpeg\"], \"11\": [\"extracted/figures/pdf7_p11_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# NLP, Motion Analysis, Clinical Skills, and Building Competence in Stakeholders\n\n## Abstract\nThe abstract content is not provided in the current text.\n\n## Introduction\nThe introduction content is not provided in the current text.\n\n## Methods\nThe methods content is not provided in the current text.\n\n## Results\nThe results content is not provided in the current text.\n\n## Discussion\nThe discussion content is not provided in the current text.\n\n## Conclusion\nThe conclusion content is not provided in the current text.\n\n## References\n1. Yang and Shulruf [32] - Medical students: The addition of expert-led + AI-assisted tutoring to the surgical curriculum showed potential benefits, with the expert-led + AI group outperforming and improving more in the end-of-surgical block OSCE compared to the expert-led group.\n2. Nakawala et al. [33] - Medical students: A context-aware software framework for thoracocentesis training in surgical workflows yielded results comparable to traditional mentor-based...",
+      "metadata": {
+        "source": "pdf7.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf7.pdf",
+        "doc_id": "pdf7",
+        "page_label": "5",
+        "page_num": "5",
+        "image_map": "{\"1\": [\"extracted/figures/pdf7_p1_i1.jpeg\"], \"2\": [\"extracted/figures/pdf7_p2_i1.jpeg\"], \"3\": [\"extracted/figures/pdf7_p3_i1.jpeg\", \"extracted/figures/pdf7_p3_i2.jpeg\"], \"4\": [\"extracted/figures/pdf7_p4_i1.jpeg\"], \"5\": [\"extracted/figures/pdf7_p5_i1.jpeg\"], \"6\": [\"extracted/figures/pdf7_p6_i1.jpeg\"], \"7\": [\"extracted/figures/pdf7_p7_i1.jpeg\"], \"8\": [\"extracted/figures/pdf7_p8_i1.jpeg\"], \"9\": [\"extracted/figures/pdf7_p9_i1.jpeg\"], \"10\": [\"extracted/figures/pdf7_p10_i1.jpeg\"], \"11\": [\"extracted/figures/pdf7_p11_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# AI in Medical Education: A Review of Current Capabilities and Applications\n\n## Abstract\nThirty-four studies examined ML's capabilities in automating analysis tasks rather than direct applications to medical education [55-88].\n\n## Introduction\nStudies using NLP: Two studies evaluated the clinical competency of residents using NLP in clinical assessments [57,58]. Seven investigated the use of AI to assess medical school or residency applications [63-69]. One paper explored the potential of AI in assisting with writing letters of recommendation [76]. One study used AI in a virtual Q&#x26;A session for fellowship applicants, finding that many applicants considered the Chatbot helpful [56]. One used NLP to evaluate medical students\u2019 clinical notes to assess their exposure to the American Association of Medical College geriatric competencies [72]. Two reported on AI's role in analyzing feedback from clinical supervisors and its correlation with clinical entrustment decisions [74,75].\n\nAI ...",
+      "metadata": {
+        "source": "pdf7.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf7.pdf",
+        "doc_id": "pdf7",
+        "page_label": "6",
+        "page_num": "6",
+        "image_map": "{\"1\": [\"extracted/figures/pdf7_p1_i1.jpeg\"], \"2\": [\"extracted/figures/pdf7_p2_i1.jpeg\"], \"3\": [\"extracted/figures/pdf7_p3_i1.jpeg\", \"extracted/figures/pdf7_p3_i2.jpeg\"], \"4\": [\"extracted/figures/pdf7_p4_i1.jpeg\"], \"5\": [\"extracted/figures/pdf7_p5_i1.jpeg\"], \"6\": [\"extracted/figures/pdf7_p6_i1.jpeg\"], \"7\": [\"extracted/figures/pdf7_p7_i1.jpeg\"], \"8\": [\"extracted/figures/pdf7_p8_i1.jpeg\"], \"9\": [\"extracted/figures/pdf7_p9_i1.jpeg\"], \"10\": [\"extracted/figures/pdf7_p10_i1.jpeg\"], \"11\": [\"extracted/figures/pdf7_p11_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Using AI in Medical Education: A Review\n\n## Abstract\nThis study explores the integration of artificial intelligence (AI) in medical education, focusing on its applications in generating clinical scripts, enhancing learning, and improving diagnostic capabilities. The findings suggest that AI tools like ChatGPT and GPT-4 can produce high-quality medical content and support educational outcomes, although they require careful oversight to ensure accuracy.\n\n## Introduction\nThe use of AI in medical education has gained traction, with tools like ChatGPT and GPT-4 demonstrating the ability to generate clinical scripts and multiple-choice questions (MCQs). This paper reviews recent studies that highlight the effectiveness of AI in medical training and assessment.\n\n## Methods\nA comprehensive literature review was conducted to analyze the effectiveness of AI tools in generating clinical content and enhancing educational outcomes. Studies were selected based on their relevance to AI application...",
+      "metadata": {
+        "source": "pdf7.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf7.pdf",
+        "doc_id": "pdf7",
+        "page_label": "7",
+        "page_num": "7",
+        "image_map": "{\"1\": [\"extracted/figures/pdf7_p1_i1.jpeg\"], \"2\": [\"extracted/figures/pdf7_p2_i1.jpeg\"], \"3\": [\"extracted/figures/pdf7_p3_i1.jpeg\", \"extracted/figures/pdf7_p3_i2.jpeg\"], \"4\": [\"extracted/figures/pdf7_p4_i1.jpeg\"], \"5\": [\"extracted/figures/pdf7_p5_i1.jpeg\"], \"6\": [\"extracted/figures/pdf7_p6_i1.jpeg\"], \"7\": [\"extracted/figures/pdf7_p7_i1.jpeg\"], \"8\": [\"extracted/figures/pdf7_p8_i1.jpeg\"], \"9\": [\"extracted/figures/pdf7_p9_i1.jpeg\"], \"10\": [\"extracted/figures/pdf7_p10_i1.jpeg\"], \"11\": [\"extracted/figures/pdf7_p11_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Limitations\n\nThe study on AI in medical education reveals several key limitations. Many studies included were qualitative, making it difficult to generalize the results or draw definitive conclusions. Additionally, confidence intervals or p values were often unavailable, and while the authors tried to quantify the findings, most studies remained qualitative by nature. This is likely due to the relatively recent introduction of AI models like ChatGPT to the public, meaning the existing literature consists of smaller, less structured studies. Many studies also lacked control groups or relied on self-assessment, which could introduce bias. The review was also limited to studies from PubMed, leaving out potentially relevant research from other sources. Furthermore, only studies in the English language were included, and unpublished data or preprints, which may provide more robust or cutting-edge conclusions, were not considered. ChatGPT's inability to interpret questions involving table...",
+      "metadata": {
+        "source": "pdf7.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf7.pdf",
+        "doc_id": "pdf7",
+        "page_label": "8",
+        "page_num": "8",
+        "image_map": "{\"1\": [\"extracted/figures/pdf7_p1_i1.jpeg\"], \"2\": [\"extracted/figures/pdf7_p2_i1.jpeg\"], \"3\": [\"extracted/figures/pdf7_p3_i1.jpeg\", \"extracted/figures/pdf7_p3_i2.jpeg\"], \"4\": [\"extracted/figures/pdf7_p4_i1.jpeg\"], \"5\": [\"extracted/figures/pdf7_p5_i1.jpeg\"], \"6\": [\"extracted/figures/pdf7_p6_i1.jpeg\"], \"7\": [\"extracted/figures/pdf7_p7_i1.jpeg\"], \"8\": [\"extracted/figures/pdf7_p8_i1.jpeg\"], \"9\": [\"extracted/figures/pdf7_p9_i1.jpeg\"], \"10\": [\"extracted/figures/pdf7_p10_i1.jpeg\"], \"11\": [\"extracted/figures/pdf7_p11_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nThe abstract section is not provided in the text.\n\n# Introduction\nThe introduction section is not provided in the text.\n\n# Methods\nThe methods section is not provided in the text.\n\n# Results\nThe results section is not provided in the text.\n\n# Discussion\nThe discussion section is not provided in the text.\n\n# Conclusion\nThe conclusion section is not provided in the text.\n\n# References\n1. Firat M: What ChatGPT means for universities: perceptions of scholars and students. J Appl Learn Teach. 2023, 6:1. 10.37074/jalt.2023.6.1.22\n2. Furini M, Gaggi O, Mirri S, Montangero M, Pelle E, Poggi F, Prandi C: Digital twins and artificial intelligence: as pillars of personalized learning models. Commun ACM. 2022, 65:98-104. 10.1145/3478281\n3. Figuera C, Irusta U, Morgado E, et al.: Machine learning techniques for the detection of shockable rhythms in automated external defibrillators. PLoS One. 2016, 11:e0159654. 10.1371/journal.pone.0159654\n4. Mesk\u00f3 B, Topol EJ: The imperative for regula...",
+      "metadata": {
+        "source": "pdf7.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf7.pdf",
+        "doc_id": "pdf7",
+        "page_label": "9",
+        "page_num": "9",
+        "image_map": "{\"1\": [\"extracted/figures/pdf7_p1_i1.jpeg\"], \"2\": [\"extracted/figures/pdf7_p2_i1.jpeg\"], \"3\": [\"extracted/figures/pdf7_p3_i1.jpeg\", \"extracted/figures/pdf7_p3_i2.jpeg\"], \"4\": [\"extracted/figures/pdf7_p4_i1.jpeg\"], \"5\": [\"extracted/figures/pdf7_p5_i1.jpeg\"], \"6\": [\"extracted/figures/pdf7_p6_i1.jpeg\"], \"7\": [\"extracted/figures/pdf7_p7_i1.jpeg\"], \"8\": [\"extracted/figures/pdf7_p8_i1.jpeg\"], \"9\": [\"extracted/figures/pdf7_p9_i1.jpeg\"], \"10\": [\"extracted/figures/pdf7_p10_i1.jpeg\"], \"11\": [\"extracted/figures/pdf7_p11_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nThe abstract provides a concise summary of the research, highlighting the main objectives, methods, results, and conclusions drawn from the study. It serves as a quick reference for readers to understand the essence of the research.\n\n# Introduction\nThe introduction outlines the background of the study, discussing the significance of artificial intelligence in medical education and training. It reviews existing literature and identifies gaps that the current research aims to address.\n\n# Methods\nThe methods section details the experimental design, including participant selection, data collection techniques, and analytical methods used to evaluate the effectiveness of the artificial intelligence tools in medical training.\n\n# Results\nThe results section presents the findings of the study, including statistical analyses and comparisons between traditional training methods and those enhanced by artificial intelligence. It may include tables and figures to illustrate key data poin...",
+      "metadata": {
+        "source": "pdf7.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf7.pdf",
+        "doc_id": "pdf7",
+        "page_label": "10",
+        "page_num": "10",
+        "image_map": "{\"1\": [\"extracted/figures/pdf7_p1_i1.jpeg\"], \"2\": [\"extracted/figures/pdf7_p2_i1.jpeg\"], \"3\": [\"extracted/figures/pdf7_p3_i1.jpeg\", \"extracted/figures/pdf7_p3_i2.jpeg\"], \"4\": [\"extracted/figures/pdf7_p4_i1.jpeg\"], \"5\": [\"extracted/figures/pdf7_p5_i1.jpeg\"], \"6\": [\"extracted/figures/pdf7_p6_i1.jpeg\"], \"7\": [\"extracted/figures/pdf7_p7_i1.jpeg\"], \"8\": [\"extracted/figures/pdf7_p8_i1.jpeg\"], \"9\": [\"extracted/figures/pdf7_p9_i1.jpeg\"], \"10\": [\"extracted/figures/pdf7_p10_i1.jpeg\"], \"11\": [\"extracted/figures/pdf7_p11_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nThe abstract section is not provided in the text.\n\n# Introduction\nThe introduction section is not provided in the text.\n\n# Methods\nThe methods section is not provided in the text.\n\n# Results\nThe results section is not provided in the text.\n\n# Discussion\nThe discussion section is not provided in the text.\n\n# Conclusion\nThe conclusion section is not provided in the text.\n\n# References\n1. Triola MM, Reinstein I, Marin M, Gillespie C, Abramson S, Grossman RI, Rivera R Jr: Artificial intelligence screening of medical school applications: development and validation of a machine-learning algorithm. Acad Med. 2023, 98:1036-43. 10.1097/ACM.0000000000005202\n2. Burk-Rafel J, Reinstein I, Feng J, et al.: Development and validation of a machine learning-based decision support tool for residency applicant screening and review. Acad Med. 2021, 96:S54-61. 10.1097/ACM.0000000000004317\n3. Keir G, Hu W, Filippi CG, Ellenbogen L, Woldenberg R: Using artificial intelligence in medical school ad...",
+      "metadata": {
+        "source": "pdf7.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf7.pdf",
+        "doc_id": "pdf7",
+        "page_label": "11",
+        "page_num": "11",
+        "image_map": "{\"1\": [\"extracted/figures/pdf7_p1_i1.jpeg\"], \"2\": [\"extracted/figures/pdf7_p2_i1.jpeg\"], \"3\": [\"extracted/figures/pdf7_p3_i1.jpeg\", \"extracted/figures/pdf7_p3_i2.jpeg\"], \"4\": [\"extracted/figures/pdf7_p4_i1.jpeg\"], \"5\": [\"extracted/figures/pdf7_p5_i1.jpeg\"], \"6\": [\"extracted/figures/pdf7_p6_i1.jpeg\"], \"7\": [\"extracted/figures/pdf7_p7_i1.jpeg\"], \"8\": [\"extracted/figures/pdf7_p8_i1.jpeg\"], \"9\": [\"extracted/figures/pdf7_p9_i1.jpeg\"], \"10\": [\"extracted/figures/pdf7_p10_i1.jpeg\"], \"11\": [\"extracted/figures/pdf7_p11_i1.jpeg\"]}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "source": "pdf10.pdf",
+  "documents": [
+    {
+      "text": "# The impact of artificial intelligence on precision medicine and personalized oncology: A systematic review with narrative synthesis\n\n**Muayyad Ahmad**\n1School of Nursing, The University of Jordan, Amman, JORDAN\n*Corresponding Author: mma4@ju.edu.jo*\n\n**Citation:** Ahmad M. The impact of artificial intelligence on precision medicine and personalized oncology: A systematic review with narrative synthesis. Electron J Gen Med. 2025;22(6):em689. https://doi.org/10.29333/ejgm/17046\n\n----\n\n## ABSTRACT\n\n**Background:** The use of artificial intelligence (AI) in cancer treatment attempts to improve precision and customization. This integration could enhance treatment outcomes, reduce side effects, and optimize healthcare resource allocation as cancer continues to climb globally.\n\n**Aims:** This study examines how AI advances personalized oncology by predicting treatment responses, improving outcomes, and addressing ethical and privacy challenges.\n\n**Methods:** The study conducted a systematic...",
+      "metadata": {
+        "source": "pdf10.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf10.pdf",
+        "doc_id": "pdf10",
+        "page_label": "1",
+        "page_num": "1",
+        "image_map": "{\"1\": [\"extracted/figures/pdf10_p1_i1.png\"], \"2\": [\"extracted/figures/pdf10_p2_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Identification of Studies via Databases and Registers\n\n## Total Records\n- Total records (N = 8,987)\n- Records removed before screening:\n- Duplicate records removed (n = 2,925)\n- Records marked as ineligible by automation tools (n = 828)\n- Records removed for other reasons (n = 1,933)\n\n## Screening Process\n- Records screened (n = 3,301)\n- Records excluded (n = 2,112)\n\n## Reports Sought for Retrieval\n- Reports sought for retrieval (n = 1,189)\n- Reports not retrieved (n = 944)\n\n## Full Text Assessed for Eligibility\n- Full text assessed for eligibility (n = 245)\n- Reports excluded/irrelevant (n = 225)\n\n## Studies Included in Review\n- Studies included in review (N = 20)\n\n### Figure 1\n**Caption:** PRISMA flow chart for the included studies (Source: Author\u2019s own elaboration)\n\n----\n\n# Abstract\nEnhancing patient care and transforming breast cancer management, it will be imperative to conduct ongoing research and collaborate with oncologists, regulatory bodies, and AI experts as the field con...",
+      "metadata": {
+        "source": "pdf10.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf10.pdf",
+        "doc_id": "pdf10",
+        "page_label": "2",
+        "page_num": "2",
+        "image_map": "{\"1\": [\"extracted/figures/pdf10_p1_i1.png\"], \"2\": [\"extracted/figures/pdf10_p2_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Systematic Review of AI in Personalized Oncology for Precision Medicine\n\n## Abstract\nThis systematic review evaluates the role of artificial intelligence (AI) in personalized oncology, focusing on its applications in precision medicine. The review adheres to PRISMA guidelines and synthesizes findings from studies published between 2019 and 2024. A total of 20 studies were included after rigorous screening and quality assessment.\n\n## Introduction\nThe introduction emphasizes the growing importance of personalized oncology, AI, and precision medicine. It outlines the criteria for study inclusion, which included (a) emphasis on personalized oncology, AI, and precision medicine, (b) publication in English, and (c) publication dates between 2019 and 2024. Studies unrelated to AI in oncology, non-English publications, works published before 2019, editorials, letters, and reports were excluded.\n\n## Methods\n### Quality Assessment Frameworks\nThe study employed standardized frameworks to rigor...",
+      "metadata": {
+        "source": "pdf10.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf10.pdf",
+        "doc_id": "pdf10",
+        "page_label": "3",
+        "page_num": "3",
+        "image_map": "{\"1\": [\"extracted/figures/pdf10_p1_i1.png\"], \"2\": [\"extracted/figures/pdf10_p2_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nThe study highlights significant advancements in AI methodologies, including machine learning and deep learning, that facilitate the analysis of complex cancer data. It emphasizes the role of AI in identifying biomarkers, predicting treatment responses, and optimizing clinical decision-making. Clinical oncology is experiencing rapid growth in data collected to enhance cancer care. With recent advances in the field, there is now a computational basis to integrate and synthesize this growing body of multi-dimensional data, deduce patterns, and predict outcomes to improve shared patient and clinician decision-making. The integration of AI into cancer treatment represents a transformative approach that enhances the precision of therapies, ultimately leading to improved patient outcomes and personalized care strategies.\n\n# Introduction\nArtificial intelligence (AI) is rapidly reshaping cancer research and personalized clinical care. AI applications range from detection and classi...",
+      "metadata": {
+        "source": "pdf10.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf10.pdf",
+        "doc_id": "pdf10",
+        "page_label": "4",
+        "page_num": "4",
+        "image_map": "{\"1\": [\"extracted/figures/pdf10_p1_i1.png\"], \"2\": [\"extracted/figures/pdf10_p2_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Artificial Intelligence for Assisting Cancer Diagnosis and Treatment in the Era of Precision Medicine\n\n## Abstract\nThe review highlights that AI, particularly deep learning (DL), has been successfully applied in various aspects of cancer research, including improving diagnostic accuracy, identifying genetic variants for targeted therapies, and accelerating drug discovery processes. AI-based diagnostic systems demonstrated equal sensitivity and higher specificity compared to traditional methods like Pap smears. The integration of AI in oncology holds significant promise for improving cancer diagnosis and treatment, paving the way for more personalized and effective patient care in the era of precision medicine. The authors emphasize the need for continued research and development to fully realize the potential of AI technologies in clinical settings.\n\n## Introduction\nThe study does not focus on a specific sample or country but reviews various applications and studies related to AI in...",
+      "metadata": {
+        "source": "pdf10.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf10.pdf",
+        "doc_id": "pdf10",
+        "page_label": "5",
+        "page_num": "5",
+        "image_map": "{\"1\": [\"extracted/figures/pdf10_p1_i1.png\"], \"2\": [\"extracted/figures/pdf10_p2_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nThe study explores the applications of artificial intelligence (AI) in cancer genomics and precision medicine, identifying challenges and discussing future perspectives for integrating AI into clinical settings. It highlights the potential of AI technologies, including machine learning and natural language processing, to enhance the analysis of genomic data, leading to improved personalized treatment strategies. However, significant challenges such as data integration, algorithmic transparency, and real-world applicability persist.\n\n# Introduction\nThe introduction provides an overview of the role of AI in precision medicine, focusing on how it improves the identification of disease risks, treatment management, and patient outcomes based on the analysis of genetics and clinical and environmental information. It emphasizes the interdisciplinary approach of AI in treating patients based on their specific features.\n\n# Methods\nThe study reviews various applications of AI technol...",
+      "metadata": {
+        "source": "pdf10.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf10.pdf",
+        "doc_id": "pdf10",
+        "page_label": "6",
+        "page_num": "6",
+        "image_map": "{\"1\": [\"extracted/figures/pdf10_p1_i1.png\"], \"2\": [\"extracted/figures/pdf10_p2_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Ahmad / ELECTRON J GEN MED, 2025;22(6):em689\n\n## Abstract\n*The abstract content is not provided in the raw text.*\n\n## Introduction\n*The introduction content is not provided in the raw text.*\n\n## Methods\n*The methods content is not provided in the raw text.*\n\n## Results\n### Table 2. The statistical methods used in the reviewed articles\n\n| Statistical method                | Description                                                        | Application                               | Studies                                                                                     |\n|-----------------------------------|--------------------------------------------------------------------|-------------------------------------------|---------------------------------------------------------------------------------------------|\n| Support vector machines            | Supervised learning model used for classification tasks           | Classifying cancer types or predicting outcomes | Liu et al. (...",
+      "metadata": {
+        "source": "pdf10.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf10.pdf",
+        "doc_id": "pdf10",
+        "page_label": "7",
+        "page_num": "7",
+        "image_map": "{\"1\": [\"extracted/figures/pdf10_p1_i1.png\"], \"2\": [\"extracted/figures/pdf10_p2_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Ethical and Effective Implementation of AI in Personalized Oncology\n\n## Abstract\nThe ethical and regulatory aspects of AI in oncology are significant issues, necessitating the addressing of algorithmic biases, patient data privacy, and security to foster trust in AI solutions and protect patient rights. This requires rigorous ethical validation, compliance with regulatory standards, and clear guidelines for clinical AI use to ensure equitable care.\n\n## Introduction\nValidation gaps have been identified as a significant limitation in numerous studies, particularly affecting multi-omics integration models, which experience severe performance declines when tested on external cohorts. These observations resonate with recent cautions regarding \u201csilent failures\u201d in clinical AI, whereby models lack the ability to generalize because they are trained on narrowly defined demographic groups. The study was limited by potential publication bias, as only English-language articles from 2019-2024 we...",
+      "metadata": {
+        "source": "pdf10.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf10.pdf",
+        "doc_id": "pdf10",
+        "page_label": "8",
+        "page_num": "8",
+        "image_map": "{\"1\": [\"extracted/figures/pdf10_p1_i1.png\"], \"2\": [\"extracted/figures/pdf10_p2_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Ahmad / ELECTRON J GEN MED, 2025;22(6):em689\n\n## Abstract\nThe abstract section is not provided in the text.\n\n## Introduction\nThe introduction section is not provided in the text.\n\n## Methods\nThe methods section is not provided in the text.\n\n## Results\nThe results section is not provided in the text.\n\n## Discussion\nThe discussion section is not provided in the text.\n\n## Conclusion\nThe conclusion section is not provided in the text.\n\n## References\n1. Lewis JE, Kemp ML. Integration of machine learning and genome-scale metabolic modeling identifies multi-omics biomarkers for radiation resistance. Nature Commun. 2021;12(1):2700. https://doi.org/10.1038/s41467-021-22989-1 PMid:33976213 PMCid:PMC8113601\n2. Kann BH, Hosny A, Aerts HJ. Artificial intelligence for clinical oncology. Cancer Cell. 2021;39(7):916-27. https://doi.org/10.1016/j.ccell.2021.04.002 PMid:33930310 PMCid:PMC8282694\n3. Bhinder B, Gilvary C, Madhukar NS, Elemento O. Artificial intelligence in cancer research and precision...",
+      "metadata": {
+        "source": "pdf10.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf10.pdf",
+        "doc_id": "pdf10",
+        "page_label": "9",
+        "page_num": "9",
+        "image_map": "{\"1\": [\"extracted/figures/pdf10_p1_i1.png\"], \"2\": [\"extracted/figures/pdf10_p2_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nThe study investigates the impact of network-based multi-omics integrative analysis methods in drug discovery. It provides a systematic review of existing methodologies and their applications in the field.\n\n# Introduction\nThe introduction outlines the significance of multi-omics approaches in understanding complex biological systems and their potential in drug discovery. It highlights the need for integrative analysis methods to combine various omics data types effectively.\n\n# Methods\nThe methods section describes the systematic review process used to identify relevant studies. It details the criteria for inclusion and exclusion of studies, as well as the analytical techniques employed to synthesize the findings.\n\n# Results\nThe results section presents the findings of the systematic review, summarizing the different network-based multi-omics integrative analysis methods identified in the literature. It includes a table summarizing the key characteristics of these methods.\n\n...",
+      "metadata": {
+        "source": "pdf10.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf10.pdf",
+        "doc_id": "pdf10",
+        "page_label": "10",
+        "page_num": "10",
+        "image_map": "{\"1\": [\"extracted/figures/pdf10_p1_i1.png\"], \"2\": [\"extracted/figures/pdf10_p2_i1.png\"]}"
+      }
+    }
+  ]
+}

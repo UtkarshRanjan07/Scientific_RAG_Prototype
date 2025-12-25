@@ -1,0 +1,71 @@
+{
+  "source": "pdf9.pdf",
+  "documents": [
+    {
+      "text": "# Microbial Infection Disease Diagnosis and Treatment by Artificial Intelligence\n\n**Laith M Abbas Al-Huseini\u00b9, Nisreen Jawad Kadhim\u00b2, Mohammed Salih Mahdi\u00b2, Raed H. Ogaili\u00b3, Orooba Al-hammood\u2074**\n1. DEPARTMENT OF PHARMACOLOGY, COLLEGE OF MEDICINE, WARITH AL-ANBIYAA UNIVERSITY, KARBALA, IRAQ\n2. DEPARTMENT OF MICROBIOLOGY, COLLEGE OF MEDICINE, WARITH AL-ANBIYAA UNIVERSITY, KARBALA, IRAQ\n3. COLLEGE OF VETERINARY MEDICINE, UNIVERSITY OF KERBALA, KARBALA, IRAQ\n4. DEPARTMENT OF BIOLOGY, COLLEGE OF SCIENCES, AL-NAHRAIN UNIVERSITY, BAGHDAD, IRAQ\n\n## ABSTRACT\n**Aim:** The main objective of this study was to examine current perspectives on initiatives to identify viable approaches for more accurate diagnosis of infectious diseases.\n**Materials and Methods:** Indexed databases, such as EMBASE, Scopus, and PubMed/Medline, and online searches were performed. Cross-referencing of important articles led to additional references. This study reviews important clinical applications and provides an overvi...",
+      "metadata": {
+        "source": "pdf9.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf9.pdf",
+        "doc_id": "pdf9",
+        "page_label": "1",
+        "page_num": "1",
+        "image_map": "{\"3\": [\"extracted/figures/pdf9_p3_i1.png\", \"extracted/figures/pdf9_p3_i2.png\"], \"4\": [\"extracted/figures/pdf9_p4_i1.png\"], \"6\": [\"extracted/figures/pdf9_p6_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Microbial Infection Disease Diagnosis and Treatment by Artificial Intelligence\n\n## Abstract\nThis study sought to investigate how AI can raise the degree of individualized treatment and the precision and effectiveness of clinical diagnosis in light of the potential obstacles to its clinical deployment. It was based on a careful examination of existing literature and findings from recent studies. By providing medical professionals with an in-depth understanding of how AI can be used to diagnose and treat infectious diseases, by working together to advance the use of AI to combat infectious diseases, and by providing patients with more accurate and efficient healthcare, this will not only be important in improving global public health.\n\n## Introduction\nArtificial intelligence, particularly its variations like deep learning and convolutional neural networks (CNNs), is currently the most used machine learning technique. Data is sent to the input layer, which uses a hidden multi-layer alg...",
+      "metadata": {
+        "source": "pdf9.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf9.pdf",
+        "doc_id": "pdf9",
+        "page_label": "2",
+        "page_num": "2",
+        "image_map": "{\"3\": [\"extracted/figures/pdf9_p3_i1.png\", \"extracted/figures/pdf9_p3_i2.png\"], \"4\": [\"extracted/figures/pdf9_p4_i1.png\"], \"6\": [\"extracted/figures/pdf9_p6_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Title: Future Diagnostics in Microbial Infection Identification\n\n## Abstract\nThe abstract is not provided in the text.\n\n## Introduction\nThe introduction is not provided in the text.\n\n## Methods\nThe methods section is not provided in the text.\n\n## Results\nThe results section is not provided in the text.\n\n## Discussion\nAI-based surveillance systems automatically gather information from social media and medical records while evaluating real-time data streams to improve public health response and situational awareness [17]. At the very least, machine learning-based alert systems have been created that detect deviations in disease rates or the ways infectious diseases are spread, alerting health authorities to potential outbreaks [18]. AI has shown great potential in the tract of learned profession imagination, which is essential for diagnosis. Profound learning systems, a different kind of artificial intelligence, have demonstrated accuracy in analyzing medical images, including X-ray a...",
+      "metadata": {
+        "source": "pdf9.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf9.pdf",
+        "doc_id": "pdf9",
+        "page_label": "3",
+        "page_num": "3",
+        "image_map": "{\"3\": [\"extracted/figures/pdf9_p3_i1.png\", \"extracted/figures/pdf9_p3_i2.png\"], \"4\": [\"extracted/figures/pdf9_p4_i1.png\"], \"6\": [\"extracted/figures/pdf9_p6_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Microbial Infection Disease Diagnosis and Treatment by Artificial Intelligence\n\n## Abstract\n*The abstract content is not provided in the raw text.*\n\n## Introduction\n*The introduction content is not provided in the raw text.*\n\n## Methods\n*The methods content is not provided in the raw text.*\n\n## Results\n*The results content is not provided in the raw text.*\n\n## Discussion\n### Risks, Ethics, and Legal Issues Related to AI in Medical Field\nDeveloping AI technology for use in healthcare, safe practices, services, and policies is costly and risky. It is becoming more and more crucial to safeguard the financial interests of AI and data-driven healthcare advances. Artificial intelligence in healthcare offers numerous benefits, including process simplification, increased productivity, time and resource savings, support for research, and a reduction in medical stress, despite concerns about data privacy and security breaches. The impact of digital technologies on healthcare supply chain stak...",
+      "metadata": {
+        "source": "pdf9.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf9.pdf",
+        "doc_id": "pdf9",
+        "page_label": "4",
+        "page_num": "4",
+        "image_map": "{\"3\": [\"extracted/figures/pdf9_p3_i1.png\", \"extracted/figures/pdf9_p3_i2.png\"], \"4\": [\"extracted/figures/pdf9_p4_i1.png\"], \"6\": [\"extracted/figures/pdf9_p6_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Artificial Intelligence in Microbial Diagnosis and Epidemic Monitoring\n\n## Abstract\nDuring infectious disease emergencies, a proactive approach helps containment and mitigation efforts by enabling prompt intervention measures. Essentially, artificial intelligence in microbial diagnosis and epidemic monitoring plays a critical role in protecting public health globally in addition to improving healthcare by optimizing treatment approaches.\n\n## Introduction\nThe methods for diagnosing microbial infectious diseases have evolved from serological techniques to advanced molecular approaches. Today, AI has become a powerful tool applicable across all fields of life. AI-driven predictive analytics can improve the accuracy, efficiency, and cost-effectiveness of clinical laboratory testing and disease detection. As AI is incorporated, the method for diagnosing microorganisms is changing. It makes it possible to identify pathogens quickly and accurately, identify antibiotic resistance early, and...",
+      "metadata": {
+        "source": "pdf9.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf9.pdf",
+        "doc_id": "pdf9",
+        "page_label": "5",
+        "page_num": "5",
+        "image_map": "{\"3\": [\"extracted/figures/pdf9_p3_i1.png\", \"extracted/figures/pdf9_p3_i2.png\"], \"4\": [\"extracted/figures/pdf9_p4_i1.png\"], \"6\": [\"extracted/figures/pdf9_p6_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Microbial Infection Disease Diagnosis and Treatment by Artificial Intelligence\n\n## Abstract\n*The abstract content is not provided in the raw text.*\n\n## Introduction\n*The introduction content is not provided in the raw text.*\n\n## Methods\n*The methods content is not provided in the raw text.*\n\n## Results\n*The results content is not provided in the raw text.*\n\n## Discussion\n*The discussion content is not provided in the raw text.*\n\n## Conclusion\n*The conclusion content is not provided in the raw text.*\n\n## References\n1. Gerke S, Minssen T, Cohen G. Ethical and legal challenges of artificial intelligence-driven healthcare. Artif Intell Healthc. 2020, pp.295\u2013336. doi:10.1016/b978-0-12-818438-7.00012-5.\n2. Cohen IG, Mello MM. HIPAA and protecting health information in the 21st Century. JAMA. 2018;320(3):231. doi:10.1001/jama.2018.5630.\n3. Yuan B, Li J. The policy effect of the General Data Protection Regulation (GDPR) on the digital public health sector in the European Union: an empirical...",
+      "metadata": {
+        "source": "pdf9.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf9.pdf",
+        "doc_id": "pdf9",
+        "page_label": "6",
+        "page_num": "6",
+        "image_map": "{\"3\": [\"extracted/figures/pdf9_p3_i1.png\", \"extracted/figures/pdf9_p3_i2.png\"], \"4\": [\"extracted/figures/pdf9_p4_i1.png\"], \"6\": [\"extracted/figures/pdf9_p6_i1.png\"]}"
+      }
+    }
+  ]
+}

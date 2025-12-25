@@ -1,0 +1,104 @@
+{
+  "source": "pdf17.pdf",
+  "documents": [
+    {
+      "text": "# Ethical and Regulatory Considerations in AI-Driven Medical Imaging: A Perspective Overview\n\n**Ikenna Odezuligbo** 1, * **Oreoluwa Alade** 2 and **Ekene Fidelis Chukwurah** 3\n\n1 Department of Physics, Creighton University, Nebraska State, United States.\n2 Department of Physics, North Dakota State University, North Dakota, United States.\n3 Department of Computer Science and Engineering, Obafemi Awolowo University, Osun, Nigeria\n\nInternational Journal of Science and Research Archive, 2024, 13(01), 3554-3562\n\nPublication history: Received on 10 September 2024; revised on 20 October 2024; accepted on 28 October 2024\n\nArticle DOI: [https://doi.org/10.30574/ijsra.2024.13.1.1739])(https://doi.org/10.30574/ijsra.2024.13.1.1739)\n\n## Abstract\nArtificial Intelligence (AI)-driven research aimed at improving critical clinical procedures and results has significantly increased during the last decade and a half. AI-powered systems that support decisions can improve clinical workflows, aid in diagnos...",
+      "metadata": {
+        "source": "pdf17.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf17.pdf",
+        "doc_id": "pdf17",
+        "page_label": "1",
+        "page_num": "1",
+        "image_map": "{\"1\": [\"extracted/figures/pdf17_p1_i1.jpeg\", \"extracted/figures/pdf17_p1_i2.jpeg\", \"extracted/figures/pdf17_p1_i3.jpeg\"], \"2\": [\"extracted/figures/pdf17_p2_i1.jpeg\"], \"5\": [\"extracted/figures/pdf17_p5_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# International Journal of Science and Research Archive, 2024, 13(01), 3554-3562\n\n## Abstract\nResearch and virtual assistance, AI-driven medical monitoring and diagnostic processes improve accuracy in MI and patient care. These uses demonstrate how AI revolutionizes contemporary technological advances and medicine (Khan et al., 2023; Manickam et al., 2022; Kashyap, 2018).\n\n## Introduction\nBy expanding the capabilities of imaging technology and increasing precision in diagnosis, the use of AI-driven medical imaging (MI) and other advanced technological procedures is transforming the healthcare system generally (Alkayyali et al., 2024; Herington et al., 2023; Ukhurebor et al., 2022; Onyancha et al., 2021). AI is increasingly used in medical imaging procedures to analyze and interpret complicated visual data, especially ML and deep learning algorithms (Mennella et al., 2024; Liao et al., 2023; Mak and Pichika, 2019).\n\nAs a branch of AI, ML entails training algorithms for identifying patt...",
+      "metadata": {
+        "source": "pdf17.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf17.pdf",
+        "doc_id": "pdf17",
+        "page_label": "2",
+        "page_num": "2",
+        "image_map": "{\"1\": [\"extracted/figures/pdf17_p1_i1.jpeg\", \"extracted/figures/pdf17_p1_i2.jpeg\", \"extracted/figures/pdf17_p1_i3.jpeg\"], \"2\": [\"extracted/figures/pdf17_p2_i1.jpeg\"], \"5\": [\"extracted/figures/pdf17_p5_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# International Journal of Science and Research Archive, 2024, 13(01), 3554-3562\n\n## Abstract\nAI-driven research has significantly increased over the last ten years, focusing on improving important clinical procedures and results. It is becoming clearer how AI-powered decision support systems may improve clinical workflows, aid diagnosis, and allow individualized care (Mennella et al., 2024). However, the implementation of these innovative solutions presents some significant challenges in clinical and care settings, requiring a careful examination of legal, ethical, and regulatory issues (Wang et al., 2024; Abujaber and Nashwan, 2024; Abdullah et al., 2021; Ganapathy, 2021).\n\nA strong governance framework is essential to promote the adoption and effective application of AI in healthcare. This article explores the ethical and legal issues arising when AI-driven technologies are used in MI settings. This study sheds light on the present situation of AI-driven MI as well as possible futu...",
+      "metadata": {
+        "source": "pdf17.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf17.pdf",
+        "doc_id": "pdf17",
+        "page_label": "3",
+        "page_num": "3",
+        "image_map": "{\"1\": [\"extracted/figures/pdf17_p1_i1.jpeg\", \"extracted/figures/pdf17_p1_i2.jpeg\", \"extracted/figures/pdf17_p1_i3.jpeg\"], \"2\": [\"extracted/figures/pdf17_p2_i1.jpeg\"], \"5\": [\"extracted/figures/pdf17_p5_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Ethical Guidelines for AI in Healthcare\n\n## Abstract\nThe integrity of the medical field is paramount, especially as the healthcare industry evolves. This paper discusses the ethical guidelines necessary for maintaining moral behavior that prioritizes patient needs and upholds the core values of the medical profession. It emphasizes the importance of regular reflection on ethical issues by healthcare workers to navigate the complexities of medical practice with integrity and compassion.\n\n## Introduction\nThe need to track patient safety, confidentiality, traceability, accountability, and privacy is critical in developing electronic healthcare approaches. Strategies must be implemented to address potential violations. In 2019, the World Health Organization (WHO) initiated a framework to integrate technology and digital advancements into healthcare. The WHO's guidelines stress the importance of assessing these technologies based on criteria such as benefits, potential negative effects, ...",
+      "metadata": {
+        "source": "pdf17.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf17.pdf",
+        "doc_id": "pdf17",
+        "page_label": "4",
+        "page_num": "4",
+        "image_map": "{\"1\": [\"extracted/figures/pdf17_p1_i1.jpeg\", \"extracted/figures/pdf17_p1_i2.jpeg\", \"extracted/figures/pdf17_p1_i3.jpeg\"], \"2\": [\"extracted/figures/pdf17_p2_i1.jpeg\"], \"5\": [\"extracted/figures/pdf17_p5_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# International Journal of Science and Research Archive, 2024, 13(01), 3554-3562\n\n## Abstract\nFurthermore, these guidelines ought to enable medical practitioners to use AI technologies responsibly in their work (Mennella et al., 2024).\n\n## Introduction\nFrom the literature, six essential criteria are highlighted that support the ethical development of AI-based technologies within a broad framework for their application in the service of society. Some of these are basic principles that are frequently applied in bioethics: justice (ensuring equality and that no person or group is vulnerable to discrimination, neglect, manipulation, dominance, or exploitation), autonomy (the respect for one's own best interests while making decisions), and beneficence and non-maleficence (that is, to do nothing that harms and reduce the benefit/risk trade-off). Conversely, other principles are derived from legal and moral ideals. Sustaining the epistemological component of intelligibility is emphasized by...",
+      "metadata": {
+        "source": "pdf17.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf17.pdf",
+        "doc_id": "pdf17",
+        "page_label": "5",
+        "page_num": "5",
+        "image_map": "{\"1\": [\"extracted/figures/pdf17_p1_i1.jpeg\", \"extracted/figures/pdf17_p1_i2.jpeg\", \"extracted/figures/pdf17_p1_i3.jpeg\"], \"2\": [\"extracted/figures/pdf17_p2_i1.jpeg\"], \"5\": [\"extracted/figures/pdf17_p5_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# International Journal of Science and Research Archive, 2024, 13(01), 3554-3562\n\n## Abstract\n*The abstract is not provided in the text.*\n\n## Introduction\n*The introduction is not provided in the text.*\n\n## Methods\n*The methods section is not provided in the text.*\n\n## Results\n*The results section is not provided in the text.*\n\n## Discussion\n\n### 2.2.2. Bias\nAI bias is an alarming issue in AI-driven medical imaging (MI). AI models may inherit biases in the training data, which could result in inaccurate diagnoses or therapy suggestions. To reduce such dangers, regulatory requirements should require rigorous data screening and bias reduction techniques (Challen et al., 2019).\n\n### 2.2.3. Accountability\nIn AI-driven MI, accountability has some complexities. It highlights the question of accountability when an AI system produces a recommendation that is damaging or inaccurate. Rules for assessing responsibility and liability need to be established by regulatory frameworks; these rules ma...",
+      "metadata": {
+        "source": "pdf17.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf17.pdf",
+        "doc_id": "pdf17",
+        "page_label": "6",
+        "page_num": "6",
+        "image_map": "{\"1\": [\"extracted/figures/pdf17_p1_i1.jpeg\", \"extracted/figures/pdf17_p1_i2.jpeg\", \"extracted/figures/pdf17_p1_i3.jpeg\"], \"2\": [\"extracted/figures/pdf17_p2_i1.jpeg\"], \"5\": [\"extracted/figures/pdf17_p5_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Implementing Ethics and Regulations in AI-Driven Medical Imaging\n\n## Abstract\nImplementing ethics and regulations in AI-driven medical imaging (MI) effectively is a challenging task fraught with difficult circumstances. First of all, because technology is frequently expanding more quickly than legal frameworks, it might be difficult to keep up with the quickly evolving uses of AI. Additionally, there are problems with the interpretability and transparency of AI algorithms, which could hinder efforts at regulation due to the fact that comprehending the way these systems make decisions is crucial for safety and transparency. Data security and privacy issues also pose significant hurdles, especially when sharing MI data to train AI models. Finding a balance between the need for data access and privacy considerations is challenging (Mennella et al., 2024; Petersson et al., 2023).\n\n## Introduction\nSince AI systems need to readily interface with existing instruments and platforms, interop...",
+      "metadata": {
+        "source": "pdf17.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf17.pdf",
+        "doc_id": "pdf17",
+        "page_label": "7",
+        "page_num": "7",
+        "image_map": "{\"1\": [\"extracted/figures/pdf17_p1_i1.jpeg\", \"extracted/figures/pdf17_p1_i2.jpeg\", \"extracted/figures/pdf17_p1_i3.jpeg\"], \"2\": [\"extracted/figures/pdf17_p2_i1.jpeg\"], \"5\": [\"extracted/figures/pdf17_p5_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# International Journal of Science and Research Archive, 2024, 13(01), 3554-3562\n\n## Abstract\n*The abstract content is not provided in the raw text.*\n\n## Introduction\n*The introduction content is not provided in the raw text.*\n\n## Methods\n*The methods content is not provided in the raw text.*\n\n## Results\n*The results content is not provided in the raw text.*\n\n## Discussion\n*The discussion content is not provided in the raw text.*\n\n## Conclusion\n*The conclusion content is not provided in the raw text.*\n\n## References\n1. Abdullah YI, Schuman JS, Shabsigh R, Caplan A, Al-Aswad LA (2021) Ethics of Artificial Intelligence in Medicine and Ophthalmology. The Asia-Pacific Journal of Ophthalmology, 10(3), 289\u2013298. https://doi.org/10.1097/APO.0000000000000397.\n2. Abujaber AA, Nashwan AJ (2024) Ethical framework for Artificial Intelligence in healthcare research: A path to integrity. World Journal of Methodology, 14(3). https://doi.org/10.5662/wjm.v14.i3.94071.\n3. Adetunji CO, Ukhurebor KE, Olan...",
+      "metadata": {
+        "source": "pdf17.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf17.pdf",
+        "doc_id": "pdf17",
+        "page_label": "8",
+        "page_num": "8",
+        "image_map": "{\"1\": [\"extracted/figures/pdf17_p1_i1.jpeg\", \"extracted/figures/pdf17_p1_i2.jpeg\", \"extracted/figures/pdf17_p1_i3.jpeg\"], \"2\": [\"extracted/figures/pdf17_p2_i1.jpeg\"], \"5\": [\"extracted/figures/pdf17_p5_i1.jpeg\"]}"
+      }
+    },
+    {
+      "text": "\n# Artificial Intelligence and Internet of Medical Things Assisted Biomedical Systems for Intelligent Healthcare\n\n## Abstract\nThe integration of Artificial Intelligence (AI) and the Internet of Medical Things (IoMT) has revolutionized the healthcare sector, providing innovative solutions for patient care and management. This paper explores the potential of AI and IoMT in enhancing biomedical systems, focusing on their applications, benefits, and challenges in intelligent healthcare.\n\n## Introduction\nThe healthcare industry is undergoing a significant transformation due to advancements in technology, particularly through the integration of AI and IoMT. These technologies have the potential to improve patient outcomes, streamline operations, and reduce costs. This section discusses the background of AI and IoMT, their relevance in healthcare, and the objectives of this research.\n\n## Methods\nThis study employs a systematic review methodology to analyze existing literature on AI and IoMT a...",
+      "metadata": {
+        "source": "pdf17.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf17.pdf",
+        "doc_id": "pdf17",
+        "page_label": "9",
+        "page_num": "9",
+        "image_map": "{\"1\": [\"extracted/figures/pdf17_p1_i1.jpeg\", \"extracted/figures/pdf17_p1_i2.jpeg\", \"extracted/figures/pdf17_p1_i3.jpeg\"], \"2\": [\"extracted/figures/pdf17_p2_i1.jpeg\"], \"5\": [\"extracted/figures/pdf17_p5_i1.jpeg\"]}"
+      }
+    }
+  ]
+}

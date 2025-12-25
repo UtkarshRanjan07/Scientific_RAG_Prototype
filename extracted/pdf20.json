@@ -1,0 +1,181 @@
+{
+  "source": "pdf20.pdf",
+  "documents": [
+    {
+      "text": "# Artificial Intelligence in Health Professions Education Assessment: AMEE Guide No. 178\n\n**Authors:** Ken Masters, Heather MacNeil, Jennifer Benjamin, Tamara Carver, Kataryna Nemethy, Sofia Valanci-Aroesty, David C. M. Taylor, Brent Thoma &#x26; Thomas Thesen\n\n**To cite this article:** Ken Masters, Heather MacNeil, Jennifer Benjamin, Tamara Carver, Kataryna Nemethy, Sofia Valanci-Aroesty, David C. M. Taylor, Brent Thoma &#x26; Thomas Thesen (09 Jan 2025): Artificial Intelligence in Health Professions Education assessment: AMEE Guide No. 178, Medical Teacher, DOI: 10.1080/0142159X.2024.2445037\n\n**Published online:** 09 Jan 2025.\n\n----\n\n## Abstract\n\n*The abstract content is not provided in the OCR text.*\n\n## Introduction\n\n*The introduction content is not provided in the OCR text.*\n\n## Methods\n\n*The methods content is not provided in the OCR text.*\n\n## Results\n\n*The results content is not provided in the OCR text.*\n\n## Discussion\n\n*The discussion content is not provided in the OCR text.*...",
+      "metadata": {
+        "source": "pdf20.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf20.pdf",
+        "doc_id": "pdf20",
+        "page_label": "1",
+        "page_num": "1",
+        "image_map": "{\"1\": [\"extracted/figures/pdf20_p1_i1.jpeg\", \"extracted/figures/pdf20_p1_i2.png\", \"extracted/figures/pdf20_p1_i3.png\", \"extracted/figures/pdf20_p1_i4.png\", \"extracted/figures/pdf20_p1_i5.png\", \"extracted/figures/pdf20_p1_i6.png\", \"extracted/figures/pdf20_p1_i7.png\", \"extracted/figures/pdf20_p1_i8.png\", \"extracted/figures/pdf20_p1_i9.png\", \"extracted/figures/pdf20_p1_i10.png\", \"extracted/figures/pdf20_p1_i11.png\", \"extracted/figures/pdf20_p1_i12.png\", \"extracted/figures/pdf20_p1_i13.png\", \"extracted/figures/pdf20_p1_i14.png\", \"extracted/figures/pdf20_p1_i15.png\", \"extracted/figures/pdf20_p1_i16.png\"], \"2\": [\"extracted/figures/pdf20_p2_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Artificial Intelligence in Health Professions Education Assessment: AMEE Guide No. 178\n\n**Ken Masters**, **Heather MacNeil**, **Jennifer Benjamin**, **Tamara Carver**, **Kataryna Nemeth**, **Sofia Valanci-Aroesty**, **David C. M. Taylor**, **Brent Thomas**, **Thomas Thesen**\naMedical Education and Informatics Department, College of Medicine and Health Sciences, Sultan Qaboos University, Muscat, Sultanate of Oman;\nbDepartment of Medicine, University of Toronto, Toronto, Canada;\ncDepartment of Pediatrics, Texas Children\u2019s Hospital, Baylor College of Medicine, Houston, TX, USA;\ndInstitute of Health Sciences Education, Faculty of Medicine and Health Sciences, McGill University, Montreal, Canada;\neBaycrest Academy for Research and Education, Toronto, Canada;\nfRoyal College of Physicians and Surgeons of Canada, Ottawa, Canada;\ngCollege of Medicine, Gulf Medical University, Ajman, United Arab Emirates;\nhSchool of Medicine, Toronto Metropolitan University, Toronto, Canada;\niDepartment of Me...",
+      "metadata": {
+        "source": "pdf20.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf20.pdf",
+        "doc_id": "pdf20",
+        "page_label": "2",
+        "page_num": "2",
+        "image_map": "{\"1\": [\"extracted/figures/pdf20_p1_i1.jpeg\", \"extracted/figures/pdf20_p1_i2.png\", \"extracted/figures/pdf20_p1_i3.png\", \"extracted/figures/pdf20_p1_i4.png\", \"extracted/figures/pdf20_p1_i5.png\", \"extracted/figures/pdf20_p1_i6.png\", \"extracted/figures/pdf20_p1_i7.png\", \"extracted/figures/pdf20_p1_i8.png\", \"extracted/figures/pdf20_p1_i9.png\", \"extracted/figures/pdf20_p1_i10.png\", \"extracted/figures/pdf20_p1_i11.png\", \"extracted/figures/pdf20_p1_i12.png\", \"extracted/figures/pdf20_p1_i13.png\", \"extracted/figures/pdf20_p1_i14.png\", \"extracted/figures/pdf20_p1_i15.png\", \"extracted/figures/pdf20_p1_i16.png\"], \"2\": [\"extracted/figures/pdf20_p2_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# AI in Assessment: A Guide\n\n## Abstract\nThis guide covers various topics related to the use of Artificial Intelligence (AI) in assessment, particularly in Health Professions Education (HPE). It begins with pedagogical theories and human responses to AI, followed by discussions on AI's impact on personal and flexible assessment, standardization, and assessment types. The guide also addresses AI as a tutor and learner, competency-based assessment, and ethical issues, concluding with faculty development and the acknowledgment of AI usage in HPE assessment.\n\n## 1. Introduction\nThe guide is structured to logically present topics, starting with educational theoretical frameworks and moving towards practical applications of AI in assessment. It emphasizes that while AI can enhance assessment, it is not a panacea for all educational challenges. The focus remains on identifying areas in HPE assessment that can benefit from AI while recognizing potential issues.\n\n## 2. Theories and Frameworks\n...",
+      "metadata": {
+        "source": "pdf20.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf20.pdf",
+        "doc_id": "pdf20",
+        "page_label": "3",
+        "page_num": "3",
+        "image_map": "{\"1\": [\"extracted/figures/pdf20_p1_i1.jpeg\", \"extracted/figures/pdf20_p1_i2.png\", \"extracted/figures/pdf20_p1_i3.png\", \"extracted/figures/pdf20_p1_i4.png\", \"extracted/figures/pdf20_p1_i5.png\", \"extracted/figures/pdf20_p1_i6.png\", \"extracted/figures/pdf20_p1_i7.png\", \"extracted/figures/pdf20_p1_i8.png\", \"extracted/figures/pdf20_p1_i9.png\", \"extracted/figures/pdf20_p1_i10.png\", \"extracted/figures/pdf20_p1_i11.png\", \"extracted/figures/pdf20_p1_i12.png\", \"extracted/figures/pdf20_p1_i13.png\", \"extracted/figures/pdf20_p1_i14.png\", \"extracted/figures/pdf20_p1_i15.png\", \"extracted/figures/pdf20_p1_i16.png\"], \"2\": [\"extracted/figures/pdf20_p2_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# AI in Assessment: A Guide for Educators\n\n## Abstract\nThis guide explores the integration of Artificial Intelligence (AI) in formative and summative assessments within educational contexts. It emphasizes the importance of pedagogical frameworks and best practices for AI use, ensuring learner anonymity, reducing algorithm bias, and promoting critical evaluation of AI outputs.\n\n## Introduction\nThe guide begins by establishing that the focus is not on technology itself but on pedagogical practices. It highlights the necessity for educators to model effective AI use in assessments, addressing both the potential benefits and concerns associated with AI in educational settings.\n\n## Methods\nThe guide outlines various pedagogical frameworks and theories that can be utilized to incorporate AI into assessments. It discusses the Unified Theory of Acceptance and Use of Technology (UTAUT) and the Medical Artificial Intelligence Readiness Scale for Medical Students (MAIRS-MS) as tools for assessin...",
+      "metadata": {
+        "source": "pdf20.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf20.pdf",
+        "doc_id": "pdf20",
+        "page_label": "4",
+        "page_num": "4",
+        "image_map": "{\"1\": [\"extracted/figures/pdf20_p1_i1.jpeg\", \"extracted/figures/pdf20_p1_i2.png\", \"extracted/figures/pdf20_p1_i3.png\", \"extracted/figures/pdf20_p1_i4.png\", \"extracted/figures/pdf20_p1_i5.png\", \"extracted/figures/pdf20_p1_i6.png\", \"extracted/figures/pdf20_p1_i7.png\", \"extracted/figures/pdf20_p1_i8.png\", \"extracted/figures/pdf20_p1_i9.png\", \"extracted/figures/pdf20_p1_i10.png\", \"extracted/figures/pdf20_p1_i11.png\", \"extracted/figures/pdf20_p1_i12.png\", \"extracted/figures/pdf20_p1_i13.png\", \"extracted/figures/pdf20_p1_i14.png\", \"extracted/figures/pdf20_p1_i15.png\", \"extracted/figures/pdf20_p1_i16.png\"], \"2\": [\"extracted/figures/pdf20_p2_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# On-Demand Assessments in Healthcare Professional Education\n\n## Abstract\nThe abstract is not provided in the text.\n\n## Introduction\nThe development of healthcare professionals (HPE) requires evidence of specific competencies. By providing real-time feedback and competency evaluations, on-demand assessments support personalized learning paths, enabling learners to progress through training phases at their own pace. These assessments enable learners to demonstrate readiness for each phase when they feel prepared, aligning with their individual learning paths and career trajectories, rather than a set timeline [4]. This approach supports progression based on demonstrated competency rather than time, confirming a learner\u2019s readiness to advance [25].\n\nAs AI-driven assessments continue to evolve, they offer a promising pathway for preparing learners for phase completion and certification, ultimately ensuring readiness for the demands of professional practice. Certification in HPE requires ...",
+      "metadata": {
+        "source": "pdf20.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf20.pdf",
+        "doc_id": "pdf20",
+        "page_label": "5",
+        "page_num": "5",
+        "image_map": "{\"1\": [\"extracted/figures/pdf20_p1_i1.jpeg\", \"extracted/figures/pdf20_p1_i2.png\", \"extracted/figures/pdf20_p1_i3.png\", \"extracted/figures/pdf20_p1_i4.png\", \"extracted/figures/pdf20_p1_i5.png\", \"extracted/figures/pdf20_p1_i6.png\", \"extracted/figures/pdf20_p1_i7.png\", \"extracted/figures/pdf20_p1_i8.png\", \"extracted/figures/pdf20_p1_i9.png\", \"extracted/figures/pdf20_p1_i10.png\", \"extracted/figures/pdf20_p1_i11.png\", \"extracted/figures/pdf20_p1_i12.png\", \"extracted/figures/pdf20_p1_i13.png\", \"extracted/figures/pdf20_p1_i14.png\", \"extracted/figures/pdf20_p1_i15.png\", \"extracted/figures/pdf20_p1_i16.png\"], \"2\": [\"extracted/figures/pdf20_p2_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Medical Teacher\n\n## 5.2. Conclusion\nAI-generated items show great promise and can be used, but it is essential that they meet both the standards of conventional psychometric validation and the public\u2019s trust. Therefore, high-stakes assessments should ensure that such items have been reviewed by humans or continue to rely on well-established test items that have undergone extensive validation. This ensures that the standards of fairness, reliability, and equity in HPE assessment remain uncompromised as new AI-driven tools are integrated into HPE. More rigorous and systematic research is needed before GenAI can be reliably used in high-stakes standardized assessments, but its potential to enhance consistency, fairness, and scalability is promising. Educators can ensure that assessments remain relevant to the learner\u2019s current skill level. These AI-driven tools, detailed further in Appendix 3, highlight the potential for using GenAI in both question creation and targeted feedback.\n\n## ...",
+      "metadata": {
+        "source": "pdf20.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf20.pdf",
+        "doc_id": "pdf20",
+        "page_label": "6",
+        "page_num": "6",
+        "image_map": "{\"1\": [\"extracted/figures/pdf20_p1_i1.jpeg\", \"extracted/figures/pdf20_p1_i2.png\", \"extracted/figures/pdf20_p1_i3.png\", \"extracted/figures/pdf20_p1_i4.png\", \"extracted/figures/pdf20_p1_i5.png\", \"extracted/figures/pdf20_p1_i6.png\", \"extracted/figures/pdf20_p1_i7.png\", \"extracted/figures/pdf20_p1_i8.png\", \"extracted/figures/pdf20_p1_i9.png\", \"extracted/figures/pdf20_p1_i10.png\", \"extracted/figures/pdf20_p1_i11.png\", \"extracted/figures/pdf20_p1_i12.png\", \"extracted/figures/pdf20_p1_i13.png\", \"extracted/figures/pdf20_p1_i14.png\", \"extracted/figures/pdf20_p1_i15.png\", \"extracted/figures/pdf20_p1_i16.png\"], \"2\": [\"extracted/figures/pdf20_p2_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# The Impact of AI on Take-Home Essays in Higher Education\n\n## Abstract\nThe integration of AI-driven tools in education has transformed the landscape of assessment, particularly in the context of take-home essays. This paper explores the implications of AI on traditional assessment methods, the challenges posed by AI-generated content, and potential solutions for educators to adapt to this evolving environment.\n\n## Introduction\nThe advent of AI technologies, particularly large language models (LLMs) like ChatGPT, has significantly altered the dynamics of educational assessments. While these tools can alleviate some burdens on educators, they also raise concerns about the integrity and effectiveness of traditional assessment formats, such as take-home essays. This paper examines the role of take-home essays in higher education (HPE) and the challenges posed by AI in maintaining their value as a measure of learning.\n\n## The Take-Home Essay\nThe take-home essay has been a cornerstone of a...",
+      "metadata": {
+        "source": "pdf20.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf20.pdf",
+        "doc_id": "pdf20",
+        "page_label": "7",
+        "page_num": "7",
+        "image_map": "{\"1\": [\"extracted/figures/pdf20_p1_i1.jpeg\", \"extracted/figures/pdf20_p1_i2.png\", \"extracted/figures/pdf20_p1_i3.png\", \"extracted/figures/pdf20_p1_i4.png\", \"extracted/figures/pdf20_p1_i5.png\", \"extracted/figures/pdf20_p1_i6.png\", \"extracted/figures/pdf20_p1_i7.png\", \"extracted/figures/pdf20_p1_i8.png\", \"extracted/figures/pdf20_p1_i9.png\", \"extracted/figures/pdf20_p1_i10.png\", \"extracted/figures/pdf20_p1_i11.png\", \"extracted/figures/pdf20_p1_i12.png\", \"extracted/figures/pdf20_p1_i13.png\", \"extracted/figures/pdf20_p1_i14.png\", \"extracted/figures/pdf20_p1_i15.png\", \"extracted/figures/pdf20_p1_i16.png\"], \"2\": [\"extracted/figures/pdf20_p2_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Medical Teacher\n\n## Abstract\nThe integration of Generative AI (GenAI) in medical education presents both opportunities and challenges. This paper explores the potential of GenAI to enhance learning experiences through personalized assessments and alternative evaluation methods. It emphasizes the importance of responsible use and the need for educators to adapt their teaching strategies to incorporate these technologies effectively.\n\n## Introduction\nThe rise of artificial intelligence (AI) in education has prompted a reevaluation of traditional assessment methods. GenAI offers innovative ways to engage learners, but it also raises concerns about equity, access, and the integrity of educational practices. This paper discusses the implications of using GenAI in medical education, focusing on its role in formative assessments and personalized learning.\n\n## Methods\nThe study employs a qualitative approach, analyzing existing literature on GenAI applications in education. It highlights be...",
+      "metadata": {
+        "source": "pdf20.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf20.pdf",
+        "doc_id": "pdf20",
+        "page_label": "8",
+        "page_num": "8",
+        "image_map": "{\"1\": [\"extracted/figures/pdf20_p1_i1.jpeg\", \"extracted/figures/pdf20_p1_i2.png\", \"extracted/figures/pdf20_p1_i3.png\", \"extracted/figures/pdf20_p1_i4.png\", \"extracted/figures/pdf20_p1_i5.png\", \"extracted/figures/pdf20_p1_i6.png\", \"extracted/figures/pdf20_p1_i7.png\", \"extracted/figures/pdf20_p1_i8.png\", \"extracted/figures/pdf20_p1_i9.png\", \"extracted/figures/pdf20_p1_i10.png\", \"extracted/figures/pdf20_p1_i11.png\", \"extracted/figures/pdf20_p1_i12.png\", \"extracted/figures/pdf20_p1_i13.png\", \"extracted/figures/pdf20_p1_i14.png\", \"extracted/figures/pdf20_p1_i15.png\", \"extracted/figures/pdf20_p1_i16.png\"], \"2\": [\"extracted/figures/pdf20_p2_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# AI in Education: Enhancing Learning and Assessment\n\n## Abstract\nThis paper explores the integration of Artificial Intelligence (AI) in educational settings, focusing on its role in enhancing communication skills, providing immediate feedback, and facilitating collaborative learning. It discusses the use of AI tutors and virtual patients (VP) in simulating real-life interactions, the limitations of these technologies, and best practices for their implementation in competency-based education.\n\n## Introduction\nAI has emerged as a powerful tool in education, particularly in developing communication skills and providing formative assessments. The ability of AI to engage learners in interactive dialogue and clarify complex concepts is crucial for effective learning. However, the limitations of AI in replicating human interactions and the ethical considerations surrounding learner privacy and safety must be addressed.\n\n## Methods\nThe study employs a qualitative approach, analyzing existing...",
+      "metadata": {
+        "source": "pdf20.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf20.pdf",
+        "doc_id": "pdf20",
+        "page_label": "9",
+        "page_num": "9",
+        "image_map": "{\"1\": [\"extracted/figures/pdf20_p1_i1.jpeg\", \"extracted/figures/pdf20_p1_i2.png\", \"extracted/figures/pdf20_p1_i3.png\", \"extracted/figures/pdf20_p1_i4.png\", \"extracted/figures/pdf20_p1_i5.png\", \"extracted/figures/pdf20_p1_i6.png\", \"extracted/figures/pdf20_p1_i7.png\", \"extracted/figures/pdf20_p1_i8.png\", \"extracted/figures/pdf20_p1_i9.png\", \"extracted/figures/pdf20_p1_i10.png\", \"extracted/figures/pdf20_p1_i11.png\", \"extracted/figures/pdf20_p1_i12.png\", \"extracted/figures/pdf20_p1_i13.png\", \"extracted/figures/pdf20_p1_i14.png\", \"extracted/figures/pdf20_p1_i15.png\", \"extracted/figures/pdf20_p1_i16.png\"], \"2\": [\"extracted/figures/pdf20_p2_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Medical Teacher\n\n## Abstract\nThe abstract is not provided in the extracted text.\n\n## Introduction\nThe introduction is not provided in the extracted text.\n\n## Methods\nThe methods section is not provided in the extracted text.\n\n## Results\nThe results section is not provided in the extracted text.\n\n## Discussion\n\n### 11. Limitations\nThe first limitation is the need for the simple expedient of a human individual to ensure that the AI-generated conclusions for high-stakes events are correct and appropriate. The second limitation focuses on accessibility and ethical use of sensitive data once it appears online. The use of LLMs, and gifting them with sensitive data potentially multiplies the risk.\n\nWith these in mind, we move into some of the difficult areas raised by using AI in HPE assessment.\n\n### 12. Difficult areas and ethical issues\n\n#### 12.1. Introduction\nAI will create challenges for assessors. This is particularly true as we begin to navigate the use of AI by learners, whose reac...",
+      "metadata": {
+        "source": "pdf20.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf20.pdf",
+        "doc_id": "pdf20",
+        "page_label": "10",
+        "page_num": "10",
+        "image_map": "{\"1\": [\"extracted/figures/pdf20_p1_i1.jpeg\", \"extracted/figures/pdf20_p1_i2.png\", \"extracted/figures/pdf20_p1_i3.png\", \"extracted/figures/pdf20_p1_i4.png\", \"extracted/figures/pdf20_p1_i5.png\", \"extracted/figures/pdf20_p1_i6.png\", \"extracted/figures/pdf20_p1_i7.png\", \"extracted/figures/pdf20_p1_i8.png\", \"extracted/figures/pdf20_p1_i9.png\", \"extracted/figures/pdf20_p1_i10.png\", \"extracted/figures/pdf20_p1_i11.png\", \"extracted/figures/pdf20_p1_i12.png\", \"extracted/figures/pdf20_p1_i13.png\", \"extracted/figures/pdf20_p1_i14.png\", \"extracted/figures/pdf20_p1_i15.png\", \"extracted/figures/pdf20_p1_i16.png\"], \"2\": [\"extracted/figures/pdf20_p2_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Faculty Use of AI\n\n## 12.4. Faculty Use of AI\nWhen using an AI system for formative or summative grading or feedback, several issues arise:\n\n- **Usage Transparency**: Just as institutions require learner transparency of GenAI usage, faculty usage of GenAI requires transparency. Institutions may also wish to have an \u2018opt-out\u2019 possibility for learners and faculty.\n- **Learner Privacy**: Learner data is an attractive source for HPE institutions. Natural Language Processing (NLP) models have been developed to organize narrative assessment data by sub-competencies and to predict performance. The validity of the results is not yet conclusive, but an equally pressing concern is the unconsented use of learner data used as training data for the models. Depending upon the model, this problem can be mitigated by using institutional licenses, Application Program Interfaces (APIs), or disabling such training through settings. If this is not possible, then fully informed consent is required.\n- **...",
+      "metadata": {
+        "source": "pdf20.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf20.pdf",
+        "doc_id": "pdf20",
+        "page_label": "11",
+        "page_num": "11",
+        "image_map": "{\"1\": [\"extracted/figures/pdf20_p1_i1.jpeg\", \"extracted/figures/pdf20_p1_i2.png\", \"extracted/figures/pdf20_p1_i3.png\", \"extracted/figures/pdf20_p1_i4.png\", \"extracted/figures/pdf20_p1_i5.png\", \"extracted/figures/pdf20_p1_i6.png\", \"extracted/figures/pdf20_p1_i7.png\", \"extracted/figures/pdf20_p1_i8.png\", \"extracted/figures/pdf20_p1_i9.png\", \"extracted/figures/pdf20_p1_i10.png\", \"extracted/figures/pdf20_p1_i11.png\", \"extracted/figures/pdf20_p1_i12.png\", \"extracted/figures/pdf20_p1_i13.png\", \"extracted/figures/pdf20_p1_i14.png\", \"extracted/figures/pdf20_p1_i15.png\", \"extracted/figures/pdf20_p1_i16.png\"], \"2\": [\"extracted/figures/pdf20_p2_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Faculty Development in AI-Enabled Assessment\n\n## Abstract\nOur need for faculty development is especially true of the rapidly evolving field of AI-enabled assessment. As noted by Sam Altman: \u2018These are the stupidest the models will ever be\u2019 [93], so, our challenge is to provide pedagogically informed training and support for this rapidly evolving and radically different way of providing assessment.\n\n## Introduction\nWe can begin by building upon the Technology, Pedagogy, Content, Knowledge, Framework (TPACK) framework [8,9], as discussed earlier, in designing and ensuring faculty development competency development as follows: micro (faculty and staff), meso (institution), and macro (regulatory and professional body) levels when providing faculty development.\n\n## Methods\n\n### Acknowledgment and Citing\n\n#### Background\n- **TK**: Knowing how to use LLMs such as ChatGPT for assessment, including how to access them, their benefits and limitations, and prompt engineering techniques.\n- **TCK...",
+      "metadata": {
+        "source": "pdf20.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf20.pdf",
+        "doc_id": "pdf20",
+        "page_label": "12",
+        "page_num": "12",
+        "image_map": "{\"1\": [\"extracted/figures/pdf20_p1_i1.jpeg\", \"extracted/figures/pdf20_p1_i2.png\", \"extracted/figures/pdf20_p1_i3.png\", \"extracted/figures/pdf20_p1_i4.png\", \"extracted/figures/pdf20_p1_i5.png\", \"extracted/figures/pdf20_p1_i6.png\", \"extracted/figures/pdf20_p1_i7.png\", \"extracted/figures/pdf20_p1_i8.png\", \"extracted/figures/pdf20_p1_i9.png\", \"extracted/figures/pdf20_p1_i10.png\", \"extracted/figures/pdf20_p1_i11.png\", \"extracted/figures/pdf20_p1_i12.png\", \"extracted/figures/pdf20_p1_i13.png\", \"extracted/figures/pdf20_p1_i14.png\", \"extracted/figures/pdf20_p1_i15.png\", \"extracted/figures/pdf20_p1_i16.png\"], \"2\": [\"extracted/figures/pdf20_p2_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# AMEE Guide on the Use of AI in HPE Assessment\n\n## Abstract\nThis AMEE Guide on the use of AI in HPE assessment has covered a broad range of issues, beginning with pedagogical theory, human responses, through a range of assessment types and situations, and ending with the acknowledgment of AI. Although the authors\u2019 personal biases towards AI have influenced their work and approaches, we have attempted to maintain a balance, so that educators can approach the challenges, problems, and solutions with full and realistic awareness of the possible positive and negative impact of AI. In this way, we have aimed to provide HPE educators with a Guide to assist them in their journey of successfully using AI for HPE assessment.\n\n## Acknowledgements\nThe authors gratefully acknowledge comments made by reviewers on a previous version of this paper.\n\n## Disclosure Statement\nNo potential conflict of interest was reported by the author(s).\n\n## Funding\nThe author(s) reported there is no funding associa...",
+      "metadata": {
+        "source": "pdf20.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf20.pdf",
+        "doc_id": "pdf20",
+        "page_label": "13",
+        "page_num": "13",
+        "image_map": "{\"1\": [\"extracted/figures/pdf20_p1_i1.jpeg\", \"extracted/figures/pdf20_p1_i2.png\", \"extracted/figures/pdf20_p1_i3.png\", \"extracted/figures/pdf20_p1_i4.png\", \"extracted/figures/pdf20_p1_i5.png\", \"extracted/figures/pdf20_p1_i6.png\", \"extracted/figures/pdf20_p1_i7.png\", \"extracted/figures/pdf20_p1_i8.png\", \"extracted/figures/pdf20_p1_i9.png\", \"extracted/figures/pdf20_p1_i10.png\", \"extracted/figures/pdf20_p1_i11.png\", \"extracted/figures/pdf20_p1_i12.png\", \"extracted/figures/pdf20_p1_i13.png\", \"extracted/figures/pdf20_p1_i14.png\", \"extracted/figures/pdf20_p1_i15.png\", \"extracted/figures/pdf20_p1_i16.png\"], \"2\": [\"extracted/figures/pdf20_p2_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nThe abstract section is not provided in the text.\n\n# Introduction\nThe introduction section is not provided in the text.\n\n# Methods\nThe methods section is not provided in the text.\n\n# Results\nThe results section is not provided in the text.\n\n# Discussion\nThe discussion section is not provided in the text.\n\n# Conclusion\nThe conclusion section is not provided in the text.\n\n# References\n1. Ang C-S, Ito S, Cleland J. Navigating digital assessments in medical education: findings from a scoping review. Med Teach. 2024;:1\u201316. doi:10.1080/0142159X.2024.2425033\n2. Torre D, Schuwirth L. Programmatic assessment for learning: A programmatically designed assessment for the purpose of learning: AMEE Guide No. 174. Med Teach. 2024; Oct 5;:1\u201316. doi:10.1080/0142159X.2024.2409936\n3. Schuwirth LWT, Van der Vleuten CPM. Programmatic assessment: From assessment of learning to assessment for learning. Med Teach. 2011;33(6):478\u2013485. doi:10.3109/0142159X.2011.565828\n4. Mishra P, Koehler MJ. Techno...",
+      "metadata": {
+        "source": "pdf20.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf20.pdf",
+        "doc_id": "pdf20",
+        "page_label": "14",
+        "page_num": "14",
+        "image_map": "{\"1\": [\"extracted/figures/pdf20_p1_i1.jpeg\", \"extracted/figures/pdf20_p1_i2.png\", \"extracted/figures/pdf20_p1_i3.png\", \"extracted/figures/pdf20_p1_i4.png\", \"extracted/figures/pdf20_p1_i5.png\", \"extracted/figures/pdf20_p1_i6.png\", \"extracted/figures/pdf20_p1_i7.png\", \"extracted/figures/pdf20_p1_i8.png\", \"extracted/figures/pdf20_p1_i9.png\", \"extracted/figures/pdf20_p1_i10.png\", \"extracted/figures/pdf20_p1_i11.png\", \"extracted/figures/pdf20_p1_i12.png\", \"extracted/figures/pdf20_p1_i13.png\", \"extracted/figures/pdf20_p1_i14.png\", \"extracted/figures/pdf20_p1_i15.png\", \"extracted/figures/pdf20_p1_i16.png\"], \"2\": [\"extracted/figures/pdf20_p2_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nThe integration of artificial intelligence (AI) in medical education has gained significant attention, particularly in the context of assessment and feedback. This paper explores the implications of AI technologies, such as ChatGPT, on the learning experiences of medical students. We present findings from a randomized controlled trial that investigates the effectiveness of AI-facilitated learning compared to traditional methods. The results indicate that AI can enhance self-directed learning and improve student engagement.\n\n# Introduction\nThe rapid advancement of AI technologies has transformed various sectors, including education. In medical education, AI tools are being utilized to create personalized learning experiences and provide immediate feedback. This study aims to evaluate the impact of AI on student learning outcomes and perceptions in medical training.\n\n# Methods\nA randomized controlled trial was conducted with medical students divided into two groups: one recei...",
+      "metadata": {
+        "source": "pdf20.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf20.pdf",
+        "doc_id": "pdf20",
+        "page_label": "15",
+        "page_num": "15",
+        "image_map": "{\"1\": [\"extracted/figures/pdf20_p1_i1.jpeg\", \"extracted/figures/pdf20_p1_i2.png\", \"extracted/figures/pdf20_p1_i3.png\", \"extracted/figures/pdf20_p1_i4.png\", \"extracted/figures/pdf20_p1_i5.png\", \"extracted/figures/pdf20_p1_i6.png\", \"extracted/figures/pdf20_p1_i7.png\", \"extracted/figures/pdf20_p1_i8.png\", \"extracted/figures/pdf20_p1_i9.png\", \"extracted/figures/pdf20_p1_i10.png\", \"extracted/figures/pdf20_p1_i11.png\", \"extracted/figures/pdf20_p1_i12.png\", \"extracted/figures/pdf20_p1_i13.png\", \"extracted/figures/pdf20_p1_i14.png\", \"extracted/figures/pdf20_p1_i15.png\", \"extracted/figures/pdf20_p1_i16.png\"], \"2\": [\"extracted/figures/pdf20_p2_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Model of Pre-Clerkship Performance: Lessons Learned Perspectives on Medical Education\n\n## Abstract\nThe abstract provides a brief overview of the study, highlighting the significance of pre-clerkship performance in medical education and the lessons learned from the research conducted.\n\n## Introduction\nThe introduction discusses the importance of understanding pre-clerkship performance in medical education. It outlines the objectives of the study and the context in which it was conducted.\n\n## Methods\nThe methods section details the research design, participant selection, data collection techniques, and analysis methods used in the study.\n\n## Results\nThe results section presents the findings of the study, including any statistical analyses performed and key observations made during the research.\n\n## Discussion\nIn the discussion section, the implications of the findings are explored. The authors reflect on the lessons learned and how they can inform future practices in medical education...",
+      "metadata": {
+        "source": "pdf20.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf20.pdf",
+        "doc_id": "pdf20",
+        "page_label": "16",
+        "page_num": "16",
+        "image_map": "{\"1\": [\"extracted/figures/pdf20_p1_i1.jpeg\", \"extracted/figures/pdf20_p1_i2.png\", \"extracted/figures/pdf20_p1_i3.png\", \"extracted/figures/pdf20_p1_i4.png\", \"extracted/figures/pdf20_p1_i5.png\", \"extracted/figures/pdf20_p1_i6.png\", \"extracted/figures/pdf20_p1_i7.png\", \"extracted/figures/pdf20_p1_i8.png\", \"extracted/figures/pdf20_p1_i9.png\", \"extracted/figures/pdf20_p1_i10.png\", \"extracted/figures/pdf20_p1_i11.png\", \"extracted/figures/pdf20_p1_i12.png\", \"extracted/figures/pdf20_p1_i13.png\", \"extracted/figures/pdf20_p1_i14.png\", \"extracted/figures/pdf20_p1_i15.png\", \"extracted/figures/pdf20_p1_i16.png\"], \"2\": [\"extracted/figures/pdf20_p2_i1.png\"]}"
+      }
+    }
+  ]
+}

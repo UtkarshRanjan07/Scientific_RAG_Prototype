@@ -1,0 +1,38 @@
+{
+  "source": "pdf1.pdf",
+  "documents": [
+    {
+      "text": "# NEJM AI 2024;1(1)\nDOI: 10.1056/AIe2300197\n\n## Editorial\n### Injecting Artificial Intelligence into Medicine\n\n**Isaac S. Kohane, M.D., Ph.D.**\n\nReceived: October 17, 2023; Accepted: October 19, 2023; Published: December 11, 2023\n\n### Abstract\nIntroducing a new journal from NEJM Group: NEJM AI, a platform aimed at informing readers and guiding the responsible development of artificial intelligence (AI) to enhance the quality of health care. This editorial reflects on AI\u2019s historical milestones and current capabilities, particularly large language models, and the imperative for their rigorous clinical evaluation. It discusses the crucial need for AI in medicine to undergo the same level of scrutiny as any clinical intervention, predominantly through randomized controlled trials, despite the challenges posed by the technology\u2019s complexity. Looking forward, NEJM AI commits to fostering a multidisciplinary discourse and the development of a transparent, patient-centered approach to AI in h...",
+      "metadata": {
+        "source": "pdf1.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf1.pdf",
+        "doc_id": "pdf1",
+        "page_label": "1",
+        "page_num": "1",
+        "image_map": "{}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nThe integration of computing science into medicine has been anticipated since the 1950s, with significant predictions made by William Schwarz in 1970 regarding its impact on physician functions and medical care quality. The emergence of large language models (LLMs) in 2022 has reignited optimism about the potential of AI in healthcare. However, the need for rigorous clinical evidence, particularly through randomized controlled trials, remains critical. The evaluation of LLMs poses unique challenges due to their broad capabilities and the necessity for a collaborative approach among various stakeholders. The future of AI in healthcare will depend on multidisciplinary contributions and the establishment of well-annotated datasets.\n\n# Introduction\nThe historical context of computing in medicine dates back to at least the 1950s. In 1970, endocrinologist William Schwarz predicted that computing science would significantly influence physician functions and medical care quality. F...",
+      "metadata": {
+        "source": "pdf1.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf1.pdf",
+        "doc_id": "pdf1",
+        "page_label": "2",
+        "page_num": "2",
+        "image_map": "{}"
+      }
+    },
+    {
+      "text": "\n# Disclosures\n\nAuthor disclosures are available at ai.nejm.org.\n\n## Author Affiliation\n1. Harvard Medical School, Department of Biomedical Informatics, Boston\n\n# References\n\n1. Krizhevsky A, Sutskever I, Hinton GE. ImageNet classification with deep convolutional neural networks. NeurIPS Proceedings. 2012.\n2. Haward LRC. The robot anaesthetist; an introduction to the automatic control of anaesthesia by means of an electro-encephalographic intermediary. Med World 1952;76:624-626.\n3. Schwartz WB. Medicine and the computer. The promise and problems of change. N Engl J Med 1970;283:1257-1264. DOI: 10.1056/NEJM197012032832305.\n4. Rajkomar A, Dean J, Kohane I. Machine learning in medicine. N Engl J Med 2019;380:1347\u201358. DOI: 10.1056/NEJMra1814259.\n5. Lee P, Bubeck S, Petro J. Benefits, limits, and risks of GPT-4 as an AI chatbot for medicine. N Engl J Med 2023;388:1233-1239. DOI: 10.1056/NEJMsr2214184.\n\n----\n\n**Note:** The provided text does not contain sections such as Abstract, Introductio...",
+      "metadata": {
+        "source": "pdf1.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf1.pdf",
+        "doc_id": "pdf1",
+        "page_label": "3",
+        "page_num": "3",
+        "image_map": "{}"
+      }
+    }
+  ]
+}

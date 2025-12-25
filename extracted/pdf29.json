@@ -1,0 +1,82 @@
+{
+  "source": "pdf29.pdf",
+  "documents": [
+    {
+      "text": "# Exploring Knowledge, Attitudes, and Practices Towards Artificial Intelligence Among Health Professions\u2019 Students in Jordan\n\n**Walid Al-Qerem1*, Judith Eberhardt2, Anan Jarab3,4,5, Abdel Qader Al Bawab1, Alaa Hammad1, Fawaz Alasmari6, Badi\u2019ah Alazab1, Daoud Abu Husein1, Jumana Alazab7, and Saed Al-Beool7**\n\n## Abstract\nThe integration of Artificial Intelligence (AI) in medical education and practice is a significant development. This study examined the Knowledge, Attitudes, and Practices (KAP) of health professions\u2019 students in Jordan concerning AI, providing insights into their preparedness and perceptions.\n\n## Introduction\nArtificial Intelligence (AI) is a comprehensive term encompassing the technology that enables computer hardware and software to mimic intelligent human behavior and reach human-level performance [1]. AI-powered technologies have been implemented in many professions such as law, finance, computer science, and industrial manufacturing [2]. This rapid expansion and e...",
+      "metadata": {
+        "source": "pdf29.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf29.pdf",
+        "doc_id": "pdf29",
+        "page_label": "1",
+        "page_num": "1",
+        "image_map": "{\"1\": [\"extracted/figures/pdf29_p1_i1.png\"], \"7\": [\"extracted/figures/pdf29_p7_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Al-Qerem et al. BMC Medical Informatics and Decision Making (2023) 23:288\n\n## Abstract\nThe integration of artificial intelligence (AI) into the education and training of health professions\u2019 students is becoming increasingly significant. A computer-aided learning system has been developed to assist health professions\u2019 students in gaining diagnostic experience through a machine learning model trained on numerous clinical cases. Virtual Patients have emerged as an effective platform for undergraduate nursing students to enhance their communication skills prior to engaging with real patients. Despite the growing presence of AI in the medical field, its impact on health professions\u2019 students remains unclear. Studies indicate that AI may diminish enthusiasm among students in certain medical fields, such as radiology. Furthermore, there is a lack of resources addressing the implications of AI in medical training, particularly in the Middle East. While various studies have assessed the Know...",
+      "metadata": {
+        "source": "pdf29.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf29.pdf",
+        "doc_id": "pdf29",
+        "page_label": "2",
+        "page_num": "2",
+        "image_map": "{\"1\": [\"extracted/figures/pdf29_p1_i1.png\"], \"7\": [\"extracted/figures/pdf29_p7_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Al-Qerem et al. BMC Medical Informatics and Decision Making (2023) 23:288\n\n## Abstract\n*The abstract is not provided in the text.*\n\n## Introduction\n*The introduction is not provided in the text.*\n\n## Methods\n\n### Sample Size Calculations and Data Collection Method\nConvenience sampling was used in the current study [13]. Morgan equation was applied with a 95% significance level and a 5% margin of error to calculate the minimum required sample size (385 participants). The current study included 483 students.\n\n### Statistical Analysis\nSPSS version 28.0 was used to analyze the data. Frequencies and percentages were used to present all categorical variables, and median (95% CI) for continuous variables. The distribution of the data was evaluated by examining histograms and Q-Q plots which indicated that the data was not normally distributed; therefore, nonparametric tests were conducted. To determine variables associated with KAP scores, three quantile regression models were constructed....",
+      "metadata": {
+        "source": "pdf29.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf29.pdf",
+        "doc_id": "pdf29",
+        "page_label": "3",
+        "page_num": "3",
+        "image_map": "{\"1\": [\"extracted/figures/pdf29_p1_i1.png\"], \"7\": [\"extracted/figures/pdf29_p7_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Al-Qerem et al. BMC Medical Informatics and Decision Making (2023) 23:288\n\n## Abstract\n*The abstract content is not provided in the raw text.*\n\n## Introduction\n*The introduction content is not provided in the raw text.*\n\n## Methods\n*The methods content is not provided in the raw text.*\n\n## Results\n### Frequencies of Participants\u2019 Responses to Attitude Items\n| Attitude Item                                                                 | Strongly Disagree (%) | Disagree (%) | Neutral (%) | Agree (%) | Strongly Agree (%) |\n|-------------------------------------------------------------------------------|-----------------------|--------------|-------------|-----------|---------------------|\n| I believe healthcare students should learn the basics of AI                   | 5 (1%)                | 17 (3.5%)    | 98 (20.5%)  | 202 (42.2%) | 157 (32.8%)         |\n| I believe AI will be a highly required tool in my field                       | 6 (1.3%)              | 22 (4.6%)    | 118 (24....",
+      "metadata": {
+        "source": "pdf29.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf29.pdf",
+        "doc_id": "pdf29",
+        "page_label": "4",
+        "page_num": "4",
+        "image_map": "{\"1\": [\"extracted/figures/pdf29_p1_i1.png\"], \"7\": [\"extracted/figures/pdf29_p7_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Exploring the Knowledge, Attitudes, and Practices of Health Professions\u2019 Students in Jordan Toward AI Integration in Medical Education\n\n## Abstract\nThis study aimed to explore the Knowledge, Attitudes, and Practices (KAP) of health professions\u2019 students in Jordan toward Artificial Intelligence (AI), shedding light on their perceptions, expectations, and concerns regarding AI integration into medical education.\n\n## Introduction\nThe findings from this study revealed a moderate level of knowledge and awareness among the surveyed health professions\u2019 students regarding AI. Notably, participants exhibited a strong understanding of certain aspects of AI, such as the requirement for labeled data for AI learning and the identification of barriers to AI implementation in medicine. However, a significant proportion of students reported limited exposure to formal AI education within their curriculum. Low or moderate levels of knowledge of AI and exposure within the curriculum have also been rep...",
+      "metadata": {
+        "source": "pdf29.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf29.pdf",
+        "doc_id": "pdf29",
+        "page_label": "5",
+        "page_num": "5",
+        "image_map": "{\"1\": [\"extracted/figures/pdf29_p1_i1.png\"], \"7\": [\"extracted/figures/pdf29_p7_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Insights on AI in Medical Education\n\n## Abstract\nThe present study investigates the knowledge, attitudes, and practices (KAP) of health professions\u2019 students in Jordan regarding artificial intelligence (AI). The findings highlight the need for curriculum revisions in medical education to incorporate AI-related topics, ensuring that students are equipped with the necessary skills to navigate the evolving healthcare landscape.\n\n## Introduction\nThe integration of AI into healthcare is transforming medical practices and education. This study aims to explore the perceptions of health professions\u2019 students in Jordan towards AI, providing insights that can inform curriculum development.\n\n## Methods\nThe study employed a cross-sectional survey design using convenience sampling to gather data from health professions\u2019 students. A comprehensive questionnaire was developed to assess students' KAP regarding AI.\n\n## Results\nThe results indicate a varying degree of knowledge and positive attitudes ...",
+      "metadata": {
+        "source": "pdf29.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf29.pdf",
+        "doc_id": "pdf29",
+        "page_label": "6",
+        "page_num": "6",
+        "image_map": "{\"1\": [\"extracted/figures/pdf29_p1_i1.png\"], \"7\": [\"extracted/figures/pdf29_p7_i1.png\"]}"
+      }
+    },
+    {
+      "text": "\n# Al-Qerem et al. BMC Medical Informatics and Decision Making (2023) 23:288\n\n## Abstract\n*The abstract content is not provided in the raw text.*\n\n## Introduction\n*The introduction content is not provided in the raw text.*\n\n## Methods\n*The methods content is not provided in the raw text.*\n\n## Results\n*The results content is not provided in the raw text.*\n\n## Discussion\n*The discussion content is not provided in the raw text.*\n\n## Conclusion\n*The conclusion content is not provided in the raw text.*\n\n## Acknowledgements\nNot applicable.\n\n## Author Contributions\nConceptualization, W.A.-Q; methodology, W.A.-Q., J.A and A.J; software, W.A.-Q., A.H. and J.A; validation, J.E. B.A. and D.A-H.; formal analysis, W.A.-Q. and B.A.; investigation, D.A.-H, S.A. and A.A.-B.; resources, F.A; data curation, W.A.-Q. and B.A.; writing\u2014original draft preparation, W.A.-Q., B.A., A.H., J.E., F.A., J.A, A.A.-B., A.J. and S.A.; writing\u2014review and editing, J.E.; visualization, W.A.-Q. and B.A.; supervision, W.A...",
+      "metadata": {
+        "source": "pdf29.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf29.pdf",
+        "doc_id": "pdf29",
+        "page_label": "7",
+        "page_num": "7",
+        "image_map": "{\"1\": [\"extracted/figures/pdf29_p1_i1.png\"], \"7\": [\"extracted/figures/pdf29_p7_i1.png\"]}"
+      }
+    }
+  ]
+}

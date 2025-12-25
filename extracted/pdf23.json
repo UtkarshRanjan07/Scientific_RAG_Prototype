@@ -1,0 +1,93 @@
+{
+  "source": "pdf23.pdf",
+  "documents": [
+    {
+      "text": "# Commentary\n\n## Artificial Intelligence in Health, Health Care, and Biomedical Science: An AI Code of Conduct Principles and Commitments Discussion Draft\n\n**Editors:** Laura Adams, MS, National Academy of Medicine; Elaine Fontaine, BS, National Academy of Medicine; Steven Lin, MD, Stanford University School of Medicine; Trevor Crowell, BA, Stanford University School of Medicine; Vincent C. H. Chung, MSc, PhD, Faculty of Medicine, The Chinese University of Hong Kong; and Andrew A. Gonzalez, MD, JD, MPH, Regenstrief Institute Center for Health Services Research and Indiana University School of Medicine\n\n**April 8, 2024**\n\nThis paper was developed under the auspices of the Steering Committee of the National Academy of Medicine (NAM)\u2019s project on Artificial Intelligence in Health, Health Care, and Biomedical Science, including Andrew Bindman, Kaiser Permanente; Grace Cordovano, Enlightening Results; Jodi Daniel, Crowell &#x26; Moring; Wyatt Decker, UnitedHealth Group; Peter Emb\u00ed, Vanderbi...",
+      "metadata": {
+        "source": "pdf23.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf23.pdf",
+        "doc_id": "pdf23",
+        "page_label": "1",
+        "page_num": "1",
+        "image_map": "{}"
+      }
+    },
+    {
+      "text": "\n# Commentary\n\n## Abstract\nIn just the year prior to this commentary\u2019s publication, the landscape has changed. Advanced predictive and generative AI and language models have appeared across multiple application domains, including the rapid evolution and diffusion of large language models (LLMs), such as ChatGPT by OpenAI which was made publicly available in 2022. Just as AI technologies are rapidly advancing, it is essential that health system stakeholders\u2014individually and collectively\u2014rapidly learn, adapt, and align on necessary guardrails for responsible use of AI in health, health care, and biomedical science (Hutson, 2022). This imperative is consistent with the LHS, with core principles building upon the landmark publications, To Err is Human (IOM, 2000) and the Crossing the Quality Chasm Series (IOM, 2001), which identified quality health care as that which is: safe, effective, patient-centered, timely, efficient, and equitable. These principles have been expanded over a dozen ye...",
+      "metadata": {
+        "source": "pdf23.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf23.pdf",
+        "doc_id": "pdf23",
+        "page_label": "2",
+        "page_num": "2",
+        "image_map": "{}"
+      }
+    },
+    {
+      "text": "\n# \u0410rt\u0456\ufb01\u0441\u0456\u0430l \u0406nt\u0435ll\u0456g\u0435n\u0441\u0435 \u0456n \u041d\u0435\u0430lth, \u041d\u0435\u0430lth \u0421\u0430r\u0435, \u0430nd \u0412\u0456\u043em\u0435d\u0456\u0441\u0430l \u0405\u0441\u0456\u0435n\u0441\u0435\n## \u0410n \u0410\u0406 \u0421\u043ed\u0435 \u043ef \u0421\u043endu\u0441t \u0420r\u0456n\u0441\u0456\u0440l\u0435\u0455 \u0430nd \u0421\u043emm\u0456tm\u0435nts D\u0456scu\u0455\u0455\u0456\u043en Dr\u0430ft\n\n### Abstract\nIn the complex adaptive health care system, interdependent elements (e.g., patients, clinicians, policies, and organizations\u2014including hospitals, clinics, payers, pharmacies, and regulators) act independently, making decentralized decisions. These decisions may be impacted by external factors and create feedback loops or result in nonlinear impacts (e.g., small changes lead to disproportionate effects), resulting in emergent system behaviors. That is, the system experiences outcomes or emergent behaviors that are not solely attributable to the actions of single actors but rather to the interaction of system elements.\n\nHowever, simple rules implemented locally may amplify outcomes at the system level due to feedback loops and nonlinear interactions. Small changes made by individual elements can cascade through the system, resulting i...",
+      "metadata": {
+        "source": "pdf23.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf23.pdf",
+        "doc_id": "pdf23",
+        "page_label": "3",
+        "page_num": "3",
+        "image_map": "{}"
+      }
+    },
+    {
+      "text": "\n# Commentary\n\n## Box 2: Code Principles\n\n### Applying the Trust Framework of the Learning Health System Core Principles\n\n- **Engaged**: Understanding, expressing, and prioritizing the needs, preferences, goals of people, and the related implications throughout the AI life cycle.\n- **Safe**: Attendance to and continuous vigilance for potentially harmful consequences from the application of AI in health and medicine for individuals and population groups.\n- **Effective**: Application proven to achieve the intended improvement in personal health and the human condition, in the context of established ethical principles.\n- **Equitable**: Application accompanied by proof of appropriate steps to ensure fair and unbiased development and access to AI-associated benefits and risk mitigation measures.\n- **Efficient**: Development and use of AI associated with reduced costs for health gained, in addition to a reduction, or at least neutral state, of adverse impacts on the natural environment.\n- **...",
+      "metadata": {
+        "source": "pdf23.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf23.pdf",
+        "doc_id": "pdf23",
+        "page_label": "4",
+        "page_num": "4",
+        "image_map": "{}"
+      }
+    },
+    {
+      "text": "\n# Artificial Intelligence in Health, Health Care, and Biomedical Science\n## An AI Code of Conduct Principles and Commitments Discussion Draft\n\n### Abstract\nThe goal is that all decisions associated with, and actions taken, to develop and deploy AI in the health sector will be consistent with these Commitments to develop and foster trust.\n\n### Introduction\nThe federal government is highly engaged in addressing risks associated with AI, including a recent executive order that calls for federal agencies to identify a chief artificial intelligence officer to ensure safe, secure, and trustworthy AI use within their agency, as well as requiring vendors to share safety test results (The White House, 2023). However, substantially less attention has been given to the need for a \u201csafety culture\u201d for the development and deployment of AI, which would address \u201cindividual and group values, attitudes, perceptions, competencies and patterns of behavior that determine the commitment to, and the style ...",
+      "metadata": {
+        "source": "pdf23.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf23.pdf",
+        "doc_id": "pdf23",
+        "page_label": "5",
+        "page_num": "5",
+        "image_map": "{}"
+      }
+    },
+    {
+      "text": "\n# Commentary\n\n## Key Stakeholder Feedback\n1. Solicit key stakeholder feedback and public comment on the draft Code of Conduct Framework\u2019s Code Principles and Code Commitments for incorporation into a publication.\n2. Convene working groups representing critical contributors to ensuring responsible AI in health, health care, and biomedical science. Each group will define the expected behaviors (conduct), accountabilities, and relationships to other key stakeholders throughout each stage of the AI life cycle. Upon completing this group work, cross-cutting reviews from experts in equity and ethics; workforce and clinician well-being; quality and safety; and individuals, patients, and clinicians will be solicited, and their feedback will be incorporated. The working groups will consider how to address the required overall health system changes to realize the Code Commitments.\n3. The draft Code of Conduct Framework\u2019s Code Principles and Code Commitments will be tested by case studies beginn...",
+      "metadata": {
+        "source": "pdf23.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf23.pdf",
+        "doc_id": "pdf23",
+        "page_label": "6",
+        "page_num": "6",
+        "image_map": "{}"
+      }
+    },
+    {
+      "text": "\n# Abstract\nThe abstract section is not provided in the text.\n\n# Introduction\nThe introduction section is not provided in the text.\n\n# Methods\nThe methods section is not provided in the text.\n\n# Results\nThe results section is not provided in the text.\n\n# Discussion\nThe discussion section is not provided in the text.\n\n# Conclusion\nThe conclusion section is not provided in the text.\n\n# References\n1. Glover, W. J., Z. Li, and D. Pachamanova. 2022. The AI-enhanced future of health care administrative task management. NEJM Catalyst. Link\n\n2. Google AI. n.d. Responsibility: Our Principles. Available at: Link (accessed May 31, 2023).\n\n3. Gulshan, V., L. Peng, M. Coram, M. C. Stumpe, D. Wu, A. Narayanan, S. Venugopalan, K. Widner, T. Madams, J. Cuadros, R. Kim, R. Raman, P. C. Nelson, J. L. Mega, and D. R. Webster. 2016. Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs. JAMA 316(22):2402\u20132410. Link.\n\n4. Halligan, M., an...",
+      "metadata": {
+        "source": "pdf23.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf23.pdf",
+        "doc_id": "pdf23",
+        "page_label": "7",
+        "page_num": "7",
+        "image_map": "{}"
+      }
+    },
+    {
+      "text": "\n# Commentary\n\n## Abstract\nThis commentary discusses the ethical use of artificial intelligence (AI) in health, healthcare, and biomedical science, emphasizing the need for a code of conduct framework. The authors highlight the importance of stakeholder engagement and the necessity for guidelines that ensure the responsible development and application of AI technologies in these fields.\n\n## Introduction\nThe integration of artificial intelligence into health and healthcare systems presents both opportunities and challenges. As AI technologies evolve, it is crucial to establish ethical guidelines that govern their use. This commentary aims to outline the principles and commitments necessary for a robust AI code of conduct framework.\n\n## Methods\nThe authors conducted a review of existing literature and guidelines related to the ethical use of AI in health. They engaged with various stakeholders, including healthcare professionals, ethicists, and policymakers, to gather insights and feedba...",
+      "metadata": {
+        "source": "pdf23.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf23.pdf",
+        "doc_id": "pdf23",
+        "page_label": "8",
+        "page_num": "8",
+        "image_map": "{}"
+      }
+    }
+  ]
+}

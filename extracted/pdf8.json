@@ -1,0 +1,49 @@
+{
+  "source": "pdf8.pdf",
+  "documents": [
+    {
+      "text": "# Eight Human Factors and Ergonomics Principles for Healthcare Artificial Intelligence\n\n**Mark Sujan\u00b9\u00b2, Rachel Pool\u00b3, Paul Salmon\u2074**\n\nTo cite: Sujan M, Pool R, Salmon P. Eight human factors and ergonomics principles for healthcare artificial intelligence. BMJ Health Care Inform 2022;29:e100516. doi:10.1136/bmjhci-2021-100516\n\n----\n\n## Abstract\n\nThe COVID-19 pandemic dramatically accelerated the digital transformation of many health systems in order to protect patients and healthcare workers by minimizing the need for physical contact. A key part of healthcare digital transformation is the development and adoption of artificial intelligence (AI) technologies, which are regarded as a priority in national health policies. Since 2015, there has been an exponential growth in the number of regulatory approvals for medical devices that use machine learning. Development of a white paper by the Chartered Institute of Ergonomics and Human Factors (CIEHF) sets out an HFE vision and principles for...",
+      "metadata": {
+        "source": "pdf8.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf8.pdf",
+        "doc_id": "pdf8",
+        "page_label": "1",
+        "page_num": "1",
+        "image_map": "{}"
+      }
+    },
+    {
+      "text": "\n# Eight Human Factors and Ergonomics Principles for Healthcare AI\n\n## Abstract\nThe design and implementation of healthcare AI must transition from a technology-centric focus to a systems perspective. This involves understanding the interactions within sociotechnical systems and applying human factors and ergonomics (HFE) principles to optimize overall system performance and well-being.\n\n## Introduction\nThe performance and accuracy of AI are often optimized in isolation, overlooking critical considerations in the design and implementation of advanced technologies. This can lead to catastrophic consequences. A systems perspective is essential for integrating AI into clinical processes and healthcare systems safely and meaningfully.\n\n## Methods\nThe CIEHF white paper identifies eight core HFE principles relevant to healthcare AI. These principles, while familiar from the literature on automation, remain crucial in the context of healthcare AI. The principles are derived from frameworks su...",
+      "metadata": {
+        "source": "pdf8.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf8.pdf",
+        "doc_id": "pdf8",
+        "page_label": "2",
+        "page_num": "2",
+        "image_map": "{}"
+      }
+    },
+    {
+      "text": "\n# Building Trust in Healthcare AI\n\n## Abstract\nIt is crucial to build trust among staff to report any safety concerns with AI systems. Many safety incidents are not currently reported in incident reporting systems. While AI can log data and actions for an auditable history, healthcare professionals need assurance on how this data will be used during safety investigations. If clinicians are held accountable for incidents involving AI unless they can prove otherwise, this may reduce their willingness to trust and accept AI systems.\n\n## Introduction\nMany applications of healthcare AI will be used within teams of healthcare workers and other professionals, as well as patients. The computational capabilities of AI technologies mean that AI applications will have a much more active and dynamic role within teams than previous IT systems and automation, potentially becoming more like a new team member than just a new tool. Effective human\u2013AI teaming will become increasingly critical when desi...",
+      "metadata": {
+        "source": "pdf8.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf8.pdf",
+        "doc_id": "pdf8",
+        "page_label": "3",
+        "page_num": "3",
+        "image_map": "{}"
+      }
+    },
+    {
+      "text": "\n# Open Access\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License, which permits others to distribute, remix, adapt, and build upon this work non-commercially, provided the original work is properly cited, appropriate credit is given, any changes made are indicated, and the use is non-commercial. See: [http://creativecommons.org/licenses/by-nc/4.0/])(http://creativecommons.org/licenses/by-nc/4.0/).\n\n## ORCID iD\nMark Sujan [http://orcid.org/0000-0001-6895-946X])(http://orcid.org/0000-0001-6895-946X)\n\n# References\n\n1. Peek N, Sujan M, Scott P. Digital health and care in pandemic times: impact of COVID-19. BMJ Health Care Inform 2020;27:e100166.\n2. Joshi I, Morley J. Artificial intelligence: how to get it right. putting policy into practice for safe data-driven innovation in health and care. London: NHSX, 2019.\n3. UK AI Council. AI roadmap. London, 2021.\n4. Muehlematter UJ, Daniore P, Vokinger KN. Approval of artificial intelligence and mac...",
+      "metadata": {
+        "source": "pdf8.pdf",
+        "file_path": "/Users/utkarsh/Desktop/RAG/Scientific_RAG_Prototype/data/pdf8.pdf",
+        "doc_id": "pdf8",
+        "page_label": "4",
+        "page_num": "4",
+        "image_map": "{}"
+      }
+    }
+  ]
+}
