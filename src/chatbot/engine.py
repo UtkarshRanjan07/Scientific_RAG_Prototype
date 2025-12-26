@@ -101,18 +101,22 @@ class ScientificChatEngine:
             A generator that yields response chunks, and finally sources and images.
         """
         # GREETING OPTIMIZATION: Check for simple greetings
-        greetings = ["hi", "hello", "hey", "greetings", "good morning", "good afternoon", "good evening"]
-        clean_msg = message.lower().strip().strip('?!.')
+        greetings = ["hi", "hello", "hey", "greetings", "good morning", "good afternoon", "good evening", "thanks", "thank you", "ok", "okay"]
+        clean_msg = message.lower().strip().strip('?!. ')
         
         if clean_msg in greetings:
             # Create a mock streaming response
             class MockStreamingResponse:
                 def __init__(self, text):
                     self.response = text
-                    self.response_gen = (word + " " for word in text.split())
+                    self.response_gen = (word + (" " if i < len(text.split())-1 else "") for i, word in enumerate(text.split()))
                     self.source_nodes = []
             
-            return MockStreamingResponse("Hello! How can I help you with your scientific papers today?")
+            reply = "Hello! How can I help you with your scientific papers today?"
+            if clean_msg in ["thanks", "thank you"]:
+                reply = "You're welcome! Let me know if you have more questions about the papers."
+            
+            return MockStreamingResponse(reply)
 
         response_gen = self.chat_engine.stream_chat(message)
         return response_gen
