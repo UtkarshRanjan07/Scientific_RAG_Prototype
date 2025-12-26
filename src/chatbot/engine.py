@@ -86,6 +86,28 @@ class ScientificChatEngine:
         response = self.chat_engine.chat(message)
         
         # Extract sources and images
+        sources, images = self._extract_sources_and_images(response, message)
+        
+        return str(response), sources, images
+
+    def stream_chat(self, message: str):
+        """
+        Send a message and get a streaming response.
+        
+        Args:
+            message: User message
+            
+        Returns:
+            A generator that yields response chunks, and finally sources and images.
+        """
+        response_gen = self.chat_engine.stream_chat(message)
+        
+        # We need a way to return the final sources/images after the stream
+        # This will be handled in the UI loop
+        return response_gen
+
+    def _extract_sources_and_images(self, response, message: str) -> Tuple[List[dict], List[str]]:
+        """Helper to extract sources and images from response."""
         sources = []
         images = []
         import json
@@ -102,7 +124,6 @@ class ScientificChatEngine:
                 })
                 
                 # Extract images details from metadata - ONLY if user asks for them
-                # Check for keywords in message
                 figure_keywords = ["figure", "image", "diagram", "plot", "chart", "graph", "visual", "show me", "picture"]
                 should_extract_images = any(keyword in message.lower() for keyword in figure_keywords)
                 
@@ -110,7 +131,6 @@ class ScientificChatEngine:
                     try:
                         image_map = json.loads(node.node.metadata["image_map"])
                         
-                        # Get current page number
                         current_page = None
                         if "page_label" in node.node.metadata:
                             try:
@@ -122,24 +142,20 @@ class ScientificChatEngine:
                             except: pass
                             
                         if current_page:
-                            # Search for images in current, previous, and next pages
-                            # (Figures often appear on adjacent pages)
                             pages_to_check = [str(current_page), str(current_page - 1), str(current_page + 1)]
-                            
                             for p in pages_to_check:
                                 if p in image_map:
                                     images.extend(image_map[p])
-                                    
                     except Exception:
                         pass
         
-        # Deduplicate images while preserving order
+        # Deduplicate images
         unique_images = []
         for img in images:
             if img not in unique_images:
                 unique_images.append(img)
                 
-        return str(response), sources, unique_images
+        return sources, unique_images
     
     def reset(self):
         """Reset conversation history."""

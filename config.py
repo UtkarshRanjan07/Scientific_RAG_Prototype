@@ -41,8 +41,8 @@ CHUNK_SIZE = 512
 CHUNK_OVERLAP = 50
 
 # === Retrieval Settings ===
-SIMILARITY_TOP_K = 10
-RERANK_TOP_N = 5
+SIMILARITY_TOP_K = 5
+RERANK_TOP_N = 3
 
 # === ChromaDB Collections ===
 COLLECTION_NAME = "scientific_papers"

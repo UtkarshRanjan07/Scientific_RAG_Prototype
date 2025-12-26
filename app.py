@@ -401,33 +401,41 @@ def main():
         
         # Generate response
         with st.chat_message("assistant"):
-            with st.spinner("Searching papers and generating response..."):
-                try:
-                    response, sources, images = st.session_state.chat_engine.chat(prompt)
-                    st.markdown(response)
+            try:
+                # Get the streaming response generator
+                # Note: stream_chat returns the raw LlamaIndex streaming response
+                response_gen = st.session_state.chat_engine.stream_chat(prompt)
+                
+                # Use st.write_stream for the typing effect
+                # response_gen.response_gen is the generator for the words
+                full_response = st.write_stream(response_gen.response_gen)
+                
+                # After streaming is done, the response object has the sources
+                # We extract them using the helper we added to the engine
+                sources, images = st.session_state.chat_engine._extract_sources_and_images(response_gen, prompt)
+                
+                if images:
+                    render_images(images)
                     
-                    if images:
-                        render_images(images)
-                        
-                    render_sources(sources)
-                    
-                    # Save to history
-                    st.session_state.messages.append({
-                        "role": "assistant",
-                        "content": response,
-                        "sources": sources,
-                        "images": images
-                    })
-                    
-                except Exception as e:
-                    error_msg = f"Error generating response: {str(e)}"
-                    st.error(error_msg)
-                    st.session_state.messages.append({
-                        "role": "assistant",
-                        "content": error_msg,
-                        "sources": [],
-                        "images": []
-                    })
+                render_sources(sources)
+                
+                # Save to history
+                st.session_state.messages.append({
+                    "role": "assistant",
+                    "content": full_response,
+                    "sources": sources,
+                    "images": images
+                })
+                
+            except Exception as e:
+                error_msg = f"Error generating response: {str(e)}"
+                st.error(error_msg)
+                st.session_state.messages.append({
+                    "role": "assistant",
+                    "content": error_msg,
+                    "sources": [],
+                    "images": []
+                })
 
 
 if __name__ == "__main__":
